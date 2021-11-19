@@ -1,6 +1,8 @@
+
 # Search SDK
 
 ---
+
 ## Search SDK Overview
 
 The search sdk may be used to access any functionality from the Search API. In order to use the search sdk, the hubmap_sdk package will either need imported with 
