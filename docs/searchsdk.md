@@ -1,7 +1,7 @@
-
-# Search SDK
-
 ---
+layout: page
+---
+# Search SDK
 
 ## Search SDK Overview
 

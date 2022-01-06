@@ -1,7 +1,7 @@
-
-# Entity SDK   
-
 ---
+layout: page
+---
+# Entity SDK   
 
 ##  Entity SDK Overview
 The entity sdk may be used to access any functionality from the Entity API. In order to use the entity sdk, 
