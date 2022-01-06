@@ -1,4 +1,4 @@
-Data Provider,Organ,Assay,dataset_status
+Data Provider,Organ,Assay,Status
 Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
 Vanderbilt TMC,kidney (left),MALDI IMS,Published
 Vanderbilt TMC,kidney (left),MALDI IMS,Published
@@ -357,54 +357,6 @@ Vanderbilt TMC,kidney (right),Untargeted LC-MS,Published
 Vanderbilt TMC,kidney (right),Untargeted LC-MS,Published
 Vanderbilt TMC,kidney (left),Untargeted LC-MS,Published
 Purdue TTD,kidney (left),nano-DESI IMS positive,New
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Hold
-University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Hold
 University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
 University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
 University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
@@ -469,7 +421,6 @@ Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
 University of Florida TMC,spleen,CODEX,Published
 University of Florida TMC,spleen,sc/sn/sciRNA-seq,Published
 University of Florida TMC,spleen,CODEX,Published
-University of Florida TMC,spleen,Lightsheet Microscopy,Hold
 University of Florida TMC,thymus,CODEX,Published
 University of Florida TMC,thymus,sc/sn/sciRNA-seq,Published
 University of Florida TMC,thymus,CODEX,Published
