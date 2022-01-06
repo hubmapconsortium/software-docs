@@ -8,7 +8,7 @@ layout: home
 
 ## Coming Soon
 
-[Hubmap SDK Documentation](hubmapsdk.md)
+[Hubmap SDK Documentation](hubmapsdk.html)
 
 
 

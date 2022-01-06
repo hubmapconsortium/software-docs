@@ -1,11 +1,5 @@
-<!--
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
--->
-![hubmap logo](images/darkhumaplogo.PNG)
-# HuBMAP SDK
-
+---
+layout: page
 ---
 ### SDK Overview
 
@@ -35,6 +29,6 @@ urllib3<=1.26.7
 
 Each module within the hubmap_sdk contains a class corresponding to its respective HuBMAP API. This class is what gives access to the functionality of its given API. Follow the links below to learn more about each module including how to get started and a breakdown of each of its methods:
 
-* [Entity SDK](entitysdk.md)
-* [Search SDK](searchsdk.md)
+* [Entity SDK](entitysdk.html)
+* [Search SDK](searchsdk.html)
 
