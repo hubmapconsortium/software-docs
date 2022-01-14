@@ -19,10 +19,18 @@ HBM123.ABCD.456 /metadata.tsv   #download the metadata.tsv file for dataset HBM1
 HBM345.ABCD.456 /               #download all files in the dataset HBM345.ABCD.456
 HBM378.HDGT.837 /extras         #download the extras directory from dataset HBM378.HDGT.837
 ```
+See below for more examples of [manifest files](#manfiles).
+
+#### Login
+A one-time login is required for any download session.  For any non-public data, you must login with your HuBMAP authorized account, for publically available data you can log in with any account accepted on the login for (Google and OrCID accepted) as well.  To login issue the following command on the command line:
+
+```
+hubmap-clt login
+```
 
 #### Example of usage
 
-Having prepared or downloaded a manifest.txt file, logged in and having verified that the local GCP endpoint is running (see below), the hubma-clt can be used with the following command:
+Having prepared or downloaded a manifest.txt file, logged in and having verified that the local GCP endpoint is running (see [below](#gcp)), the hubma-clt can be used with the following command:
 
 ```bash
 hubmap-clt manifest.txt
@@ -42,8 +50,22 @@ hubmap-clt manifest.txt data/hubmap/rna-seq
 ```
 
 
-#### Note about Globus Connect Personal
+<a name="gcp"></a>#### Note about Globus Connect Personal
 
 In order to transfer data to the local machine, the **_Globus Connect Personal (GCP)_** endpoint must be up and running. Refer
 to the installation guide if this has not yet been set up. The `hubmap-clt` command will alert you if an instance of GCP is not running.  Please see the documentation at Globus to intall or run it [here](https://www.globus.org/globus-connect-personal)
 
+<a name="manfiles"></a>#### Manifest File Examples
+
+Download the cell by gene matrix for multiple single nuclei RNA sequencing datasets:
+```
+HBM744.FNLN.846 /expr.h5ad
+HBM658.VPJK.669 /expr.h5ad
+HBM592.RPKF.946 /expr.h5ad
+HBM363.TBHH.346 /expr.h5ad
+HBM322.XJQZ.894 /expr.h5ad
+HBM749.MTJC.865 /expr.h5ad
+HBM722.TVXP.469 /expr.h5ad
+HBM223.JQLM.452 /expr.h5ad
+HBM524.KHPH.599 /expr.h5ad
+```
