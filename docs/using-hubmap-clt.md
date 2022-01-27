@@ -33,29 +33,33 @@ hubmap-clt login
 Having prepared or downloaded a manifest.txt file, logged in and having verified that the local GCP endpoint is running (see [below](#gcp)), the hubma-clt can be used with the following command:
 
 ```bash
-hubmap-clt manifest.txt
+hubmap-clt transfer manifest.txt
 ```
 
 where manifest.txt is the file containing the resources to be downloaded and their locations. Depending on where the 
 manifest file is located, the path to the file may be necessary along with the filename in the argument. For example:
 
 ```bash
-hubmap-clt ~/Documents/manifest.txt 
+hubmap-clt transfer ~/Documents/manifest.txt 
 ```
 
-The files/directories will be transferred to your Downloads directory by default, you can specify an optional sub-directory under your local user directory to download the data to. Like:
+The files/directories will be transferred to your Downloads directory by default, you can specify an optional sub-directory under your local user directory to download the data to with --destination or -d. Like:
 
 ```bash
-hubmap-clt manifest.txt data/hubmap/rna-seq
+hubmap-clt transfer manifest.txt --destination data/hubmap/rna-seq
 ```
 
 
-<a name="gcp"></a>#### Note about Globus Connect Personal
+<a name="gcp"></a>
+
+#### Note about Globus Connect Personal
 
 In order to transfer data to the local machine, the **_Globus Connect Personal (GCP)_** endpoint must be up and running. Refer
-to the installation guide if this has not yet been set up. The `hubmap-clt` command will alert you if an instance of GCP is not running.  Please see the documentation at Globus to intall or run it [here](https://www.globus.org/globus-connect-personal)
+to the installation guide if this has not yet been set up. The `hubmap-clt transfer` command will alert you if an instance of GCP is not running.  Please see the documentation at Globus to intall or run it [here](https://www.globus.org/globus-connect-personal)
 
-<a name="manfiles"></a>#### Manifest File Examples
+<a name="manfiles"></a>
+
+#### Manifest File Examples
 
 Download the cell by gene matrix for multiple single nuclei RNA sequencing datasets:
 ```

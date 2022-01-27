@@ -3,7 +3,7 @@ layout: page
 ---
 ### Installing and Getting Started with the HuBMAP Command Line Transfer
 
-The HuBMAP Command Line Transfer utility provides the functionality to download HuBMAP data of individual files and directories across multiple datasets at one time by specifying all downloaded data files and directories in a single manifest file.
+The HuBMAP Command Line Transfer utility provides the functionality to download HuBMAP data of individual files and directories across multiple datasets/uploads at one time by specifying all downloaded data files and directories in a single manifest file.
 
 This document covers installation of the HuBMAP CLT along with the Globus Connect Personal endpoint which is required to download data from HuBMAP.
 
@@ -33,14 +33,14 @@ The globus command line tool is a separate tool from **_Globus Connect Personal_
 log in separately through **_Globus CLI_**. To see if a user is currently logged in, use the command:
 
 ```bash
-globus whoami
+hubmap-clt whoami
 ```
 
 If a user is logged in, their username will be displayed. If not logged in, users will be prompted to login with the
 following command: 
 
 ```bash
-globus login
+hubmap-clt login
 ```
 
 The Globus login screen will open in the default web browser. Follow login instructions. 
