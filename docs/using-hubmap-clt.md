@@ -73,3 +73,9 @@ HBM722.TVXP.469 /expr.h5ad
 HBM223.JQLM.452 /expr.h5ad
 HBM524.KHPH.599 /expr.h5ad
 ```
+
+If the second item in each line of the manifest file (the path) has a space in it, you must wrap that item with double quotes. For example:
+
+```
+HBM744.FNLN.846 "/raw expr.h5ad"
+```
