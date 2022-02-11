@@ -30,7 +30,7 @@ In contrast to droplet barcoding methods, [SPLiT-Seq](https://science.sciencemag
 ## Definitions
 Some terms in this document may not be familiar to all HubMap users. The following table lists several:
 
-| **Term** | **Definition** |
+| Term | Definition |
 |--|--|
 |  UMI| Unique molecular identifier (not used for scATAC-seq)| 
 |  BAM| A Binary sequence alignment/map file. Contains the alignments for all reads against a reference genome. An equivalent text version of this file is called a SAM file.| 
@@ -53,7 +53,7 @@ Some terms in this document may not be familiar to all HubMap users. The followi
 ## HuBMAP ATAC Sequence Data States (Levels)
 The HuBMAP project provides data to the public in a variety of data states. A data state describes the amount of processing that has been done to the data. The term “data states” is similar in connotation to the term “data levels” which is used by the genomics community. However a data state will not necessarily imply linear processing of the data. The data states for ATAC seq data provided by the HuBMAP project are listed below:
 
-|**Data State** |  **Description**| **Example File Type** | 
+| Data State | Description | Example File Type | 
 |--|--|--|
 |  0 | Raw data: This is the raw sequence data (unprocessed) generated directly by the sequence instrument in files either with Phred quality scores (fastq)| FASTQ |
 | 1 |  Aligned data: SAM files contain sequence data that has been aligned to a reference genome and includes chromosome coordinates. BAM files are compressed binary versions of SAM files | SAM, BAM |
@@ -78,7 +78,7 @@ The bolded steps below constitute a series of standard ATAC-seq data analysis wo
 ### Pre-alignment QC:
 The steps involved include:
 
-|**qc_metric** |  **Threshold**| **Tool** | 
+| qc_metric | Threshold | Tool | 
 |--|--|--|
 | (1)average_base_quality_scores |>20 (accuracy rate 99%)| Something like FastQC |
 | (1) gc_content | - | Something like FastQC |
@@ -99,7 +99,7 @@ The steps involved include:
 ### Library-level Alignment QC
 Note that this is not per-cell. After read trimming, FastQC can be run again to ensure the successful removal or this is iterated. The output are trimmed-reads. Trimmed reads are mapped to reference genome, using Bowtie2 (with soft-clip strategy).
 
-|**qc_metric** |  **Threshold**| **Method** | 
+| qc_metric | Threshold | Method | 
 |--|--|--|
 |  unique_mapping_percent | Ideally > 95% (Encode) Acceptable > 80% (at least for bulk) | SAMtools/Picard https://www.encodeproject.org/atac-seq/ |
 |  duplicate_reads_percent | - | SAMtools/Picard |
@@ -132,7 +132,7 @@ Files submitted by the TMC’s will be validated in the following ways:
     
 If files submitted fail this criteria, the recommended action by the HIVE is to reject the dataset.
 
-|**Per cell QC metrics** |  **Threshold Value/Range**| **Notes** | 
+| Per cell QC metrics | Threshold Value/Range | Notes | 
 |--|--|--|
 |  nucleosome_signal | > 0.1 = ok >0.2, <10 = good | ratio nucleosome free to mononucleosomal fragments |
 |  blacklist_region_fragmentratio | <0.1 = ok <0.05 = good | [https://github.com/Boyle-Lab/Blacklist](https://github.com/Boyle-Lab/Blacklist)|
@@ -207,7 +207,7 @@ Do aggregated reads from all single cells closely recapitulate the open regions 
   
 Benchmark of batch effect measuring methods for scRNA-seq: [https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1850-9](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1850-9)
 
-| **Metadata Element** |  **Potential ValuesDefinition**| **Use case** |
+| Metadata Element | Potential ValuesDefinition | Use case |
 |--|--|--|
 |  Single-cell isolation | {FACS, microfluidics}, {FACS, microfluidics, nanowells}, {FACS}, {Droplet}, {Nanowells}, {None} None is for methods like sci-RNASeq | Batch effects| 
 |  2nd strand synthesis | TSO, {RNase H & DNA pol I}, {PolyA tailing and primer ligation} | - |

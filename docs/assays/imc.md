@@ -18,7 +18,7 @@ This document describes Imaging Mass Cytometry technology, generated data files 
 ## Definitions
 The following is a table of terms relevant to understanding IMC data:
 
-|**Term** |  **Definition**|
+| Term | Definition |
 |--|--|
 |  IMC| Imaging Mass Cytometry| 
 |  Conjugated Antibody| An antibody covalently coupled to a metal isotope via a polymer.| 
@@ -33,7 +33,7 @@ The following is a table of terms relevant to understanding IMC data:
 
 ## HuBMAP IMC Data States (Levels)
 
-|**Data Levels** |  **Description**| **Example File Type** | 
+| Data Levels | Description | Example File Type | 
 |--|--|--|
 |  0 | Raw image data: Image stacks for each region of interest containing all channel images.| OME, TIFF|
 | 1 |  Segmented data: Single cell data extracted after segmentation.|  CSV, TIFF|
@@ -66,7 +66,7 @@ In addition, all HuBMAP IMC data will have an associated “acquisition_metadata
 ![](https://lh3.googleusercontent.com/Cv5xsGl9_tP2aoDD963MjNu-SViqg2a-iVpxAzk6o3IjlQnO-LtEu257NyIr1ZwA52cs8StTHUEL8CAJG9WoqnhN26MdcL5ivAhW6ALMR1t8wMglWyYUHEJPPobr0bSVEdpyfRI)
 2) *HuBMAP IMC Processed Data File Description*
 
-|**Processed Data Loaded** |  **Descriptor (the name should contain the following)**| **Example** | 
+| Processed Data Loaded | Descriptor (the name should contain the following) | Example | 
 |--|--|--|
 |  QA/QC Pass/Fail Channel Report | `channelnames_report.csv`| /University of Florida TMC/256795b18af5b1d318e2326266053f7e/|
 |  CSV file containing all single cell measurements| `20191128_hubMAP__masterfile`| /U/University of Florida TMC/256795b18af5b1d318e2326266053f7e/SingleCellData/|  

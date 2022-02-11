@@ -33,8 +33,9 @@ There are a variety of terms used in this document that may not be familiar to a
 *Figure 6: Example defined plane (left) with example imaged z planes (right).*
 
 ## HuBMAP CODEX Data States (Levels)
-|**Data State** |  **Description**| **Example File Type** | 
-|--|--|--|
+
+| Data State | Description | Example File Type | 
+|---|---|---|
 |  0 | Raw image data: This is the data that comes directly off the microscope without preprocessing; sometimes referred to as tiled or unstitched data. (may not always be included).| CZI, TIFF|
 | 1 |  Processed Microscopy data: Can include stitching, thresholding, background subtraction, z-stack alignment, deconvolution |  CZI, TIFF, OME-TIFF|
 | 2 |  Segmentation: Computationally predicted cell (nucleus, cytoplasm) and/or structural boundaries (tubules, ventricles, etc.) |  CSV, TIFF|
@@ -46,7 +47,7 @@ All HuBMAP CODEX data will have searchable metadata fields. This metadata field 
 ## Associated JSON Files
 In addition, all HuBMAP CODEX data will have an associated json file which may contain the following additional metadata fields:
 
-|**Field** |  **Definition**| **Example**|
+| Field | Definition | Example |
 |--|--|--|
 |  "version"| Software version used| standalone-1.6.0.16 |
 |  "name"| Descriptive name assigned to the data| drv_CX_19-004_LN_R1|
@@ -124,7 +125,7 @@ Stanford cell segmentation results can be found in the location mentioned below.
       
 The exact same data from Stanford is also available in an image sequence format, which stores the data in the same folder structure as Akoya’s format. But we can ignore this processed dataset with image sequence for analysis purposes.
 
-|**Type of Segmentation/Description** |  **Descriptor (the name should contain the following)**| **Location**|
+| Type of Segmentation/Description | Descriptor (the name should contain the following) | Location |
 |--|--|--|
 |  Stanford - cell segmentation| *_processed| https://app.globus.org/file-manager?origin_id=28bbb03c-a87d-4dd7-a661-7ea2fb6ea631&origin_path=%2FStanford%20TMC%2F26191c2719339be0c3fa6dc8a7ba3550%2F20190514_HUBMAP_CL1_processed%2F |
 |  Stanford - cell segmentation| *_processed-ImgSeq| https://app.globus.org/file-manager?origin_id=28bbb03c-a87d-4dd7-a661-7ea2fb6ea631&origin_path=%2FStanford%20TMC%2F26191c2719339be0c3fa6dc8a7ba3550%2F20190514_HUBMAP_CL1_processed-ImgSeq%2F  | 
@@ -241,7 +242,7 @@ A summary section contains basic statistics of biomarker region images. Each sli
 
 There are 18 columns for each channel. All pixel intensities are in 16-bit ranges (0 ~ 65535).
 
-|**Name** |  **Details** |
+| Name | Details |
 |--|--|
 |  Reg| Region number| 
 |  Cyc| Cycle number|
@@ -260,7 +261,7 @@ There are 18 columns for each channel. All pixel intensities are in 16-bit range
 |  Signal σ| Standard deviation of the signal area|
 |  Noise µ| Mean pixel intensity of the area below the threshold (i.e. background area)|
 |  Noise σ| Standard deviation of the noisarea|
-|  SNR| **Mean of the signal divided by standard deviation of the noise|
+|  SNR| Mean of the signal divided by standard deviation of the noise|
 
 
 These values can be used to assess image quality of each biomarker. As the threshold is not adaptive nor trained, the summary information should be considered within context.
@@ -281,7 +282,7 @@ On the right, there are four cropped images displayed in the original, full reso
 5.  Open the generated **channelnames_report.csv** file and add TRUE/FALSE tags to each channel separated with a coma (if using text editors) or to the consecutive column if using *“Excel/LibreOffice”.*
 
 ## Terms defined in this document
-|**Term** |  **Definition** |
+| Term | Definition |
 |--|--|
 |  Intensity| Detector Counts| 
 |  Signal| Intensity produced by fluorescence, both endogenous and introduced| 

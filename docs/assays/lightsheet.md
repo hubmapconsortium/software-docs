@@ -46,7 +46,7 @@ Terms used in this document:
 *Figure 2: Stitching together neighboring z-stack tiles occurs in post-processing (data state, level 2). Tile stitching occurs within the same Z-plane from boxes 1 thru 9 and is reliant upon overlap in the X- and Y- field of view. Tile stitching is a supervised task and may have minor error in alignments. Automated stitching alignment is not without error either and is increasingly challenging for larger volumes of tissue. Standard overlap of tiles is 5%.*
 
 ## HuBMAP Lightsheet Data States (Levels): 
-|**Data State** |  **Description**| **Example File Type** | 
+| Data State | Description | Example File Type | 
 |--|--|--|
 |  0 | Raw image data: This is the data that comes directly off the microscope without preprocessing; sometimes referred to as tiled or unstitched data. (may not always be included).| CZI, OME-TIFF|
 | 1 |  Processed Microscopy data: Can include stitching, thresholding, background subtraction, z-stack alignment, deconvolution. May not always be included. |  TIFF, MP4|
@@ -58,7 +58,7 @@ The following metadata fields reside in a CSV within the parent folder of each d
  
 Essential Metadata Overview for Volumetric Reconstruction
 
-|**Light sheet microscopy** |  **Defintion**| **Example** | 
+| Light sheet microscopy | Defintion | Example | 
 |--|--|--|
 |  Application\|Version | Software version used| 9.2.8.54|
 |  Document\|Name | Descriptive name assigned to the data. Example: local name construct indicating scan region (004), magnification (20x), laser line (638), protein stained (UCHL1), and acquisition mode (multiview).| 004_20x_638_UCHL1_Multiview|

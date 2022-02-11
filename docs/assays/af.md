@@ -28,7 +28,7 @@ Because the field of view cannot be changed, tiles will overhang from the region
 *Figure 4: Stitching is the process of aligning and merging neighboring image tiles into a single composite image.*
 
 ## HuBMAP AF Data States (Levels):
-|**Data State** |  **Description**| **Example File Type** | 
+| Data State | Description | Example File Type | 
 |--|--|--|
 |  0 | Raw image data: This is the data that comes directly off the microscope without preprocessing; sometimes referred to as tiled or unstitched data. (may not always be included).| CZI, TIFF|
 | 1 |  Processed Microscopy data: Can include stitching, thresholding, background subtraction, z-stack alignment, deconvolution |  CZI, TIFF, OME-TIFF|
@@ -39,7 +39,7 @@ Because the field of view cannot be changed, tiles will overhang from the region
 This metadata schema is now available in [Github](https://github.com/hubmapconsortium/ingest-validation-tools/tree/master/docs/af) for download.
 
 ## Associated Metadata files:
-|**Metadata File Name** |  **File Type**| **Field** | **Definition**|
+| Metadata File Name | File Type | Field | Definition |
 |--|--|--|--|
 |  OME-TIFF | OME-TIFF| SchemaType|Metadata schema type|
 |  | | SchemaVersionMajor|Metadata schema version - major|
@@ -88,7 +88,7 @@ This metadata schema is now available in [Github](https://github.com/hubmapconso
 |  | | section_number|Tissue Section number. Each section is 10µm thick.|
 
 ## Terms defined in this document:
-|**Term** |  **Definition**|
+| Term | Definition |
 |--|--|
 |  Intensity| Detector Counts| 
 |  Signal| Intensity produced by fluorescence, both endogenous and introduced| 

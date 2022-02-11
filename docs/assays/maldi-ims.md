@@ -27,7 +27,7 @@ There are a variety of terms used in this document that may not be familiar to a
 
 ## HuBMAP  Data States (Levels)
 
-|**Data State** |  **Description**| **Example File Type** | 
+| Data State | Description | Example File Type | 
 |--|--|--|
 |  0 | Raw image data: This is the data that comes directly off the mass spectrometer without preprocessing; sometimes referred to as raw spectral data.| imzML|
 | 1 |  Processed imaging MS data: Can include peak alignment, intensity normalization, m/z recalibration |  CSV, OME-TIFF|
@@ -81,7 +81,7 @@ To monitor MALDI and mass analyzer performance, laser spot size and signal inten
 
 ## Terms defined in this document
 
-|**IMS Tags**|  **Description**|
+| IMS Tags | Description |
 |--|--|
 |neg|negative ionization mode|
 |pos|positive ionization mode|
@@ -89,8 +89,8 @@ To monitor MALDI and mass analyzer performance, laser spot size and signal inten
 |csv|columnar data format|
 |multilayer|ome.tiff file where sublayers are different ion images|
 |individual_ii|ome.tiff folder where each ion is saved as a separate ome.tifft|
-|**tform_to_microscopy.txt**| affine transformation of the output ome.tiff files to microscopy |
-|**tform_to_microscopy.txt**|essentially overlay is achieved by upscaling the images by 20 in x and y|
+| tform_to_microscopy.txt | affine transformation of the output ome.tiff files to microscopy |
+| tform_to_microscopy.txt |essentially overlay is achieved by upscaling the images by 20 in x and y|
 
 
 ## For Additional Help

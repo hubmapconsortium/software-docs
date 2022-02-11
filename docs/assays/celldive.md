@@ -34,7 +34,7 @@ There are a variety of terms used in this document that may not be familiar to a
 **Figure 5:** *Deep learning based nuclei segmentation. An encoder-decoder based deep learning model was used for nuclei segmentation. Multiscale Laplacian of Gaussian (LoG) as feature map was derived from DAPI images was used for training the encoder-decoder deep learning framework of three levels. Max pooling was applied at all the levels for relevant feature selection in the encoding phase and drop-out was used to reduce over fitting.*
 
 ## Terms defined in this document:
-|**Term** |  **Definition**|
+| Term | Definition |
 |--|--|
 |  Intensity| Detector Counts| 
 |  Signal| Intensity produced by fluorescence, both endogenous and introduced| 
@@ -59,7 +59,7 @@ There are a variety of terms used in this document that may not be familiar to a
 ## HuBMAP Cell DIVE Data States (Levels):
 The HuBMAP project provides...
 
-|**Data State** |  **Description**| **Example File Type** | 
+| Data State | Description | Example File Type | 
 |--|--|--|
 |  0 | Raw image data: This is the data that comes directly off the microscope without preprocessing; sometimes referred to as tiled or unstitched data. (may not always be included).| TIFF|
 | 1 |  Processed Microscopy data: Can include stitching, thresholding, background subtraction, de-distortion |  TIFF, OME-TIFF|
@@ -72,7 +72,7 @@ This metadata field schema resides in Github where it can be viewed and download
 
 ## Associated Metadata Content:
 The Table below describes the Level 2 metadata fields that are included in the CELLDIVE_metadata_TEMPLATE file.
-|**Field** |  **Description**|
+| Field | Description |
 |--|--|
 |  number of antibodies| total number of antibodies applied to the tissue| 
 |  number of channels| Number of imaging channels used| 
@@ -86,7 +86,7 @@ The Table below describes the Level 2 metadata fields that are included in the C
 |  overall_protocols_io_doi| link to overall protocols|
 
 The following metadata fields reside in the appropriate round_info_SXXXXXXXX_RRR.dat, where SXXXXXXXXX is the slide number and RRR refers to the round.  This data is not all included in the CellDIVE_metadata_TEMPLATE and is not intended for inclusion on the web based interface, but since they do appear in the included round_info files we include descriptions here for reference.
-|**Field** |  **Example**| **Definition**|
+| Field | Example | Definition |
 |--|--|--|
 |  sw_version| NA | deprecated|
 |  round_num| 2 |Current imaging round (starts at 1) |
@@ -192,7 +192,7 @@ The following metadata fields reside in the appropriate round_info_SXXXXXXXX_RRR
 
 The following metadata files reside in the parent study folder.
 
-|**File** |  **Definition**| **Example** | 
+| File | Definition | Example | 
 |--|--|--|
 |Slide_list.txt|A list of slides used in the study.|Such as: S20030077, S20030078, S20030079, S20030080, S20030081|
 |Channel_list.txt|A list of original image paths. |Such as: RegisteredImages/S002/S002_mono_dapi_reg_pyr16_region_,DAPI_INIT AFRemoved/AE1_AFRemoved_pyr16_region_,AE1|
@@ -209,7 +209,7 @@ The general structure of the level 0 (raw) data produced by the GE Research Cell
 ![](https://lh6.googleusercontent.com/dYC1TIRe8vDuJULaJAjNAcEYbxphXmz-mtDBx2f6hvijz-sz2OzQHnsdojuWEnEtO0sYYJwGUVlTTgGEAH5QeFzILe9oKLCztGA60mAn8UIE2pax3bcYh4tCJAKT3EMBwImGuU4)
 
 Segmentation files are included among the processed data contributed by the TMC’s and can be found in the following locations: 
-|**Type of Segmentation/Description** |  **Descriptor (the name should contain the following)**| **Location** | 
+| Type of Segmentation/Description | Descriptor (the name should contain the following) | Location | 
 |--|--|--|
 |Nuclei segmentation from dapi images|Dapi_Slidexx_regionxx_nucseg.tif|Seg_and_quant_results/segmentation|
 

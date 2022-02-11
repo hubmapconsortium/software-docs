@@ -45,7 +45,7 @@ A single Field of View or tile is imaged over many hybridization rounds with thr
 ## HuBMAP seqFISH Data States (Levels)
 The HuBMAP project provides data levels for each seqFISH experiment.
 
-|**Data State** |  **Description**| **Example File Type** | 
+| Data State | Description | Example File Type | 
 |--|--|--|
 |  0 | Raw | TIFF|
 | 1 |  Processed | TIFF|
@@ -58,7 +58,7 @@ All HuBMAP seqFISH data will have searchable metadata fields. The metadata.tsv c
 ## Associated JSON Files
 In addition, all HuBMAP seq data will have an associated json file which may contain the following additional metadata fields:
 
-|**Field** |  **Definition**| **Example**|
+| Field | Definition | Example |
 |--|--|--|
 |  "version"| Software version used| Micro-Manager-1.4|
 |  "name"| Descriptive name assigned to the data| W101-Heart-RVLVLA|
@@ -129,7 +129,7 @@ In addition, all HuBMAP seq data will have an associated json file which may con
     
 3.  Each field of view will consist of one TIFF for each hybridization cycle, each with 4 channels (647, 594, Cy3b, 488), where the first 3 channels are the fluorescent channels for identifying RNAs from the target probes, and the last channel (DAPI) is used for registration and alignment.
 
-|**Type of Segmentation/Description** |  **Descriptor (the name should contain the following)**| **Location** | 
+| Type of Segmentation/Description | Descriptor (the name should contain the following) | Location | 
 |--|--|--|
 |  Cell segmentation mask | *segmentation_mask| Example: [https://app.globus.org/file-manager?origin_id=28bbb03c-a87d-4dd7-a661-7ea2fb6ea631&origin_path=%2FStanford%20TMC%2F26191c2719339be0c3fa6dc8a7ba3550%2F20190514_HUBMAP_CL1_processed%2F](https://app.globus.org/file-manager?origin_id=28bbb03c-a87d-4dd7-a661-7ea2fb6ea631&origin_path=%2FStanford%20TMC%2F26191c2719339be0c3fa6dc8a7ba3550%2F20190514_HUBMAP_CL1_processed%2F)|
 |  count_matrix | *count_matrix| Example|
@@ -156,7 +156,7 @@ The HuBMAP program is developing a standardized open-source pipeline for seqFISH
 
 ## Terms defined in this document
 
-|**Term** |  **Definition**|
+| Term | Definition |
 |--|--|
 |  Intensity| Detector Counts| 
 |  Signal| Intensity produced by fluorescence, both endogenous and introduced| 

@@ -74,6 +74,6 @@ Any dataset status covers both data and metadata.
 |QA|The data has been submitted, has passed automated checks and all post-processing has been completed successfully|
 |Error|Data was submitted, but an error occurred during automated checks or post-processing pipelines|
 |Processing|The data is currently being processed after being submitted|
-|Published|The data has been published after successful automated tests, post-processing and manual curation **(sign-off status has to be 1)**|
-|Invalid|Data will never be published. After manual curation it was decided that the data will not be released. **(sign-off status has to be 0)**|
-|Withdrawn|Data has been withdrawn after being published. **(sign-off status has to be 1)**|
+|Published|The data has been published after successful automated tests, post-processing and manual curation **(sign-off status has to be 1)** |
+|Invalid|Data will never be published. After manual curation it was decided that the data will not be released. **(sign-off status has to be 0)** |
+|Withdrawn|Data has been withdrawn after being published. **(sign-off status has to be 1)** |
