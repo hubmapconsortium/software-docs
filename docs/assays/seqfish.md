@@ -45,7 +45,7 @@ A single Field of View or tile is imaged over many hybridization rounds with thr
 ## HuBMAP seqFISH Data States (Levels)
 The HuBMAP project provides data levels for each seqFISH experiment.
 
-| Data State | Description | Example File Type | 
+| Data State | Description | Example File Type |
 |---|---|---|
 |  0 | Raw | TIFF|
 | 1 |  Processed | TIFF|
@@ -129,7 +129,7 @@ In addition, all HuBMAP seq data will have an associated json file which may con
     
 3.  Each field of view will consist of one TIFF for each hybridization cycle, each with 4 channels (647, 594, Cy3b, 488), where the first 3 channels are the fluorescent channels for identifying RNAs from the target probes, and the last channel (DAPI) is used for registration and alignment.
 
-| Type of Segmentation/Description | Descriptor (the name should contain the following) | Location | 
+| Type of Segmentation/Description | Descriptor (the name should contain the following) | Location |
 |---|---|---|
 |  Cell segmentation mask | *segmentation_mask| Example: [https://app.globus.org/file-manager?origin_id=28bbb03c-a87d-4dd7-a661-7ea2fb6ea631&origin_path=%2FStanford%20TMC%2F26191c2719339be0c3fa6dc8a7ba3550%2F20190514_HUBMAP_CL1_processed%2F](https://app.globus.org/file-manager?origin_id=28bbb03c-a87d-4dd7-a661-7ea2fb6ea631&origin_path=%2FStanford%20TMC%2F26191c2719339be0c3fa6dc8a7ba3550%2F20190514_HUBMAP_CL1_processed%2F)|
 |  count_matrix | *count_matrix| Example|
@@ -158,27 +158,27 @@ The HuBMAP program is developing a standardized open-source pipeline for seqFISH
 
 | Term | Definition |
 |---|---|
-|  Intensity| Detector Counts| 
-|  Signal| Intensity produced by fluorescence, both endogenous and introduced| 
-|  Noise| Intensity not produced by light but electronic fluctuations or electronic background.| 
-|  Stitching| Image stitching is the process of combining multiple images (tiles) with overlapping fields of view to produce a single, large image.| 
-|  Alignment/Registration| Image registration is the process of transforming different images into one coordinate system. Registration of all channels in each cycle is performed.| 
-|  Deconvolution| Deconvolution refers to reversing the optical distortion that takes place in an optical microscope to sharpen images/ improve definition. Practically, deconvolution can also sharpen images that suffer from fast motion or jiggles during capturing.| 
-|  Channels| Name of the fluorescence excitation wavelengths used. May be expressed as a fluorophore name (e.g. DAPI, GFP, DsRED, Cy5), wavelength (e.g. 488, 540, 750), or color (e.g. green, red, blue).| 
-|  Cycles| A process of adding a round of antibodies, imaging the bound antibodies, stripping the antibodies, and washing away the released antibody.| 
-|  Regions| User defined imaging area.| 
+|  Intensity| Detector Counts|
+|  Signal| Intensity produced by fluorescence, both endogenous and introduced|
+|  Noise| Intensity not produced by light but electronic fluctuations or electronic background.|
+|  Stitching| Image stitching is the process of combining multiple images (tiles) with overlapping fields of view to produce a single, large image.|
+|  Alignment/Registration| Image registration is the process of transforming different images into one coordinate system. Registration of all channels in each cycle is performed.|
+|  Deconvolution| Deconvolution refers to reversing the optical distortion that takes place in an optical microscope to sharpen images/ improve definition. Practically, deconvolution can also sharpen images that suffer from fast motion or jiggles during capturing.|
+|  Channels| Name of the fluorescence excitation wavelengths used. May be expressed as a fluorophore name (e.g. DAPI, GFP, DsRED, Cy5), wavelength (e.g. 488, 540, 750), or color (e.g. green, red, blue).|
+|  Cycles| A process of adding a round of antibodies, imaging the bound antibodies, stripping the antibodies, and washing away the released antibody.|
+|  Regions| User defined imaging area.|
 |  seqFISH| Sequential Fluorescence In-Situ Hybridization.|
-|  Autofluorescence/Background| Endogenous fluorescence signal.| 
-|  Fluorescence| Light produced by a fluorophore that is bound to an antibody tag.| 
-|  Z-stack| A series of images produced at different stage heights or z positions.| 
-|  X plane| Plane that determines width| 
-|  Y plane| Plane that determines height| 
-|  Z plane| Plane that determines depth| 
-|  Pitch| Distance between pixels| 
-|  Tile| Rectangular field-of-view (Figure 1).| 
-| Pixel| How close two objects can be and still be differentiated within an image. This is generally dependent upon the diffraction limit of light and the microscope objective.| 
-| Field of View| Angle through which light can reach the detector. Available imaging area without stage movement.| 
-| Background Subtraction| Subtraction of autofluorescence intensity from total intensity.| 
+|  Autofluorescence/Background| Endogenous fluorescence signal.|
+|  Fluorescence| Light produced by a fluorophore that is bound to an antibody tag.|
+|  Z-stack| A series of images produced at different stage heights or z positions.|
+|  X plane| Plane that determines width|
+|  Y plane| Plane that determines height|
+|  Z plane| Plane that determines depth|
+|  Pitch| Distance between pixels|
+|  Tile| Rectangular field-of-view (Figure 1).|
+| Pixel| How close two objects can be and still be differentiated within an image. This is generally dependent upon the diffraction limit of light and the microscope objective.|
+| Field of View| Angle through which light can reach the detector. Available imaging area without stage movement.|
+| Background Subtraction| Subtraction of autofluorescence intensity from total intensity.|
 
 ## For Additional Help 
 Please contact: [Nico Pierson](mailto:nicogpt@caltech.edu)

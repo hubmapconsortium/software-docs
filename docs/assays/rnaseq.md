@@ -62,7 +62,7 @@ Cells are fixed and permeabilized with methanol (alternatively, cells are lysed 
 [(Figure provided by the Trapnell Lab)]( https://cole-trapnell-lab.github.io/projects/sc-rna/)*.
 
 ## HuBMAP RNA-Seq Data States
-| Data State | Description | Example File Type | 
+| Data State | Description | Example File Type |
 |---|---|---|
 |  0 | Raw data: This is the raw sequence data (unprocessed) generated directly by the sequence instrument in files either with Phred quality scores (fastq)| FASTQ|
 | 1 |  Aligned data: SAM files contain sequence data that has been aligned to a reference genome and includes chromosome coordinates. BAM files are compressed binary versions of SAM files. |  SAM, BAM|
@@ -112,7 +112,7 @@ Pre-alignment QC with FastQC:
 
 Figure 6: Plot of per sequence base quality [(Figure from Babraham Bioinformatics)](http://www.bioinformatics.babraham.ac.uk/projects/fastqc)
 
-| qc_metric | Threshold | Tool | 
+| qc_metric | Threshold | Tool |
 |---|---|---|
 |  average_base_quality_scores |>20 (accuracy rate 99%)| FastQC|
 |  gc_content || FastQC|
@@ -133,7 +133,7 @@ Overrepresented k-mer sequences in a sequencing library
 ### Library-level Alignment QC
 Note that this is not per-cell. Trimmed reads are mapped to reference genome.
 
-| qc_metric | Threshold | Method | 
+| qc_metric | Threshold | Method |
 |---|---|---|
 |  unique_mapping_percent |Ideally > 95% (Encode) Acceptable > 80% (at least for bulk)| SAMtools/Picard|
 | duplicate_reads_percent || SAMtools/Picard|

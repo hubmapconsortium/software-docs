@@ -31,7 +31,8 @@ There are a variety of terms used in this document that may not be familiar to a
 *Figure 5: Example defined plane (left) with example imaged z planes (right).*
 
 ## HuBMAP CODEX Data States (Levels)
-| Data State | Description | Example File Type | 
+
+| Data State | Description | Example File Type |
 |---|---|---|
 |  0 | Raw image data: This is the data that comes directly off the microscope without preprocessing; sometimes referred to as tiled or unstitched data. (may not always be included).| CZI, TIFF|
 | 1 |  Processed Microscopy data: Can include stitching, thresholding, background subtraction, z-stack alignment, deconvolution |  CZI, TIFF, OME-TIFF|
@@ -42,6 +43,7 @@ There are a variety of terms used in this document that may not be familiar to a
 This metadata.tsv schema is now available in Github for download. Any further edits can be made through consultation with the HuBMAP team who will request changes through [Github.](https://github.com/hubmapconsortium/ingest-validation-tools/tree/master/docs/mxif)
 
 ## Associated Metadata Files
+
 | Metadata File Name | File Type | Field | Definition |
 |---|---|---|---|
 |  OME-TIFF | Format: OME-TIFF| SchemaType|Metadata schema type|
@@ -140,28 +142,29 @@ This metadata.tsv schema is now available in Github for download. Any further ed
 | || Cycle_4_Antibody_4_Lot|Cell Lot of Antibody used for Magenta Channel for MxIF Cycle 1|
 
 ## Terms defined in this document
+
 | Term | Definition |
 |---|---|
-|  Intensity| Detector Counts| 
-|  Signal| Intensity produced by fluorescence, both endogenous and introduced| 
-|  Noise| Intensity not produced by light but electronic fluctuations or electronic background.| 
-|  Stitching| Image stitching is the process of combining multiple images (tiles) with overlapping fields of view to produce a single, large image.| 
-|  Alignment/Registration| Image registration is the process of transforming different images into one coordinate system. Registration of all channels in each cycle is performed.| 
-|  Deconvolution| Deconvolution refers to reversing the optical distortion that takes place in an optical microscope to sharpen images/ improve definition. Practically, deconvolution can also sharpen images that suffer from fast motion or jiggles during capturing.| 
-|  Channels| Name of the fluorescence excitation wavelengths used. May be expressed as a fluorophore name (e.g. DAPI, GFP, DsRED, Cy5), wavelength (e.g. 488, 540, 750), or color (e.g. green, red, blue).| 
-|  Cycles| A process of adding a round of antibodies, imaging the bound antibodies, stripping the antibodies, and washing away the released antibody.| 
-|  Regions| User defined imaging area.| 
-|  Autofluorescence/Background| Endogenous fluorescence signal.| 
-|  Fluorescence| Light produced by a fluorophore that is bound to an antibody tag.| 
-|  Z-stack| A series of images produced at different stage heights or z positions.| 
-|  X plane| Plane that determines width| 
-|  Y plane| Plane that determines height| 
-|  Z plane| Plane that determines depth| 
-|  Pitch| Distance between pixels| 
-|  Tile| Rectangular field-of-view (Figure 1).| 
-| Pixel| How close two objects can be and still be differentiated within an image. This is generally dependent upon the diffraction limit of light and the microscope objective.| 
-| Field of View| Angle through which light can reach the detector. Available imaging area without stage movement.| 
-| Background Subtraction| Subtraction of autofluorescence intensity from total intensity.| 
+|  Intensity| Detector Counts|
+|  Signal| Intensity produced by fluorescence, both endogenous and introduced|
+|  Noise| Intensity not produced by light but electronic fluctuations or electronic background.|
+|  Stitching| Image stitching is the process of combining multiple images (tiles) with overlapping fields of view to produce a single, large image.|
+|  Alignment/Registration| Image registration is the process of transforming different images into one coordinate system. Registration of all channels in each cycle is performed.|
+|  Deconvolution| Deconvolution refers to reversing the optical distortion that takes place in an optical microscope to sharpen images/ improve definition. Practically, deconvolution can also sharpen images that suffer from fast motion or jiggles during capturing.|
+|  Channels| Name of the fluorescence excitation wavelengths used. May be expressed as a fluorophore name (e.g. DAPI, GFP, DsRED, Cy5), wavelength (e.g. 488, 540, 750), or color (e.g. green, red, blue).|
+|  Cycles| A process of adding a round of antibodies, imaging the bound antibodies, stripping the antibodies, and washing away the released antibody.|
+|  Regions| User defined imaging area.|
+|  Autofluorescence/Background| Endogenous fluorescence signal.|
+|  Fluorescence| Light produced by a fluorophore that is bound to an antibody tag.|
+|  Z-stack| A series of images produced at different stage heights or z positions.|
+|  X plane| Plane that determines width|
+|  Y plane| Plane that determines height|
+|  Z plane| Plane that determines depth|
+|  Pitch| Distance between pixels|
+|  Tile| Rectangular field-of-view (Figure 1).|
+| Pixel| How close two objects can be and still be differentiated within an image. This is generally dependent upon the diffraction limit of light and the microscope objective.|
+| Field of View| Angle through which light can reach the detector. Available imaging area without stage movement.|
+| Background Subtraction| Subtraction of autofluorescence intensity from total intensity.|
 
 ## For Additional Help
  Please contact:  [Jeffrey Spraggins](mailto:jeff.spraggins@Vanderbilt.Edu) 

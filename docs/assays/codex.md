@@ -34,7 +34,7 @@ There are a variety of terms used in this document that may not be familiar to a
 
 ## HuBMAP CODEX Data States (Levels)
 
-| Data State | Description | Example File Type | 
+| Data State | Description | Example File Type |
 |---|---|---|
 |  0 | Raw image data: This is the data that comes directly off the microscope without preprocessing; sometimes referred to as tiled or unstitched data. (may not always be included).| CZI, TIFF|
 | 1 |  Processed Microscopy data: Can include stitching, thresholding, background subtraction, z-stack alignment, deconvolution |  CZI, TIFF, OME-TIFF|
@@ -128,7 +128,7 @@ The exact same data from Stanford is also available in an image sequence format,
 | Type of Segmentation/Description | Descriptor (the name should contain the following) | Location |
 |---|---|---|
 |  Stanford - cell segmentation| *_processed| https://app.globus.org/file-manager?origin_id=28bbb03c-a87d-4dd7-a661-7ea2fb6ea631&origin_path=%2FStanford%20TMC%2F26191c2719339be0c3fa6dc8a7ba3550%2F20190514_HUBMAP_CL1_processed%2F |
-|  Stanford - cell segmentation| *_processed-ImgSeq| https://app.globus.org/file-manager?origin_id=28bbb03c-a87d-4dd7-a661-7ea2fb6ea631&origin_path=%2FStanford%20TMC%2F26191c2719339be0c3fa6dc8a7ba3550%2F20190514_HUBMAP_CL1_processed-ImgSeq%2F  | 
+|  Stanford - cell segmentation| *_processed-ImgSeq| https://app.globus.org/file-manager?origin_id=28bbb03c-a87d-4dd7-a661-7ea2fb6ea631&origin_path=%2FStanford%20TMC%2F26191c2719339be0c3fa6dc8a7ba3550%2F20190514_HUBMAP_CL1_processed-ImgSeq%2F  |
 University of Florida| drv_*| https://app.globus.org/file-manager?origin_id=28bbb03c-a87d-4dd7-a661-7ea2fb6ea631&origin_path=%2FUniversity%20of%20Florida%20TMC%2F03043e079260d180099579045f16cd53%2F |
 
 
@@ -244,20 +244,20 @@ There are 18 columns for each channel. All pixel intensities are in 16-bit range
 
 | Name | Details |
 |---|---|
-|  Reg| Region number| 
+|  Reg| Region number|
 |  Cyc| Cycle number|
 |  Ch| Channel number|
 |  Marker| Marker name|
-|  Exposure| Exposure time in milliseconds| 
+|  Exposure| Exposure time in milliseconds|
 |  Min| Minimum pixel intensity of the region image|
 |  Median| Median pixel intensity|
 |  95%|95-percentile pixel intensity|
 |  Max | Max pixel intensity|
-|  Mean| Mean pixel intensity| 
+|  Mean| Mean pixel intensity|
 |  Std Dev| Standard deviation|
 |  Threshold|Binarization threshold found by Otsu's method|
 |  Area| Area of the region image above the threshold (i.e. signal area)|
-|  Signal µ| Mean pixel intensity of the area above the threshold (i.e. signal area| 
+|  Signal µ| Mean pixel intensity of the area above the threshold (i.e. signal area|
 |  Signal σ| Standard deviation of the signal area|
 |  Noise µ| Mean pixel intensity of the area below the threshold (i.e. background area)|
 |  Noise σ| Standard deviation of the noisarea|
@@ -282,28 +282,29 @@ On the right, there are four cropped images displayed in the original, full reso
 5.  Open the generated **channelnames_report.csv** file and add TRUE/FALSE tags to each channel separated with a coma (if using text editors) or to the consecutive column if using *“Excel/LibreOffice”.*
 
 ## Terms defined in this document
+
 | Term | Definition |
 |---|---|
-|  Intensity| Detector Counts| 
-|  Signal| Intensity produced by fluorescence, both endogenous and introduced| 
-|  Noise| Intensity not produced by light but electronic fluctuations or electronic background.| 
-|  Stitching| Image stitching is the process of combining multiple images (tiles) with overlapping fields of view to produce a single, large image.| 
-|  Alignment/Registration| Image registration is the process of transforming different images into one coordinate system. Registration of all channels in each cycle is performed.| 
-|  Deconvolution| Deconvolution refers to reversing the optical distortion that takes place in an optical microscope to sharpen images/ improve definition. Practically, deconvolution can also sharpen images that suffer from fast motion or jiggles during capturing.| 
-|  Channels| Name of the fluorescence excitation wavelengths used. May be expressed as a fluorophore name (e.g. DAPI, GFP, DsRED, Cy5), wavelength (e.g. 488, 540, 750), or color (e.g. green, red, blue).| 
-|  Cycles| A process of adding a round of antibodies, imaging the bound antibodies, stripping the antibodies, and washing away the released antibody.| 
-|  Regions| User defined imaging area.| 
-|  Autofluorescence/Background| Endogenous fluorescence signal.| 
-|  Fluorescence| Light produced by a fluorophore that is bound to an antibody tag.| 
-|  Z-stack| A series of images produced at different stage heights or z positions.| 
-|  X plane| Plane that determines width| 
-|  Y plane| Plane that determines height| 
-|  Z plane| Plane that determines depth| 
-|  Pitch| Distance between pixels| 
-|  Tile| Rectangular field-of-view (Figure 1).| 
-| Pixel| How close two objects can be and still be differentiated within an image. This is generally dependent upon the diffraction limit of light and the microscope objective.| 
-| Field of View| Angle through which light can reach the detector. Available imaging area without stage movement.| 
-| Background Subtraction| Subtraction of autofluorescence intensity from total intensity.| 
+|  Intensity| Detector Counts|
+|  Signal| Intensity produced by fluorescence, both endogenous and introduced|
+|  Noise| Intensity not produced by light but electronic fluctuations or electronic background.|
+|  Stitching| Image stitching is the process of combining multiple images (tiles) with overlapping fields of view to produce a single, large image.|
+|  Alignment/Registration| Image registration is the process of transforming different images into one coordinate system. Registration of all channels in each cycle is performed.|
+|  Deconvolution| Deconvolution refers to reversing the optical distortion that takes place in an optical microscope to sharpen images/ improve definition. Practically, deconvolution can also sharpen images that suffer from fast motion or jiggles during capturing.|
+|  Channels| Name of the fluorescence excitation wavelengths used. May be expressed as a fluorophore name (e.g. DAPI, GFP, DsRED, Cy5), wavelength (e.g. 488, 540, 750), or color (e.g. green, red, blue).|
+|  Cycles| A process of adding a round of antibodies, imaging the bound antibodies, stripping the antibodies, and washing away the released antibody.|
+|  Regions| User defined imaging area.|
+|  Autofluorescence/Background| Endogenous fluorescence signal.|
+|  Fluorescence| Light produced by a fluorophore that is bound to an antibody tag.|
+|  Z-stack| A series of images produced at different stage heights or z positions.|
+|  X plane| Plane that determines width|
+|  Y plane| Plane that determines height|
+|  Z plane| Plane that determines depth|
+|  Pitch| Distance between pixels|
+|  Tile| Rectangular field-of-view (Figure 1).|
+| Pixel| How close two objects can be and still be differentiated within an image. This is generally dependent upon the diffraction limit of light and the microscope objective.|
+| Field of View| Angle through which light can reach the detector. Available imaging area without stage movement.|
+| Background Subtraction| Subtraction of autofluorescence intensity from total intensity.|
 
 ## For Additional Help
 Please contact: [Marda Jorgensen](mailto:marda@ufl.edu) & [Vishal Venkataraaman](mailto:vgautham@stanford.edu).

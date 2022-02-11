@@ -36,30 +36,30 @@ There are a variety of terms used in this document that may not be familiar to a
 ## Terms defined in this document:
 | Term | Definition |
 |---|---|
-|  Intensity| Detector Counts| 
-|  Signal| Intensity produced by fluorescence, both endogenous and introduced| 
-|  Noise| Intensity not produced by light but electronic fluctuations or electronic background.| 
-|  Stitching| Image stitching is the process of combining multiple images (tiles) with overlapping fields of view to produce a single, large image.| 
-|  Alignment/Registration| Image registration is the process of transforming different images into one coordinate system. Registration of all channels in each cycle is performed.| 
+|  Intensity| Detector Counts|
+|  Signal| Intensity produced by fluorescence, both endogenous and introduced|
+|  Noise| Intensity not produced by light but electronic fluctuations or electronic background.|
+|  Stitching| Image stitching is the process of combining multiple images (tiles) with overlapping fields of view to produce a single, large image.|
+|  Alignment/Registration| Image registration is the process of transforming different images into one coordinate system. Registration of all channels in each cycle is performed.|
 |  Dedistortion| Dedistortion refers to reversing the optical distortion that takes place in an optical microscope to sharpen images/ improve definition. Practically, a calibration plate with appropriate artifacts is used to determine optical distortion coefficients that are then applied as per the model. |
 |  Channels| Name of the fluorescence excitation wavelengths used. May be expressed as a fluorophore name (e.g. DAPI, GFP, DsRED, Cy5), wavelength (e.g. 488, 540, 750)
-|  Cycles| A process of adding a round of fluorescently-labeled antibodies, imaging, and dye inactivation.| 
-|  Regions| User defined imaging area.| 
-|  Cell DIVE| Diversity, Imaging, Variation, Expression  | 
-|  Autofluorescence/Background| Endogenous fluorescence signal.| 
+|  Cycles| A process of adding a round of fluorescently-labeled antibodies, imaging, and dye inactivation.|
+|  Regions| User defined imaging area.|
+|  Cell DIVE| Diversity, Imaging, Variation, Expression  |
+|  Autofluorescence/Background| Endogenous fluorescence signal.|
 |  Fluorescence | Light produced by a fluorophore that is bound to an antibody.|
-|  X plane| Plane that determines width| 
-|  Y plane| Plane that determines height| 
-|  Z plane| Plane that determines depth| 
-|  Pixel size| Defines size of pixel on the camera (square)| 
-|  Tile| Rectangular field-of-view (Figure 1).| 
-|  Field of View| Available imaging area without stage movement. | 
-|  Autofluorescence/ Background Subtraction| Subtraction of autofluorescence intensity from total intensity| 
+|  X plane| Plane that determines width|
+|  Y plane| Plane that determines height|
+|  Z plane| Plane that determines depth|
+|  Pixel size| Defines size of pixel on the camera (square)|
+|  Tile| Rectangular field-of-view (Figure 1).|
+|  Field of View| Available imaging area without stage movement. |
+|  Autofluorescence/ Background Subtraction| Subtraction of autofluorescence intensity from total intensity|
 
 ## HuBMAP Cell DIVE Data States (Levels):
 The HuBMAP project provides...
 
-| Data State | Description | Example File Type | 
+| Data State | Description | Example File Type |
 |---|---|---|
 |  0 | Raw image data: This is the data that comes directly off the microscope without preprocessing; sometimes referred to as tiled or unstitched data. (may not always be included).| TIFF|
 | 1 |  Processed Microscopy data: Can include stitching, thresholding, background subtraction, de-distortion |  TIFF, OME-TIFF|
@@ -74,14 +74,14 @@ This metadata field schema resides in Github where it can be viewed and download
 The Table below describes the Level 2 metadata fields that are included in the CELLDIVE_metadata_TEMPLATE file.
 | Field | Description |
 |---|---|
-|  number of antibodies| total number of antibodies applied to the tissue| 
-|  number of channels| Number of imaging channels used| 
-|  number of cycles| Number of complete image/stain/image/bleach cycles performed| 
-|  number of imaging rounds| Number of separate image rounds conducted| 
-|  resolution_x_unit| unit of measure for image resolution about x axis| 
-|  resolution_x_value|actual resolution for x axis| 
-|  resoltuon_y_unit| unit of measure for image resolution about y axis| 
-|  resolution_y_value| actual resolution for y axis| 
+|  number of antibodies| total number of antibodies applied to the tissue|
+|  number of channels| Number of imaging channels used|
+|  number of cycles| Number of complete image/stain/image/bleach cycles performed|
+|  number of imaging rounds| Number of separate image rounds conducted|
+|  resolution_x_unit| unit of measure for image resolution about x axis|
+|  resolution_x_value|actual resolution for x axis|
+|  resoltuon_y_unit| unit of measure for image resolution about y axis|
+|  resolution_y_value| actual resolution for y axis|
 |  processing_protcols_io_doi| link to processing protocols|
 |  overall_protocols_io_doi| link to overall protocols|
 
@@ -192,7 +192,7 @@ The following metadata fields reside in the appropriate round_info_SXXXXXXXX_RRR
 
 The following metadata files reside in the parent study folder.
 
-| File | Definition | Example | 
+| File | Definition | Example |
 |---|---|---|
 |Slide_list.txt|A list of slides used in the study.|Such as: S20030077, S20030078, S20030079, S20030080, S20030081|
 |Channel_list.txt|A list of original image paths. |Such as: RegisteredImages/S002/S002_mono_dapi_reg_pyr16_region_,DAPI_INIT AFRemoved/AE1_AFRemoved_pyr16_region_,AE1|
@@ -209,7 +209,7 @@ The general structure of the level 0 (raw) data produced by the GE Research Cell
 ![](https://lh6.googleusercontent.com/dYC1TIRe8vDuJULaJAjNAcEYbxphXmz-mtDBx2f6hvijz-sz2OzQHnsdojuWEnEtO0sYYJwGUVlTTgGEAH5QeFzILe9oKLCztGA60mAn8UIE2pax3bcYh4tCJAKT3EMBwImGuU4)
 
 Segmentation files are included among the processed data contributed by the TMC’s and can be found in the following locations: 
-| Type of Segmentation/Description | Descriptor (the name should contain the following) | Location | 
+| Type of Segmentation/Description | Descriptor (the name should contain the following) | Location |
 |---|---|---|
 |Nuclei segmentation from dapi images|Dapi_Slidexx_regionxx_nucseg.tif|Seg_and_quant_results/segmentation|
 

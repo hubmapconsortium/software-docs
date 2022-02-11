@@ -14,7 +14,7 @@ Whole genome sequencing (WGS) measures the genome-wide nucleotide sequence in a 
 ## HuBMAP Whole Genome Sequencing Data States (Levels)
 The HuBMAP project provides data to the public in a variety of data states, which denote the amount of processing that has been done to the data. The data states for WGS seq data provided by the HuBMAP project are listed below:
 
-| Data State | Description | Example File Type | 
+| Data State | Description | Example File Type |
 |---|---|---|
 |  0 | Raw data: This is the raw sequence data (unprocessed) generated directly by the sequence instrument in files either with Phred quality scores (fastq).| FASTQ|
 | 1 | Aligned data: SAM files contain sequence data that has been aligned to a reference genome and includes chromosome coordinates. BAM files are compressed binary versions of SAM files |  SAM, BAM|
@@ -68,7 +68,7 @@ The bolded steps below constitute a series of standard RNA-seq data analysis wor
 ![](https://lh5.googleusercontent.com/QcjPsyXMsxYbtFCVU-MSRj_WfkfW6fR3gRIJUWp9MtA6-kOsdZ1qM6XOjBBdKy9ytkJ1mij1ZG7S841IkLqYUh5ueUMmeK0Fyhq5Ye00e1_ZX6FoPtpuJYQFbgqJMmVbMs4ZGQo)
 *Figure 1: Plot of per sequence base quality ([(Figure from Babraham Bioinoformatics)](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/)*
 
-| qc_metric | Threshold | Method | 
+| qc_metric | Threshold | Method |
 |---|---|---|
 |  average_base_quality_scores |>20 (accuracy rate 99%)| FastQC|
 |  gc_content || FastQC|
@@ -85,7 +85,7 @@ K-mer overrepresentation: Overrepresented k-mer sequences in a sequencing librar
 Library-level Alignment QC:
 Note that this is not per-cell. Trimmed reads are mapped to reference genome.
 
-| qc_metric | Threshold | Method | 
+| qc_metric | Threshold | Method |
 |---|---|---|
 |  unique_mapping_percent |Ideally > 95% (Encode) Acceptable > 80% (at least for bulk)| SAMtools/Picard|
 | duplicate_reads_percent || SAMtools/Picard|
