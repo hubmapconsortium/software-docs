@@ -32,7 +32,7 @@ There are a variety of terms used in this document that may not be familiar to a
 
 ## HuBMAP CODEX Data States (Levels)
 | Data State | Description | Example File Type | 
-|--|--|--|
+|---|---|---|
 |  0 | Raw image data: This is the data that comes directly off the microscope without preprocessing; sometimes referred to as tiled or unstitched data. (may not always be included).| CZI, TIFF|
 | 1 |  Processed Microscopy data: Can include stitching, thresholding, background subtraction, z-stack alignment, deconvolution |  CZI, TIFF, OME-TIFF|
 | 2 |  Segmentation: Computationally predicted cell (nucleus, cytoplasm) and/or structural boundaries (tubules, ventricles, etc.) |  CSV, TIFF|
@@ -43,7 +43,7 @@ This metadata.tsv schema is now available in Github for download. Any further ed
 
 ## Associated Metadata Files
 | Metadata File Name | File Type | Field | Definition |
-|--|--|--|--|
+|---|---|---|---|
 |  OME-TIFF | Format: OME-TIFF| SchemaType|Metadata schema type|
 |  | | SchemaVersionMajor|Metadata schema version - major|
 |  | | SchemaVersionMinor|Metadata schema version - minor|
@@ -141,7 +141,7 @@ This metadata.tsv schema is now available in Github for download. Any further ed
 
 ## Terms defined in this document
 | Term | Definition |
-|--|--|
+|---|---|
 |  Intensity| Detector Counts| 
 |  Signal| Intensity produced by fluorescence, both endogenous and introduced| 
 |  Noise| Intensity not produced by light but electronic fluctuations or electronic background.| 

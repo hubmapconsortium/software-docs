@@ -32,7 +32,7 @@ There are a variety of terms used in this document that may not be familiar to a
 
 ## HuBMAP Stained Microscopy Data States (Levels)
 | Data State | Description | Example File Type | 
-|--|--|--|
+|---|---|---|
 |  0 | Raw image data: This is the data that comes directly off the microscope without preprocessing; sometimes referred to as tiled or unstitched data. (may not always be included).| SCN, TIFF|
 | 1 |  Processed Microscopy data: Can include stitching, thresholding, background subtraction, z-stack alignment, deconvolution |  CZI, TIFF, OME-TIFF|
 | 2 |  Segmentation: Computationally predicted cell (nucleus, cytoplasm) and/or structural boundaries (tubules, ventricles, etc.) |  CSV, TIFF|
@@ -43,7 +43,7 @@ This metadata schema is now available in [Github](https://github.com/hubmapconso
 
 ## Associated Metadata files
 | Metadata File Name | File Type | Field | Definition |
-|--|--|--|--|
+|---|---|---|---|
 | Instrument Metadata |XML | SchemaType|Metadata schema type|
 |  | | AcquisitionDate|Date and Time of Acqusition|
 |  | | ObjectiveSettings|Nominal Magnification|
@@ -73,7 +73,7 @@ This metadata schema is now available in [Github](https://github.com/hubmapconso
 
 ## Terms defined in this document
 | Term | Definition |
-|--|--|
+|---|---|
 |  Intensity| Detector Counts| 
 |  Signal| Intensity produced by fluorescence, both endogenous and introduced| 
 |  Noise| Intensity not produced by light but electronic fluctuations or electronic background.| 

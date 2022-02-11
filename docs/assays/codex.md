@@ -48,7 +48,7 @@ All HuBMAP CODEX data will have searchable metadata fields. This metadata field 
 In addition, all HuBMAP CODEX data will have an associated json file which may contain the following additional metadata fields:
 
 | Field | Definition | Example |
-|--|--|--|
+|---|---|---|
 |  "version"| Software version used| standalone-1.6.0.16 |
 |  "name"| Descriptive name assigned to the data| drv_CX_19-004_LN_R1|
 |  "dateProcessed"| Date of experiment| 2020-01-06T10:38:03.257-05:00 \[America/New_York]|
@@ -126,7 +126,7 @@ Stanford cell segmentation results can be found in the location mentioned below.
 The exact same data from Stanford is also available in an image sequence format, which stores the data in the same folder structure as Akoya’s format. But we can ignore this processed dataset with image sequence for analysis purposes.
 
 | Type of Segmentation/Description | Descriptor (the name should contain the following) | Location |
-|--|--|--|
+|---|---|---|
 |  Stanford - cell segmentation| *_processed| https://app.globus.org/file-manager?origin_id=28bbb03c-a87d-4dd7-a661-7ea2fb6ea631&origin_path=%2FStanford%20TMC%2F26191c2719339be0c3fa6dc8a7ba3550%2F20190514_HUBMAP_CL1_processed%2F |
 |  Stanford - cell segmentation| *_processed-ImgSeq| https://app.globus.org/file-manager?origin_id=28bbb03c-a87d-4dd7-a661-7ea2fb6ea631&origin_path=%2FStanford%20TMC%2F26191c2719339be0c3fa6dc8a7ba3550%2F20190514_HUBMAP_CL1_processed-ImgSeq%2F  | 
 University of Florida| drv_*| https://app.globus.org/file-manager?origin_id=28bbb03c-a87d-4dd7-a661-7ea2fb6ea631&origin_path=%2FUniversity%20of%20Florida%20TMC%2F03043e079260d180099579045f16cd53%2F |
@@ -243,7 +243,7 @@ A summary section contains basic statistics of biomarker region images. Each sli
 There are 18 columns for each channel. All pixel intensities are in 16-bit ranges (0 ~ 65535).
 
 | Name | Details |
-|--|--|
+|---|---|
 |  Reg| Region number| 
 |  Cyc| Cycle number|
 |  Ch| Channel number|
@@ -283,7 +283,7 @@ On the right, there are four cropped images displayed in the original, full reso
 
 ## Terms defined in this document
 | Term | Definition |
-|--|--|
+|---|---|
 |  Intensity| Detector Counts| 
 |  Signal| Intensity produced by fluorescence, both endogenous and introduced| 
 |  Noise| Intensity not produced by light but electronic fluctuations or electronic background.| 

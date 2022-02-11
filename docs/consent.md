@@ -8,7 +8,7 @@ The table below summarizes Genomic Data Sharing by HuBMAP components and associa
 ### Genomic Data Sharing
 
 |Institution|Access Type|Access Location|Data Use Limitations (DUL)|
-|--|--|--|--|
+|---|---|---|---|
 |Caltech TMC|Controlled|dbGaP|GRU|
 |Florida TMC|Controlled|dbGaP|GRU|
 |Stanford TMC|Unrestricted|dbGaP first, HuBMAP Portal later|No Limitations|

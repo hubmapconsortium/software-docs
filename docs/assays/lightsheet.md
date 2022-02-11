@@ -47,7 +47,7 @@ Terms used in this document:
 
 ## HuBMAP Lightsheet Data States (Levels): 
 | Data State | Description | Example File Type | 
-|--|--|--|
+|---|---|---|
 |  0 | Raw image data: This is the data that comes directly off the microscope without preprocessing; sometimes referred to as tiled or unstitched data. (may not always be included).| CZI, OME-TIFF|
 | 1 |  Processed Microscopy data: Can include stitching, thresholding, background subtraction, z-stack alignment, deconvolution. May not always be included. |  TIFF, MP4|
 | 2 |  Segmentation: Computationally predicted cell (nucleus, cytoplasm) and/or structural boundaries (tubules, ventricles, etc.) May not always be included. |  CSV, TIFF, MP4, STL|
@@ -59,7 +59,7 @@ The following metadata fields reside in a CSV within the parent folder of each d
 Essential Metadata Overview for Volumetric Reconstruction
 
 | Light sheet microscopy | Defintion | Example | 
-|--|--|--|
+|---|---|---|
 |  Application\|Version | Software version used| 9.2.8.54|
 |  Document\|Name | Descriptive name assigned to the data. Example: local name construct indicating scan region (004), magnification (20x), laser line (638), protein stained (UCHL1), and acquisition mode (multiview).| 004_20x_638_UCHL1_Multiview|
 |  CreationDate | Date of experiment| 2020-12-18T13:20:36|

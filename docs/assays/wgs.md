@@ -15,7 +15,7 @@ Whole genome sequencing (WGS) measures the genome-wide nucleotide sequence in a 
 The HuBMAP project provides data to the public in a variety of data states, which denote the amount of processing that has been done to the data. The data states for WGS seq data provided by the HuBMAP project are listed below:
 
 | Data State | Description | Example File Type | 
-|--|--|--|
+|---|---|---|
 |  0 | Raw data: This is the raw sequence data (unprocessed) generated directly by the sequence instrument in files either with Phred quality scores (fastq).| FASTQ|
 | 1 | Aligned data: SAM files contain sequence data that has been aligned to a reference genome and includes chromosome coordinates. BAM files are compressed binary versions of SAM files |  SAM, BAM|
 | 2 |  Mutations: Variant call format (VCF). |  .vcf|
@@ -34,7 +34,7 @@ All HuBMAP data will have searchable metadata fields. The metadata schema is ava
 ## Values to be produced by HIVE Pipeline
 
 | Level | Field | Definition | Valid Values | Purpose |
-|--|--|--|--|--|
+|---|---|---|---|---|
 |  na | data_analysis_protocols_io_doi| Link to the protocol document describing how the HIVE or TMC is processing the data|
 |  na | reference_genome| Genome used for alignment| GRCh38 or GRCh37|
 |  na | mapping_platform| Software used for quantification| BWA-MEM|
@@ -69,7 +69,7 @@ The bolded steps below constitute a series of standard RNA-seq data analysis wor
 *Figure 1: Plot of per sequence base quality ([(Figure from Babraham Bioinoformatics)](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/)*
 
 | qc_metric | Threshold | Method | 
-|--|--|--|
+|---|---|---|
 |  average_base_quality_scores |>20 (accuracy rate 99%)| FastQC|
 |  gc_content || FastQC|
 |  sequence_length_distribution |>45 (encode)| FastQC|
@@ -86,7 +86,7 @@ Library-level Alignment QC:
 Note that this is not per-cell. Trimmed reads are mapped to reference genome.
 
 | qc_metric | Threshold | Method | 
-|--|--|--|
+|---|---|---|
 |  unique_mapping_percent |Ideally > 95% (Encode) Acceptable > 80% (at least for bulk)| SAMtools/Picard|
 | duplicate_reads_percent || SAMtools/Picard|
 |  fragment_length_distribution |>45 (encode)| SAMtools/Picard|
