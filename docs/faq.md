@@ -96,26 +96,26 @@ For instance, very efficient software/statistical environments that would enable
 
 <details><summary>What kind of information is included in HuBMAP’s first data release? </summary>
 
-The first release contains donor, tissue sample, and assay data & metadata for the following organs: heart, kidney, large intestine, lymph node, small intestine, spleen, and thymus. For additional information, please see [donor, tissue sample, and assay metadata](/docs/metadata) as well as [assay details.](/docs/assays)
+The first release contains donor, tissue sample, and assay data & metadata for the following organs: heart, kidney, large intestine, lymph node, small intestine, spleen, and thymus. For additional information, please see [donor, tissue sample, and assay metadata](/metadata) as well as [assay details.](/assays)
 
 </details>
 
 <details><summary>What data modalities are covered in this first release? </summary>
 
 Microscopy, Mass Spectrometry, and Sequencing data are available in the initial HuBMAP data release.  Several assay types are available for each modality. 
-More information can be found on the [list of available HuBMAP Assays.](/docs/assays)
+More information can be found on the [list of available HuBMAP Assays.](/assays)
 
 </details>
 
 <details><summary>What metadata is included in HuBMAP? Will HuBMAP include additional metadata in future releases?</summary>
 
-HuBMAP contains [donor metadata, sample metadata, and assay metadata.](/docs/metadata) In the future, metadata will be linked to various ontologies to make integration more efficient.
+HuBMAP contains [donor metadata, sample metadata, and assay metadata.](/metadata) In the future, metadata will be linked to various ontologies to make integration more efficient.
 
 </details>
 
 <details><summary>What controlled vocabularies or ontologies are being used by HuBMAP? </summary>
 
-Each donor metadata item uses Unified Medical Language System (UMLS) Concept Unique Identifiers (CUIs) and related SNOMEDCT_US codes with [complete list here.](/docs/donor#more) This list will be expanded as clinical data transactions, not just metadata, are added for donors for which data is available. Similarly the other metadata will be encoded with applicable ontologies. The HuBMAP Knowledge Graph underpins all ontologies used in HuBMAP but is not yet deployed. The current CCF ontology uses Uberon, Kidney Tissue Atlas Ontology (KTAO) and Cell Ontology (CL), see details in https://arxiv.org/abs/2007.14474 
+Each donor metadata item uses Unified Medical Language System (UMLS) Concept Unique Identifiers (CUIs) and related SNOMEDCT_US codes with [complete list here.](/donor#more) This list will be expanded as clinical data transactions, not just metadata, are added for donors for which data is available. Similarly the other metadata will be encoded with applicable ontologies. The HuBMAP Knowledge Graph underpins all ontologies used in HuBMAP but is not yet deployed. The current CCF ontology uses Uberon, Kidney Tissue Atlas Ontology (KTAO) and Cell Ontology (CL), see details in https://arxiv.org/abs/2007.14474 
 
 </details>
 
