@@ -79,3 +79,24 @@ If the second item in each line of the manifest file (the path) has a space in i
 ```
 HBM744.FNLN.846 "/raw expr.h5ad"
 ```
+
+#### Checking the Status of a Transfer
+
+Once the transfer has been started successfully, the user will receive a success message that looks like this: 
+
+```
+Message: The transfer has been accepted and a task has been created and queued for execution
+Task ID: 1234abcd-56ef-78gh-90ij-123456klmnop
+```
+
+At which point the transfer will be handled completely through Globus. To see the status of a transfer, whether it succeeded or failed, a progress bar, and other details about the transfer, 
+a user must visit [https://app.globus.org](https://app.globus.org/file-manager). The user will be prompted to sign into globus just as they were when logging 
+into globus through the hubmap-clt. Once logged in, the user will be brought to the file manager page. Click the activity tab on the left to view all past and active transfers.
+
+![Globus App File Manager Transfer Tab](images/globus_file_manager_transfer_tab.png)
+
+Here, users will see a list of past and present transfers. Clicking on one will provide more information about when the transfer started, the location of the data transferred, and much more information. 
+
+![Globus App Activities Page](images/globus_activities_page.PNG)
+
+For a complete break down of how to use the globus web app, please consult the [globus documentation](https://docs.globus.org/how-to/get-started/)
