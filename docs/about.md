@@ -122,7 +122,7 @@ NIH Program - [Richard Conroy](mailto:richard.conroy@nih.gov) (NIH Common Fund)
 <tr>
   <td>
   University of Pittsburgh<br>
-  PI: <a href="https://rio.pitt.edu">Jonathan Silverstein<a><br>
+  PI: <a href="https://rio.pitt.edu">Jonathan Silverstein</a><br>
   </td>
   <td>
   Becky Boes<br>
