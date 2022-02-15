@@ -99,10 +99,8 @@ The following entity sdk methods each correspond with an endpoint inside the ent
 * [Retract Dataset](#retract-dataset)
 * [Get Revisions List](#get-revisions-list)
 * [Get Associated Organs](#get-associated-organs)
-
-
-
-
+* [Get Prov Info](#get-prov-info)
+* [Get Prov Info By ID](#get-prov-info-by-id)
 
 
 ### Get Status
@@ -113,7 +111,7 @@ The following entity sdk methods each correspond with an endpoint inside the ent
 <tr><td>Arguments</td><td>None</td></tr>
 <tr><td>Outputs</td><td>This method will print the version, build, and neo4j connection status to the terminal. It will be formatted as "'version': '{version}', 'build': '{build}', 'neo4j_connection': '{neo4j_connection}'". Additionally, the complete response from entity api will be returned as a dictionary.</td></tr>
 <tr><td>Error Handling</td><td>Most methods will raise an exception if either Entity Api returns an error code (http status code 300 or greater) or if the connection fails altogether. Because of the nature of the get status method, if either of these occur, an exception will not be raised, rather the exception or error message from Entity Api will be printed to the terminal and returned.</td></tr>
-<tr><td>Authorizations</td><td>This method requires no token</td></tr>
+<tr><td>Authorization</td><td>This method requires no token. If a token is provided and it is invalid, an exception will be raised.</td></tr>
 
 </table>
 
@@ -160,7 +158,7 @@ organs_list = entitysdk_instance.get_ancestor_organs(hubmap_id)
 <tr><td>Description</td><td colspan="2">Takes an id (HuBMAP id or UUID) for an entity and returns an instance of the class corresponding to the given id.</td></tr>
 <tr><td rowspan="2">Arguments</td><td rowspan="2">identifier</td><td>Optional: No</td></tr><tr><td>Type: String</td></tr>
 <tr><td>Output</td><td colspan="2">This method outputs an instance of one of the entity classes. This class will correspond with the class of the entity given by the identifier</td></tr>
-<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get entity by id method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raise as well.</td></tr>
+<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get entity by id method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raised as well.</td></tr>
 <tr><td>Authorization</td><td colspan="2">No token is required for this method. If a token is provided and it is invalid, an exception will be raised. If a token is not provided, or if a valid token is provided and the token is not part of HuBMAP-Read group, only entities that are public will be returned</td></tr>
 
 </table>
@@ -184,7 +182,7 @@ new_sample = entitysdk_instance.get_entity_by_id(hubmap_id)
 <tr><td>Description</td><td colspan="2">Takes in an id (HuBMAP ID or UUID) and returns a dictionary with the provenance tree above the given ID. Optionally accepts an integer "depth" which will limit the size of the returned tree.</td></tr>
 <tr><td rowspan="4">Arguments</td><td rowspan="2">identifier</td><td>Optional: No</td></tr><tr><td>Type: String</td></tr><tr><td rowspan="2">depth</td><td>Optional: Yes</td></tr><tr><td>Type: Integer</td></tr>
 <tr><td>Output</td><td colspan="2">This method outputs a dictionary containing the complete provenance tree above the given id. </td></tr>
-<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get entity provenance method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raise as well.</td></tr>
+<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get entity provenance method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raised as well.</td></tr>
 <tr><td>Authorization</td><td colspan="2">No token is required for this method. If a token is provided and it is invalid, an exception will be raised. If a token is not provided, or if a valid token is provided and the token is not part of HuBMAP-Read group, only provenance trees for entities that are public will be returned</td></tr>
 
 </table>
@@ -208,7 +206,7 @@ provenance = entitysdk_instance.get_entity_provenance(hubmap_id, tree_depth)
 <tr><td>Description</td><td>This method returns a list of all available entity types as defined in the <a href="https://raw.githubusercontent.com/hubmapconsortium/entity-api/test-release/entity-api-spec.yaml">Schema Yaml</a>  </td></tr>
 <tr><td>Arguments</td><td>None</td></tr>
 <tr><td>Outputs</td><td>This method outputs a list. The list contains each entity type defined in the schema. Each is represented as a string</td></tr>
-<tr><td>Error Handling</td><td>If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get entity types method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raise as well.</td></tr>
+<tr><td>Error Handling</td><td>If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get entity types method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raised as well.</td></tr>
 <tr><td>Authorization</td><td>No token is required for this method. If a token is provided and it is invalid, an exception will be raised.</td></tr>
 
 </table>
@@ -231,7 +229,7 @@ list_of_entity_types = entitysdk_instance.get_entity_types()
 <tr><td>Description</td><td colspan="2">Takes as input an entity type and returns a list of all entities within that given type. Acceptable values for entity type are the entities defined in the <a href="https://raw.githubusercontent.com/hubmapconsortium/entity-api/test-release/entity-api-spec.yaml">Schema Yaml</a></td></tr>
 <tr><td rowspan="2">Arguments</td><td rowspan="2">entity_type</td><td>Optional: No</td></tr><tr><td>Type: String</td></tr>
 <tr><td>Outputs</td><td colspan="2">This method outputs a list. This list contains objects of the class given by entity_type</td></tr>
-<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get entities by type method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raise as well.</td></tr>
+<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get entities by type method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raised as well.</td></tr>
 <tr><td>Authorization</td><td colspan="2">No token is required for this method. If a token is provided and it is invalid, an exception will be raised. If a token is not provided, or if a valid token is provided and the token is not part of HuBMAP-Read group, only entities that are public will be returned</td></tr>
 
 </table>
@@ -255,7 +253,7 @@ list_of_uploads = entitysdk_instance.get_entities_by_type(entity_type)
 <tr><td>Description</td><td colspan="2">Takes as input identifier (HuBMAP id or UUID) for a collection and returns an instance of the collection class corresponding to the identifier given</td></tr>
 <tr><td rowspan="2">Arguments</td><td rowspan="2">identifier</td><td>Optional: No</td></tr><tr><td>Type: String</td></tr>
 <tr><td>Outputs</td><td colspan="2">This method outputs an instance of the collection class.</td></tr>
-<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get collection method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raise as well.</td></tr>
+<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get collection method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raised as well.</td></tr>
 <tr><td>Authorization</td><td colspan="2">No token is required for this method. If a token is provided and it is invalid, an exception will be raised. If a token is not provided, or if a valid token is provided and the token is not part of HuBMAP-Read group, only collections that are public will be returned</td></tr>
 
 </table>
@@ -278,7 +276,7 @@ new_collection = entitysdk_instance.get_collection(hubmap_id)
 <tr><td>Description</td><td>Returns a list of all public collections. If a valid token is given that is part of the HuBMAP-Read group, both published and unpublished collections will be returned</td></tr>
 <tr><td>Arguments</td><td>None</td></tr>
 <tr><td>Outputs</td><td>This method outputs a list. The list contains objects of the class Collections.</td></tr>
-<tr><td>Error Handling</td><td>If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get collections method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raise as well.</td></tr>
+<tr><td>Error Handling</td><td>If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get collections method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raised as well.</td></tr>
 <tr><td>Authorization</td><td>No token is required for this method. If a token is provided and it is invalid, an exception will be raised. If a token is not provided, or if a valid token is provided and the token is not part of HuBMAP-Read group, only collections that are public will be returned</td></tr>
 
 </table>
@@ -302,7 +300,7 @@ collections_list = entitysdk_instance.get_collections()
 <tr><td>Description</td><td colspan="2">Creates multiple samples from the same source. Accepts a dictionary containing the information of the given entity and an integer designating how many samples to create. Returns a list of the newly created sample objects. 'direct_ancestor_uuid' is a required field in the dictionary. An example of a valid call would be: create_multiple_samples(5, data) where data is the dictionary containing the information about the new entities. A token is required.</td></tr>
 <tr><td rowspan="4">Arguments</td><td rowspan="2">count</td><td>Optional: No</td></tr><tr><td>Type: Integer</td></tr><tr><td rowspan="2">data</td><td>Optional: No</td></tr><tr><td>Type: Dictionary</td></tr>
 <tr><td>Outputs</td><td colspan="2">This method outputs a list. This list contains objects of the class Sample</td></tr>
-<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The create multiple samples method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raise as well.</td></tr>
+<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The create multiple samples method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raised as well.</td></tr>
 <tr><td>Authorization</td><td colspan="2">A token is required for this method. If a token is provided and it is invalid, an exception will be raised. If a token is not provided, or one is provided but is not in the HuBMAP-Read group, an exception will be raised.</td></tr>
 
 </table>
@@ -327,7 +325,7 @@ list_of_samples = entitysdk_instance.create_multiple_samples(count, data)
 <tr><td>Description</td><td colspan="2">Creates a new entity of a specified type. Takes as input a dictionary containing the details of the new entity and entity type.</td></tr>
 <tr><td rowspan="4">Arguments</td><td rowspan="2">entity_type</td><td>Optional: No</td></tr><tr><td>Type: String</td></tr><tr><td rowspan="2">data</td><td>Optional: No</td></tr><tr><td>Type: Dictionary</td></tr>
 <tr><td>Outputs</td><td colspan="2">This method outputs an instance of a class given by entity_type.</td></tr>
-<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The create entity method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raise as well.</td></tr>
+<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The create entity method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raised as well.</td></tr>
 <tr><td>Authorization</td><td colspan="2">A token is required for this method. If a token is provided and it is invalid, an exception will be raised. If a token is not provided, or one is provided but is not in the HuBMAP-Read group, an exception will be raised.</td></tr>
 
 </table>
@@ -352,7 +350,7 @@ new_sample = entitysdk_instance.create_entity(entity_type, data)
 <tr><td>Description</td><td colspan="2">Updates an existing entity. Takes as input an id (HuBMAP id or UUID) to an existing entity anda dictionary containing the properties either to add to or replace in the given entity. Returns an instance of the class corresponding with the given entity to reflect the new changes</td></tr>
 <tr><td rowspan="4">Arguments</td><td rowspan="2">identifier</td><td>Optional: No</td></tr><tr><td>Type: String</td></tr><tr><td rowspan="2">data</td><td>Optional: No</td></tr><tr><td>Type: Dictionary</td></tr>
 <tr><td>Outputs</td><td colspan="2">This method outputs an instance of a class corresponding to the class of the entity given by its id.</td></tr>
-<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The update entity method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raise as well.</td></tr>
+<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The update entity method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raised as well.</td></tr>
 <tr><td>Authorization</td><td colspan="2">A token is required for this method. If a token is provided and it is invalid, an exception will be raised. If a token is not provided, or one is provided but is not in the HuBMAP-Read group, an exception will be raised.</td></tr>
 
 </table>
@@ -377,7 +375,7 @@ updated_sample = entitysdk_instance.update_entity(hubmap_id, data)
 <tr><td>Description</td><td colspan="2">Takes an id (HuBMAP id or UUID) for an entity and returns all of that entity's ancestors as a list. </td></tr>
 <tr><td rowspan="2">Arguments</td><td rowspan="2">identifier</td><td>Optional: No</td></tr><tr><td>Type: String</td></tr>
 <tr><td>Outputs</td><td colspan="2">This method outputs a list of dictionaries. Each dictionary contains the information of an ancestor of the given id.</td></tr>
-<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get ancestors entity method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raise as well.</td></tr>
+<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get ancestors entity method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raised as well.</td></tr>
 <tr><td>Authorization</td><td colspan="2">No token is required for this method. If a token is provided and it is invalid, an exception will be raised. If a token is not provided, or if a valid token is provided and the token is not part of HuBMAP-Read group, only entities that are public will be returned</td></tr>
 
 </table>
@@ -400,7 +398,7 @@ list_of_ancestors = entitysdk_instance.get_ancestors(hubmap_id)
 <tr><td>Description</td><td colspan="2">Takes an id (HuBMAP id or UUID) for an entity and returns all of that entity's descendants as a list. </td></tr>
 <tr><td rowspan="2">Arguments</td><td rowspan="2">identifier</td><td>Optional: No</td></tr><tr><td>Type: String</td></tr>
 <tr><td>Outputs</td><td colspan="2">This method outputs a list of dictionaries. Each dictionary contains the information of a descendant of the given id.</td></tr>
-<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get descendants entity method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raise as well.</td></tr>
+<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get descendants entity method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raised as well.</td></tr>
 <tr><td>Authorization</td><td colspan="2">No token is required for this method. If a token is provided and it is invalid, an exception will be raised. If a token is not provided, or if a valid token is provided and the token is not part of HuBMAP-Read group, only entities that are public will be returned</td></tr>
 
 </table>
@@ -422,7 +420,7 @@ list_of_descendants = entitysdk_instance.get_descendants(hubmap_id)
 <tr><td>Description</td><td colspan="2">Takes an id (HuBMAP id or UUID) for an entity and returns all of that entity's parents as a list. </td></tr>
 <tr><td rowspan="2">Arguments</td><td rowspan="2">identifier</td><td>Optional: No</td></tr><tr><td>Type: String</td></tr>
 <tr><td>Outputs</td><td colspan="2">This method outputs a list of dictionaries. Each dictionary contains the information of a parent of the given id.</td></tr>
-<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get parents entity method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raise as well.</td></tr>
+<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get parents entity method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raised as well.</td></tr>
 <tr><td>Authorization</td><td colspan="2">No token is required for this method. If a token is provided and it is invalid, an exception will be raised. If a token is not provided, or if a valid token is provided and the token is not part of HuBMAP-Read group, only entities that are public will be returned</td></tr>
 
 </table>
@@ -444,7 +442,7 @@ list_of_parents = entitysdk_instance.get_parents(hubmap_id)
 <tr><td>Description</td><td colspan="2">Takes an id (HuBMAP id or UUID) for an entity and returns all of that entity's children as a list. </td></tr>
 <tr><td rowspan="2">Arguments</td><td rowspan="2">identifier</td><td>Optional: No</td></tr><tr><td>Type: String</td></tr>
 <tr><td>Outputs</td><td colspan="2">This method outputs a list of dictionaries. Each dictionary contains the information of a child of the given id. </td></tr>
-<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get children entity method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raise as well.</td></tr>
+<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get children entity method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raised as well.</td></tr>
 <tr><td>Authorization</td><td colspan="2">No token is required for this method. If a token is provided and it is invalid, an exception will be raised. If a token is not provided, or if a valid token is provided and the token is not part of HuBMAP-Read group, only entities that are public will be returned</td></tr>
 
 </table>
@@ -467,7 +465,7 @@ list_of_children = entitysdk_instance.get_children(hubmap_id)
 <tr><td>Description</td><td colspan="2">Takes an id (HuBMAP id or UUID) for an entity and returns all of that entity's previous revisions as a list. </td></tr>
 <tr><td rowspan="2">Arguments</td><td rowspan="2">identifier</td><td>Optional: No</td></tr><tr><td>Type: String</td></tr>
 <tr><td>Outputs</td><td colspan="2">This method outputs a list of dictionaries. Each dictionary contains the information of a previous revision of the given id. </td></tr>
-<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get previous revisions entity method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raise as well.</td></tr>
+<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get previous revisions entity method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raised as well.</td></tr>
 <tr><td>Authorization</td><td colspan="2">No token is required for this method. If a token is provided and it is invalid, an exception will be raised. If a token is not provided, or if a valid token is provided and the token is not part of HuBMAP-Read group, only entities that are public will be returned</td></tr>
 
 </table>
@@ -491,7 +489,7 @@ list_of_previous_revisions = entitysdk_instance.get_previous_revisions(hubmap_id
 <tr><td>Description</td><td colspan="2">Takes an id (HuBMAP id or UUID) for an entity and returns all of that entity's next revisions as a list. </td></tr>
 <tr><td rowspan="2">Arguments</td><td rowspan="2">identifier</td><td>Optional: No</td></tr><tr><td>Type: String</td></tr>
 <tr><td>Outputs</td><td colspan="2">This method outputs a list of dictionaries. Each dictionary contains the information of a next revision of the given id. </td></tr>
-<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get next revisions entity method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raise as well.</td></tr>
+<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get next revisions entity method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raised as well.</td></tr>
 <tr><td>Authorization</td><td colspan="2">No token is required for this method. If a token is provided and it is invalid, an exception will be raised. If a token is not provided, or if a valid token is provided and the token is not part of HuBMAP-Read group, only entities that are public will be returned</td></tr>
 
 </table>
@@ -516,7 +514,7 @@ list_of_next_revisions = entitysdk_instance.get_next_revisions(hubmap_id)
 <tr><td>Description</td><td colspan="2">Takes an id (HuBMAP id or UUID) for a collection and a list of dataset uuid's and connects each datset to the collection. The collection is then returned </td></tr>
 <tr><td rowspan="4">Arguments</td><td rowspan="2">identifier</td><td>Optional: No</td></tr><tr><td>Type: String</td></tr><tr><td rowspan="2">list_of_datasets</td><td>Optional: No</td></tr><tr><td>Type: List</td></tr>
 <tr><td>Outputs</td><td colspan="2">This method outputs an instance of the class Collection corresponding to the given id</td></tr>
-<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The add datasets to collection method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raise as well.</td></tr>
+<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The add datasets to collection method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raised as well.</td></tr>
 <tr><td>Authorization</td><td colspan="2">No token is required for this method. If a token is provided and it is invalid, an exception will be raised. If a token is not provided, or if a valid token is provided and the token is not part of HuBMAP-Read group, only entities that are public will be returned and both the collection and each of the datasets must be public, otherwise an exception will be raised </td></tr>
 
 </table>
@@ -540,7 +538,7 @@ new_collection = entitysdk_instance.add_datasets_to_collection(hubmap_id, list_o
 <tr><td>Description</td><td colspan="2">Takes an id (HuBMAP id or UUID) for an entity and returns that entity's globus url </td></tr>
 <tr><td rowspan="2">Arguments</td><td rowspan="2">identifier</td><td>Optional: No</td></tr><tr><td> Type: String</td></tr>
 <tr><td>Outputs</td><td colspan="2">This method outputs a string containing the globus url</td></tr>
-<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get globus url method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raise as well.</td></tr>
+<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get globus url method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raised as well.</td></tr>
 <tr><td>Authorization</td><td colspan="2">No token is required for this method. If a token is provided and it is invalid, an exception will be raised. If a token is not provided, or if a valid token is provided and the token is not part of HuBMAP-Read group, only urls for entities that are public will be returned</td></tr>
 
 </table>
@@ -563,7 +561,7 @@ globus_url = entitysdk_instance.get_globus_url(hubmap_id)
 <tr><td>Description</td><td colspan="2">Takes an id (HuBMAP id or UUID) for a dataset and returns an instance of the class dataset corresponding with the latest revision of the dataset given by the id </td></tr>
 <tr><td rowspan="2">Arguments</td><td rowspan="2">identifier</td><td>Optional: No</td></tr><tr><td> Type: String</td></tr>
 <tr><td>Outputs</td><td colspan="2">This method outputs an instance of the class Dataset. This Dataset object corresponds with the latest revision of the dataset of the given id</td></tr>
-<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get dataset latest revision method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raise as well.</td></tr>
+<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get dataset latest revision method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raised as well.</td></tr>
 <tr><td>Authorization</td><td colspan="2">No token is required for this method. If a token is provided and it is invalid, an exception will be raised. If a token is not provided, or if a valid token is provided and the token is not part of HuBMAP-Read group, only published datasets will be returned</td></tr>
 
 </table>
@@ -586,7 +584,7 @@ latest_revision = entitysdk_instance.get_dataset_latest_revision(hubmap_id)
 <tr><td>Description</td><td colspan="2">Takes an id (HuBMAP id or UUID) for a dataset and returns the revision number of that dataset as an integer</td></tr>
 <tr><td rowspan="2">Arguments</td><td rowspan="2">identifier</td><td>Optional: No</td></tr><tr><td> Type: String</td></tr>
 <tr><td>Outputs</td><td colspan="2">This method outputs an integer for the revision number of a given dataset</td></tr>
-<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get dataset revision number method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raise as well.</td></tr>
+<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get dataset revision number method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raised as well.</td></tr>
 <tr><td>Authorization</td><td colspan="2">No token is required for this method. If a token is provided and it is invalid, an exception will be raised. If a token is not provided, or if a valid token is provided and the token is not part of HuBMAP-Read group, but the given id is for an unpublished dataset, an error will be raised</td></tr>
 
 </table>
@@ -609,7 +607,7 @@ revision_number = entitysdk_instance.get_dataset_revision_number(hubmap_id)
 <tr><td>Description</td><td colspan="2">Retracts a published dataset. Takes as input an id (HuBMAP id or UUID) for a dataset and a string "retraction_reason" and changes the field "sub_status" to "retracted" and sets "retraction_reason" to the string retraction_reason for the given dataset. The updated dataset is returned</td></tr>
 <tr><td rowspan="4">Arguments</td><td rowspan="2">identifier</td><td>Optional: No</td></tr><tr><td>Type: String</td></tr><tr><td rowspan="2">retraction_reason</td><td>Optional: No</td></tr><tr><td>Type: String</td></tr>
 <tr><td>Outputs</td><td colspan="2">This method outputs an instance of the class Dataset corresponding to the retracted dataset</td></tr>
-<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The retract dataset method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raise as well.</td></tr>
+<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The retract dataset method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raised as well.</td></tr>
 <tr><td>Authorization</td><td colspan="2">A token is required for this method. If a token is provided and it is invalid, an exception will be raised. If a token is not provided, or if a valid token is provided and the token is not part of HuBMAP-Data-Admin group, an exception will be raised</td></tr>
 
 </table>
@@ -633,7 +631,7 @@ retracted_dataset = entitysdk_instance.retract_dataset(hubmap_id, retraction_rea
 <tr><td>Description</td><td colspan="2">Takes as input an id (HuBMAP id or UUID) for a dataset and returns the list of all next or previous revisions of that dataset. It doesn't matter where in the list of revisions the given dataset is. For example, if the given dataset is the first revision of 5, or the 5th revision of 5, the output will be the same. Accepts an optional argument "include_dataset". By default this is false. If left unchanged, only the revision number and uuid will be included for each revision. If include_dataset is set to true, the full dataset will also be returned for each</td></tr>
 <tr><td rowspan="4">Arguments</td><td rowspan="2">identifier</td><td>Optional: No</td></tr><tr><td>Type: String</td></tr><tr><td rowspan="2">include_dataset</td><td>Optional: Yes</td></tr><tr><td>Type: Bool</td></tr>
 <tr><td>Outputs</td><td colspan="2">This method outputs a list of dictionaries. Each dictionary contains the revision number integer, and the uuid of the dataset as a string. If include_dataset is set to true, then the complete dataset for each will be included as a dictionary as well in the form of a dataset object</td></tr>
-<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get revisions list method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raise as well.</td></tr>
+<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get revisions list method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raised as well.</td></tr>
 <tr><td>Authorization</td><td colspan="2">No token is required for this method. If a token is provided and it is invalid, an exception will be raised. If a token is not provided, or if a valid token is provided and the token is not part of HuBMAP-Read group, only information for entities that are public will be returned</td></tr>
 
 </table>
@@ -655,7 +653,7 @@ list_of_revisions = entitysdk_instance.get_revisions_list(hubmap_id, include_dat
 <tr><td>Description</td><td colspan="2">Takes an id (HuBMAP id or UUID) for a dataset and returns the list of organs associated with the given dataset</td></tr>
 <tr><td rowspan="2">Arguments</td><td rowspan="2">identifier</td><td>Optional: No</td></tr><tr><td> Type: String</td></tr>
 <tr><td>Outputs</td><td colspan="2">This method outputs a list of Sample objects corresponding to the organs associated with the dataset given by id.</td></tr>
-<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get associated organs by dataset method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raise as well.</td></tr>
+<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get associated organs by dataset method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raised as well.</td></tr>
 <tr><td>Authorization</td><td colspan="2">No token is required for this method. If a token is provided and it is invalid, an exception will be raised. If a token is not provided, or if a valid token is provided and the token is not part of HuBMAP-Read group, only information for organs that are public will be returned</td></tr>
 
 </table>
@@ -667,4 +665,49 @@ hubmap_id = "HBM123.ABCD.456"
 organs_list = entitysdk_instance.get_associated_organs_from_dataset(hubmap_id)
 ```
 
+---
 
+### Get Prov Info
+
+<table>
+
+<tr><td>Description</td><td colspan="2">Returns provenance info for all primary datasets in the form of a list of dictionaries. Optionally accepts several arguments: has_rui_info group_uuid, organ, and dataset_status which filter the results based on these arguments. </td></tr>
+<tr><td rowspan="8">Arguments</td><td rowspan="2">has_rui_info</td><td>Optional: Yes</td></tr><tr><td>Type: String or Boolean</td></tr><tr><td rowspan="2">group_uuid</td><td>Optional: Yes</td></tr><tr><td>Type: String</td></tr><tr><td rowspan="2">organ</td><td>Optional: Yes</td></tr><tr><td>Type: String</td></tr><tr><td rowspan="2">dataset_status</td><td>Optional: Yes</td></tr><tr><td>Type: String</td></tr>
+<tr><td>Output</td><td colspan="2">This method outputs a list of dictionaries containing the provenance info for the returned datasets. </td></tr>
+<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get prov info method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raised as well.</td></tr>
+<tr><td>Authorization</td><td colspan="2">No token is required for this method. If a token is provided and it is invalid, an exception will be raised. If a token is not provided, or if a valid token is provided and the token is not part of HuBMAP-Read group, only published datasets will be returned</td></tr>
+
+</table>
+
+Example:
+
+```python
+rui = False
+group = '1234abcd-56ef-78gh-901234ijklmn'
+organ = LV
+status = "published"
+prov_info = entitysdk_instance.get_prov_info(rui_info=rui, group_uuid=group, organ=organ, dataset_status=status))
+```
+
+---
+
+### Get Prov Info By Id
+
+<table>
+
+<tr><td>Description</td><td colspan="2">Takes an id (HuBMAP id or UUID) for a dataset and returns the provenance info of that dataset as a dictionary</td></tr>
+<tr><td rowspan="2">Arguments</td><td rowspan="2">identifier</td><td>Optional: No</td></tr><tr><td> Type: String</td></tr>
+<tr><td>Outputs</td><td colspan="2">This method outputs a dictionary containing all of the provenance info for the given dataset</td></tr>
+<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get prov info by id method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raised as well.</td></tr>
+<tr><td>Authorization</td><td colspan="2">No token is required for this method. If a token is provided and it is invalid, an exception will be raised. If a token is not provided, or if a valid token is provided and the token is not part of HuBMAP-Read group, but the given id is for an unpublished dataset, an error will be raised</td></tr>
+
+</table>
+
+Example:
+
+```python
+hubmap_id = "HBM123.ABCD.456"
+prov_info = entitysdk_instance.get_prov_info_by_id(hubmap_id)
+```
+
+---
