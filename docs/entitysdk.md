@@ -80,7 +80,6 @@ The following entity sdk methods each correspond with an endpoint inside the ent
 * [Get Entity by Id](#get-entity-by-id)
 * [Get Entity Provenance](#get-entity-provenance)
 * [Get Entity Types](#get-entity-types)
-* [Get Entities by Type](#get-entities-by-type)
 * [Get Collection](#get-collection)
 * [Get Collections](#get-collections)
 * [Create Multiple Samples](#create-multiple-samples)
@@ -218,32 +217,6 @@ list_of_entity_types = entitysdk_instance.get_entity_types()
 ```
 
 ---
-
-
-
-
-### Get Entities by Type
-
-<table>
-
-<tr><td>Description</td><td colspan="2">Takes as input an entity type and returns a list of all entities within that given type. Acceptable values for entity type are the entities defined in the <a href="https://raw.githubusercontent.com/hubmapconsortium/entity-api/test-release/entity-api-spec.yaml">Schema Yaml</a></td></tr>
-<tr><td rowspan="2">Arguments</td><td rowspan="2">entity_type</td><td>Optional: No</td></tr><tr><td>Type: String</td></tr>
-<tr><td>Outputs</td><td colspan="2">This method outputs a list. This list contains objects of the class given by entity_type</td></tr>
-<tr><td>Error Handling</td><td colspan="2">If the response code from Entity Api is greater than 299, an exception will be raised. The exception message will be the response from the Entity API. The get entities by type method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Entity Api fails, an exception will be raised as well.</td></tr>
-<tr><td>Authorization</td><td colspan="2">No token is required for this method. If a token is provided and it is invalid, an exception will be raised. If a token is not provided, or if a valid token is provided and the token is not part of HuBMAP-Read group, only entities that are public will be returned</td></tr>
-
-</table>
-
-Example:
-
-```python
-entity_type = "uploads"
-list_of_uploads = entitysdk_instance.get_entities_by_type(entity_type)
-```
-
-
----
-
 
 
 ### Get Collection
