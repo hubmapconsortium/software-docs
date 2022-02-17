@@ -14,7 +14,7 @@ Autofluorescence microscopy exploits endogenous fluorescence in a biological tis
 ## Definitions: 
 There are a variety of terms used in this document that may not be familiar to all researchers wanting to make use of the HubMap data. The following figures illustrate several of these terms:
 
-![](https://lh5.googleusercontent.com/kcmAgdCFNvzfAfvkE6qeRig2kb-CQmAfMILcjgSpZyblhGc4lKbj95zEolUEuwiHXO_UPPTFXPWdQvVvi7iWJAsuE-6EhPf9Le35gePMlgIfJpiaskBXqzKWi3xhBkaoWEsrJebu)    
+![](/assays/images/AF_Figure1.png)    
 *Figure 1: Pictorial representation of microscopy terms. The black box is an example slide or cover slip where the sample is located. Blue boxes are examples of “regions” or user defined imaging areas. For instance, if you want to image a specific structure in the tissue, you would designate a “region” over the structure. Red boxes are examples of “tiles” or the microscope “field of view”. The size of the tile is dependent on the microscope set up and objective. Tiles will fill the region.
 Because the field of view cannot be changed, tiles will overhang from the region, ensuring the entire region is imaged at the expense of extra tiles being acquired.*
 
