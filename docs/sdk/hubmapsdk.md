@@ -29,8 +29,8 @@ urllib3<=1.26.7
 
 Each module within the hubmap_sdk contains a class corresponding to its respective HuBMAP API. This class is what gives access to the functionality of its given API. Follow the links below to learn more about each module including how to get started and a breakdown of each of its methods:
 
-* [Entity SDK](entitysdk.html)
-* [Search SDK](searchsdk.html)
+* [Entity SDK](/sdk/entitysdk.html)
+* [Search SDK](/sdk/searchsdk.html)
 
 ### Demo the HuBMAP SDK with Jupyter Notebook
 
