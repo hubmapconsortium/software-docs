@@ -34,6 +34,6 @@ Each module within the hubmap_sdk contains a class corresponding to its respecti
 
 ### Demo the HuBMAP SDK with Jupyter Notebook
 
-Download an interactive [Jupyter Notebook Tutorial](Hubmap-Sdk.ipynb)
+Download an interactive [Jupyter Notebook Tutorial](/sdk/Hubmap-Sdk.ipynb)
 
 To get started wtih Jupyter Notebooks, refer to the [Jupyter Documentation](https://docs.jupyter.org/en/latest/)
