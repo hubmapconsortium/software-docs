@@ -22,22 +22,22 @@ University of Florida TMC,lymph node,CODEX,Published
 University of Florida TMC,lymph node,sc/sn/sciRNA-seq,Published
 University of Florida TMC,lymph node,CODEX,Published
 University of Florida TMC,lymph node,CODEX,Published
-Northwestern RTI,kidney (left),LC-MS,New
+Northwestern RTI,kidney (left),Untargeted LC-MS,New
 Vanderbilt TMC,kidney (left),MALDI IMS,Published
 Vanderbilt TMC,kidney (left),MALDI IMS,Published
 Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
 Vanderbilt TMC,kidney (left),Autofluorescence Microscopy,Published
 Vanderbilt TMC,kidney (left),Autofluorescence Microscopy,Published
-Vanderbilt TMC,kidney (left),LC-MS,Published
+Vanderbilt TMC,kidney (left),Untargeted LC-MS,Published
 Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
-Vanderbilt TMC,kidney (right),LC-MS,Published
-Vanderbilt TMC,kidney (left),LC-MS,New
+Vanderbilt TMC,kidney (right),Untargeted LC-MS,Published
+Vanderbilt TMC,kidney (left),Untargeted LC-MS,New
 Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
-Vanderbilt TMC,kidney (left),MALDI IMS,QA
-Vanderbilt TMC,kidney (left),MALDI IMS,QA
-Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
-Vanderbilt TMC,kidney (left),Autofluorescence Microscopy,Published
-Vanderbilt TMC,kidney (left),LC-MS,Published
+Vanderbilt TMC,kidney (left),PAS Stained Microscopy,QA
+Vanderbilt TMC,kidney (left),Autofluorescence Microscopy,QA
+Vanderbilt TMC,kidney (left),MALDI IMS,New
+Vanderbilt TMC,kidney (left),MALDI IMS,New
+Vanderbilt TMC,kidney (left),Untargeted LC-MS,Published
 Vanderbilt TMC,kidney (left),MALDI IMS,Published
 Vanderbilt TMC,kidney (left),MALDI IMS,Published
 Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
@@ -68,13 +68,13 @@ Stanford TMC,large intestine,CODEX,Published
 Stanford TMC,large intestine,sc/sn/sciATAC-seq,QA
 Stanford TMC,large intestine,sc/sn/sciATAC-seq,New
 Stanford TMC,large intestine,sc/sn/sciRNA-seq,New
-Stanford TMC,large intestine,LC-MS,Published
-Stanford TMC,large intestine,LC-MS,Published
-Stanford TMC,large intestine,LC-MS,Published
-Stanford TMC,large intestine,LC-MS,Published
+Stanford TMC,large intestine,TMT LC-MS,Published
+Stanford TMC,large intestine,Untargeted LC-MS,Published
+Stanford TMC,large intestine,Untargeted LC-MS,Published
+Stanford TMC,large intestine,Untargeted LC-MS,Published
 Stanford TMC,large intestine,Bulk ATAC-seq,Published
-Stanford TMC,large intestine,LC-MS,Published
-Stanford TMC,large intestine,LC-MS,Published
+Stanford TMC,large intestine,Untargeted LC-MS,Published
+Stanford TMC,large intestine,Targeted Shotgun / Flow-injection LC-MS,Published
 Stanford TMC,large intestine,Whole Genome Sequencing,Published
 Stanford TMC,large intestine,Bulk ATAC-seq,Published
 Stanford TMC,large intestine,Bulk RNA-seq,Published
@@ -84,103 +84,104 @@ Stanford TMC,large intestine,Bulk ATAC-seq,Published
 Stanford TMC,large intestine,sc/sn/sciATAC-seq,QA
 Stanford TMC,large intestine,sc/sn/sciRNA-seq,New
 Stanford TMC,large intestine,sc/sn/sciATAC-seq,New
-Stanford TMC,large intestine,LC-MS,Published
-Stanford TMC,large intestine,LC-MS,Published
-Stanford TMC,large intestine,LC-MS,Published
+Stanford TMC,large intestine,Untargeted LC-MS,Published
+Stanford TMC,large intestine,Untargeted LC-MS,Published
+Stanford TMC,large intestine,Untargeted LC-MS,Published
 Stanford TMC,large intestine,Bulk RNA-seq,Published
-Stanford TMC,large intestine,LC-MS,Published
-Stanford TMC,large intestine,LC-MS,Published
+Stanford TMC,large intestine,Untargeted LC-MS,Published
+Stanford TMC,large intestine,Targeted Shotgun / Flow-injection LC-MS,Published
 Stanford TMC,large intestine,Whole Genome Sequencing,Published
 Stanford TMC,large intestine,sc/sn/sciRNA-seq,New
-Stanford TMC,large intestine,LC-MS,Published
-Stanford TMC,large intestine,LC-MS,Published
-Stanford TMC,large intestine,LC-MS,Published
+Stanford TMC,large intestine,Untargeted LC-MS,Published
+Stanford TMC,large intestine,Untargeted LC-MS,Published
+Stanford TMC,large intestine,Untargeted LC-MS,Published
 Stanford TMC,large intestine,Bulk ATAC-seq,Published
 Stanford TMC,large intestine,Bulk RNA-seq,Published
 Stanford TMC,large intestine,sc/sn/sciRNA-seq,Published
 Stanford TMC,large intestine,sc/sn/sciATAC-seq,Published
 Stanford TMC,large intestine,Bulk ATAC-seq,Published
-Stanford TMC,large intestine,LC-MS,Published
-Stanford TMC,large intestine,LC-MS,Published
+Stanford TMC,large intestine,Untargeted LC-MS,Published
+Stanford TMC,large intestine,Targeted Shotgun / Flow-injection LC-MS,Published
 Stanford TMC,large intestine,Whole Genome Sequencing,Published
-Stanford TMC,large intestine,LC-MS,Published
-Stanford TMC,large intestine,LC-MS,Published
-Stanford TMC,large intestine,LC-MS,Published
+Stanford TMC,large intestine,Untargeted LC-MS,Published
+Stanford TMC,large intestine,Untargeted LC-MS,Published
+Stanford TMC,large intestine,Untargeted LC-MS,Published
 Stanford TMC,large intestine,Bulk ATAC-seq,Published
 Stanford TMC,large intestine,Bulk RNA-seq,Published
 Stanford TMC,large intestine,sc/sn/sciRNA-seq,Published
 Stanford TMC,large intestine,sc/sn/sciATAC-seq,Published
 Stanford TMC,large intestine,Bulk ATAC-seq,Published
-Stanford TMC,large intestine,LC-MS,Published
-Stanford TMC,large intestine,LC-MS,Published
+Stanford TMC,large intestine,Untargeted LC-MS,Published
+Stanford TMC,large intestine,Targeted Shotgun / Flow-injection LC-MS,Published
 Stanford TMC,large intestine,Whole Genome Sequencing,Published
 Stanford TMC,small intestine,CODEX,Published
 Stanford TMC,small intestine,sc/sn/sciATAC-seq,QA
 Stanford TMC,small intestine,sc/sn/sciRNA-seq,New
 Stanford TMC,small intestine,sc/sn/sciATAC-seq,New
-Stanford TMC,small intestine,LC-MS,Published
-Stanford TMC,small intestine,LC-MS,Published
-Stanford TMC,small intestine,LC-MS,Published
-Stanford TMC,small intestine,LC-MS,Published
+Stanford TMC,small intestine,TMT LC-MS,Published
+Stanford TMC,small intestine,Untargeted LC-MS,Published
+Stanford TMC,small intestine,Untargeted LC-MS,Published
+Stanford TMC,small intestine,Untargeted LC-MS,Published
 Stanford TMC,small intestine,Bulk ATAC-seq,Published
 Stanford TMC,small intestine,Bulk RNA-seq,Published
 Stanford TMC,small intestine,Bulk ATAC-seq,Published
-Stanford TMC,small intestine,LC-MS,Published
-Stanford TMC,small intestine,LC-MS,Published
+Stanford TMC,small intestine,Untargeted LC-MS,Published
+Stanford TMC,small intestine,Targeted Shotgun / Flow-injection LC-MS,Published
 Stanford TMC,small intestine,Whole Genome Sequencing,Published
 Stanford TMC,small intestine,sc/sn/sciATAC-seq,QA
 Stanford TMC,small intestine,sc/sn/sciRNA-seq,New
 Stanford TMC,small intestine,sc/sn/sciATAC-seq,New
-Stanford TMC,small intestine,LC-MS,Published
-Stanford TMC,small intestine,LC-MS,Published
-Stanford TMC,small intestine,LC-MS,Published
+Stanford TMC,small intestine,Untargeted LC-MS,Published
+Stanford TMC,small intestine,Untargeted LC-MS,Published
+Stanford TMC,small intestine,Untargeted LC-MS,Published
 Stanford TMC,small intestine,Bulk ATAC-seq,Published
 Stanford TMC,small intestine,Bulk RNA-seq,Published
 Stanford TMC,small intestine,Bulk ATAC-seq,Published
-Stanford TMC,small intestine,LC-MS,Published
-Stanford TMC,small intestine,LC-MS,Published
+Stanford TMC,small intestine,Untargeted LC-MS,Published
+Stanford TMC,small intestine,Targeted Shotgun / Flow-injection LC-MS,Published
 Stanford TMC,small intestine,Whole Genome Sequencing,Published
 Stanford TMC,small intestine,sc/sn/sciATAC-seq,QA
 Stanford TMC,small intestine,sc/sn/sciRNA-seq,New
 Stanford TMC,small intestine,sc/sn/sciATAC-seq,New
-Stanford TMC,small intestine,LC-MS,Published
-Stanford TMC,small intestine,LC-MS,Published
-Stanford TMC,small intestine,LC-MS,Published
+Stanford TMC,small intestine,Untargeted LC-MS,Published
+Stanford TMC,small intestine,Untargeted LC-MS,Published
+Stanford TMC,small intestine,Untargeted LC-MS,Published
 Stanford TMC,small intestine,Bulk ATAC-seq,Published
 Stanford TMC,small intestine,Bulk RNA-seq,Published
 Stanford TMC,small intestine,Bulk ATAC-seq,Published
-Stanford TMC,small intestine,LC-MS,Published
-Stanford TMC,small intestine,LC-MS,Published
+Stanford TMC,small intestine,Untargeted LC-MS,Published
+Stanford TMC,small intestine,Targeted Shotgun / Flow-injection LC-MS,Published
 Stanford TMC,small intestine,Whole Genome Sequencing,Published
 Stanford TMC,small intestine,sc/sn/sciATAC-seq,QA
 Stanford TMC,small intestine,sc/sn/sciRNA-seq,New
 Stanford TMC,small intestine,sc/sn/sciATAC-seq,New
-Stanford TMC,small intestine,LC-MS,Published
-Stanford TMC,small intestine,LC-MS,Published
-Stanford TMC,small intestine,LC-MS,Published
+Stanford TMC,small intestine,Untargeted LC-MS,Published
+Stanford TMC,small intestine,Untargeted LC-MS,Published
+Stanford TMC,small intestine,Untargeted LC-MS,Published
 Stanford TMC,small intestine,Bulk ATAC-seq,Published
 Stanford TMC,small intestine,Bulk ATAC-seq,Published
 Stanford TMC,small intestine,Bulk RNA-seq,Published
-Stanford TMC,small intestine,LC-MS,Published
-Stanford TMC,small intestine,LC-MS,Published
+Stanford TMC,small intestine,Untargeted LC-MS,Published
+Stanford TMC,small intestine,Targeted Shotgun / Flow-injection LC-MS,Published
 Stanford TMC,small intestine,Whole Genome Sequencing,Published
-California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,Published
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
 California Institute of Technology TMC,heart,seqFISH,Published
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,Invalid
-California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,Published
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,Invalid
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,Invalid
 California Institute of Technology TMC,heart,seqFISH,Published
-California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,Published
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
 California Institute of Technology TMC,heart,seqFISH,Published
 Vanderbilt TMC,kidney (right),Autofluorescence Microscopy,Published
 Vanderbilt TMC,kidney (right),PAS Stained Microscopy,Published
 Vanderbilt TMC,kidney (right),MALDI IMS,Published
 Vanderbilt TMC,kidney (right),MALDI IMS,Published
-Northwestern RTI,kidney (right),LC-MS,New
+Northwestern RTI,kidney (right),Untargeted LC-MS,New
 Vanderbilt TMC,kidney (right),MALDI IMS,Published
 Vanderbilt TMC,kidney (right),MALDI IMS,Published
 Vanderbilt TMC,kidney (right),PAS Stained Microscopy,Published
 Vanderbilt TMC,kidney (right),Autofluorescence Microscopy,Published
-Vanderbilt TMC,kidney (right),LC-MS,Published
+Vanderbilt TMC,kidney (right),Untargeted LC-MS,Published
 Vanderbilt TMC,kidney (right),PAS Stained Microscopy,Published
 University of Florida TMC,spleen,CODEX,Published
 University of Florida TMC,spleen,sc/sn/sciRNA-seq,Published
@@ -199,26 +200,26 @@ Vanderbilt TMC,kidney (left),Autofluorescence Microscopy,Published
 Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
 Vanderbilt TMC,kidney (left),MALDI IMS,Published
 Vanderbilt TMC,kidney (left),MALDI IMS,Published
-Vanderbilt TMC,kidney (left),MALDI IMS,QA
-Vanderbilt TMC,kidney (left),MALDI IMS,QA
-Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
-Vanderbilt TMC,kidney (left),Autofluorescence Microscopy,Published
+Vanderbilt TMC,kidney (left),PAS Stained Microscopy,QA
+Vanderbilt TMC,kidney (left),Autofluorescence Microscopy,QA
+Vanderbilt TMC,kidney (left),MALDI IMS,New
+Vanderbilt TMC,kidney (left),MALDI IMS,New
 Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
 Vanderbilt TMC,kidney (right),Autofluorescence Microscopy,Published
 Vanderbilt TMC,kidney (right),PAS Stained Microscopy,Published
 Vanderbilt TMC,kidney (right),MALDI IMS,Published
 Vanderbilt TMC,kidney (right),MALDI IMS,Published
 Vanderbilt TMC,kidney (right),Autofluorescence Microscopy,Published
-Northwestern RTI,kidney (left),LC-MS,New
+Northwestern RTI,kidney (left),Untargeted LC-MS,New
 Vanderbilt TMC,kidney (left),Autofluorescence Microscopy,Published
 Vanderbilt TMC,kidney (left),MALDI IMS,Published
 Vanderbilt TMC,kidney (left),MALDI IMS,Published
 Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
-Vanderbilt TMC,kidney (left),LC-MS,Published
+Vanderbilt TMC,kidney (left),Untargeted LC-MS,Published
 Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
-Northwestern RTI,kidney (right),LC-MS,New
+Northwestern RTI,kidney (right),Untargeted LC-MS,New
 Vanderbilt TMC,kidney (right),Autofluorescence Microscopy,Published
-Vanderbilt TMC,kidney (right),LC-MS,Published
+Vanderbilt TMC,kidney (right),Untargeted LC-MS,Published
 Vanderbilt TMC,kidney (right),PAS Stained Microscopy,Published
 Vanderbilt TMC,kidney (right),Autofluorescence Microscopy,Published
 Vanderbilt TMC,kidney (right),MALDI IMS,Published
@@ -229,10 +230,10 @@ Vanderbilt TMC,kidney (left),MALDI IMS,Published
 Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
 Vanderbilt TMC,kidney (left),Autofluorescence Microscopy,Published
 Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
-Vanderbilt TMC,kidney (left),MALDI IMS,QA
-Vanderbilt TMC,kidney (left),MALDI IMS,QA
-Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
-Vanderbilt TMC,kidney (left),Autofluorescence Microscopy,Published
+Vanderbilt TMC,kidney (left),PAS Stained Microscopy,QA
+Vanderbilt TMC,kidney (left),Autofluorescence Microscopy,QA
+Vanderbilt TMC,kidney (left),MALDI IMS,New
+Vanderbilt TMC,kidney (left),MALDI IMS,New
 Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
 Stanford TMC,large intestine,CODEX,New
 Stanford TMC,large intestine,CODEX,QA
@@ -265,50 +266,42 @@ Stanford TMC,small intestine,CODEX,QA
 Stanford TMC,small intestine,sc/sn/sciRNA-seq,New
 Stanford TMC,small intestine,sc/sn/sciATAC-seq,New
 Stanford TMC,small intestine,CODEX,New
-Stanford TMC,small intestine,Whole Genome Sequencing,Published
 Stanford TMC,small intestine,sc/sn/sciATAC-seq,QA
 Stanford TMC,small intestine,CODEX,QA
 Stanford TMC,small intestine,sc/sn/sciRNA-seq,New
 Stanford TMC,small intestine,Whole Genome Sequencing,New
 Stanford TMC,small intestine,sc/sn/sciATAC-seq,New
-Stanford TMC,small intestine,Whole Genome Sequencing,Published
 Stanford TMC,small intestine,sc/sn/sciATAC-seq,QA
 Stanford TMC,small intestine,CODEX,QA
 Stanford TMC,small intestine,sc/sn/sciRNA-seq,New
 Stanford TMC,small intestine,Whole Genome Sequencing,New
 Stanford TMC,small intestine,sc/sn/sciATAC-seq,New
-Stanford TMC,small intestine,Whole Genome Sequencing,Published
 Stanford TMC,small intestine,sc/sn/sciATAC-seq,QA
 Stanford TMC,small intestine,CODEX,QA
 Stanford TMC,small intestine,sc/sn/sciRNA-seq,New
 Stanford TMC,small intestine,Whole Genome Sequencing,New
 Stanford TMC,small intestine,sc/sn/sciATAC-seq,New
-Stanford TMC,small intestine,Whole Genome Sequencing,Published
 Stanford TMC,small intestine,sc/sn/sciATAC-seq,QA
 Stanford TMC,small intestine,CODEX,QA
 Stanford TMC,small intestine,sc/sn/sciRNA-seq,New
 Stanford TMC,small intestine,Whole Genome Sequencing,New
 Stanford TMC,small intestine,sc/sn/sciATAC-seq,New
 Stanford TMC,large intestine,CODEX,New
-Stanford TMC,large intestine,Whole Genome Sequencing,Published
 Stanford TMC,large intestine,sc/sn/sciATAC-seq,QA
 Stanford TMC,large intestine,CODEX,QA
 Stanford TMC,large intestine,sc/sn/sciRNA-seq,New
 Stanford TMC,large intestine,Whole Genome Sequencing,New
 Stanford TMC,large intestine,sc/sn/sciATAC-seq,New
-Stanford TMC,large intestine,Whole Genome Sequencing,Published
 Stanford TMC,large intestine,sc/sn/sciATAC-seq,QA
 Stanford TMC,large intestine,CODEX,QA
 Stanford TMC,large intestine,sc/sn/sciRNA-seq,New
 Stanford TMC,large intestine,Whole Genome Sequencing,New
 Stanford TMC,large intestine,sc/sn/sciATAC-seq,New
-Stanford TMC,large intestine,Whole Genome Sequencing,Published
 Stanford TMC,large intestine,sc/sn/sciATAC-seq,QA
 Stanford TMC,large intestine,CODEX,QA
 Stanford TMC,large intestine,sc/sn/sciRNA-seq,New
 Stanford TMC,large intestine,Whole Genome Sequencing,New
 Stanford TMC,large intestine,sc/sn/sciATAC-seq,New
-Stanford TMC,large intestine,Whole Genome Sequencing,Published
 Stanford TMC,large intestine,sc/sn/sciATAC-seq,QA
 Stanford TMC,large intestine,sc/sn/sciATAC-seq,QA
 Stanford TMC,large intestine,CODEX,QA
@@ -316,141 +309,90 @@ Stanford TMC,large intestine,sc/sn/sciRNA-seq,New
 Stanford TMC,large intestine,Whole Genome Sequencing,New
 Stanford TMC,large intestine,sc/sn/sciATAC-seq,New
 Stanford TMC,large intestine,sc/sn/sciATAC-seq,New
-Stanford TMC,blood,Whole Genome Sequencing,Published
 Stanford TMC,blood,Whole Genome Sequencing,New
 California Institute of Technology TMC,pancreas,sc/sn/sciATAC-seq,Published
 California Institute of Technology TMC,spleen,sc/sn/sciATAC-seq,Published
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,QA
 California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,New
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,New
 California Institute of Technology TMC,lung (right),sc/sn/sciATAC-seq,Published
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,QA
 California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,New
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,QA
 California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,New
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,New
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,New
 California Institute of Technology TMC,pancreas,sc/sn/sciATAC-seq,QA
 California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,Published
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,QA
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
 California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,Published
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,New
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,New
 California Institute of Technology TMC,liver,sc/sn/sciATAC-seq,Published
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,QA
 California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,New
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,QA
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,New
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
 California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,Published
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,New
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,QA
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,New
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
 California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,Published
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,New
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,New
 California Institute of Technology TMC,liver,sc/sn/sciATAC-seq,Published
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,QA
 California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,New
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,QA
 California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,New
-University of California San Diego TMC,kidney (left),sc/sn/sciRNA-seq,New
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,New
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,New
 Stanford TMC,heart,sc/sn/sciRNA-seq,QA
 Stanford TMC,heart,sc/sn/sciATAC-seq,New
-University of California San Diego TMC,kidney (left),sc/sn/sciRNA-seq,New
-Vanderbilt TMC,kidney (left),LC-MS,Published
-Vanderbilt TMC,kidney (right),LC-MS,Published
-Vanderbilt TMC,kidney (left),LC-MS,Published
-Vanderbilt TMC,kidney (left),LC-MS,Published
-Vanderbilt TMC,kidney (right),LC-MS,Published
-Vanderbilt TMC,kidney (left),LC-MS,Published
-Vanderbilt TMC,kidney (left),LC-MS,Published
-Vanderbilt TMC,kidney (right),LC-MS,Published
-Vanderbilt TMC,kidney (right),LC-MS,Published
-Vanderbilt TMC,kidney (left),LC-MS,Published
+Vanderbilt TMC,kidney (left),Untargeted LC-MS,Published
+Vanderbilt TMC,kidney (right),Untargeted LC-MS,Published
+Vanderbilt TMC,kidney (left),Untargeted LC-MS,Published
+Vanderbilt TMC,kidney (left),Untargeted LC-MS,Published
+Vanderbilt TMC,kidney (right),Untargeted LC-MS,Published
+Vanderbilt TMC,kidney (left),Untargeted LC-MS,Published
+Vanderbilt TMC,kidney (left),Untargeted LC-MS,Published
+Vanderbilt TMC,kidney (right),Untargeted LC-MS,Published
+Vanderbilt TMC,kidney (right),Untargeted LC-MS,Published
+Vanderbilt TMC,kidney (left),Untargeted LC-MS,Published
 Purdue TTD,kidney (left),nano-DESI IMS positive,New
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (right),SNARE-seq,Hold
-University of California San Diego TMC,kidney (left),SNARE-seq,Hold
-University of California San Diego TMC,kidney (left),SNARE-seq,Hold
-University of California San Diego TMC,kidney (left),SNARE-seq,Hold
-University of California San Diego TMC,kidney (left),SNARE-seq,Hold
-University of California San Diego TMC,kidney (left),SNARE-seq,Hold
-University of California San Diego TMC,kidney (left),SNARE-seq,Hold
-University of California San Diego TMC,kidney (left),SNARE-seq,Hold
-University of California San Diego TMC,kidney (left),SNARE-seq,Hold
-University of California San Diego TMC,kidney (left),SNARE-seq,Hold
-University of California San Diego TMC,kidney (left),SNARE-seq,Hold
-University of California San Diego TMC,kidney (left),SNARE-seq,Hold
-University of California San Diego TMC,kidney (left),SNARE-seq,Hold
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),Published
 University of California San Diego TMC,kidney (left),sc/sn/sciRNA-seq,Published
 University of California San Diego TMC,kidney (left),sc/sn/sciRNA-seq,Published
 Vanderbilt TMC,kidney (right),PAS Stained Microscopy,Published
@@ -458,18 +400,18 @@ Vanderbilt TMC,kidney (right),MALDI IMS,Published
 Vanderbilt TMC,kidney (right),MALDI IMS,Published
 Vanderbilt TMC,kidney (right),Autofluorescence Microscopy,Published
 Vanderbilt TMC,kidney (right),Autofluorescence Microscopy,Published
-Vanderbilt TMC,kidney (right),MALDI IMS,QA
-Vanderbilt TMC,kidney (right),MALDI IMS,QA
-Vanderbilt TMC,kidney (right),PAS Stained Microscopy,Published
-Vanderbilt TMC,kidney (right),Autofluorescence Microscopy,Published
-Vanderbilt TMC,kidney (right),MALDI IMS,QA
-Vanderbilt TMC,kidney (right),MALDI IMS,QA
-Vanderbilt TMC,kidney (right),PAS Stained Microscopy,Published
-Vanderbilt TMC,kidney (right),Autofluorescence Microscopy,Published
-Vanderbilt TMC,kidney (left),MALDI IMS,QA
-Vanderbilt TMC,kidney (left),MALDI IMS,QA
-Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
-Vanderbilt TMC,kidney (left),Autofluorescence Microscopy,Published
+Vanderbilt TMC,kidney (right),PAS Stained Microscopy,QA
+Vanderbilt TMC,kidney (right),Autofluorescence Microscopy,QA
+Vanderbilt TMC,kidney (right),MALDI IMS,New
+Vanderbilt TMC,kidney (right),MALDI IMS,New
+Vanderbilt TMC,kidney (right),PAS Stained Microscopy,QA
+Vanderbilt TMC,kidney (right),Autofluorescence Microscopy,QA
+Vanderbilt TMC,kidney (right),MALDI IMS,New
+Vanderbilt TMC,kidney (right),MALDI IMS,New
+Vanderbilt TMC,kidney (left),PAS Stained Microscopy,QA
+Vanderbilt TMC,kidney (left),Autofluorescence Microscopy,QA
+Vanderbilt TMC,kidney (left),MALDI IMS,New
+Vanderbilt TMC,kidney (left),MALDI IMS,New
 Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
 Vanderbilt TMC,kidney (left),Autofluorescence Microscopy,Published
 Vanderbilt TMC,kidney (left),MALDI IMS,Published
@@ -479,7 +421,6 @@ Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
 University of Florida TMC,spleen,CODEX,Published
 University of Florida TMC,spleen,sc/sn/sciRNA-seq,Published
 University of Florida TMC,spleen,CODEX,Published
-University of Florida TMC,spleen,Lightsheet Microscopy,Hold
 University of Florida TMC,thymus,CODEX,Published
 University of Florida TMC,thymus,sc/sn/sciRNA-seq,Published
 University of Florida TMC,thymus,CODEX,Published
@@ -490,204 +431,201 @@ Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
 Vanderbilt TMC,kidney (left),Autofluorescence Microscopy,Published
 Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
 University of California San Diego TMC,kidney (right),sc/sn/sciATAC-seq,New
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
 University of California San Diego TMC,kidney (right),sc/sn/sciATAC-seq,New
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
 University of California San Diego TMC,kidney (right),sc/sn/sciATAC-seq,New
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
 University of California San Diego TMC,kidney (right),sc/sn/sciRNA-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
 University of California San Diego TMC,kidney (right),sc/sn/sciATAC-seq,New
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,New
-University of California San Diego TMC,kidney (right),SNARE-seq,New
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),New
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),New
 University of California San Diego TMC,kidney (right),sc/sn/sciATAC-seq,New
 University of California San Diego TMC,kidney (right),sc/sn/sciRNA-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
-University of California San Diego TMC,kidney (right),SNARE-seq,Published
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (right),SNARE-seq2 (RNA & ATAC),QA
 University of California San Diego TMC,kidney (right),sc/sn/sciATAC-seq,New
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (left),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (left),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (left),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (left),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (left),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (left),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (left),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (left),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (left),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (left),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (left),sc/sn/sciATAC-seq,QA
 University of California San Diego TMC,kidney (left),sc/sn/sciRNA-seq,Published
 University of California San Diego TMC,kidney (left),sc/sn/sciATAC-seq,New
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (left),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (left),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (left),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (left),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (left),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,kidney (left),sc/sn/sciATAC-seq,QA
 University of California San Diego TMC,kidney (left),sc/sn/sciATAC-seq,New
 University of California San Diego TMC,kidney (left),sc/sn/sciRNA-seq,Published
-University of California San Diego TMC,kidney (left),sc/sn/sciRNA-seq,New
 University of California San Diego TMC,kidney (left),sc/sn/sciRNA-seq,Published
 University of California San Diego TMC,kidney (left),sc/sn/sciRNA-seq,Published
-University of California San Diego TMC,kidney (left),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,kidney (left),sc/sn/sciRNA-seq,New
 University of California San Diego TMC,kidney (left),sc/sn/sciRNA-seq,Published
 Stanford TMC,small intestine,CODEX,Invalid
 Stanford TMC,small intestine,sc/sn/sciATAC-seq,QA
@@ -723,193 +661,191 @@ Stanford TMC,large intestine,sc/sn/sciATAC-seq,Published
 Stanford TMC,large intestine,sc/sn/sciRNA-seq,Published
 Stanford TMC,large intestine,CODEX,QA
 Stanford TMC,large intestine,sc/sn/sciRNA-seq,QA
-Vanderbilt TMC,kidney (left),MALDI IMS,QA
-Vanderbilt TMC,kidney (left),MALDI IMS,QA
-Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
-Vanderbilt TMC,kidney (left),Autofluorescence Microscopy,Published
-Vanderbilt TMC,kidney (left),LC-MS,Published
-Vanderbilt TMC,kidney (left),MALDI IMS,QA
-Vanderbilt TMC,kidney (left),MALDI IMS,QA
-Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
-Vanderbilt TMC,kidney (left),Autofluorescence Microscopy,Published
+Vanderbilt TMC,kidney (left),PAS Stained Microscopy,QA
+Vanderbilt TMC,kidney (left),Autofluorescence Microscopy,QA
+Vanderbilt TMC,kidney (left),MALDI IMS,New
+Vanderbilt TMC,kidney (left),MALDI IMS,New
+Vanderbilt TMC,kidney (left),Untargeted LC-MS,Published
+Vanderbilt TMC,kidney (left),PAS Stained Microscopy,QA
+Vanderbilt TMC,kidney (left),Autofluorescence Microscopy,QA
+Vanderbilt TMC,kidney (left),MALDI IMS,New
+Vanderbilt TMC,kidney (left),MALDI IMS,New
 Vanderbilt TMC,kidney (right),PAS Stained Microscopy,Published
-Vanderbilt TMC,kidney (right),MALDI IMS,QA
-Vanderbilt TMC,kidney (right),MALDI IMS,QA
-Vanderbilt TMC,kidney (right),PAS Stained Microscopy,Published
-Vanderbilt TMC,kidney (right),Autofluorescence Microscopy,Published
-Northwestern RTI,kidney (right),LC-MS,New
-Vanderbilt TMC,kidney (right),LC-MS,Published
+Vanderbilt TMC,kidney (right),PAS Stained Microscopy,QA
+Vanderbilt TMC,kidney (right),Autofluorescence Microscopy,QA
+Vanderbilt TMC,kidney (right),MALDI IMS,New
+Vanderbilt TMC,kidney (right),MALDI IMS,New
+Northwestern RTI,kidney (right),Untargeted LC-MS,New
+Vanderbilt TMC,kidney (right),Untargeted LC-MS,Published
 University of California San Diego TMC,kidney (right),sc/sn/sciRNA-seq,Published
-University of California San Diego TMC,kidney (right),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,kidney (right),sc/sn/sciRNA-seq,New
 California Institute of Technology TMC,spleen,seqFISH,Published
-California Institute of Technology TMC,spleen,sc/sn/sciATAC-seq,Published
+California Institute of Technology TMC,spleen,sc/sn/sciATAC-seq,QA
 California Institute of Technology TMC,spleen,seqFISH,Published
-California Institute of Technology TMC,spleen,sc/sn/sciATAC-seq,Published
+California Institute of Technology TMC,spleen,sc/sn/sciATAC-seq,QA
 California Institute of Technology TMC,spleen,seqFISH,Published
-California Institute of Technology TMC,spleen,sc/sn/sciATAC-seq,Published
+California Institute of Technology TMC,spleen,sc/sn/sciATAC-seq,QA
 California Institute of Technology TMC,small intestine,seqFISH,Published
-California Institute of Technology TMC,small intestine,sc/sn/sciATAC-seq,Published
+California Institute of Technology TMC,small intestine,sc/sn/sciATAC-seq,QA
 California Institute of Technology TMC,small intestine,seqFISH,Published
-California Institute of Technology TMC,small intestine,sc/sn/sciATAC-seq,Published
+California Institute of Technology TMC,small intestine,sc/sn/sciATAC-seq,QA
 California Institute of Technology TMC,small intestine,seqFISH,Published
-California Institute of Technology TMC,small intestine,sc/sn/sciATAC-seq,Published
+California Institute of Technology TMC,small intestine,sc/sn/sciATAC-seq,QA
 California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,Published
 University of California San Diego TMC,kidney (right),sc/sn/sciRNA-seq,Published
 University of California San Diego TMC,kidney (right),sc/sn/sciRNA-seq,Published
 University of California San Diego TMC,kidney (left),sc/sn/sciRNA-seq,Published
 University of California San Diego TMC,kidney (left),sc/sn/sciATAC-seq,New
 University of California San Diego TMC,kidney (left),sc/sn/sciRNA-seq,Published
-University of California San Diego TMC,kidney (left),sc/sn/sciRNA-seq,QA
-University of California San Diego TMC,kidney (left),sc/sn/sciRNA-seq,QA
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
+University of California San Diego TMC,kidney (left),sc/sn/sciRNA-seq,New
+University of California San Diego TMC,kidney (left),sc/sn/sciRNA-seq,New
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
 University of California San Diego TMC,kidney (left),sc/sn/sciRNA-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-University of California San Diego TMC,kidney (left),SNARE-seq,Published
-Vanderbilt TMC,kidney (left),MALDI IMS,QA
-Vanderbilt TMC,kidney (left),MALDI IMS,QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,kidney (left),SNARE-seq2 (RNA & ATAC),QA
+Vanderbilt TMC,kidney (left),PAS Stained Microscopy,QA
+Vanderbilt TMC,kidney (left),Autofluorescence Microscopy,QA
+Vanderbilt TMC,kidney (left),MALDI IMS,New
+Vanderbilt TMC,kidney (left),MALDI IMS,New
 Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
-Vanderbilt TMC,kidney (left),Autofluorescence Microscopy,Published
-Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
+Vanderbilt TMC,kidney (left),PAS Stained Microscopy,QA
+Vanderbilt TMC,kidney (left),Autofluorescence Microscopy,QA
+Vanderbilt TMC,kidney (left),MALDI IMS,New
 Vanderbilt TMC,kidney (left),MALDI IMS,QA
-Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
-Vanderbilt TMC,kidney (left),Autofluorescence Microscopy,Published
-Vanderbilt TMC,kidney (left),MALDI IMS,QA
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,lung (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,lung (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,lung (right),sc/sn/sciATAC-seq,QA
 University of California San Diego TMC,lung (right),sc/sn/sciRNA-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
 University of California San Diego TMC,lung (right),sc/sn/sciRNA-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
+University of California San Diego TMC,lung (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,lung (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,lung (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,lung (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,lung (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,lung (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
 University of California San Diego TMC,lung (right),sc/sn/sciRNA-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),sc/sn/sciATAC-seq,Invalid
+University of California San Diego TMC,lung (right),sc/sn/sciATAC-seq,Invalid
+University of California San Diego TMC,lung (right),sc/sn/sciATAC-seq,Invalid
+University of California San Diego TMC,lung (right),sc/sn/sciATAC-seq,Invalid
+University of California San Diego TMC,lung (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,lung (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,lung (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,lung (right),sc/sn/sciATAC-seq,QA
 University of California San Diego TMC,lung (right),sc/sn/sciRNA-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
 University of California San Diego TMC,lung (right),sc/sn/sciRNA-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
+University of California San Diego TMC,lung (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,lung (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,lung (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,lung (right),sc/sn/sciATAC-seq,QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
 University of California San Diego TMC,lung (right),sc/sn/sciRNA-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
 University of California San Diego TMC,lung (right),sc/sn/sciRNA-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
 University of California San Diego TMC,lung (right),sc/sn/sciRNA-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
-University of California San Diego TMC,lung (right),SNARE-seq,Published
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
+University of California San Diego TMC,lung (right),SNARE-seq2 (RNA & ATAC),QA
 University of California San Diego TMC,lung (right),sc/sn/sciRNA-seq,Published
-EXT - Human Cell Atlas,liver,sc/sn/sciRNA-seq,QA
-Vanderbilt TMC,kidney (right),MALDI IMS,QA
-Vanderbilt TMC,kidney (right),MALDI IMS,QA
-Vanderbilt TMC,kidney (right),PAS Stained Microscopy,Published
-Vanderbilt TMC,kidney (right),Autofluorescence Microscopy,Published
+EXT - Human Cell Atlas,liver,sc/sn/sciATAC-seq,QA
+Vanderbilt TMC,kidney (right),PAS Stained Microscopy,QA
+Vanderbilt TMC,kidney (right),Autofluorescence Microscopy,QA
+Vanderbilt TMC,kidney (right),MALDI IMS,New
+Vanderbilt TMC,kidney (right),MALDI IMS,New
 Vanderbilt TMC,kidney (right),PAS Stained Microscopy,Published
 Vanderbilt TMC,kidney (right),PAS Stained Microscopy,Published
-EXT - Human Cell Atlas,liver,sc/sn/sciRNA-seq,QA
-EXT - Human Cell Atlas,liver,sc/sn/sciRNA-seq,QA
-EXT - Human Cell Atlas,liver,sc/sn/sciRNA-seq,QA
-EXT - Human Cell Atlas,liver,sc/sn/sciRNA-seq,QA
+EXT - Human Cell Atlas,liver,sc/sn/sciATAC-seq,QA
+EXT - Human Cell Atlas,liver,sc/sn/sciATAC-seq,QA
+EXT - Human Cell Atlas,liver,sc/sn/sciATAC-seq,QA
+EXT - Human Cell Atlas,liver,sc/sn/sciATAC-seq,QA
 General Electric RTI,skin,Cell DIVE,New
 General Electric RTI,skin,Cell DIVE,QA
 General Electric RTI,skin,Cell DIVE,New
@@ -923,36 +859,36 @@ General Electric RTI,skin,Cell DIVE,New
 General Electric RTI,skin,Cell DIVE,New
 General Electric RTI,skin,Cell DIVE,QA
 California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,Invalid
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,QA
 California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,New
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,QA
 California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,New
 California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,New
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,QA
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,New
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,QA
 California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,New
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,New
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,New
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,New
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,New
 California Institute of Technology TMC,pancreas,seqFISH,New
 California Institute of Technology TMC,pancreas,sc/sn/sciATAC-seq,Published
 California Institute of Technology TMC,lung (right),sc/sn/sciATAC-seq,Published
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,QA
 California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
-California Institute of Technology TMC,heart,sc/sn/sciRNA-seq,New
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,QA
+California Institute of Technology TMC,heart,sc/sn/sciATAC-seq,New
 Vanderbilt TMC,kidney (right),PAS Stained Microscopy,Published
-Vanderbilt TMC,kidney (right),MALDI IMS,QA
-Vanderbilt TMC,kidney (right),MALDI IMS,QA
+Vanderbilt TMC,kidney (right),PAS Stained Microscopy,QA
+Vanderbilt TMC,kidney (right),Autofluorescence Microscopy,QA
+Vanderbilt TMC,kidney (right),MALDI IMS,New
+Vanderbilt TMC,kidney (right),MALDI IMS,New
 Vanderbilt TMC,kidney (right),PAS Stained Microscopy,Published
-Vanderbilt TMC,kidney (right),Autofluorescence Microscopy,Published
 Vanderbilt TMC,kidney (right),PAS Stained Microscopy,Published
 Vanderbilt TMC,kidney (right),PAS Stained Microscopy,Published
-Vanderbilt TMC,kidney (right),PAS Stained Microscopy,Published
-Vanderbilt TMC,kidney (left),MALDI IMS,QA
-Vanderbilt TMC,kidney (left),MALDI IMS,QA
-Vanderbilt TMC,kidney (left),PAS Stained Microscopy,Published
-Vanderbilt TMC,kidney (left),Autofluorescence Microscopy,Published
+Vanderbilt TMC,kidney (left),PAS Stained Microscopy,QA
+Vanderbilt TMC,kidney (left),Autofluorescence Microscopy,QA
+Vanderbilt TMC,kidney (left),MALDI IMS,New
+Vanderbilt TMC,kidney (left),MALDI IMS,New
 University of California San Diego TMC,kidney (left),DART-FISH,New
 University of California San Diego TMC,kidney (left),DART-FISH,New
 University of California San Diego TMC,kidney (left),sc/sn/sciRNA-seq,Published
@@ -1011,38 +947,4 @@ Broad Institute RTI,kidney (right),Slide-seq,Published
 Broad Institute RTI,kidney (right),Slide-seq,Published
 Broad Institute RTI,kidney (right),Slide-seq,Published
 Broad Institute RTI,kidney (right),Slide-seq,Published
-University of California San Diego TMC,kidney (right),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,kidney (right),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,lung (right),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,lung (right),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,lung (right),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,lung (right),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,lung (right),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,lung (right),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,lung (right),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,lung (right),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,lung (right),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,lung (left),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,lung (left),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,lung (left),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,lung (left),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,lung (left),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,kidney (left),sc/sn/sciRNA-seq,New
-TMC - Children's Hospital of Philadelphia,heart,sc/sn/sciRNA- & ATAC-seq,New
-University of California San Diego TMC,lung (right),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,lung (right),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,bladder,sc/sn/sciRNA-seq,New
-University of California San Diego TMC,bladder,sc/sn/sciRNA-seq,New
-University of California San Diego TMC,kidney (left),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,kidney (left),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,kidney (left),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,kidney (right),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,kidney (right),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,kidney (left),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,kidney (left),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,kidney (right),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,kidney (right),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,kidney (right),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,kidney (right),sc/sn/sciRNA-seq,New
-University of California San Diego TMC,kidney (right),sc/sn/sciRNA-seq,New
-California Institute of Technology TMC,spleen,seqFISH,New
+Children's Hospital of Philadelphia TMC,heart,snRNA- & snATAC-seq,New
