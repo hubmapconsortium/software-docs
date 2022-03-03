@@ -24,7 +24,7 @@ Because the field of view cannot be changed, tiles will overhang from the region
 ![](/assays/images/af3.png)
 *Figure 3: Images of tiles are captured as the stage moves across the imaged region row by row (left) or via a serpentine (or snake-like) path (right).*
 
-![](assays/images/af4.png)
+![](/assays/images/af4.png)
 *Figure 4: Stitching is the process of aligning and merging neighboring image tiles into a single composite image.*
 
 ## HuBMAP AF Data States (Levels):
