@@ -13,23 +13,23 @@ Cell DIVE multiplexed imaging is an antibody-based hyperplexed technique for stu
 ## Definitions: 
 There are a variety of terms used in this document that may not be familiar to all HubMap users. The following figures illustrate several of these terms: 
 
-![](https://lh5.googleusercontent.com/IUV_tmeyHIEBNrkwXEOK-HrAuMbpblohZOH_milqDyCgOvnr29AdsYZFvKJxBQxskplL2gjAjcZejwaZKS6TVfaXQlqCG6o0OwIuwN5hg_tU2PyDy7sqUwmNvWBEdU1N_1MzgyiyWXU0Vn2V)
+![](assays/images/dive1.png)
 
 **Figure 1:** *Diagram of microscopy terms. The black box is an example slide or cover slip where the sample is located. Blue boxes are examples of “regions” or user defined imaging areas. For instance, if you want to image a specific structure in the tissue, you would designate a “region” over the structure. Red boxes are examples of “tiles” or the microscope “field of view”. The size of the tile is dependent on the microscope set up and objective. Tiles will fill the region. Because the field of view cannot be changed, tiles will overhang from the region, ensuring the entire region is imaged at the expense of extra tiles being acquired.*
 
-![](https://lh6.googleusercontent.com/tygqsED6l7B6SPzOe6_z37HWMO0oCbZs04Rtuu9EjWjQohQoqZyd7gZVJDgP0lg9ooqUOtTdWM-RuGz8kLi1MVIVCyg2oHzcEAugNtnxe8DsWVt_Eo9JOPLodMHIvBD_celucSqfNOBC6Ilt)
+![](assays/images/dive2.png)
 
 **Figure 2:** *Images are generally acquired with adjacent tiles overlapping, as indicated by the dark regions in the image on the right above. Overlap enhances alignment of tiles for stitching to create a composite image, as shown in Figure 4 below.*
 
-![](https://lh4.googleusercontent.com/NOgYrh0KpVPjuosfJgeeqlrUxDpAf88stJ6vpN-Vi6RHq7gZec7SfPlktnz2gMCw_a5ic1ISv2HaVtEIMFZ2Rp9IQEgkEIV1I3y1vTX-GsTKtBU3N2JYp88f7IvXzb1O63K2LxKcieRUp77v)
+![](assays/images/dive3.png)
 
 **Figure 3:** *Images of tiles are captured as the stage moves across the imaged region row by row (left) or via a serpentine (or snake-like) path (right).*
 
-![](https://lh4.googleusercontent.com/Oy7KfVL4J-sK2_FaYl3j_4TTCwk04ZN0FAhUYJYdrGROp6SIRHMw_BUHdyOba3qih8NapQSI8TJa3QmUJn9odg3UuDz_Q0ilx-1kHP12UyC-K0f3qlj8yG0RxmAKFnMEpfqC7ZJy3nwFOY3U)
+![](assays/images/dive4.png)
 
 **Figure 4:** *Stitching is the process of aligning and merging neighboring image tiles into a single composite image.*
 
-![](https://lh5.googleusercontent.com/qQdIuw7mb-7UqwuGG26AvXOayPNI7EUpMHIbhD2Jt3NpffgftKAEeybUZJvxDZd_g6MS37H1yjB4zo5ouA9TNIAhh_iJrM_Ars3wXJnsmQZUay53n4ZdikITCGhOMLJ8dE-j9tdjagjCUkwI)
+![](assays/images/dive5.png)
 
 **Figure 5:** *Deep learning based nuclei segmentation. An encoder-decoder based deep learning model was used for nuclei segmentation. Multiscale Laplacian of Gaussian (LoG) as feature map was derived from DAPI images was used for training the encoder-decoder deep learning framework of three levels. Max pooling was applied at all the levels for relevant feature selection in the encoding phase and drop-out was used to reduce over fitting.*
 
@@ -206,7 +206,7 @@ This metadata file will then inform later processes at the HIVE and be used for 
 ## HuBMAP Cell DIVE Raw File Structure:
 The general structure of the level 0 (raw) data produced by the GE Research Cell DIVE software is shown in the image below. 
 
-![](https://lh6.googleusercontent.com/dYC1TIRe8vDuJULaJAjNAcEYbxphXmz-mtDBx2f6hvijz-sz2OzQHnsdojuWEnEtO0sYYJwGUVlTTgGEAH5QeFzILe9oKLCztGA60mAn8UIE2pax3bcYh4tCJAKT3EMBwImGuU4)
+![](assays/images/dive6.png)
 
 Segmentation files are included among the processed data contributed by the TMC’s and can be found in the following locations: 
 | Type of Segmentation/Description | Descriptor (the name should contain the following) | Location |
