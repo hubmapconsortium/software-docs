@@ -15,22 +15,22 @@ CODEX is a strategy for generating highly multiplexed images of fluorescently-la
 There are a variety of terms used in this document that may not be familiar to all HubMap users. The following figures illustrate several of these terms:
 
   
-![](assays/images/codex1.png)  
+![](/assays/images/codex1.png)  
 *Figure 1: Pictorial representation of microscopy terms. The black box is an example slide or cover slip where the sample is located. Blue boxes are examples of “regions” or user defined imaging areas. For instance, if you want to image a specific structure in the tissue, you would designate a “region” over the structure. Red boxes are examples of “tiles” or the microscope “field of view”. The size of the tile is dependent on the microscope set up and objective. Tiles will fill the region. Because the field of view cannot be changed, tiles will overhang from the region, ensuring the entire region is imaged at the expense of extra tiles being acquired.*
 
-![](assays/images/codex2.png)
+![](/assays/images/codex2.png)
 *Figure 2: Images are generally acquired with adjacent tiles overlapping, as indicated by the dark regions in the image on the right above. Overlap enhances alignment of tiles for stitching to create a composite image, as shown in Figure 4 below.*
 
-![](assays/images/codex3.png)
+![](/assays/images/codex3.png)
 *Figure 3: Images of tiles are captured as the stage moves across the imaged region row by row (left) or via a serpentine (or snake-like) path (right).*
 
-![](assays/images/codex4.png)
+![](/assays/images/codex4.png)
 *Figure 4:* Stitching is the process of aligning and merging neighboring image tiles into a single composite image.
 
-![](assays/images/codex5.png)
+![](/assays/images/codex5.png)
 *Figure 5: Segmentation of a microscopy image is performed by an algorithm that predicts edges of structures. Structures may be nuclear membrane, cell membranes or larger structures such as tubules.*
 
-![](assays/images/codex6.png)
+![](/assays/images/codex6.png)
 *Figure 6: Example defined plane (left) with example imaged z planes (right).*
 
 ## HuBMAP CODEX Data States (Levels)
@@ -118,7 +118,7 @@ Each TMC will provide a file listing each antibody name, respective cycle and ch
     
 Other differences between CODEX software employed by Stanford versus Akoya proprietary software are documented [here](https://drive.google.com/open?id=1ff7iHRxkiV-DcvznFTCc1sgS_78tHKcm0ohYhv7jLjQ).
  
-![](assays/images/codex7.png)
+![](/assays/images/codex7.png)
 
 2.  Segmentation files in the processed data contributed by the TMC’s can be found in the following locations:  
       
@@ -172,9 +172,9 @@ Blank
 etc......
 ```
 
-![](assays/images/codex9.png)
+![](/assays/images/codex9.png)
 
-![](assays/images/codex10.png)
+![](/assays/images/codex10.png)
 ### How to read channelnames
 
 *Blank channel* is used to monitor autofluorescence at each channel (wavelength) which typically increases over time and with each cycle.
@@ -182,7 +182,7 @@ etc......
 *Empty channel* indicates a channel (wavelength) that was not used to detect any marker during a specific cycle.
 
 For each dataset, the number of cycles and channels is reported in the experiment.json file:
-![](assays/images/codex12.png)
+![](/assays/images/codex12.png)
 
 ### How to read channelnames_report
 The operator annotates each cycle/channel with *TRUE/FALSE* to indicate whether or not the expected signal or absence of signal was detected, i.e. antibody bound to the target protein or the channel was Blank or Empty.
@@ -215,20 +215,20 @@ etc......
 Using commercial version:
 
 1.  Process the data using the processing tool provided by Akoya.
-![](assays/images/codex14.png)
+![](/assays/images/codex14.png)
 2.  Generate the Report ppt file by enabling the option at the prompt.
-![](assays/images/codex15.png)
+![](/assays/images/codex15.png)
 
 The Akoya integrated processing step [(go to CODEX help for further information)](https://help.codex.bio/codex/processor/user-instructions/image-analysis-report) produces an **Image Analysis Report** for each region acquired. The report includes the following documentation:
-- ![](assays/images/codex16.png)
-- ![](assays/images/codex17.png)
-- ![](assays/images/codex18.png)
+- ![](/assays/images/codex16.png)
+- ![](/assays/images/codex17.png)
+- ![](/assays/images/codex18.png)
 
 A histogram and sample image is generated for every acquired channel. Each row is a cycle, containing its corresponding channels. Top-left image and histogram is always the first cycle, first channel. Image and histogram to their right is the same cycle, second channel.
 
 The displayed image is a full-resolution cropped image that has the greatest standard deviation among those sampled. Each image may be of different location within the region, depending on the expression pattern. For example, cropped images for DAPI cycles 2 and 3 below differ in their sampling location.
 
-![](assays/images/codex19.png)
+![](/assays/images/codex19.png)
 
 (Magenta) A single cycle. (Cyan) Full-resolution cropped image. (Purple) Histogram.
 
@@ -238,7 +238,7 @@ Additionally, all cycles except the first contains two histogram plots. All purp
 
 A summary section contains basic statistics of biomarker region images. Each slide contains four cycles and their corresponding channels. Any non-biomarker channel (i.e. containing "DAPI," "blank" or "empty") will be grayed out.
 
-![](assays/images/codex20.png)
+![](/assays/images/codex20.png)
 
 There are 18 columns for each channel. All pixel intensities are in 16-bit ranges (0 ~ 65535).
 
@@ -268,7 +268,7 @@ These values can be used to assess image quality of each biomarker. As the thres
 
 A detailed slide for each marker acquired is also provided. The left-hand side contains image information identical to those shown in the histogram and summary slides.
 
-![](assays/images/codex21.png)
+![](/assays/images/codex21.png)
 The main image in the center is the region image scaled for best fit and viewing on 4K displays (i.e. scaled to 288 ppi). This image is not in its original resolution and should not be used for detailed analysis.
 
 (Magenta) Image information. (Cyan) Region image. (Purple) Cropped images.
@@ -276,7 +276,7 @@ The main image in the center is the region image scaled for best fit and viewing
 On the right, there are four cropped images displayed in the original, full resolution. Within the whole region, 13 different areas are cropped at full resolution and compared for their intensity standard deviation. The four areas with the highest standard deviations, which often correspond to most contrast and information, are displayed in order.
 
 3.  Open the report and evaluate the channels based on the SNR, intensity patterns etc.
-4 ![](assays/images/codex22.png)
+4 ![](/assays/images/codex22.png)
 4.  Compare these images to validation staining patterns for the same antibody in the same tissue type. The patterns should follow correct cell type localization for the target marker. Failure is indicated by a FALSE designation in the **channelnames_report.csv** for that specific antibody.
     
 5.  Open the generated **channelnames_report.csv** file and add TRUE/FALSE tags to each channel separated with a coma (if using text editors) or to the consecutive column if using *“Excel/LibreOffice”.*
