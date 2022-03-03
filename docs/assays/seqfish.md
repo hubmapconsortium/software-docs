@@ -181,4 +181,4 @@ The HuBMAP program is developing a standardized open-source pipeline for seqFISH
 | Background Subtraction| Subtraction of autofluorescence intensity from total intensity.|
 
 ## For Additional Help 
-Please contact: [Nico Pierson](mailto:nicogpt@caltech.edu)
+Please contact: [Chi Yun](mailto:jina@caltech.edu)
