@@ -66,8 +66,7 @@ The bolded steps below constitute a series of standard RNA-seq data analysis wor
 
 ### Pre-alignment QC with FastQC 
 
-![wgs](/images/wgs2.png)
-
+![wgs](/assays/images/wgs2.png)
 *Figure 1: Plot of per sequence base quality ([(Figure from Babraham Bioinoformatics)](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/)*
 
 | qc_metric | Threshold | Method |
