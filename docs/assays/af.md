@@ -14,17 +14,17 @@ Autofluorescence microscopy exploits endogenous fluorescence in a biological tis
 ## Definitions: 
 There are a variety of terms used in this document that may not be familiar to all researchers wanting to make use of the HubMap data. The following figures illustrate several of these terms:
 
-![](/assays/images/AF_Figure1.png)    
+![](/assays/images/AF_Figure1.png)
 *Figure 1: Pictorial representation of microscopy terms. The black box is an example slide or cover slip where the sample is located. Blue boxes are examples of “regions” or user defined imaging areas. For instance, if you want to image a specific structure in the tissue, you would designate a “region” over the structure. Red boxes are examples of “tiles” or the microscope “field of view”. The size of the tile is dependent on the microscope set up and objective. Tiles will fill the region.
 Because the field of view cannot be changed, tiles will overhang from the region, ensuring the entire region is imaged at the expense of extra tiles being acquired.*
 
-![](https://lh6.googleusercontent.com/8p8RY_RlzXv9TWpDhtNeD-KFT0-NZivYa_T6EQeg9fhj14Unt64PN7BHzVEaNZbt3TrMtIpwj2LIO-wEfyTr8JXHZqij9-MnVohapA-Zsmz4YfSjLZTs494bKnaug1Ue-pbg02VG)
+![](/assays/images/af_figure2.png)
 *Figure 2: Images are generally acquired with adjacent tiles overlapping, as indicated by the dark regions in the image on the right above. Overlap enhances alignment of tiles for stitching to create a composite image, as shown in Figure 4 below.*
 
-![](https://lh5.googleusercontent.com/rp8Sqo0UBFeZxOg6kOb5Z3G-mEid2xVPm3utGrrZ723GUM-qDrte9mwoQlLuyUvjX__FrGCGV2lRb7VAJkgYS8d2jZT-QBWrzWf_tygPYmxb7nqkbwu70AK7xiDJJ68GtGSYLwmE)
+![](/assays/images/af3.png)
 *Figure 3: Images of tiles are captured as the stage moves across the imaged region row by row (left) or via a serpentine (or snake-like) path (right).*
 
-![](https://lh4.googleusercontent.com/dCpsoJuhwEyIXqjw10JuURnYnVrDfpuKtk7kEOQkjfIZuFa3Vv6f4xllekDUlzzDlhd0pHfBt5vAObpY-BWglpGFRZGG4cNUJILSAFOiWrF-HYWnVpGy-2SAkDuMnzaS6dwGiB9t)
+![](assays/images/af4.png)
 *Figure 4: Stitching is the process of aligning and merging neighboring image tiles into a single composite image.*
 
 ## HuBMAP AF Data States (Levels):
