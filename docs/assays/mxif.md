@@ -15,19 +15,19 @@ MxIF is used to visualize the distribution of multiple protein antigens in an in
 There are a variety of terms used in this document that may not be familiar to all researchers wanting to make use of the HubMap data. The following figures illustrate several of these terms:
 
 
-![](assays/images/mx1.png)  
+![](/assays/images/mx1.png)  
 *Figure 1: Diagrmatic representation of microscopy terms. The black box is an example slide or cover slip where the sample is located. Blue boxes are examples of “regions” or user defined imaging areas. For instance, if you want to image a specific structure in the tissue, you would designate a “region” over the structure. Red boxes are examples of “tiles” or the microscope “field of view”. The size of the tile is dependent on the microscope set up and objective. Tiles will fill the region. Because the field of view cannot be changed, tiles will overhang from the region, ensuring the entire region is imaged at the expense of extra tiles being acquired.*
 
-![](assays/images/mx2.png)
+![](/assays/images/mx2.png)
 *Figure 2: Images are generally acquired with adjacent tiles overlapping, as indicated by the dark regions in the image on the right above. Overlap enhances alignment of tiles for stitching to create a composite image, as shown in Figure 4 below.*
 
-![](assays/images/mx3.png)
+![](/assays/images/mx3.png)
 *Figure 3: Images of tiles are captured as the stage moves across the imaged region row by row (left) or via a serpentine (or snake-like) path (right).*
 
-![](assays/images/mx4.png)
+![](/assays/images/mx4.png)
 *Figure 4: Stitching is the process of aligning and merging neighboring image tiles into a single composite image.*
 
-![](assays/images/mx5.png)
+![](/assays/images/mx5.png)
 *Figure 5: Example defined plane (left) with example imaged z planes (right).*
 
 ## HuBMAP CODEX Data States (Levels)
