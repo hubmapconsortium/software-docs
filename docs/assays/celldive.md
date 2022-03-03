@@ -13,23 +13,23 @@ Cell DIVE multiplexed imaging is an antibody-based hyperplexed technique for stu
 ## Definitions: 
 There are a variety of terms used in this document that may not be familiar to all HubMap users. The following figures illustrate several of these terms: 
 
-![](assays/images/dive1.png)
+![](/assays/images/dive1.png)
 
 **Figure 1:** *Diagram of microscopy terms. The black box is an example slide or cover slip where the sample is located. Blue boxes are examples of “regions” or user defined imaging areas. For instance, if you want to image a specific structure in the tissue, you would designate a “region” over the structure. Red boxes are examples of “tiles” or the microscope “field of view”. The size of the tile is dependent on the microscope set up and objective. Tiles will fill the region. Because the field of view cannot be changed, tiles will overhang from the region, ensuring the entire region is imaged at the expense of extra tiles being acquired.*
 
-![](assays/images/dive2.png)
+![](/assays/images/dive2.png)
 
 **Figure 2:** *Images are generally acquired with adjacent tiles overlapping, as indicated by the dark regions in the image on the right above. Overlap enhances alignment of tiles for stitching to create a composite image, as shown in Figure 4 below.*
 
-![](assays/images/dive3.png)
+![](/assays/images/dive3.png)
 
 **Figure 3:** *Images of tiles are captured as the stage moves across the imaged region row by row (left) or via a serpentine (or snake-like) path (right).*
 
-![](assays/images/dive4.png)
+![](/assays/images/dive4.png)
 
 **Figure 4:** *Stitching is the process of aligning and merging neighboring image tiles into a single composite image.*
 
-![](assays/images/dive5.png)
+![](/assays/images/dive5.png)
 
 **Figure 5:** *Deep learning based nuclei segmentation. An encoder-decoder based deep learning model was used for nuclei segmentation. Multiscale Laplacian of Gaussian (LoG) as feature map was derived from DAPI images was used for training the encoder-decoder deep learning framework of three levels. Max pooling was applied at all the levels for relevant feature selection in the encoding phase and drop-out was used to reduce over fitting.*
 
@@ -206,7 +206,7 @@ This metadata file will then inform later processes at the HIVE and be used for 
 ## HuBMAP Cell DIVE Raw File Structure:
 The general structure of the level 0 (raw) data produced by the GE Research Cell DIVE software is shown in the image below. 
 
-![](assays/images/dive6.png)
+![](/assays/images/dive6.png)
 
 Segmentation files are included among the processed data contributed by the TMC’s and can be found in the following locations: 
 | Type of Segmentation/Description | Descriptor (the name should contain the following) | Location |
