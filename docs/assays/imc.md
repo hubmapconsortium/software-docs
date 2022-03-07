@@ -101,4 +101,4 @@ In addition, all HuBMAP IMC data will have an associated “acquisition_metadata
 -   Single cell information can then be imported into R for downstream analysis, including dimensionality reduction (tSNE, UMAP), clustering (PhenoGraph) and cell type annotation.
 
 ## For Additional Help 
-Please contact: [Marda Jorgensen](mailto:marda@ufl.edu) & [Vishal Venkataraaman](mailto:vgautham@stanford.edu).
+Please contact: [Clive Wasserfall](mailto:wasserfa@pathology.ufl.edu) & [Pierre Bost](mailto:pierre.bost@uzh.ch).
