@@ -16,6 +16,27 @@ created on the local machine. Instructions on installing **_Globus Connect Perso
 
 During setup, users will have the opportunity to name their Endpoint and login with their Globus Credentials
 
+#### **_IMPORTANT NOTE ABOUT GLOBUS CONNECT PERSONAL_**
+
+While GCP on linux chooses your home directory as the download location by default, if you are using windows, it is likely that the default download location will not be your home directory. This must be changed or you will experience some difficulty
+finding your downloaded files. To change the download directory on windows 10/11, find the GCP icon in the system tray. If the "g" logo is neither on the right side of the task bar, nor in the hidden icons menu, GCP may not be running; in this case you must launch GCP before chaning any settings.
+
+<img src="../images/globustray.PNG" alt="GCP System Tray Icon" width="500"/>
+
+Right-click on the GCP icon to see the context menu. This menu will contain an options button
+
+<img src="../images/globusoptions.PNG" alt="GCP Options Button" width="500"/>
+
+Inside the options menu, navigate to the General Tab
+
+<img src="../images/globusoptionsmenu.PNG" alt="GCP General Tab" width="500"/>
+
+Lastly, inside the text box labeled "Home Folder", change this to be your home directory as shown below. Replace "Your-User-Name" to be the name associated with your home directory
+
+<img src="../images/globususername.PNG" alt="GCP Home Location" width="500"/>
+
+Once this is done, all Globus files will be downloaded relative to this directory. 
+
 #### Installing the HuBMAP CLT
 
 The HuBMAP CLT is available as a Python package.
