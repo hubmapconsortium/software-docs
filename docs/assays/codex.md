@@ -307,5 +307,5 @@ On the right, there are four cropped images displayed in the original, full reso
 | Background Subtraction| Subtraction of autofluorescence intensity from total intensity.|
 
 ## For Additional Help
-Please contact: [Marda Jorgensen](mailto:marda@ufl.edu) & [Vishal Venkataraaman](mailto:vgautham@stanford.edu).
+Please contact: [Clive Wasserfall](mailto:wasserfa@pathology.ufl.edu) & [Elizabeth McDonough](mailto:elizabeth.mcdonough@ge.com).
 
