@@ -9,7 +9,36 @@ The HuBMAP Command Line Transfer utility provides the functionality to download 
 This document covers usage of the HuBMAP CLT. Detailed instructions for installing hubmap-clt as well as other first 
 time setup can be found [here](install-hubmap-clt.html).
 
-#### Manifest File 
+useage: hubmap-clt [-h | --help] [transfer manifest-file | login | logout | whoami]
+
+Commands: One of the following commands is required:
+
+   transfer manifest-file   Transfer files specified in manifest-file (see
+                            below for example) using Globus Transfer.
+			    The transfered files will be stored in the
+			    directory "hubmap-download" under the user's
+			    home directory.
+
+   login                    Login to Globus
+
+   logout 		    Logout of Globus
+
+   whoami                   Displays the information of the user who is
+                            currently logged in.  If no user is logged
+                            a message will be displayed prompting the user
+			    to log in.
+
+-h or --help  Show this help message.
+
+-d or --destionation	Manually select a download location within the user's
+                        home direcotry. For example:
+                          'hubmap-clt transfer manifest-file -d Desktop'
+			will download to the user's Desktop directory. The 
+			directory will be created under the user home directory
+			if it doesn't already exist.
+
+
+#### Manifest Files
 
 A manifest file is required for usage of the hubmab-clt. This simple text file will contain the dataset id and the path
 to the dataset separated by a space, one line for each file or directory to download. for example:
