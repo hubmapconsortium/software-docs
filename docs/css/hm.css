@@ -64,14 +64,19 @@ table {
   width: auto;
 }
 
-th {
-  font-size: 0.875rem;
-  font-weight: 500;
-  background-color: #FFF !important;
+table td {
+  padding: .75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+  background-color: #FFF !important;  
 }
 
-tr {
-  background-color: #FFF !important;
+table th {
+  padding: .75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+  font-weight: bold;
+  background-color: #FFF !important;  
 }
 
 html,
