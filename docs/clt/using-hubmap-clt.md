@@ -51,10 +51,23 @@ HBM378.HDGT.837 /extras         #download the extras directory from dataset HBM3
 See below for more examples of [manifest files](#manfiles).
 
 #### Login
-A one-time login is required for any download session.  For any non-public data, you must login with your HuBMAP authorized account, for publically available data you can log in with any account accepted on the login for (Google and OrCID accepted) as well.  To login issue the following command on the command line:
+
+A one-time login is required for any download session.  For any non-public data, you must login with your HuBMAP authorized account, for publicly available data you can log in with any account accepted on the login form (Google and OrCID accepted) as well.  To login issue the following command on the command line:
 
 ```
 hubmap-clt login
+```
+
+Similarly, log out with the command:
+
+```
+hubmap-clt logout
+```
+
+To check the identity of the currently logged in user, enter the command:
+
+```
+hubmap-clt whoami
 ```
 
 #### Example of usage
@@ -72,12 +85,13 @@ manifest file is located, the path to the file may be necessary along with the f
 hubmap-clt transfer ~/Documents/manifest.txt 
 ```
 
-The files/directories will be transferred to your Downloads directory by default, you can specify an optional sub-directory under your local user directory to download the data to with --destination or -d. Like:
+The files/directories will be transferred to the directory hubmap-downloads by default. This directory will be created under the local user directory if it does not yet exist. You can specify an alternative directory or subdirectory instead to download the data to with --destination or -d. Like:
 
 ```bash
 hubmap-clt transfer manifest.txt --destination data/hubmap/rna-seq
 ```
 
+Similarly, if you give the path/name to a directory that doesn't exist, it will be created. Be mindful of typos.
 
 <a name="gcp"></a>
 
@@ -103,11 +117,13 @@ HBM223.JQLM.452 /expr.h5ad
 HBM524.KHPH.599 /expr.h5ad
 ```
 
-If the second item in each line of the manifest file (the path) has a space in it, you must wrap that item with double quotes. For example:
+The second item in each line (the specific path to a given resource) may contain spaces. If you are given the path to a directory rather than a file, be sure to prepend it with a trailing slash. For example:
 
 ```
-HBM744.FNLN.846 "/raw expr.h5ad"
+HBM744.FNLN.846 "fastqc_output/"
 ```
+
+If the path provided is for a directory, but there is no trailing slash, Globus will be unable to download the contents of the directory. A directory will still be created, but it will be blank.
 
 #### Checking the Status of a Transfer
 
@@ -119,13 +135,13 @@ Task ID: 1234abcd-56ef-78gh-90ij-123456klmnop
 ```
 
 At which point the transfer will be handled completely through Globus. To see the status of a transfer, whether it succeeded or failed, a progress bar, and other details about the transfer, 
-a user must visit [https://app.globus.org](https://app.globus.org/file-manager). The user will be prompted to sign into globus just as they were when logging 
+a user must visit [https://app.globus.org](https://app.globus.org/file-manager). The user will be prompted to sign into Globus just as they were when logging 
 into globus through the hubmap-clt. Once logged in, the user will be brought to the file manager page. Click the activity tab on the left to view all past and active transfers.
 
-![Globus App File Manager Transfer Tab](images/globus_file_manager_transfer_tab.png)
+![Globus App File Manager Transfer Tab](../images/globus_file_manager_transfer_tab.png)
 
 Here, users will see a list of past and present transfers. Clicking on one will provide more information about when the transfer started, the location of the data transferred, and much more information. 
 
-![Globus App Activities Page](images/globus_activities_page.PNG)
+![Globus App Activities Page](../images/globus_activities_page.PNG)
 
 For a complete break down of how to use the globus web app, please consult the [globus documentation](https://docs.globus.org/how-to/get-started/)
