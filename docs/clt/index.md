@@ -7,7 +7,7 @@ layout: page
 The HuBMAP Command Line Transfer utility provides the functionality to download HuBMAP data of individual files and directories across multiple datasets at one time by specifying all downloaded data files and directories in a single manifest file.
 
 This document covers usage of the HuBMAP CLT. Detailed instructions for installing hubmap-clt as well as other first 
-time setup can be found [here](install-hubmap-clt.html).
+time setup can be found [here](install-hubmap-clt.html). A [tutorial](view-globus-download-location.html) on how to view the current GCP download directory is also available.
 
 useage: hubmap-clt [-h &#124; --help] [transfer manifest-file &#124; login &#124; logout &#124; whoami]
 
@@ -138,10 +138,11 @@ At which point the transfer will be handled completely through Globus. To see th
 a user must visit [https://app.globus.org](https://app.globus.org/file-manager). The user will be prompted to sign into Globus just as they were when logging 
 into globus through the hubmap-clt. Once logged in, the user will be brought to the file manager page. Click the activity tab on the left to view all past and active transfers.
 
-![Globus App File Manager Transfer Tab](../images/globus_file_manager_transfer_tab.png)
+<img src="../images/globus_file_manager_transfer_tab.png" alt="Globus App File Manager Transfer Tab" width="500"/>
 
 Here, users will see a list of past and present transfers. Clicking on one will provide more information about when the transfer started, the location of the data transferred, and much more information. 
 
-![Globus App Activities Page](../images/globus_activities_page.PNG)
+<img src="../images/globus_activities_page.PNG" alt="Globus App Activities Page" width="500"/>
+
 
 For a complete break down of how to use the globus web app, please consult the [globus documentation](https://docs.globus.org/how-to/get-started/)
