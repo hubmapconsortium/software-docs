@@ -31,11 +31,23 @@ Inside the options menu, navigate to the General Tab
 
 <img src="../images/globusoptionsmenu.PNG" alt="GCP General Tab" width="500"/>
 
-Lastly, inside the text box labeled "Home Folder", change this to be your home directory as shown below. Replace "Your-User-Name" to be the name associated with your home directory
+Next, inside the text box labeled "Home Folder", change this to be your home directory as shown below. Replace "Your-User-Name" to be the name associated with your home directory
 
 <img src="../images/globususername.PNG" alt="GCP Home Location" width="500"/>
 
-Once this is done, all Globus files will be downloaded relative to this directory. 
+Now we must navigate to the Access tab next to the General tab and give ourselves permission to use this new directory
+
+<img src="../images/globusaccess.PNG" alt="Globus Access Tab" width="500"/>
+
+Once here, press the plus sign in the bottom right corner to add a new authorized directory
+
+<img src="../images/oldaccessfolder.PNG" alt="Add Access" width="500"/>
+
+You will be prompted to select a directory. Choose the same directory you chose to be your default directory. After adding the new authorized directory, we can remove the old one. Select the previous directory and press the minus button in the bottom right corner to remove it. Be sure to save after you're done 
+
+<img src="../images/removebadpath.PNG" alt="Remove Access" width="500"/>
+
+Once this is all complete, all Globus files will be downloaded relative to this directory. 
 
 #### Installing the HuBMAP CLT
 
