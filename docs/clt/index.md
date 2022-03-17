@@ -9,7 +9,7 @@ The HuBMAP Command Line Transfer utility provides the functionality to download 
 This document covers usage of the HuBMAP CLT. Detailed instructions for installing hubmap-clt as well as other first 
 time setup can be found [here](install-hubmap-clt.html).
 
-useage: hubmap-clt [-h | --help] [transfer manifest-file | login | logout | whoami]
+useage: hubmap-clt [-h &#124; --help] [transfer manifest-file &#124; login &#124; logout &#124; whoami]
 
 Commands: One of the following commands is required:
 
