@@ -38,10 +38,11 @@ Terms used in this document:
 
 *Green dashed arrows* -  Serpentine acquisition sequence of Z-stacks for a Multiview data set.
 
-![](https://lh6.googleusercontent.com/amEsImzzbWvEvf1sZgWm8TYKOWBMyBLkKGqkQxSWzVSw1VS4cYcYk2e2IGBl8drtAHxu4HQXMBd96pMfXG8EP9H0nzpzgTXpC38FS-9IHdlmwLDc9_sGtMsPKd0rM3v5KSx0-ANlgg1Ps46XEw)
+![](/assays/images/light1.png)
 *Figure 1: The first 10 optical planes imaged are in Box 1, 11-20 in Box 2, 21-30 in Box 3, and so on. The total number of z-stacks acquired (SizeV) is determined by the xy plane field of view which depends on instrument and acquisition settings.*
 
-![](https://lh3.googleusercontent.com/VtQKat9m0SBXs1bT5rIpe-LvcApJcoOEcy6_G3iI3Jd1bcq86gyKD62G2WR32mzD92lt6TSWuBBJ4gb-mm_aFtwFFuxxeTh6-lzpOR3ZG4qJaUugHd9Pk-6pUCrqaSnPcXv2msofwEokZOat0Q)
+![](/assays/images/light2.png)
+![](/assays/images/light3.png)
 
 *Figure 2: Stitching together neighboring z-stack tiles occurs in post-processing (data state, level 2). Tile stitching occurs within the same Z-plane from boxes 1 thru 9 and is reliant upon overlap in the X- and Y- field of view. Tile stitching is a supervised task and may have minor error in alignments. Automated stitching alignment is not without error either and is increasingly challenging for larger volumes of tissue. Standard overlap of tiles is 5%.*
 
@@ -103,7 +104,7 @@ Essential Metadata Overview for Volumetric Reconstruction
 ## LSFM General File Strcuture:
 Antibody metadata will be included in the Parent Folder of corresponding datasets within the metadata and channel info CSV. 
 
-![](https://lh4.googleusercontent.com/HRacxKeLtufUZa9M-z9uWC7lFkeGcYfucU3JBVsHOxXyJF8tCDsWuEjOffnkI7Syo8l3oV__u7qxp-Yx_sULr3lnx4GTmvzgix17TdmcKPG-2NCsS0vx17777USLzgrdQ21l6DIbjWxt6VYFow)
+![]![](/assays/images/light4.png)
 
 ## LSFM Data Processing by the HIVE
 Please see the HIVE LSFM data processing pipeline documentation.
