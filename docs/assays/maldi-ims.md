@@ -14,13 +14,13 @@ Matrix-assisted laser desorption/ionization (MALDI) imaging mass spectrometry (I
 ## Definitions 
 There are a variety of terms used in this document that may not be familiar to all researchers wanting to make use of the HubMap data. The following figures illustrate several of these terms:
 
-![enter image description here](https://lh4.googleusercontent.com/oLN0warqvtQ4gsrQ-VO4taliTT9NDPRmVtNzIGTer_52ORlqwV43YKsOkSqkoTw9a8qPhFuoH5hevvW0pwsHXjzImqDjskNcYKa3pvGBWsZ9tNT0LqXKARfTfZy_twpvRXyQCf5k)
+![enter image description here](/assays/images/maldi1.png)
 
 *Figure 1:* Pictorial representation of imaging mass spectrometry terms. The blue box is an example slide or cover slip where the sample is located. The red box is an examples of “regions” or user defined imaging areas on tissue. For instance, if you want to image a specific structure in the tissue, you would designate a “region” over the structure.
 
   
   
-![enter image description here](https://lh6.googleusercontent.com/FkOm_l8oYJo0eNYpH9kw86ECE7r3LC6TAFQT7RmS983f0OOSmRpdTTw986igzZZ4sTinEZEUhZJrjrcgPQpX70ZJS7OJsCDIH4y3dvNAZlkG4-32U5ItT34v9jzl7HA-Hijevh24)
+![enter image description here](/assays/images/maldi2.png)
 
 *Figure 2:* MALDI IMS is performed by rastering a sample under a laser so that ions generated from a defined number of laser shots are collected from each pixel in the user defined measurement region. The spatial resolution is determined by the laser spot size at the surface and the pitch between the individual pixels.
 
