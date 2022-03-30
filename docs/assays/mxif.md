@@ -15,19 +15,19 @@ MxIF is used to visualize the distribution of multiple protein antigens in an in
 There are a variety of terms used in this document that may not be familiar to all researchers wanting to make use of the HubMap data. The following figures illustrate several of these terms:
 
 
-![](https://lh5.googleusercontent.com/EouChcXE1SRcI5G5gUpczH7rS8kMwfBGXPnBbi1L5WYIm1BGPT35UbjZ1ByPKPZKUU8_7ttD-n-9FzlGAKyCjm15b9Yz_aD6AK294sNld0dfCmRsOWPab4wxQvV5aYWht-bN62RR)  
+![](/assays/images/mx1.png)  
 *Figure 1: Diagrmatic representation of microscopy terms. The black box is an example slide or cover slip where the sample is located. Blue boxes are examples of “regions” or user defined imaging areas. For instance, if you want to image a specific structure in the tissue, you would designate a “region” over the structure. Red boxes are examples of “tiles” or the microscope “field of view”. The size of the tile is dependent on the microscope set up and objective. Tiles will fill the region. Because the field of view cannot be changed, tiles will overhang from the region, ensuring the entire region is imaged at the expense of extra tiles being acquired.*
 
-![](https://lh6.googleusercontent.com/zzWDhBbViWSQef7-M7ygA-lzLOQ_YcPJ88ofJiNjiz4IHMRRo_EC1U9EeLKpZQ3pdUYQ_3cJfd_IZkvSlBV-lXmcci4rXbmMxc5Sg8HWJ8zSGNXkIq9uMMpW2oUApqvP_WM34My3)
+![](/assays/images/mx2.png)
 *Figure 2: Images are generally acquired with adjacent tiles overlapping, as indicated by the dark regions in the image on the right above. Overlap enhances alignment of tiles for stitching to create a composite image, as shown in Figure 4 below.*
 
-![](https://lh3.googleusercontent.com/pDRaEsozDX99ncpsTiYnJaVy2SPAh0ECMqhf7Z99-Opv_QBvqUL6pUCbW_XdjwNHBgKNJ1dM5bRIpqNybilELRoQ5SD4MiqO8jEVr1p8aLpXbLYMY_OdOqcpzFyh-G9ziWjwd6MA)
+![](/assays/images/mx3.png)
 *Figure 3: Images of tiles are captured as the stage moves across the imaged region row by row (left) or via a serpentine (or snake-like) path (right).*
 
-![](https://lh4.googleusercontent.com/daAZNlhDbX4a465THbi1TcZ2QkwFwy7n1dd3Knb6IanJVIA20XHlEQk-rPrjjf1ymW6QawjAwlSCQt949A47qQOsZ6OGCUpK6eMXiAn6NmbegTt1o7GFGqk5DjsKsCN-ep-Lzj6O)
+![](/assays/images/mx4.png)
 *Figure 4: Stitching is the process of aligning and merging neighboring image tiles into a single composite image.*
 
-![](https://lh5.googleusercontent.com/-lifdPvdX5ZB2DPtmCe3MPPeta-7W7H04LiK6P_L-i1VQdE3IzuRwAzSt0cCsaQJWQpAIpXX7YuDmWgZQiNWunaQhPSERz64y-4mxzl4dGdzh2So2bbgQRNZpVZ1BXps0Ckhlcc_)
+![](/assays/images/mx5.png)
 *Figure 5: Example defined plane (left) with example imaged z planes (right).*
 
 ## HuBMAP CODEX Data States (Levels)
