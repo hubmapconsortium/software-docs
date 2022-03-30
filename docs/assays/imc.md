@@ -11,7 +11,7 @@ This document describes Imaging Mass Cytometry technology, generated data files 
 ## Description
 [Imaging Mass Cytometry](http://www.bodenmillerlab.com/research-2/imaging-mass-cytometry/) combines standard immunohistochemistry with CyTOF mass cytometry to resolve the cellular localization of up to 40 proteins in a tissue sample. Multiplexing of dozens of proteins is possible because the antibodies are tagged with rare-earth metal isotopes of defined atomic mass rather than fluorophores which are subject to spectral signal overlap. High-resolution laser ablation of tissue stained with these antibody-metal conjugates generates clouds of tissue particles which are atomized, ionized, and detected in a time-of-flight mass cytometer. Signals are then plotted against the coordinates of each single laser shot to synthesize one image per mass channel, with high-dimensional images produced by overlaying images from multiple channels.
 
-![](https://lh5.googleusercontent.com/I34RfJ663vYs4QaluVMGKgjTR_7-GFYumZPyAtcCXbPFOYgtZCMxverFtcPUrq32VyWQVgKpOPjEAPkUmZYtAM_R2kwznYPHMB1wBLOVQ0UVD-3oKt30iazekMb6KCEXSnDUHGdr)
+![](/assays/images/imc1.png)
 
 *Figure 1. Workflow of imaging mass cytometry [(From Giesen et al., 2014)]( https://doi.org/10.1038/nmeth.2869)*.
 
@@ -63,7 +63,7 @@ In addition, all HuBMAP IMC data will have an associated “acquisition_metadata
 ## HuBMAP IMC Raw File Structure
 1.  *HuBMAP IMC Raw File Structure*
     A schematic of the general structure of the stage 0 (raw) data produced by the fluidigm software is shown below:
-![](https://lh3.googleusercontent.com/Cv5xsGl9_tP2aoDD963MjNu-SViqg2a-iVpxAzk6o3IjlQnO-LtEu257NyIr1ZwA52cs8StTHUEL8CAJG9WoqnhN26MdcL5ivAhW6ALMR1t8wMglWyYUHEJPPobr0bSVEdpyfRI)
+![](/assays/images/imc2.png)
 2) *HuBMAP IMC Processed Data File Description*
 
 | Processed Data Loaded | Descriptor (the name should contain the following) | Example |
@@ -80,7 +80,7 @@ In addition, all HuBMAP IMC data will have an associated “acquisition_metadata
 
 2.  Segmented cell data (level 1) QC - Create density plots showing intensity profiles for each marker for all regions of interest, shown below.
 
-![](https://lh4.googleusercontent.com/9jbNLKfrLwWIebQ11JMT5np3G3OjtByRbA01oU-jHzf8rWo_V6TTPfPxoi15lh8pEnqPANZ-GPd9KQiTecpJ9i_iC1a1k2ujbI3cjbaMRitXx7a1s-qpVpRmjK9ynpNMeR_yhl0)
+![](/assays/images/imc3.png)
 
 3.  Annotated cell data (level 2) QC - After clustering, clusters were assigned to cell types based on marker expression. In order to ensure correct cell type assignment, the custom package cytomapper ([https://github.com/BodenmillerGroup/cytomapper](https://github.com/BodenmillerGroup/cytomapper)) was used to overlay cell masks onto raw IMC images and visualise the expression of different markers. This allowed us to visually verify that a particular cell cluster was in fact the correct cell type, based on coexpression of other informative markers.
 
