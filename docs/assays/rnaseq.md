@@ -10,7 +10,7 @@ This document details bulk and single-cell RNA-sequence assays, data states, met
 
 Much of this document was created utilizing [Guidelines for reporting single-cell RNA-Seq experiments](https://arxiv.org/pdf/1910.14623.pdf)
 
-![](https://lh6.googleusercontent.com/fVe7iWgyXjEKdi2qy433QqmOFWMPrfGVgbd9q-YwBur4J3ps-F_MPUrc0vUfKRisjou0odvmFUq4_-dgAXgC7fNBHMk-2TfnGoHn45Hk3Rh3bPRQgKTFXr_RUi9O8T9NgBSqrhrx)
+![](/assays/images/rna1.png)
 
 Figure 1: General workflow for single cell transcriptomics [(Füllgrabe et al, 2019)](https://arxiv.org/pdf/1910.14623.pdf).
 
@@ -25,7 +25,7 @@ RNA sequencing reveals the identities and quantities of transcribed genes in a b
 Gene expression profiling begins with isolation of total RNA from a tissue sample or from individual cells. mRNA is typically purified from total RNA by removal of ribosomal RNA (rRNA). mRNA is further processed for sequencing, as described in a detailed example protocol found in Appendix 1 of this document.
 
 A visual summary is provided below.
-![](https://lh5.googleusercontent.com/lucozpAWSmdTG4KDF7I9Wfua5rvVxX7WlSCdHnaOAS-oaS92o-96hN9OdGyzerGUXUaUIuim4l6JKqeuvAPLUFib_seMquWlu0aL-U4K_WSSIPdhdVUKD4aMXBysAMXoGcGbr4ev)
+![](/assays/images/rna2.png)
 
 Figure 2: A basic representation of the major steps and considerations in the sequencing of RNA.
 [(Kukurba et al, 2015)](https://doi.org/10.1101/pdb.top084970)
@@ -37,7 +37,7 @@ For questions on bulk RNAseq, contact: [Stephanie Nevins](mailto:snevins@stanfor
 Utilizes a droplet-based emulsion PCR method to encapsulate individual cells with enzyme-containing beads in oil droplets, tagging single cell transcriptomes with UMIs and unique cell barcodes via reverse transcription to cDNA. Tagged transcriptomes are subsequently amplified, sheared to appropriate fragment size, repaired, and ligated with sequencing adapters (illumina) and user-chosen sample index oligos.
 - For questions, contact: [Maigan Brusko](mailto:maigan@ufl.edu)
 
-![](https://lh5.googleusercontent.com/fTLVDTHFHxzjQUA9-tOmeM8mE2vhKAxbGMkMw5PfdC_GAwrI9_0OEYdZd7U1VPzblgJFJsig1zjehDhgnKSxtfqNNuTYvs8-wIUftx2t7kkkohIM6EApqYtIBHeEmn1PBYDl7Je-)
+![](/assays/images/rna3.png)
 
 *Figure 3: Single cell workflow [(Image from Roy J. Carver Biotechnology Center)](https://biotech.illinois.edu/htdna/applications)*.
 
@@ -47,7 +47,7 @@ Accessible chromatin in permeabilized nuclei is captured by Tn5 transposase, bef
 
 - For questions about SNARE-RNAseq, contact: [Blue Lake](mailto:b1lake@eng.ucsd.edu)
 
-![](https://lh3.googleusercontent.com/McZ_fPoVZvF_03UJnDpvkkTDsm6lNzSRNV3Y9plA19hHN_8uU8XKJxRbKAaKxJoO74gUPD8d3esZebf7J3r4GYdpz7A3MfafNHWeUbE6yOUoNKpk3M828p8vVvmx71zyDtdlXWME)
+![](/assays/images/rna4.png)
 *Figure 4: General workflow for linked single-nucleus transcriptome and chromatin accessibility sequencing of human cell mixtures. a, Workflow of SNARE-seq. b, Aggregate single-nucleus chromatin accessibility profiles.  c, t-SNE visualization of SNARE-seq paired gene expression (upper panel) and chromatin accessibility (lower panel, n=1,047) data from BJ, GM12878, H1 and K562 cell mixture. d, Inter-assay identity agreement reveals consistent linked transcriptome and chromatin accessibility profiles of SNARE-seq data. [(Chen et al., 2019)](https://doi.org/10.1038/s41587-019-0290-0)*.
 
     
@@ -57,7 +57,7 @@ Cells are fixed and permeabilized with methanol (alternatively, cells are lysed 
 - For questions about sciRNAseq, contact: [Dana L Jackson](mailto:danaj77@uw.edu)
 - For questions about snRNAseq, contact: [Stephanie Nevins](mailto:snevins@stanford.edu)
 
-![](https://lh3.googleusercontent.com/eQWEFJmBUX7dcDgN3NfthszCpbCI6026MI8GKuhts58NZTZtGfndIVbBtNFZX_EEHUZ7qVppNLK-hgFUPFkkOpvQe_8ivLwqPpmCZZD9VzhTkSOttSntz_1i-1S3I3k1f4jNlzb9)
+![](/assays/images/rna5.png)
 *Figure 5: Workflow for single cell indexing-RNAseq (sciRNAseq)
 [(Figure provided by the Trapnell Lab)]( https://cole-trapnell-lab.github.io/projects/sc-rna/)*.
 
@@ -108,8 +108,7 @@ Line 4 encodes the quality values for the bases in Line 2.
 The bolded steps below constitute a series of standard RNA-seq data analysis workflow.
 
 Pre-alignment QC with FastQC:
-![](https://lh6.googleusercontent.com/QsiwMxLc4sqev7m2DRAyWLWmV6n-D7XP39-9L83RwxQK-Xy6MxsWkXctkb9yspdCgNyickFX6Ae9QN_-xepigyl7G2vsipMbe4fUSYcwdPPpshUKneEw154vqf4OBD_LT3lr4olF)
-
+![](/assays/images/rna6.png)
 Figure 6: Plot of per sequence base quality [(Figure from Babraham Bioinformatics)](http://www.bioinformatics.babraham.ac.uk/projects/fastqc)
 
 | qc_metric | Threshold | Tool |
