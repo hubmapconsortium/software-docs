@@ -12,7 +12,7 @@ This document details data levels, metadata fields, file structure, QA/QC thresh
 While bulk ATACseq (Assay for Transposase-Accessible Chromatin) reveals the average of chromatin architecture for cells comprising a tissue sample, single-cell ATACseq (scATACseq), employs per-cell and per-molecule barcoding to enable single-cell resolution of chromatin architecture. The ATACseq assay itself is the same for bulk and single-cell templates. ATAC-seq employs a genetically engineered Tn5 transposase that inserts sequencing adapters into accessible regions of the chromatin surface. Analysis of the sequences derived from the Tn5 sequencing adapters allows identification of those regions of the chromatin located on the cell-state-specific surface of the chromatin.
 Single cell, single molecule barcoding: This diagram of the [DropSeq](http://mccarrolllab.org/dropseq/) process (droplet barcoding of single cells) from the laboratory of Steve McCarroll at Harvard Medical School illustrates the general strategy for droplet-based barcoding:
 
-![](https://lh4.googleusercontent.com/GGPdys1X_4qmPHwQiaT8GQn5umfUlNAqi4x1Do4xGtsaIv7fakOngbJpYZ6P8Ik_YqPcf-E4nI4_VrGWNVfBu9OSGRCvoisY-N8VDAH61D4NI_JKGHo5C2u8aQG-a82a8TNtqdA)
+![](/assays/images/atac1.png) 
 *Figure 1: Diagram of the DROPseq process [(Macosko et al., 2015)](https://doi.org/10.1016/j.cell.2015.05.002).*
 
 Software packages such as [Seurat](https://satijalab.org/seurat/) are available for single-cell data QC, RNAseq and data exploration.
@@ -23,7 +23,7 @@ In contrast to droplet barcoding methods, [SPLiT-Seq](https://science.sciencemag
 
 (Note: combinatorial index  barcoding assays have the prefix “sci-” rather than “sc”, which generally indicates standard droplet-based barcoding).
 
-![](https://lh6.googleusercontent.com/BoAzThqGRpbYQ-VhVfz4y8p4K8u-0v0eBBjo28QEuR0i59EjAIziRhsevO0vEj1ANfg6S-ZviHPav-JPcS-0KsD6iOZbqQMFzUejqufUw5I3C7IMSK5xs3GDqT30gPt2J0h2h_w)
+![](/assays/images/atac2.png)
 
 *Figure 2: Diagram of the combinatorial index barcoding process [(Rosenberg et al., 2018)](https://doi.org/10.1126/science.aam8999)*.
 
