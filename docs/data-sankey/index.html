@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<title>Sankey from CSV</title>
+<title>Data Sankey</title>
 <style>
 
 .node rect {
@@ -69,14 +69,28 @@ var sankey = d3.sankey()
 
 var path = sankey.link();
 
+// Retrieves JSON from entity api 'datasets/sankey_data'
+async function getData(url = '') {
+  const response = await fetch(url, {
+    method: 'GET',
+    mode: 'cors',
+    credentials: 'omit'
+  });
+  return response.json();
+}
+
 // JCS: load the data from CSV with headers into JSON "graph" format
   // d3.json("sankey.json", function(error, graph) {
   // above line was original json call to load original json replaced by csv call and calculations below
-d3.csv("data.csv", function(error, data) {
+//d3.csv("data.csv", function(error, data) {
+// above line was to direclty reference a csv file. now an api call is made to entity-api to retrieve a json with the data
+async function generate_sankey(){
+  const data = await getData('https://entity.api.hubmapconsortium.org/datasets/sankey_data');
   graph = {"nodes":[],"links":[]};
   
   // JCS: this section accumulates the sankey graph without error checking - each column header and item in the csv might need to be filled in without nulls
-  columnnames = Object.keys(data[0]);
+  // columnnames = Object.keys(data[0]);
+  columnnames = ["dataset_group_name", "dataset_data_types", "organ_type", "dataset_status"];
   data.forEach(function (row, rowIndex){
       columnnames.forEach(function (columnName, columnIndex){
           if (columnIndex !== columnnames.length -1){
@@ -177,8 +191,8 @@ d3.csv("data.csv", function(error, data) {
            sankey.relayout();
            link.attr("d", path);
          }
-       });
-
+       }
+generate_sankey()
  </script>
 
  </body>
