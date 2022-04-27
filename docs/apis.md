@@ -1,30 +1,36 @@
 ---
 layout: page
 ---
-# HuBMAP IDs and APIs
+# HuBMAP APIs
 
-## IDs
+## Identifiers used in HuBMAP and the APIs
 
-HuBMAP uses three different kinds of IDs:
+HuBMAP uses three different kinds of identifiers:
 
 ### HuBMAP ID
+
+HuBMAP IDs are "human readable" identifiers that are used when displaying information about HuBMAP entities such as Donors, Tissue Samples, Datasets, Collections.
+
 - Example: `HBM123.ABCD.456` 
 - Used for identification of HuBMAP entities and referencing in HuBMAP context, e.g. in the portal UI, slides, human-human communication, etc.
-- Can be used to query portal UI and APIs
-- 1:1 mapping to UUID
+- These identifiers can be used in the APIs to query portal UI and APIs
+- There is a one-to-one mapping between HuBMAP IDs and UUIDs, with all HuBMAP IDs guaranteed to having a corresponding UUID, though not all UUIDs have a corresponding HuBMAP ID.
 
 ### UUID
-- Example: `0123456789abcdef0123456789abcdef`
-- Used for software implementation
-- Can be used to query portal UI and API
-- 1:1 mapping to HuBMAP ID
+HuBMAP UUIDs are intended for use internally in software and data storage.  They are intended for use by software and systems only and not human readable.
+
+- These ids are 32 digit hexadecimal numbers. Example: `0123456789abcdef0123456789abcdef`
+- Used for software implementation and data storage.
+- These identifiers can be used to query the APIs and data portal.
 
 ### DOI
+Digital Object Identifiers (DOIs) are generated for published hubmap data and allow for permanent references outside of HuBMAP.
+
 - Example: `10.1234/HBM123.ABCD.456` 
-- Used for referencing outside HuBMAP context, in particular in publications.
+- Used for referencing outside HuBMAP context, in particular for use as references in publications.
 - Displayed as: `doi:10.1234/HBM.123.ABCD.456`
 - Linked to: `https://doi.org/10.1234/HBM.123.ABCD.456`
-- Not all HuBMAP IDs are registered as DOIs.
+- Not all HuBMAP IDs are registered as DOIs, primarily published (public) Datasets and Collections of datasets have DOIs.
 
 
 ## APIs
