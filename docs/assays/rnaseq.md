@@ -25,6 +25,7 @@ RNA sequencing reveals the identities and quantities of transcribed genes in a b
 Gene expression profiling begins with isolation of total RNA from a tissue sample or from individual cells. mRNA is typically purified from total RNA by removal of ribosomal RNA (rRNA). mRNA is further processed for sequencing, as described in a detailed example protocol found in Appendix 1 of this document.
 
 A visual summary is provided below.
+
 ![](/assays/images/rna2.png)
 
 Figure 2: A basic representation of the major steps and considerations in the sequencing of RNA.
@@ -58,8 +59,9 @@ Cells are fixed and permeabilized with methanol (alternatively, cells are lysed 
 - For questions about snRNAseq, contact: [Stephanie Nevins](mailto:snevins@stanford.edu)
 
 ![](/assays/images/rna5.png)
-*Figure 5: Workflow for single cell indexing-RNAseq (sciRNAseq)
-[(Figure provided by the Trapnell Lab)]( https://cole-trapnell-lab.github.io/projects/sc-rna/)*.
+
+Figure 5: Workflow for single cell indexing-RNAseq (sciRNAseq)
+[(Figure provided by the Trapnell Lab)]( https://cole-trapnell-lab.github.io/projects/sc-rna/).
 
 ## HuBMAP RNA-Seq Data States
 | Data State | Description | Example File Type |
@@ -88,14 +90,12 @@ This metadata field schema now resides in [Github](https://github.com/hubmapcons
 ## HuBMAP Single-cell Sequence Raw File Structure
 The raw sequencing data is recorded in a FASTQ file which contains sequenced reads and corresponding sequencing quality information. Every read in FASTQ format is stored in four lines as follows
 
+```
 @HWI-ST1276:71:C1162ACXX:1:1101:1208:2458 1:N:0:CGATGT
-
 NAAGAACACGTTCGGTCACCTCAGCACACTTGTGAATGTCATGGGATCCAT
-
 +
-
 #55???BBBBB?BA@DEEFFCFFHHFFCFFHHHHHHHFAE0ECFFD/AEHH
-
+```
 Line 1 begins with a '@' character and is followed by a sequence identifier and an optional description (such as a FASTA title line).
 
 Line 2 is the sequence of the read.
@@ -111,15 +111,15 @@ Pre-alignment QC with FastQC:
 ![](/assays/images/rna6.png)
 Figure 6: Plot of per sequence base quality [(Figure from Babraham Bioinformatics)](http://www.bioinformatics.babraham.ac.uk/projects/fastqc)
 
-| qc_metric | Threshold | Tool |
-|---|---|---|
-|  average_base_quality_scores |>20 (accuracy rate 99%)| FastQC|
-|  gc_content || FastQC|
-|  sequence_length_distribution |>45 (encode)| FastQC|
-|  sequence_duplication|| FastQC|
-|  k-mer_overrepresentation |20 (accuracy rate 99%)| |
-|  0 |>20 (accuracy rate 99%)| FastQC|
-|  contamination_of_primers_and_adapters_in_sequencing_data || Library specific data on adapters need to be provided to the read-trimming tool like trimmomatic *(Bioinformatics. 2014 Aug 1; 30(15):2114-20.).*|
+| qc_metric                                                | Threshold               | Tool |
+|----------------------------------------------------------|-------------------------|---|
+| average_base_quality_scores                              | >20 (accuracy rate 99%) | FastQC|
+| gc_content                                               |                         | FastQC                                                                                                                                          |
+| sequence_length_distribution                             | >45 (encode)            | FastQC|
+| sequence_duplication                                     |                         | FastQC                                                                                                                                            |
+| k-mer_overrepresentation                                 | 20 (accuracy rate 99%)  | |
+| 0                                                        | >20 (accuracy rate 99%) | FastQC|
+| contamination_of_primers_and_adapters_in_sequencing_data |                         | Library specific data on adapters need to be provided to the read-trimming tool like trimmomatic *(Bioinformatics. 2014 Aug 1; 30(15):2114-20.).* |
 
 ### Definition
 Base quality scores: prediction of the probability of an error in base calling
@@ -132,13 +132,13 @@ Overrepresented k-mer sequences in a sequencing library
 ### Library-level Alignment QC
 Note that this is not per-cell. Trimmed reads are mapped to reference genome.
 
-| qc_metric | Threshold | Method |
-|---|---|---|
-|  unique_mapping_percent |Ideally > 95% (Encode) Acceptable > 80% (at least for bulk)| SAMtools/Picard|
-| duplicate_reads_percent || SAMtools/Picard|
-|  fragment_length_distribution |>45 (encode)| SAMtools/Picard|
-|  gc_bias |Biased if variance of GC content is larger than 95% of confidence threshold of the baseline variance| SAMtools/Picard|
-|  library_complexity |NRF>0.9, PBC1>0.9, and PBC2>3| https://www.encodeproject.org/data-standards/terms/#library|
+| qc_metric | Threshold                                                                                            | Method |
+|---|------------------------------------------------------------------------------------------------------|---|
+|  unique_mapping_percent | Ideally > 95% (Encode) Acceptable > 80% (at least for bulk)                                          | SAMtools/Picard|
+| duplicate_reads_percent |                                                                                                      | SAMtools/Picard|
+|  fragment_length_distribution | >45 (encode)                                                                                         | SAMtools/Picard|
+|  gc_bias | Biased if variance of GC content is larger than 95% of confidence threshold of the baseline variance | SAMtools/Picard|
+|  library_complexity | NRF>0.9, PBC1>0.9, and PBC2>3                                                                        | https://www.encodeproject.org/data-standards/terms/#library|
 
 ### Uniquely mapping % –
 Percentage of reads that map to exactly one location within the reference genome.
@@ -163,3 +163,43 @@ The detailed assay protocol can be found here: [dx.doi.org/10.17504/protocols.io
 
 ## For Additional Help
 Please contact: [Maigan Brusko](mailto:maigan@ufl.edu)
+
+## Processing
+
+HuBMAP RNA-seq datasets are processed with a
+[standardized pipeline](https://github.com/hubmapconsortium/salmon-rnaseq)
+based on the [Salmon](https://combine-lab.github.io/salmon/) quantification
+method, followed by [Scanpy](https://scanpy.readthedocs.io/en/stable/) and
+[scVelo](https://scvelo.readthedocs.io/).
+
+Expression matrices are stored in the [AnnData](https://anndata.readthedocs.io/en/latest/)
+format, serialized as HDF5 and converted to [Zarr](https://zarr.readthedocs.io/en/stable/)
+for visualization in the HuBMAP portal.
+
+![](/assays/images/rna7.svg)
+
+Figure 6: [AnnData](https://anndata.readthedocs.io/en/latest/) in-memory layout
+
+Quantification is performed using the GRCh38 human reference transcriptome,
+with an index including separate intronic and exonic sequences, and genes
+keyed by Ensembl IDs. Three H5AD files may be of interest to users:
+
+* `expr.h5ad`: Adjusted version of `raw_expr.h5ad` with genes keyed by versioned
+  Ensembl IDs, with separate `AnnData` layers `spliced`, `unspliced`, and
+  `spliced_unspliced_sum` for exonic, intronic, and the sum of those counts,
+  respectively.
+
+  Note that Salmon writes fractional counts for reads that map equally well to
+  multiple transcript sequences; this count matrix and the following `expr.h5ad`
+  are not necessarily integer-valued.
+* `secondary_analysis.h5ad`: contains filtered and normalized expression data,
+  with annotations for each cell (entry in `AnnData.obs`) such as Leiden cluster
+  assignment, UMAP coordinates, etc.
+* `scvelo_annotated.h5ad`: contains RNA velocity estimation from the
+  [scVelo](https://scvelo.readthedocs.io/) package, typically as entries in
+  `AnnData.obsm`.
+
+(A file `raw_expr.h5ad` is also provided, containing the quantification output
+from Salmon directly converted to H5AD without further adjustment or processing.
+Genes (entries in `AnnData.var`) are keyed by versioned Ensembl IDs for exonic
+sequences, and versioned Ensembl IDs with a "`-I`" suffix for intronic sequences.)
