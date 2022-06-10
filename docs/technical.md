@@ -83,3 +83,21 @@ layout: page
 </ul>
 We also automatically collect and display <a href="https://scholar.google.com/citations?user=CtGSN80AAAAJ&hl=en">HuBMAP-generated and referenced publications</a> using Google Scholar.
 </details>
+
+
+## HuBMAP: Human Reference Atlas Documentation
+
+
+
+| Title                                                                     | Persistent DOI         | Version |
+|---------------------------------------------------------------------------|------------------------|---------|
+| SOP: Authoring ASCT+B Tables                                              | 10.5281/zenodo.5746152 | v2.0.0  |
+| 3D Reference Object Approval                                              | 10.5281/zenodo.5944196 | v2.2.0  |
+| Using 3D Reference Objects                                                | 10.5281/zenodo.5639651 | v1.1.0  |
+| Using the CCF Registration User Interface                                 | 10.5281/zenodo.5575776 | v1.5.0  |
+| Construction of Organ Mapping Antibody Panels (OMAPs)                     | 10.5281/zenodo.5749882 | v1.0.0  |
+| Creating Crosswalk Tables for 2 Dimensional Functional Tissue Unit Models | 10.5281/zenodo.5748154 | v1.0.0  |
+| Assigning the Same RUI Location to Multiple Tissue Blocks                 | 10.5281/zenodo.5746143 | v1.0.0  |
+| Manual Segmentation of Tissue                                             | 10.5281/zenodo.5565027 | v1.2.0  |
+| ASCT+B Table Communications                                               | 10.5281/zenodo.5639622 | v1.3.0  |
+
