@@ -87,54 +87,54 @@ We also automatically collect and display <a href="https://scholar.google.com/ci
 <details>
 <summary>HuBMAP Human Reference Atlas Documentation</summary>
 <table>
-    <tr>
+    <tr style="background-color:#484c64">
         <td>Title</td>
         <td>Persistent DOI</td>
         <td>Version</td>
     </tr>
     <tr>
         <td>SOP: Authoring ASCT+B Tables</td>
-        <td>10.5281/zenodo.5746152</td>
+        <td><a href="https://zenodo.org/record/5746152">10.5281/zenodo.5746152</a></td>
         <td>v2.0.0</td>
     </tr>
     <tr>
         <td>3D Reference Object Approval</td>
-        <td>10.5281/zenodo.5944196</td>
+        <td><a href="https://zenodo.org/record/5944196">10.5281/zenodo.5944196</a></td>
         <td>v2.2.0</td>
     </tr>
     <tr>
         <td>Using 3D Reference Objects</td>
-        <td>10.5281/zenodo.5639651</td>
+        <td><a href="https://zenodo.org/record/5639651">10.5281/zenodo.5639651</a></td>
         <td>v1.1.0</td>
     </tr>
     <tr>
         <td>Using the CCF Registration User Interface</td>
-        <td>10.5281/zenodo.5575776</td>
+        <td><a href="https://zenodo.org/record/5575776">10.5281/zenodo.5575776</a></td>
         <td>v1.5.0</td>
     </tr>
     <tr>
         <td>Construction of Organ Mapping Antibody Panels (OMAPs)</td>
-        <td>10.5281/zenodo.5749882</td>
+        <td><a href="https://zenodo.org/record/5749882">10.5281/zenodo.5749882</a></td>
         <td>v1.0.0</td>
     </tr>
     <tr>
         <td>Creating Crosswalk Tables for 2 Dimensional Functional Tissue Unit Models</td>
-        <td>10.5281/zenodo.5748154</td>
+        <td><a href="https://zenodo.org/record/5748154">10.5281/zenodo.5748154</a></td>
         <td>v1.0.0</td>
     </tr>
     <tr>
         <td>Assigning the Same RUI Location to Multiple Tissue Blocks</td>
-        <td>10.5281/zenodo.5746143</td>
+        <td><a href="https://zenodo.org/record/5746143">10.5281/zenodo.5746143</a></td>
         <td>v1.0.0</td>
     </tr>
     <tr>
         <td>Manual Segmentation of Tissue</td>
-        <td>10.5281/zenodo.5565027</td>
+        <td><a href="https://zenodo.org/record/5565027">10.5281/zenodo.5565027</a></td>
         <td>v1.2.0</td>
     </tr>
     <tr>
         <td>ASCT+B Table Communications</td>
-        <td>10.5281/zenodo.5639622</td>
+        <td><a href="https://zenodo.org/record/5639622">10.5281/zenodo.5639622</a></td>
         <td>v1.3.0</td>
     </tr>
 </table>
