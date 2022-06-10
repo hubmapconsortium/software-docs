@@ -84,20 +84,58 @@ layout: page
 We also automatically collect and display <a href="https://scholar.google.com/citations?user=CtGSN80AAAAJ&hl=en">HuBMAP-generated and referenced publications</a> using Google Scholar.
 </details>
 
-
-## HuBMAP: Human Reference Atlas Documentation
-
-
-
-| Title                                                                     | Persistent DOI         | Version |
-|---------------------------------------------------------------------------|------------------------|---------|
-| SOP: Authoring ASCT+B Tables                                              | 10.5281/zenodo.5746152 | v2.0.0  |
-| 3D Reference Object Approval                                              | 10.5281/zenodo.5944196 | v2.2.0  |
-| Using 3D Reference Objects                                                | 10.5281/zenodo.5639651 | v1.1.0  |
-| Using the CCF Registration User Interface                                 | 10.5281/zenodo.5575776 | v1.5.0  |
-| Construction of Organ Mapping Antibody Panels (OMAPs)                     | 10.5281/zenodo.5749882 | v1.0.0  |
-| Creating Crosswalk Tables for 2 Dimensional Functional Tissue Unit Models | 10.5281/zenodo.5748154 | v1.0.0  |
-| Assigning the Same RUI Location to Multiple Tissue Blocks                 | 10.5281/zenodo.5746143 | v1.0.0  |
-| Manual Segmentation of Tissue                                             | 10.5281/zenodo.5565027 | v1.2.0  |
-| ASCT+B Table Communications                                               | 10.5281/zenodo.5639622 | v1.3.0  |
-
+<details>
+<summary>HuBMAP Human Reference Atlas Documentation</summary>
+<table>
+    <tr>
+        <td>Title</td>
+        <td>Persistent DOI</td>
+        <td>Version</td>
+    </tr>
+    <tr>
+        <td>SOP: Authoring ASCT+B Tables</td>
+        <td>10.5281/zenodo.5746152</td>
+        <td>v2.0.0</td>
+    </tr>
+    <tr>
+        <td>3D Reference Object Approval</td>
+        <td>10.5281/zenodo.5944196</td>
+        <td>v2.2.0</td>
+    </tr>
+    <tr>
+        <td>Using 3D Reference Objects</td>
+        <td>10.5281/zenodo.5639651</td>
+        <td>v1.1.0</td>
+    </tr>
+    <tr>
+        <td>Using the CCF Registration User Interface</td>
+        <td>10.5281/zenodo.5575776</td>
+        <td>v1.5.0</td>
+    </tr>
+    <tr>
+        <td>Construction of Organ Mapping Antibody Panels (OMAPs)</td>
+        <td>10.5281/zenodo.5749882</td>
+        <td>v1.0.0</td>
+    </tr>
+    <tr>
+        <td>Creating Crosswalk Tables for 2 Dimensional Functional Tissue Unit Models</td>
+        <td>10.5281/zenodo.5748154</td>
+        <td>v1.0.0</td>
+    </tr>
+    <tr>
+        <td>Assigning the Same RUI Location to Multiple Tissue Blocks</td>
+        <td>10.5281/zenodo.5746143</td>
+        <td>v1.0.0</td>
+    </tr>
+    <tr>
+        <td>Manual Segmentation of Tissue</td>
+        <td>10.5281/zenodo.5565027</td>
+        <td>v1.2.0</td>
+    </tr>
+    <tr>
+        <td>ASCT+B Table Communications</td>
+        <td>10.5281/zenodo.5639622</td>
+        <td>v1.3.0</td>
+    </tr>
+</table>
+</details>
