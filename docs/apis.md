@@ -3,39 +3,7 @@ layout: page
 ---
 # HuBMAP APIs
 
-## Identifiers used in HuBMAP and the APIs
-
-HuBMAP uses three different kinds of identifiers:
-
-### HuBMAP ID
-
-HuBMAP IDs are "human readable" identifiers that are used when displaying information about HuBMAP entities such as Donors, Tissue Samples, Datasets, Collections.
-
-- Example: `HBM123.ABCD.456` 
-- Used for identification of HuBMAP entities and referencing in HuBMAP context, e.g. in the portal UI, slides, human-human communication, etc.
-- These identifiers can be used in the APIs to query portal UI and APIs
-- There is a one-to-one mapping between HuBMAP IDs and UUIDs, with all HuBMAP IDs guaranteed to having a corresponding UUID, though not all UUIDs have a corresponding HuBMAP ID.
-
-### UUID
-HuBMAP UUIDs are intended for use internally in software and data storage.  They are intended for use by software and systems only and not human readable.
-
-- These ids are 32 digit hexadecimal numbers. Example: `0123456789abcdef0123456789abcdef`
-- Used for software implementation and data storage.
-- These identifiers can be used to query the APIs and data portal.
-
-### DOI
-Digital Object Identifiers (DOIs) are generated for published hubmap data and allow for permanent references outside of HuBMAP.
-
-- Example: `10.1234/HBM123.ABCD.456` 
-- Used for referencing outside HuBMAP context, in particular for use as references in publications.
-- Displayed as: `doi:10.1234/HBM.123.ABCD.456`
-- Linked to: `https://doi.org/10.1234/HBM.123.ABCD.456`
-- Not all HuBMAP IDs are registered as DOIs, primarily published (public) Datasets and Collections of datasets have DOIs.
-
-
-## <a id="APIS"></a> APIs
-Five application programming interfaces (APIs) currently define 
-data ingest support: Ingest, UUID, Search & Index, Entity, and Ontology.  Additionally, the HuBMAP portal uses Common Coordinate Framework (CCF) APIs (created by Indiana University TC) and internal transformation APIs (created by Harvard University TC)
+The following five APIs, available as RESTful web services, are availble which support data ingest, querying and delivery of metadata. Data delivery is available via the [Globus Transfer Service](https://www.globus.org/data-transfer) and [Globus Transfer API](https://docs.globus.org/api/transfer/).  See the [HuBMAP IDs](#HUBMAPIDS) section below for information about the ids used by the HuBMAP APIs.
 
 ### Ingest API
 The Ingest API supports writing data and metadata to HuBMAP. It is used when Tissue Mapping Centers (TMCs) contribute data and also to deposit derived data resulting from the execution of pipelines.
@@ -73,3 +41,33 @@ Examples of Entity endpoints are as follows:
 
 - [GitHub](https://github.com/hubmapconsortium/entity-api) 
 - [Smart API](https://smart-api.info/ui/0065e419668f3336a40d1f5ab89c6ba3)
+
+
+## <a id="HUBMAPIDS"></a> Identifiers used in HuBMAP and the APIs
+
+HuBMAP uses three different kinds of identifiers:
+
+### HuBMAP ID
+
+HuBMAP IDs are "human readable" identifiers that are used when displaying information about HuBMAP entities such as Donors, Tissue Samples, Datasets, Collections.
+
+- Example: `HBM123.ABCD.456` 
+- Used for identification of HuBMAP entities and referencing in HuBMAP context, e.g. in the portal UI, slides, human-human communication, etc.
+- These identifiers can be used in the APIs to query portal UI and APIs
+- There is a one-to-one mapping between HuBMAP IDs and UUIDs, with all HuBMAP IDs guaranteed to having a corresponding UUID, though not all UUIDs have a corresponding HuBMAP ID.
+
+### UUID
+HuBMAP UUIDs are intended for use internally in software and data storage.  They are intended for use by software and systems only and not human readable.
+
+- These ids are 32 digit hexadecimal numbers. Example: `0123456789abcdef0123456789abcdef`
+- Used for software implementation and data storage.
+- These identifiers can be used to query the APIs and data portal.
+
+### DOI
+Digital Object Identifiers (DOIs) are generated for published hubmap data and allow for permanent references outside of HuBMAP.
+
+- Example: `10.1234/HBM123.ABCD.456` 
+- Used for referencing outside HuBMAP context, in particular for use as references in publications.
+- Displayed as: `doi:10.1234/HBM.123.ABCD.456`
+- Linked to: `https://doi.org/10.1234/HBM.123.ABCD.456`
+- Not all HuBMAP IDs are registered as DOIs, primarily published (public) Datasets and Collections of datasets have DOIs.
