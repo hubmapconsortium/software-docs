@@ -33,7 +33,7 @@ Digital Object Identifiers (DOIs) are generated for published hubmap data and al
 - Not all HuBMAP IDs are registered as DOIs, primarily published (public) Datasets and Collections of datasets have DOIs.
 
 
-## APIs
+## <a id="APIS"></a> APIs
 Five application programming interfaces (APIs) currently define 
 data ingest support: Ingest, UUID, Search & Index, Entity, and Ontology.  Additionally, the HuBMAP portal uses Common Coordinate Framework (CCF) APIs (created by Indiana University TC) and internal transformation APIs (created by Harvard University TC)
 
@@ -45,7 +45,7 @@ The Ingest API supports writing data and metadata to HuBMAP. It is used when Tis
 ### UUID API
 The Ingest API supports all donor and tissue sample registration and submission of data and collection of provenance information via the Ingest UI. The Ingest UI is a web user interface used by the Tissue Mapping Centers (TMCs) when contributing raw and derived data which result from the execution of pipelines.
 - [GitHub](https://github.com/hubmapconsortium/uuid-api)
-- Smart API: currently not available
+
 
 ### Search & Index API
 The Search & Index API supports searching and reindexing of HuBMAP metadata and data. The /search endpoint returns sets of data entities matching specifi ed queries for Donors, Tissue Samples and Datasets. The /reindex endpoint is used internally to index new and changed entities, this endpoint is not accessible externally, but only from other APIs that create, update or delete entities.
@@ -56,7 +56,7 @@ The Search & Index API supports searching and reindexing of HuBMAP metadata and 
 The Ontology API accesses a Neo4j knowledge graph that allows
 extensive cross-referencing across biomedical vocabulary systems.
 - [GitHub](https://github.com/hubmapconsortium/hubmap-ontology)
-- Smart API: currently not available
+- [Smart API](https://smart-api.info/ui/dea4bf91545a51b3dc415ba37e2a9e4e)
 
 ### Entity API
 The Entity API returns information about HuBMAP data entities (Figure 3). 
