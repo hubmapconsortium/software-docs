@@ -24,7 +24,7 @@ Primary Reference [PMCIDs]( https://pubmed.ncbi.nlm.nih.gov/) **PMC8647621**
 ### Key Definitions
 * [ ] **Important terms used to describe CODEX data acquisition are defined and illustrated in the figures below.
 
-![CODEX-Fig1.png](CODEX-Fig1.png)
+![CODEX-Fig1.png](../assays/images/CODEX-Fig1.png)
 ##### Figure 1: Schematics illustrating CODEX-related terminology.
 
 * [ ] **(A) The selected imaging region is automatically divided into tiles (individual fields of view). 
