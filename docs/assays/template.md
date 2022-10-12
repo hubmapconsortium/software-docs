@@ -114,7 +114,7 @@ Level | Program | Version | Source URL | Input file | Command line (including al
 2 | space- ranger | 6.1.2 | [Space Ranger](https://support.10xgenomics.com/spatial-gene-expression/software/downloads/latest)| raw/* | spaceranger mkfastq | 10x Genomics program to demultiplex the sequencing data, generating the fastq files.
 3 | space- ranger | 6.1.2 | [Space Ranger](https://support.10xgenomics.com/spatial-gene-expression/software/downloads/latest)| lab/ demulti- plexed/ .fastq | spaceranger count | 10x Genomics program to process Visium data, combining the spatial and genomic![[PipelineArrows1-trans1.png | 474x101]]
 
-![](docs/assays/images/PipelineArrows1-trans1.png)
+![](software-docs/docs/assays/images/PipelineArrows1-trans1.png)
 
 ### Lab data processing pipeline
 * [ ] The same details as provided in the above section (“HIVE data processing pipeline”) should be detailed for each lab that uploads data that is processed independently from the HIVE.
