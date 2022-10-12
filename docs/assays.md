@@ -5,6 +5,7 @@ layout: page
 
 
 ## [Template](/assays/template)
+## [Example](/assays/example)
 
 ## [Autofluorescence Microscopy](/assays/af)
 
