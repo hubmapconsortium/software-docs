@@ -30,20 +30,20 @@ processed, and may not reflect subsequent changes until a re-index is complete.
 | organs           | An array of objects described below under `organs` Array Elements, with one for each organ Sample in the Dataset           |
 | donors           | An array of objects described below under `donors` Array Elements, with one for each donor of an entry in the organs array |
 | dataset_uuid     | The 32 character UUID of the Dataset which is the direct ancestor of this file                                             |
-| data_types       | An array of strings with codes for the assay types of the Dataset. See Assay Type Codes below.                             |
+| data_types       | An array of strings with codes for the assay types of the Dataset. See [Assay Type Codes](#assay-type-codes) below.        |
 
 ### `samples` Array Elements:
 | samples Element | Description                                                                                      |
 |-----------------|--------------------------------------------------------------------------------------------------|
 | uuid            | The uuid of a Sample entity whose specimen type is not 'organ', which is an ancestor of the file |
-| code            | A code for the specimen type, described below under Tissue Sample Types                          |
+| code            | A code for the specimen type. See [Tissue Sample Types](#tissue-sample-types) below              |
 | type            | A description for the tissue sample type of the specimen, specified as the "code"                |
 
 ### `organs` Array Elements:
 | organs Element | Description                                                                                                        |
 |----------------|--------------------------------------------------------------------------------------------------------------------|
 | uuid           | The uuid of a Sample entity whose specimen type is 'organ', which is an ancestor of a Sample included in "samples" |
-| type_code      | A code for the organ type of the Dataset, described below under Organ Type Codes                                   |
+| type_code      | A code for the organ type of the Dataset. See [Organ Type Codes](#organ-type-codes) below                          |
 | type           | A description for the organ type of the specimen, specified as the "type_code"                                     |
 
 ### `donors` Array Elements:
@@ -54,8 +54,8 @@ processed, and may not reflect subsequent changes until a re-index is complete.
 | units          | The unit of measure for the age concept of the Donor entity metadata                                                                           |
 | race           | A UMLS preferred term from the Donor entity metadata for the [UMLS race group CUI C0034510](https://uts.nlm.nih.gov/uts/umls/concept/C0034510) |
 
-### Tissue Sample Types {#enum-tissue-sample-types}
-Examples are enumerated below, but the current, authoritative list is [from the search-api](https://raw.githubusercontent.com/hubmapconsortium/search-api/main/src/search-schema/data/definitions/enums/tissue_sample_types.yaml).
+### Tissue Sample Types
+Examples are enumerated below, but the current, authoritative list is in the [tissue_sample_types.yaml](https://raw.githubusercontent.com/hubmapconsortium/search-api/main/src/search-schema/data/definitions/enums/tissue_sample_types.yaml) file of the search-api repository.
 - atacseq
 - biopsy
 - blood
@@ -103,8 +103,8 @@ Examples are enumerated below, but the current, authoritative list is [from the 
 - tissue_lysate
 - wgs
 
-### Organ Type Codes {#enum-organ-type-codes}
-Examples are enumerated below, but the current, authoritative list is [from the search-api](https://raw.githubusercontent.com/hubmapconsortium/search-api/master/src/search-schema/data/definitions/enums/organ_types.yaml).
+### Organ Type Codes
+Examples are enumerated below, but the current, authoritative list is in the [organ_types.yaml](https://raw.githubusercontent.com/hubmapconsortium/search-api/master/src/search-schema/data/definitions/enums/organ_types.yaml) file of the search-api repository.
 - AO
 - BL
 - BD
@@ -140,8 +140,8 @@ Examples are enumerated below, but the current, authoritative list is [from the 
 - UR
 - UT
 
-### Assay Type Codes {#enum-assay-type-codes}
-Examples are enumerated as follows, but the current, authoritative list is [from the search-api](https://raw.githubusercontent.com/hubmapconsortium/search-api/main/src/search-schema/data/definitions/enums/assay_types.yaml).
+### Assay Type Codes
+Examples are enumerated as follows, but the current, authoritative list is in the [assay_types.yaml](https://raw.githubusercontent.com/hubmapconsortium/search-api/main/src/search-schema/data/definitions/enums/assay_types.yaml) file of the search-api repository.
 - AF
 - AF_pyramid
 - ATACseq-bulk
