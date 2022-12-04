@@ -1,15 +1,13 @@
 ## Table of Contents
-
-1.[**Frequently Asked Questions (FAQ) for Antibody Validation Reports (AVRs)**](#frequenty-asked-questions-(faq)-for-antibody-validation-reports-(avrs))
-  1. **[General Questions](#general-avr-questions)**
-      1. [What is an antibody validation report (AVR)?](#what-is-an-antibody-validation-report-(avr))
+  1. **[General AVR Questions](#general-avr-questions)**
+      1. [What is an antibody validation report?](#what-is-an-antibody-validation-report)
       2. [How are antibodies validated within HuBMAP?](#how-are-antibodies-validated-within-hubmap)
-      3. [How can I access, search and browse existing AVRs?](#how-can-i-access,-search-and-browse-exisiting-avrs)
+      3. [How can I access, search and browse existing AVRs?](#how-can-i-access-search-and-browse-existing-avrs)
       4. [Who should submit an AVR?](#who-should-submit-an-avr)
       5. [Can I contribute an AVR if I am not a HuBMAP member?](#can-i-contribute-an-avr-if-i-am-not-a-hubmap-member)
       6. [Can I add to or make changes to an existing AVR?](#can-i-add-to-or-make-changes-to-an-existing-avr)
-      7. [Do AVRs capture species cross-reactivity?](#do-avr-capture-species-cross-reactivity)
-      8. [Is there a working group I may join to support authoring an Organ Mapping Antibody Panel (OMAP)  and submitting AVRs?](#is-there-a-working-group-i-may-join-to-support-authoring-an-organ-mapping-antibody-panel-(omap)-and-submitting-avrs)
+      7. [Do AVRs capture species cross-reactivity?](#do-avrs-capture-species-cross-reactivity)
+      8. [Is there a working group that I may join to support authoring an Organ Mapping Antibody Panel and submitting AVRs?](#is-there-a-working-group-that-i-may-join-to-support-authoring-an-organ-mapping-antibody-panel-and-submitting-avrs)
       9. [How do I cite an AVR?](#how-do-i-cite-an-avr)
   2. **[Submitting AVRs](#submitting-avrs)**
       1. [How do I complete an AVR?](#how-do-i-complete-an-avr)
@@ -23,7 +21,7 @@
 
 ## General AVR Questions
 
-### What is an antibody validation report (AVR)?
+### What is an antibody validation report?
 AVRs provide details on the characterization of individual antibodies for multiplexed antibody-based imaging assays and capture information that many journals request for manuscript submission. These details include target information, UniProt accession number, target name, Research Resource Identifiers (RRID), host organism, vendor, catalog number, and lot number. These reports provide details on controls used for characterization (positive and negative tissues, cell lines, isotype controls, etc), exemplar imaging data, and information on other antibodies tested. HuBMAP characterization data is specific to multiplexed imaging and goes beyond the information typically provided by the manufacturer, including considerations such as direct conjugation and cycling effects. The report format is a PDF that additionally includes a link to the specific validation protocol used for characterization on Protocols.io, (required for HuBMAP members) or other protocol repositories (non-HuBMAP members).
     
 ### How are antibodies validated within HuBMAP?
@@ -36,7 +34,7 @@ Antibodies for multiplexed imaging assays are first selected based on literature
 
 More details can be found in a Nature Methods primer authored by HuBMAP members (Hickey et al. 2021). 
 
-### How can I access, search, and browse existing AVRs?
+### How can I access, search and browse existing AVRs?
 The current AVR database, HuBMAP AVR Search, allows antibodies to be queried by fields including clone, RRID, catalog number, organ/tissue, HuBMAP platform, and Organ Mapping Antibody Panel (OMAP) ID. AVRs may be viewed in the browser or downloaded as PDFs.
 
 ### Who should submit an AVR?
@@ -51,7 +49,7 @@ No, not at this time. Please carefully review your AVR before submission. In cer
 ### Do AVRs capture species cross-reactivity?
 No, not at this time. Information on species cross-reactivity can be found in the links to vendor datasheets within the AVR. 
 
-### Is there a working group I may join to support authoring an Organ Mapping Antibody Panel (OMAP)  and submitting AVRs? 
+### Is there a working group that I may join to support authoring an Organ Mapping Antibody Panel and submitting AVRs?
 Yes, please join the Affinity Reagents Working Group by completing this form to indicate your interest:  https://forms.gle/Y2TVAcadSNn8Tdks7 .
 
 ### How do I cite an AVR?
@@ -65,11 +63,11 @@ Please see Table 2a and 2b in SOP: Constructing Antibody Validation Reports (AVR
 ### How do I upload AVRs?
 If you are a HuBMAP member, you may upload AVRs using the AVR Upload Page (login required). Detailed directions for upload can be found here. If there are questions at any point of submission, please reach out to the Lead AVR Assembly Contact listed in that SOP when you are ready to upload. 
 
-### Should every antibody in an Organ Mapping Antibody Panel (OMAP) have a corresponding AVR?
-Yes, beginning in 2023 all antibodies included in an OMAP should have an AVR. AVRs and OMAPs are designed to be integrated based on common fields.    
+### Should every antibody in an OMAP have a corresponding AVR?
+Yes, beginning in 2023 all antibodies included in an OMAP should have an AVR. AVRs and OMAPs are designed to be integrated based on common fields. 
 
 ### Should I fill out an AVR for antibodies that work but are not included in an OMAP?
 This is encouraged but not required. Alternatively, you may provide this information in the AVR section titled Section IV Validation Data: Other antibodies tested. 
 
-### Should I submit AVRs for antibodies that do not work for a given imaging platform or tissue?
+### Should I fill out an AVR for antibodies that do not work for an imaging platform or tissue?
 No, no additional report is needed for antibodies that do not work for your imaging platform or tissue. Instead, we ask that you list antibodies that are not recommended and/or alternative candidates (different clone and/or conjugate) in the AVR associated with your validated antibody. You may provide this information in the AVR section titled Section IV Validation Data: Other antibodies tested.
