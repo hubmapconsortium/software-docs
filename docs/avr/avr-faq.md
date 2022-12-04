@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 ## Table of Contents
   1. **[General AVR Questions](#general-avr-questions)**
       1. [What is an antibody validation report?](#what-is-an-antibody-validation-report)
