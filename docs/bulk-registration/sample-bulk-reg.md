@@ -10,6 +10,7 @@ On the sample bulk registration page you'll be asked to upload a .tsv file conta
 Tissue samples of type organ, block, section or suspension can be registered.
 
 ### Sample Bulk Registration TSV Fields
+
 | Field Column | Description |
 | --- | --- |
 | source_id | REQUIRED: The HuBMAP ID (e.g. HBM123.ABCD.4567) of the source for this tissue sample.  For samples that represent a whole organ, this source must be a donor, for any other sample type the source must be another sample (i.e., the sample that the newly registered sample was taken from). |
