@@ -1,49 +1,13 @@
 ---
 layout: page
 ---
-# donor
+# Donor Metadata
 
-## Table of contents
-<details><summary>Background</summary>
+### Data Source
+Donor metadata is supplied from each data generating site as either a PDF supplied by the organ procurement organization (OPO) or a downloaded and then de-identified extract from the United Network for Organ Sharing (UNOS) system or as csv files with available data (generally live surgical donors).  To provide documents for donors contact the help desk at help@hubmapconsortium.org and a landing space will be provided where the data can be uploaded securly.
 
-[`data_acquisition`](#data_acquisition)<br>
-[`data_transformation`](#data_transformation)<br>
-</details>
-
-<details><summary>Format</summary>
-
-[`donor_id`](#donor_id)<br>
-[`source_name`](#source_name)<br>
-[`start_datetime`](#start_datetime)<br>
-[`end_datetime`](#end_datetime)<br>
-[`graph_version`](#graph_version)<br>
-[`concept_id`](#concept_id)<br>
-[`code`](#code)<br>
-[`sab`](#sab)<br>
-[`data_type`](#data_type)<br>
-[`data_value`](#data_value)<br>
-[`numeric_operator`](#numeric_operator)<br>
-[`units`](#units)<br>
-[`preferred_term`](#preferred_term)<br>
-[`grouping_concept`](#grouping_concept)<br>
-[`grouping_concept_preferred_term`](#grouping_concept_preferred_term)<br>
-[`grouping_code`](#grouping_code)<br>
-[`grouping_sab`](#grouping_sab)<br>
-</details>
-
-<details><summary>Content</summary>
-
-[`basic_demographics`](#basic_demographics)<br>
-[`more`](#more)<br>
-</details>
-
-## Background
-
-### `data_acquisition`
-Donor metadata is supplied from each data generating site as either a PDF supplied by the organ procurement organization (OPO) or a downloaded and then de-identified extract from the United Network for Organ Sharing (UNOS) system or as csv files with available data (generally live surgical donors).
-
-### `data_transformation`
-Donor metadata is manual-abstracted into the format described in this document into a single spreadsheet using Microsoft Excel, then exported as CSV, and finally ingested into the HuBMAP Provenance Graph as donor metadata associated with the applicable HuBMAP Donor Entity. Assignment of Concepts, Codes, and Terms in the manual-abstraction follows the principles of using Unified Medical Language System (UMLS) Concepts which are common to multiple vocabularies when possible and favoring the use of SNOMEDCT_US. Donor-level data in the first release are limited to those that appear once per donor (e.g. demographics, but not vital signs or lab tests that repeat). The generally common donor-level data across OPOs was abstracted in the first release as the donor metadata. 
+### Data Extraction and Transformation
+Donor metadata is manual-abstracted by the HIVE into the format described in this document into a single spreadsheet using Microsoft Excel, then exported as CSV, and finally ingested into the HuBMAP Provenance Graph as donor metadata associated with the applicable HuBMAP Donor Entity. Assignment of Concepts, Codes, and Terms in the manual-abstraction follows the principles of using Unified Medical Language System (UMLS) Concepts which are common to multiple vocabularies when possible and favoring the use of SNOMEDCT_US. Donor-level data in the first release are limited to those that appear once per donor (e.g. demographics, but not vital signs or lab tests that repeat). The generally common donor-level data across OPOs was abstracted in the first release as the donor metadata. 
 
 ## Format
 
