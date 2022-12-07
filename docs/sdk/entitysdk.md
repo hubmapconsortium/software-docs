@@ -37,7 +37,7 @@ for the different servers are as follows:
 * Dev: https://entity-api.dev.hubmapconsortium.org/
 * Test: https://entity-api.test.hubmapconsortium.org/
 * Stage: https://entity-api.stage.hubmapconsortium.org/
-* Production: https://entity-api.hubmapconsortium.org/
+* Production: https://entity.api.hubmapconsortium.org/
 
 If using a local instance of Entity Api, by default the port used is 5002. Therefore "localhost:5002" would be used for
 service_url. 
