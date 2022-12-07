@@ -19,6 +19,7 @@ documents is described below.
 processed, and may not reflect subsequent changes until a re-index is complete.
 
 ## Document elements:
+
 | Document Element | Description                                                                                                                |
 |------------------|----------------------------------------------------------------------------------------------------------------------------|
 | file_uuid        | The uuid of the file                                                                                                       |
@@ -33,6 +34,7 @@ processed, and may not reflect subsequent changes until a re-index is complete.
 | data_types       | An array of strings with codes for the assay types of the Dataset. See [Assay Type Codes](#assay-type-codes) below.        |
 
 ### `samples` Array Elements:
+
 | samples Element | Description                                                                                      |
 |-----------------|--------------------------------------------------------------------------------------------------|
 | uuid            | The uuid of a Sample entity whose specimen type is not 'organ', which is an ancestor of the file |
@@ -40,6 +42,7 @@ processed, and may not reflect subsequent changes until a re-index is complete.
 | type            | A description for the tissue sample type of the specimen, specified as the "code"                |
 
 ### `organs` Array Elements:
+
 | organs Element | Description                                                                                                        |
 |----------------|--------------------------------------------------------------------------------------------------------------------|
 | uuid           | The uuid of a Sample entity whose specimen type is 'organ', which is an ancestor of a Sample included in "samples" |
@@ -47,6 +50,7 @@ processed, and may not reflect subsequent changes until a re-index is complete.
 | type           | A description for the organ type of the specimen, specified as the "type_code"                                     |
 
 ### `donors` Array Elements:
+
 | donors Element | Description                                                                                                                                    |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------|
 | uuid           | The uuid of a Donor entity which is an ancestor of a Sample included in "organs"                                                               |
