@@ -1,12 +1,12 @@
-#HuBMAP Software Documentation
+# HuBMAP Software Documentation
 
-This repository contains the documentation hosted at https://software.docs.hubmapconsortium.org.
+This repository contains the documentation hosted via GitHub Pages at https://software.docs.hubmapconsortium.org.
 
 ### Contents
 
   - `/src/`- any source code used to generate the hosted documents (not directly published)
   - `/docker/` - The files to create a docker image which can be run locally to test the site.  This image is built and available from DockerHub as `hubmap/github-pages-server`
-  - `/docs/` - Contains the markdown files that are hosted as html by GitHuB Pages.
+  - `/docs/` - Contains the markdown files that are hosted as html by GitHub Pages.
   - `/docs/templates` The html templates used by GitHub Pages to wrap the markdown.  At the top of the markdown file insert one of the following to include the menus and styling provided by the templates`
 ```
 ---
