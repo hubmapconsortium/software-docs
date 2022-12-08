@@ -2,7 +2,7 @@
 layout: page
 ---
 # HuBMAP Antibody Validation Report CSV Structure
-With each submission of AVR documents associated header/metadata information must be include for each AVR document. This information is provided as a .csv file.  It is recommended to start with the blank (header only) [template csv file](/avr/avr-template.csv), use Excel or other spreadsheet to enter the data, then export as a comma separated value (csv) file.  An example [example AVR csv file](/avr/example-avrs.csv) is also available. All columns in the csv file are required, with the definitions of the columns here:
+With each submission of AVR documents associated header/metadata information must be include for each AVR document. This information is provided as a .csv file.  It is recommended to start with the blank (header only) [template csv file](/avr/avr-template-v2.csv), use Excel or other spreadsheet to enter the data, then export as a comma separated value (csv) file.  An example [example AVR csv file](/avr/example-avrs-v2.csv) is also available. All columns in the csv file are required, with the definitions of the columns here:
 
 
 | csv column               | description                                                                    |
@@ -29,7 +29,7 @@ With each submission of AVR documents associated header/metadata information mus
 | organ_or_tissue          | This is the tissue that was used to acquire the validation data. This should be the same tissue that was used in the downstream assay. |
 |organ_uberon              | Uberon multi-species anatomy ontology ID for organ (e.g. for kidney UBERON:0002113). Accessible via the Ontology look-up service (OLS): https://www.ebi.ac.uk/ols/search?ontology=uberon |
 | antigen_retrieval        | If applicable, indicate general conditions under which  antigen retrieval was performed. Additional details should be available in the referenced protocol (see protocol_doi field).Required format: pH values; if multiple, separate by commas. |
-| avr_pdf_filename         | The name of the corresponding AVR document in PDF format that this row of metadata is associated with.  This name must match the file uploaded in the Antibody PDF section of the AVR upload screen during submission. An example AVR document can be found <a href="/avr/example-avr.pdf" target="_blank">here</a>.|
+| avr_pdf_filename         | The name of the corresponding AVR document in PDF format that this row of metadata is associated with.  This name must match the file uploaded in the Antibody PDF section of the AVR upload screen during submission. An example AVR document can be found <a href="/avr/example-avr-v2.pdf" target="_blank">here</a>.|
 | omap_id                  | Unique identifier assigned to Organ Mapping Antibody Panel (OMAP) at time of publication. OMAP with number based on date created (e.g. OMAP-1, OMAP-2) (optional field)|
 | cycle_number             | Identifies the cycle number in which an antibody was either applied to the tissue or, in the case of CODEX,visualized with a fluorescent reporter. For non-cyclic methods use 1 for all cycles. Required field if AVR is part of an Organ Mapping Antibody Panel (OMAP).|
 |fluorescent_reporter      | For indirect visualization (e.g., oligo-conjugated antibodies), define the fluorescent reporter utilized in the corresponding cycle. For metal or fluorophore-conjugated antibodies, please leave blank. Required field if AVR is part of an Organ Mapping Antibody Panel (OMAP).|
