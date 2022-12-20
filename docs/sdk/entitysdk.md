@@ -282,7 +282,7 @@ Example:
 
 ```python
 count = 5
-data = {"specimen_type": "blood", "protocol_url": "https://dx.doi.org/99.9999/protocols.io.abcdefg", "direct_ancestor_uuid": "99999999999999999999999999999999"}
+data = {"sample_category": "block", "protocol_url": "https://dx.doi.org/99.9999/protocols.io.abcdefg", "direct_ancestor_uuid": "99999999999999999999999999999999"}
 list_of_samples = entitysdk_instance.create_multiple_samples(count, data)
 ```
 
@@ -307,7 +307,7 @@ Example:
 
 ```python
 entity_type: "sample"
-data = {"specimen_type": "blood", "protocol_url": "https://dx.doi.org/99.9999/protocols.io.abcdefg", "direct_ancestor_uuid": "99999999999999999999999999999999"}
+data = {"sample_category": "block", "protocol_url": "https://dx.doi.org/99.9999/protocols.io.abcdefg", "direct_ancestor_uuid": "99999999999999999999999999999999"}
 new_sample = entitysdk_instance.create_entity(entity_type, data)
 ```
 
@@ -332,7 +332,7 @@ Example:
 
 ```python
 hubmap_id = "HBM123.ABCD.456"
-data = {"specimen_type": "blood", "protocol_url": "https://dx.doi.org/99.9999/protocols.io.abcdefg", "direct_ancestor_uuid": "99999999999999999999999999999999"}
+data = {"sample_category": "block", "protocol_url": "https://dx.doi.org/99.9999/protocols.io.abcdefg", "direct_ancestor_uuid": "99999999999999999999999999999999"}
 updated_sample = entitysdk_instance.update_entity(hubmap_id, data)
 ```
 
