@@ -38,11 +38,11 @@ processed, and may not reflect subsequent changes until a re-index is complete.
 
 ### `samples` Array Elements:
 
-| samples Element | Description                                                                                      |
-|-----------------|--------------------------------------------------------------------------------------------------|
-| uuid            | The uuid of a Sample entity whose specimen type is not 'organ', which is an ancestor of the file |
-| code            | A code for the specimen type. See [Tissue Sample Types](#tissue-sample-types) below              |
-| type            | A description for the tissue sample type of the specimen, specified as the "code"                |
+| samples Element | Description                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------------------|
+| uuid            | The uuid of a Sample entity whose sample category is not 'organ', which is an ancestor of the file |
+| code            | A code for the sample category.                                                                    |
+| type            | A description for the sample category, specified as the "code"                                     |
 
 ### `organs` Array Elements:
 
@@ -60,55 +60,6 @@ processed, and may not reflect subsequent changes until a re-index is complete.
 | age            | A float value created from the Donor entity metadata for the [UMLS age group CUI C0001779](https://uts.nlm.nih.gov/uts/umls/concept/C0001779)  |
 | units          | The unit of measure for the age concept of the Donor entity metadata                                                                           |
 | race           | A UMLS preferred term from the Donor entity metadata for the [UMLS race group CUI C0034510](https://uts.nlm.nih.gov/uts/umls/concept/C0034510) |
-
-### Tissue Sample Types
-Examples are enumerated below, but the current, authoritative list is in the [tissue_sample_types.yaml](https://raw.githubusercontent.com/hubmapconsortium/search-api/main/src/search-schema/data/definitions/enums/tissue_sample_types.yaml) file of the search-api repository.
-- atacseq
-- biopsy
-- blood
-- cell_lysate
-- clarity_hydrogel
-- codex
-- cryosections_curls_from_fresh_frozen_oct
-- cryosections_curls_rnalater
-- ffpe_block
-- ffpe_slide
-- fixed_frozen_section_slide
-- fixed_tissue_piece
-- flash_frozen_liquid_nitrogen
-- formalin_fixed_oct_block
-- fresh_frozen_oct_block
-- fresh_frozen_section_slide
-- fresh_frozen_tissue
-- fresh_frozen_tissue_section
-- fresh_tissue
-- frozen_cell_pellet_buffy_coat
-- gdna
-- module
-- nuclei
-- nuclei_rnalater
-- organ
-- organ_piece
-- other
-- pbmc
-- pfa_fixed_frozen_oct_block
-- plasma
-- protein
-- ran_poly_a_enriched
-- rna_total
-- rnalater_treated_and_stored
-- rnaseq
-- scatacseq
-- scrnaseq
-- segment
-- seqfish
-- sequence_library
-- serum
-- single_cell_cryopreserved
-- snatacseq
-- snrnaseq
-- tissue_lysate
-- wgs
 
 ### Organ Type Codes
 Examples are enumerated below, but the current, authoritative list is in the [organ_types.yaml](https://raw.githubusercontent.com/hubmapconsortium/search-api/master/src/search-schema/data/definitions/enums/organ_types.yaml) file of the search-api repository.
