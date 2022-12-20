@@ -1,17 +1,20 @@
 ---
 layout: page
 ---
-# HuBMAP File Info Elasticsearch document
+# HuBMAP File Indices
 
-### Last Updated: 2022-12-01
+### Last Updated: 2022-12-20
 
 ## Overview:
-This page describes File Info documents stored in Elasticsearch indices for Files associated with Datasets.
+This page describes File Info documents stored in the HuBMAP indices for Files associated with Datasets. These indices are accessible via the [HuBMAP Search API](https://smart-api.info/ui/7aaf02b838022d564da776b03f357158) using the index name `files`.  For example with the search endpoint like:
+```
+ POST https://search.api.hubmapconsortium.org/files/search
+```
 
 ## Description: 
-Elasticsearch indices contain [documents of a single type](https://www.elastic.co/guide/en/elasticsearch/reference/7.17/removal-of-types.html).
-Each document in the hm_files index contains information about one File entity in a Dataset.  The structure of the
-documents is described below.
+Per the standard [Search API](https://smart-api.info/ui/7aaf02b838022d564da776b03f357158) functionality the indices are stored as a pair of [Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/7.17/index.html) indicies consisting of a private/consortium only index and a public/open to all index.  The Search API will automatically direct to the index based on the user authroization.
+
+Each document in the files index contains information about one File entity in a Dataset.  The structure of these documents is described below.
 
 ## Limitations:
 - The current index only includes documents for Files in primary Datasets which are published and do not contain genetic information.
