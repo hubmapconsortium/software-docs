@@ -45,10 +45,10 @@ The current AVR database, HuBMAP AVR Search, allows antibodies to be queried by 
 We ask that all Organ Mapping Antibody Panel (OMAP) authors submit an AVR for each antibody in their panel. In addition, we welcome AVRs from users of all antibody-based imaging assays, including vendors. AVR authors do not need to be affiliated with HuBMAP (See Q3). Beginning in 2023, we are excited to open AVR contributions to the larger community and welcome contributions from industry leaders and technology developers in the spatial biology field. We hope that the HuBMAP AVR Portal will provide a valuable resource for all. 
 
 ### Can I contribute an AVR if I am not a HuBMAP member?
-AVR authors do not need to be affiliated with HuBMAP; however, at this time we ask that you reach out to the Lead AVR Assembly Contact listed in Table 1 of the SOP: Constructing Antibody Validation Reports (AVRs). Instructions for completing an AVR can be found in “SOP: Constructing Antibody Validation Reports (AVRs)”.
+AVR authors do not need to be affiliated with HuBMAP; however, at this time we ask that you reach out to the Lead AVR Assembly Contact listed in Table 1 of the SOP: Constructing Antibody Validation Reports (AVRs). Instructions for completing an AVR can be found in [SOP: Constructing Antibody Validation Reports (AVRs)](https://doi.org/10.5281/zenodo.7418623).
 
 ### Can I add to or make changes to an existing AVR?
-No, not at this time. Please carefully review your AVR before submission. In certain circumstances, we will accept revised AVRs that correct minor changes such as typos. Please reach out to the Lead AVR Assembly Contact listed in Table 1 of the “SOP: Constructing Antibody Validation Reports (AVRs)” when you are ready to upload. In the future, we will allow AVRs to be edited as antibodies are characterized in other tissues. 
+No, not at this time. Please carefully review your AVR before submission. In certain circumstances, we will accept revised AVRs that correct minor changes such as typos. Please reach out to the Lead AVR Assembly Contact listed in Table 1 of the [SOP: Constructing Antibody Validation Reports (AVRs)](https://doi.org/10.5281/zenodo.7418623) when you are ready to upload. In the future, we will allow AVRs to be edited as antibodies are characterized in other tissues. 
 
 ### Do AVRs capture species cross-reactivity?
 No, not at this time. Information on species cross-reactivity can be found in the links to vendor datasheets within the AVR. 
@@ -65,7 +65,7 @@ Please refer to an AVR by its unique AVR ID (e.g. AVR-1, AVR-2) and cite an AVR 
 Please see Table 2a and 2b in SOP: Constructing Antibody Validation Reports (AVRs) for details on how to complete metadata fields and on the [AVR header/metadata page](/avr/csv-format.html)
 
 ### How do I upload AVRs?
-If you are a HuBMAP member, you may upload AVRs using the AVR Upload Page (login required). Detailed directions for upload can be found here. If there are questions at any point of submission, please reach out to the Lead AVR Assembly Contact listed in that SOP when you are ready to upload. 
+If you are a HuBMAP member, you may upload AVRs using the AVR Upload Page (login required). Detailed directions for upload can be found here. If there are questions at any point of submission, please reach out to the Lead AVR Assembly Contact listed in [SOP: Constructing Antibody Validation Reports (AVRs)](https://doi.org/10.5281/zenodo.7418623) when you are ready to upload. 
 
 ### Should every antibody in an OMAP have a corresponding AVR?
 Yes, beginning in 2023 all antibodies included in an OMAP should have an AVR. AVRs and OMAPs are designed to be integrated based on common fields. 
