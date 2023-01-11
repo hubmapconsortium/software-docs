@@ -43,6 +43,25 @@ Examples of Entity endpoints are as follows:
 - [GitHub](https://github.com/hubmapconsortium/entity-api) 
 - [Smart API](https://smart-api.info/ui/0065e419668f3336a40d1f5ab89c6ba3)
 
+## <a id="HRA"></a> Human Reference Atlas (HRA) APIs
+HuBMAP produces the Human Reference Atlas (HRA), see <https://humanatlas.io/>, which provies a comprehensive, high-resolution, three-dimensional atlas of all the cells in the healthy human body. The Human Reference Atlas provides standard terminologies and data structures for describing specimens, biological structures, and spatial positions linked to existing ontologies. In addition to user interfaces, querying of the HRA is available via APIs.
+
+### CCF API
+The CCF API returns reference information about the HRA and information about experimental data registered with the HRA.
+
+- [GitHub](https://github.com/hubmapconsortium/ccf-ui)
+- [Interactive API Documentation](https://ccf-api.hubmapconsortium.org/#/)
+
+### HRA via SPARQL
+The HRA is published as an RDF knowledge graph and may be queried using a multitude of available libraries. It is published at several prominent biomedical ontology websites including OLS and BioPortal.
+
+- [Ontology Lookup Service (OLS)](https://www.ebi.ac.uk/ols/ontologies/ccf)
+- [BioPortal](https://bioportal.bioontology.org/ontologies/CCF)
+- CCF-GRLC API, A repository of useful HRA SPARQL queries wrapped into a standard (OpenAPI) restful service. 
+    - [GitHub](https://github.com/hubmapconsortium/ccf-grlc/)
+    - [CCF Queries](http://grlc.io/api/hubmapconsortium/ccf-grlc/ccf/)
+    - [Ubergraph Queries](http://grlc.io/api/hubmapconsortium/ccf-grlc/ubergraph/)
+- [More useful SPARQL queries](https://triplydb.com/BruceWHerrII/-/stories/CCFOWL-v201-Paper)
 
 ## <a id="HUBMAPIDS"></a> Identifiers used in HuBMAP and the APIs
 
