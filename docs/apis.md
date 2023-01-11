@@ -43,7 +43,7 @@ Examples of Entity endpoints are as follows:
 - [GitHub](https://github.com/hubmapconsortium/entity-api) 
 - [Smart API](https://smart-api.info/ui/0065e419668f3336a40d1f5ab89c6ba3)
 
-## <id id="HRA"></a> Human Reference Atlas (HRA) APIs
+## <a id="HRA"></a> Human Reference Atlas (HRA) APIs
 HuBMAP produces the Human Reference Atlas (HRA), see <https://humanatlas.io/>, which provies a comprehensive, high-resolution, three-dimensional atlas of all the cells in the healthy human body. The Human Reference Atlas provides standard terminologies and data structures for describing specimens, biological structures, and spatial positions linked to existing ontologies. In addition to user interfaces, querying of the HRA is available via APIs.
 
 ### CCF API
