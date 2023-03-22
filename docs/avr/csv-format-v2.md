@@ -1,15 +1,41 @@
 ---
 layout: page
 ---
-# HuBMAP Antibody Validation Report CSV Structure
-With each submission of AVR documents associated header/metadata information must be include for each AVR document. This information is provided as a .csv file.  It is recommended to start with the blank (header only) [template csv file](/avr/avr-template-v2.csv), use Excel or other spreadsheet to enter the data, then export as a comma separated value (csv) file.  An example [example AVR csv file](/avr/example-avrs-v2.csv) is also available. All columns in the csv file are required, with the definitions of the columns here:
+# HuBMAP Antibody Validation Reports
+An Antibody Validation Report (AVR) submission will include two (2) types of files: 
+1)	AVR pdfs (one for each validated antibody) and 
+2)	A .csv file which catalogs all of the AVR PDF files that will be uploaded together  
+
+## **Standard Operating Procedures (SOP)**
+[Standard Operating Procedure (SOP):Constructing Antibody Validation Reports (AVRs)](https://doi.org/10.5281/zenodo.7418623) and 
+
+## **Antibody Validation Report (AVR) Frequently Asked Questions (FAQs)**
+[AVR Frequently Asked Questions (FAQ)](https://software.docs.hubmapconsortium.org/avr/avr-faq.html)
 
 
-| csv column               | description                                                                    |
-|--------------------------|--------------------------------------------------------------------------------|
-| uniprot_accession_number | This can typically be found on the vendor’s website, but can also be found by searching <a href="https://www.uniprot.org" target="_blank">UniProt.org</a> directly. Please note that different species have different UniProt accession numbers for the same protein. If your data was acquired using human tissue, be sure you are choosing the UniProt accession for the human protein. |
-|HGNC_ID                   | Gene identification number from Human Gene Ontology Nomenclature Committee (HGNC) https://www.genenames.org/ encoding the target protein. HGNC:####|
-|target_name               | This is the name of the protein that the antibody is targeting. Please list the UniProt protein name. This may be different from the common name for the protein. |
+## **AVR Fillable Template**
+[AVR fillable template .docx](https://software.docs.hubmapconsortium.org/avr/avr-template-form-v2.docx)
+
+An Example of the [AVR filled template, saved as PDF file for upload:](https://software.docs.hubmapconsortium.org/avr/example-avr-v2.pdf) 
+
+## **AVR .csv catalog file of AVR PDFs**
+For the .csv file, it is recommended to start with the AVR catalog .csv template (blank header only) and use Excel or other spreadsheet  software to enter the data, then export it as a comma separated value (csv) file. The table below describes the expected format of the contents of each column. 
+
+[AVR catalog .csv template]( https://software.docs.hubmapconsortium.org/avr/avr-template-v2.csv)
+
+An example [filled AVR csv file](/avr/example-avrs-v2.csv) is also available. 
+
+
+## Required vs Conditionally Required vs Optional fields in the .csv catalog file
+Note that most of the fields are required; however, some of the columns in the csv file are conditionally required if the AVR is supporting an Organ Mapping Antibody Panel (OMAP) or completely optional depending on the assay technology for which the antibody was validated.  
+
+## Description of expected format of the contents of each column in the .csv catalog file
+
+| csv column               | description                                                                    | Required format| Example |
+|--------------------------|--------------------------------------------------------------------------------|----------------| --------|
+| uniprot_accession_number | Identifies the target protein (see <a href="https://www.uniprot.org" target="_blank">UniProt.org</a>). Please note that different species have different UniProt accession numbers for the same protein. For human proteins, be certain to include human protein designation. For multiclonal (pan-) antibodies, list UniProt accession numbers for all targeted proteins as a comma separated list. If a UniProt accession number cannot be found for the antibody, please leave the field blank.| Alphanumeric  (see https://www.uniprot.org/help/accession_numbers) | A2BC19, P12345, Q9BZS1 |
+|HGNC_ID                   | Gene identification number from [Human Gene Ontology Nomenclature Committee (HGNC)](https://www.genenames.org/) encoding the target protein. If entry is for a multiclonal (pan-) antibody, list HGNC ID for all genes as a comma separated list. If a HGNC ID cannot be found for the antibody, please leave the field blank.| HGNC:#### | HGNC:4947, HGNC:3612|
+|target_name               | This is the name of the protein that the antibody is targeting. Please list the UniProt protein name. This may be different from the common name for the protein. | Commonly used name or protein abbreviation | CD20, ICAM, Somatostatin |
 |isotype                   | Describes the antibody isotype. Please write out any symbols. (e.g. IgG, IgG1, IgG1 kappa)|
 | host                     | This is the species that was used to generate the antibody (e.g. mouse, rabbit, etc). |
 |clonality| This will be either Monoclonal or Polyclonal.If monoclonal provide the clone ID or identify the antibody as polyclonal. |
