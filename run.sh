@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ -z "$1" ]
   then
-    echo "    Must provide the absolute path to the local directory where software-docs was cloned."; echo "    Like ./runlocal.sh /users/myuser/projects/software-docs"; exit 1;
+    echo "    Must provide the absolute path to the local directory where software-docs was cloned."; echo "    Like ./run.sh /users/myuser/projects/software-docs"; exit 1;
 fi
 
 if [ ! -d "$1" ]
