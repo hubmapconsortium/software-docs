@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ -z "$1" ]
   then
-    echo "    Must provide the absolute path to the local directory where software-docs was cloned."; echo "    Like ./runlocal.sh /users/myuser/projects/software-docs"; exit 1;
+    echo "    Must provide the absolute path to the local directory where software-docs was cloned."; echo "    Like ./run.sh /users/myuser/projects/software-docs"; exit 1;
 fi
 
 if [ ! -d "$1" ]
@@ -27,4 +27,4 @@ if [ ! -d "$S_DOC_DIR/docs" ]
     echo "docs directory expected, but not found at $S_DOC_DIR/docs";  exit 1;
 fi
 
-docker run -it -p4000:4000 -v $S_DOC_DIR:/software-docs hubmap/github-pages-server:latest
+docker run -it -p4000:4000 -v $S_DOC_DIR:/software-docs hubmap/github-pages-server:1.0.1
