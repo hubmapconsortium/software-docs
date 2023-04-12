@@ -116,7 +116,7 @@ The sample_category of the `Sample Schema` is one of the values following enumer
 - `section`
 
 ### `specimen_type` deprecated attribute values
-The specimen_type of the `Sample Schema` is deprecated and not required. It value must be from [tissue sample types](https://raw.githubusercontent.com/hubmapconsortium/search-api/main/src/search-schema/data/definitions/enums/tissue_sample_types.yaml):
+The specimen_type of the `Sample Schema` is deprecated and not required. Its value must be from [tissue sample types](https://raw.githubusercontent.com/hubmapconsortium/search-api/main/src/search-schema/data/definitions/enums/tissue_sample_types.yaml). Examples inlcude:
 atacseq
 - `biopsy`
 - `blood`
@@ -165,7 +165,7 @@ atacseq
 - `wgs`
 
 ### `organ` attribute values
-The organ of the `Sample Schema` is one of the values following enumerated values from [organ types](https://raw.githubusercontent.com/hubmapconsortium/search-api/main/src/search-schema/data/definitions/enums/organ_types.yaml):
+The organ of the `Sample Schema` is a value from the current, authoritative list of [organ types](https://raw.githubusercontent.com/hubmapconsortium/search-api/main/src/search-schema/data/definitions/enums/organ_types.yaml). Examples include:
 - `AO`
 - `BL`
 - `BD`
@@ -228,7 +228,7 @@ The perfusion_solution of the `Sample Metadata Schema` is one of the values foll
 - `Unknown`
 - `None`
 
-<BR><B>@TODO-DE-DUP TO THESE SCHEMAS SHARED WITH DONOR TO THEIR OWN MARKDOWN?</B>
+<BR><B>@TODO-DE-DUP TO THESE SCHEMAS SHARED WITH DONOR & DATASET TO THEIR OWN MARKDOWN?</B>
 
 ## Person Schema
 attributes as listed at [entity-api Donor schema drop-down, creators drop-down, Person schema drop-down](https://smart-api.info/ui/0065e419668f3336a40d1f5ab89c6ba3):
