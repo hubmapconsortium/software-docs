@@ -21,11 +21,11 @@ The Search & Index API supports searching and reindexing of HuBMAP metadata and 
 - [GitHub](https://github.com/hubmapconsortium/search-api)
 - [Smart API](https://smart-api.info/ui/7aaf02b838022d564da776b03f357158)
 
-### Ontology API
-The Ontology API accesses a Neo4j knowledge graph that allows
-extensive cross-referencing across biomedical vocabulary systems.
-- [GitHub](https://github.com/hubmapconsortium/hubmap-ontology)
-- [Smart API](https://smart-api.info/ui/dea4bf91545a51b3dc415ba37e2a9e4e)
+### Ontology/UBKG API
+The Ontology API accesses an instance of a **Unified Biomedical Knowledge Graph** (UBKG), a neo4j knowledge graph that links infomation from a variety of biomedical vocabulary systems. The HuBMAP instance of UBKG includes HuBMAP's **application ontology** that represents the HuBMAP operational model. 
+
+- [UBKG](https://ubkg.docs.xconsortia.org/), including links to relevant GitHub repositories
+- [Smart API](https://smart-api.info/ui/33a83dc8f62b4a9aaecd32a24cb8563c)
 
 ### Entity API
 The Entity API returns information about HuBMAP data entities (Figure 3). 
