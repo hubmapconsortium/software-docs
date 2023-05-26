@@ -10,14 +10,14 @@ HuBMAP metadata documentation and submission specifications
 [Donor Metadata Specification](/donor)
 
 ## Sample
-- [Specification](https://github.com/hubmapconsortium/ingest-validation-tools/blob/master/docs/sample/README.md)
-- [Submission form](https://raw.githubusercontent.com/hubmapconsortium/ingest-validation-tools/master/docs/sample/sample-metadata.tsv)
+- [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/sample/)
+- [Submission Guide](https://docs.google.com/document/d/1ZDchiGgvqiXBr8Qz3dFTAnO4p5x000QD__zuS8ca1fY/edit#bookmark=id.rkly8ffnr100)
 - [Repository](https://github.com/hubmapconsortium/ingest-validation-tools/tree/master/docs/sample)
 
 ## Assay
 
 - [AF (Autofluorescence)](/assays/af)
-  - [Specification and submission tsv](https://github.com/hubmapconsortium/ingest-validation-tools/tree/master/docs/af)
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/af/)
   - Contact: [Jeffrey Spraggins](mailto:jeff.spraggins@Vanderbilt.Edu)
 - [Antibody-based MxIF (Multiplexed Immunofluorescence)](/assays/mxif)
   - [Specification and submission tsv](https://github.com/hubmapconsortium/ingest-validation-tools/tree/master/docs/mxif)
