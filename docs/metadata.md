@@ -46,7 +46,7 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
     - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/imc3d)
     - [Repository](https://github.com/hubmapconsortium/ingest-validation-tools/tree/main/docs/imc3d)
   - Contact: [Michelle Daniel](mailto:michelle.daniel@uzh.ch)
-- [MALDI-IMS (neg and pos modes - Matrix Assisted Laser Desorption Ionization Imaging Mass Spectrometry)](/assays/ims)
+- [MALDI-IMS (neg and pos modes - Matrix Assisted Laser Desorption Ionization Imaging Mass Spectrometry)](/assays/maldi-ims)
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/ims)
   - [Repository](https://github.com/hubmapconsortium/ingest-validation-tools/tree/main/docs/ims)
   - Contact: [Jeffrey Spraggins](mailto:jeff.spraggins@vanderbilt.edu)
