@@ -4,7 +4,7 @@ layout: home
 
 # HuBMAP Software Documentation
 
-HuBMAP offers several software and tool components for programatic access to HuBMAP data and metadata.  This site contains information about this software and tools, more information is available at the [HuBMAP Consortium Site](https://hubmapconsortium.org) or the [HuBMAP Data Portal](https://portal.hubmapconsortium.org)
+HuBMAP offers several software and tool components for programatic access to [HuBMAP data and metadata](/metadata).  This site contains information about this software and tools, more information is available at the [HuBMAP Consortium Site](https://hubmapconsortium.org) or the [HuBMAP Data Portal](https://portal.hubmapconsortium.org)
 
 For an overview of HuBMAP data visit the [Data Overview](/data-sankey/index.html) page.
 
