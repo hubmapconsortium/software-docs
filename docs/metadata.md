@@ -11,8 +11,10 @@ Link to the current version of the [Data Submission Guide](https://drive.google.
 See section 10 of the Guide for details on transferring metadata to the HIVE.
 
 ## Donor
-
 [Donor Metadata Specification](/donor)
+
+## Organ
+- [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/organ/)
 
 ## Sample
 - This [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/sample/) has been replaced by the individual Block, Section, and Suspension specifications below. For more details please review this [document](https://docs.google.com/document/d/1KEo-34Rjf6gS3ZM3DEenIejtb35txPLsbpdjBmbKauo/).
@@ -25,6 +27,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
 
 ## Assay
 
+- 10x Multiome
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/10x-multiome/)
 - [AF (Autofluorescence)](/assays/af)
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/af/)
   - Contact: [Jeffrey Spraggins](mailto:jeff.spraggins@vanderbilt.edu)
@@ -38,35 +42,91 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
     - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/bulkatacseq)
   - Contacts: For bulk ATACseq, snATACseq or SNARE-ATACseq, contact [Blue Lake](mailto:b1lake@eng.ucsd.edu).
       For sciATACseq, contact [Dana Jackson](mailto:danaj77@uw.edu)
+- Body CT
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/bodyct/)
+- CE-MS
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/cems/)
 - [CODEX](/assays/codex)
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/codex)
   - Contact: [Vishal Venkataraaman](mailto:vgautham@stanford.edu)
+- Confocal
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/confocal/)
+- DESI
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/desi/)
+- Enhanced SRS
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/srs/)
+- GC-MS
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/gcms/)
+- GeoMX
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/geomx/)
+- HiFi
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/hifi-slide/)
+- Histology
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/histology/)
+- hrsTP-seq (DBiTSeq)
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/dbit/)
 - [IMC (Imaging Mass Cytometry) ](/assays/imc)
   - 2D IMC
     - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/imc)
   - 3D IMC
     - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/imc3d)
   - Contact: [Michelle Daniel](mailto:michelle.daniel@uzh.ch)
+- [LC-MS](/assays/lcms)
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/lcms)
+  - Contact: [Kevin Contrepois](mailto:kcontrep@stanford.edu)
+- Light Sheet
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/lightsheet/)
 - [MALDI-IMS (neg and pos modes - Matrix Assisted Laser Desorption Ionization Imaging Mass Spectrometry)](/assays/maldi-ims)
-  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/ims)
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/maldi)
   - Contact: [Jeffrey Spraggins](mailto:jeff.spraggins@vanderbilt.edu)
+- Molecular Cartography
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/mc/)
+- MERFISH
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/merfish/)
+- MIBI
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/mibi/)
+- Micro CT
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/microct/)
+- MRI
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/mri/)
+- NanoDESI
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/nano-desi/)
+- OCT
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/oct/)
 - [PAS (histological stain)](/assays/pas)
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/stained)
   - Contact: [Jeffrey Spraggins](mailto:jeff.spraggins@vanderbilt.edu)
+- PhenoCycler
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/phenocycler/)
 - [RNAseq](/assays/rnaseq)
   - scRNAseq
     - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/scrnaseq)
   - bulkRNAseq
     - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/bulkrnaseq)
+  - GeoMX
+    - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/rnaseq-geomx)
+  - Visium
+    - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/rnaseq-visium)
   - Contacts: For 10X RNAseq and snRNAseq, contact [Stephanie Nevins](mailto:snevins@stanford.edu). 
     For SNARE-RNAseq, contact [Blue Lake](mailto:b1lake@eng.ucsd.edu).
     For sciRNAseq, contact [Dana Jackson](mailto:danaj77@uw.edu). 
 - [SeqFISH](/assays/seqfish)
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/seqfish)
   - Contact: [Nico Pierson](mailto:nicogpt@caltech.edu)
-- [LC-MS](/assays/lcms)
-  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/lcms)
-  - Contact: [Kevin Contrepois](mailto:kcontrep@stanford.edu)
+- Second Harmonic Generation
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/shg/)
+- SIMS
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/sims/)
+- Slide-seq
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/slideseq/)
+- Thick Section Multiphoton MxIF
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/tsm-mxif/)
+- Ultrasound
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/ultrasound/)
+- Visium
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/visium/)
 - [WGS](/assays/wgs)
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/wgs)
   - Contact: [Aaron Horning](mailto:ahorning@stanford.edu)
+- Xenium
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/xenium/)
