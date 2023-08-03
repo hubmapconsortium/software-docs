@@ -4,12 +4,11 @@ layout: page
 # Metadata
 
 HuBMAP metadata documentation and submission specifications.
+Please refer to the [HuBMAP Data Upload Guidelines](https://hubmapconsortium.github.io/ingest-validation-tools/) for the latest assay metadata options and specifications.
+The [Ingest Validation Tools](https://github.com/hubmapconsortium/ingest-validation-tools/tree/main) repository is used to maintain the Data Upload Guidelines.
+
 Link to the current version of the [Data Submission Guide](https://drive.google.com/file/d/1BXyWiu_Dixo5o-C3rrdpstb5g8u-d5NW/view?usp=sharing) PDF.
 See section 10 of the Guide for details on transferring metadata to the HIVE.
-
-Link to the [HuBMAP Data Upload Guidelines](https://hubmapconsortium.github.io/ingest-validation-tools/). Please refer to the HuBMAP Data Upload Guidelines for the latest assay metadata options and specifications.
-
-The [Ingest Validation Tools](https://github.com/hubmapconsortium/ingest-validation-tools/tree/main) repository is used to maintain the Data Upload Guidelines.
 
 ## Donor
 
