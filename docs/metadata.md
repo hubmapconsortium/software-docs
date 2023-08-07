@@ -51,10 +51,12 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - Contact: [Vishal Venkataraaman](mailto:vgautham@stanford.edu)
 - Confocal
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/confocal/)
+- CyCIF
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/cycif/)
 - DESI
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/desi/)
 - Enhanced SRS
-  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/srs/)
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/enhanced-srs/)
 - GC-MS
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/gcms/)
 - GeoMX
@@ -114,13 +116,13 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/seqfish)
   - Contact: [Nico Pierson](mailto:nicogpt@caltech.edu)
 - Second Harmonic Generation
-  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/shg/)
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/second-harmonic-generation/)
 - SIMS
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/sims/)
 - Slide-seq
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/slideseq/)
 - Thick Section Multiphoton MxIF
-  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/tsm-mxif/)
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/thick-section-multiphoton-mxif/)
 - Ultrasound
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/ultrasound/)
 - Visium
