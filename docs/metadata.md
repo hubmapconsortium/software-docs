@@ -46,6 +46,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/bodyct/)
 - CE-MS
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/cems/)
+- Cell DIVE
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/celldive/)
 - [CODEX](/assays/codex)
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/codex)
   - Contact: [Vishal Venkataraaman](mailto:vgautham@stanford.edu)
