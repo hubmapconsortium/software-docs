@@ -36,10 +36,11 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/mxif)
   - Contact: [Jeffrey Spraggins](mailto:jeff.spraggins@vanderbilt.edu)
 - [ATACseq](/assays/atacseq)
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/atacseq)
   - scATACseq
-    - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/scatacseq)
+    - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/atacseq)
   - bulkATACseq
-    - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/bulkatacseq)
+    - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/atacseq)
   - Contacts: For bulk ATACseq, snATACseq or SNARE-ATACseq, contact [Blue Lake](mailto:b1lake@eng.ucsd.edu).
       For sciATACseq, contact [Dana Jackson](mailto:danaj77@uw.edu)
 - Body CT
@@ -103,14 +104,13 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
 - PhenoCycler
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/phenocycler/)
 - [RNAseq](/assays/rnaseq)
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/rnaseq)
   - scRNAseq
-    - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/scrnaseq)
+    - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/rnaseq)
   - bulkRNAseq
-    - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/bulkrnaseq)
+    - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/rnaseq)
   - GeoMX
     - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/rnaseq-geomx)
-  - Visium
-    - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/rnaseq-visium)
   - Contacts: For 10X RNAseq and snRNAseq, contact [Stephanie Nevins](mailto:snevins@stanford.edu). 
     For SNARE-RNAseq, contact [Blue Lake](mailto:b1lake@eng.ucsd.edu).
     For sciRNAseq, contact [Dana Jackson](mailto:danaj77@uw.edu). 
