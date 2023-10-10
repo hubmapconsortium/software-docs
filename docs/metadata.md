@@ -77,7 +77,7 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
     - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/imc3d/)
   - Contact: [Michelle Daniel](mailto:michelle.daniel@uzh.ch)
 - [LC-MS](/assays/lcms)
-  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/lcms/)
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/lcms/current/)
   - Contact: [Kevin Contrepois](mailto:kcontrep@stanford.edu)
 - Light Sheet
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/lightsheet/current/)
