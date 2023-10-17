@@ -14,7 +14,7 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
 [Donor Metadata Specification](/donor)
 
 ## Organ
-- [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/organ/)
+- [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/organ/current/)
 
 ## Sample
 - This [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/sample/) has been replaced by the individual Block, Section, and Suspension specifications below. For more details please review this [document](https://docs.google.com/document/d/1KEo-34Rjf6gS3ZM3DEenIejtb35txPLsbpdjBmbKauo/).
