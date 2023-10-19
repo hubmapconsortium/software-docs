@@ -95,7 +95,7 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
 - MRI
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/mri/current/)
 - NanoDESI
-  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/nano-desi/current/)
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/desi/current/)
 - OCT
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/oct/current/)
 - [PAS (histological stain)](/assays/pas)
