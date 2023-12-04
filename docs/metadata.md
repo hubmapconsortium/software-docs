@@ -45,8 +45,6 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
       For sciATACseq, contact [Dana Jackson](mailto:danaj77@uw.edu)
 - Body CT
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/bodyct/current/)
-- CE-MS
-  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/cems/current/)
 - Cell DIVE
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/celldive/current/)
 - [CODEX](/assays/codex) (Not PhenoCycler)
@@ -54,16 +52,19 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - Contact: [Vishal Venkataraaman](mailto:vgautham@stanford.edu)
 - Confocal
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/confocal/current/)
+- CosMX
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/cosmx/current/)
 - CyCIF
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/cycif/current/)
 - DESI
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/desi/current/)
 - Enhanced SRS
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/enhanced-srs/current/)
-- GC-MS
-  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/gcms/current/)
 - GeoMX
-  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/geomx/current/)
+  - NGS
+    - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/geomx-ngs/current/)
+  - nCounter
+    - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/geomx-ncounter/current/)
 - HiFi
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/hifi-slide/current/)
 - Histology
@@ -72,7 +73,7 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/dbit/current/)
 - [IMC (Imaging Mass Cytometry) ](/assays/imc)
   - 2D IMC
-    - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/imc/current/)
+    - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/imc-2d/current/)
   - 3D IMC
     - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/imc3d/)
   - Contact: [Michelle Daniel](mailto:michelle.daniel@uzh.ch)
@@ -96,6 +97,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/mri/current/)
 - NanoDESI
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/desi/current/)
+- nanoSPLITS
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/nano-splits/current/)
 - OCT
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/oct/current/)
 - [PAS (histological stain)](/assays/pas)
@@ -109,8 +112,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
     - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/rnaseq/current/)
   - bulkRNAseq
     - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/rnaseq/current/)
-  - GeoMX
-    - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/rnaseq-geomx/current/)
+  - With Probes
+    - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/rnaseq-with-probes/current/)
   - Contacts: For 10X RNAseq and snRNAseq, contact [Stephanie Nevins](mailto:snevins@stanford.edu). 
     For SNARE-RNAseq, contact [Blue Lake](mailto:b1lake@eng.ucsd.edu).
     For sciRNAseq, contact [Dana Jackson](mailto:danaj77@uw.edu). 
@@ -128,9 +131,9 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
 - Ultrasound
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/ultrasound/current/)
 - Visium
-  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/visium/current/)
-- [WGS](/assays/wgs)
-  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/wgs/current/)
-  - Contact: [Aaron Horning](mailto:ahorning@stanford.edu)
+  - With Probes
+    - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/visium-with-probes/current/)
+  - No Probes
+    - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/visium-no-probes/current/)
 - Xenium
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/xenium/current/)
