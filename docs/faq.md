@@ -53,9 +53,9 @@ HuBMAP, as its name implies, was specifically initiated to resolve the challenge
 
 We welcome all to explore the HuBMAP Portal and provide us with [feedback through the Contact form.](https://hubmapconsortium.org/contact-form/)
 
-The [Visible Human MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc) provides an overview of HuBMAP and first introduction to data acquisition, analysis, and visualization.
+The [Visible Human MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc) provides an overview of HuBMAP and an introduction to data acquisition, analysis, and visualization.
 
-Below are some Frequently Asked Questions (FAQ) to get you started.
+### Below are some Frequently Asked Questions (FAQ) to get you started:
 
 <details><summary>Can I use HuBMAP data for my own research? </summary>
 
@@ -85,7 +85,7 @@ To acknowledge HuBMAP in your findings, the Consortium suggests language of the 
   - Allow other researchers access to your results. In this way, others may extend and interact with your scientific work.
   - Provide additional resources for creating cellular and molecular level anatomical maps of the healthy human.
     
-The HuBMAP consortium encourages the scientific community to provide feedback about HuBMAP dataset metadata. This will increase the quality and usability of community data submissions.
+The HuBMAP consortium encourages the scientific community to provide feedback about HuBMAP dataset metadata. This feedback helps improve the quality and usability of community data submissions.
 
 One of the first tools released was [Azimuth](https://azimuth.hubmapconsortium.org/), an app for reference-based single-cell analysis, that lets users annotate cell-types in their own data based on HuBMAP approaches. 
 
