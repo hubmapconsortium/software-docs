@@ -78,13 +78,16 @@ To acknowledge HuBMAP in your findings, the Consortium suggests language of the 
 
 </details>
 
-<details><summary>Can I submit my own data to HuBMAP? Why would I want to submit data to HuBMAP? </summary>
+<details><summary>Can I submit my own data to HuBMAP? Why would I want to? </summary>
 
-Yes, HuBMAP aims to allow investigators  to submit their own data via the HuBMAP Portal. Why share?  Having your own data on HuBMAP will allow other researchers access to your results and provide additional resources for creating cellular and molecular level anatomical maps of the healthy human. In this way others may extend and interact with your scientific work.
+- Yes, HuBMAP allows investigators to submit their own data via the [HuBMAP Data Portal](https://portal.hubmapconsortium.org/).
+- Why share? Having your own data on HuBMAP will ...
+  - Allow other researchers access to your results. In this way, others may extend and interact with your scientific work.
+  - Provide additional resources for creating cellular and molecular level anatomical maps of the healthy human.
+    
+The HuBMAP consortium encourages the scientific community to provide feedback about HuBMAP dataset metadata. This will increase the quality and usability of community data submissions.
 
-We also encourage the community to provide feedback about HuBMAP dataset metadata in order to increase the quality and usability of community data submissions.
-
-One of the first tools we will enable in the near future will let the users annotate cell-types in their own data based on HuBMAP approaches. 
+One of the first tools released was [Azimuth](https://azimuth.hubmapconsortium.org/), an app for reference-based single-cell analysis, that lets users annotate cell-types in their own data based on HuBMAP approaches. 
 
 </details>
 
