@@ -8,21 +8,26 @@ layout: page
 <details>
 <summary>What is HuBMAP & what are its goals?</summary>
 
-Better insights into the principles governing tissue organization-function relationship will potentially lead to better understanding of the significance of normal inter-individual variability and changes across the lifespan, and inform about the emergence of disease at the biomolecular level before the appearance of clinical symptoms. Despite vastly improved imaging and omics technologies and many important foundational discoveries, our understanding of how tissues are organized is restricted by remaining main challenges: 1) integrating high content, high resolution spatial and omics information to comprehensively profile biomolecular distribution and morphology of tissues in a high throughput manner and 2) placing this information into 3D tissue maps amenable to modelling.
+HuBMAP is the Human BioMolecular Atlas Program.
+The vision for HuBMAP is to catalyze the development of a framework for mapping of the human body at single-cell resolution to transform our understanding of normal tissue organization and function. This will be achieved by:
 
-The vision for the Human BioMolecular Atlas Program (HuBMAP) is to catalyze the development of a framework for mapping of the human body at single cell resolution to transform our understanding of normal tissue organization and function. This will be achieved by:
-
-- Accelerating the development of the next generation of tools and techniques for constructing high resolution spatial tissue maps that quantify multiple types of biomolecules either sequentially or simultaneously;
-- Generating foundational 3D human tissue maps using validated high-content, high-throughput imaging and omics assays;
-- Establishing an open data platform that will develop novel approaches to integrating, visualizing and modelling imaging and omics data to build multi-dimensional tissue maps, and making data rapidly findable, accessible, interoperable, and reusable by the global research community;
-- Coordinating and collaborating with other funding agencies, programs, and the biomedical research community to build the framework and tools for mapping the human body at single cell resolution;
+- Accelerating the development of the next generation of tools and techniques for constructing high resolution spatial tissue maps that quantify multiple types of biomolecules either sequentially or simultaneously.
+- Generating foundational 3D human tissue maps using validated high-content, high-throughput imaging and omics assays.
+- Establishing an open data platform that will develop novel approaches to integrating, visualizing, and modelling imaging and omics data to build multi-dimensional tissue maps, and making data rapidly findable, accessible, interoperable, and reusable by the global research community.
+- Coordinating and collaborating with other funding agencies, programs, and the biomedical research community to build the framework and tools for mapping the human body at single-cell resolution.
 - Supporting pilot projects that demonstrate the value of the resources developed by the program to study normal individual variations and tissue changes across the lifespan and the health-disease continuum.
 
-[HuBMAP](https://commonfund.nih.gov/hubmap), which made the first external awards in the Fall 2018, is funded through the NIH Common Fund as a short-term (8 years), goal-driven strategic investment, with deliverables intended to catalyze research across multiple biomedical research disciplines. The [NIH Common Fund](https://commonfund.nih.gov/about) supports cross-cutting programs that are expected to have exceptionally high impact. [All Common Fund](https://commonfund.nih.gov/programs) initiatives invite investigators to develop bold, innovative, and often risky approaches to address problems that may seem intractable in isolation or to seize new opportunities that offer the potential for rapid progress.
+Better insights into the principles governing the tissue organization-function relationship will:
+- Potentially lead to better understanding of the significance of normal inter-individual variability and changes across the lifespan.
+- Inform about the emergence of disease at the biomolecular level before the appearance of clinical symptoms.
 
-See also a video [HuBMAP Overview](https://www.youtube.com/watch?v=yCh4XnD7rEE). For a more in depth understanding, read the [HuBMAP marker paper](https://www.nature.com/articles/s41586-019-1629-x), or see a course on HuBMAP data acquisition, analysis, and visualization, The [Visible Human MOOoC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc)
+Despite vastly improved imaging and omics technologies and many important foundational discoveries, our understanding of how tissues are organized is still restricted by main challenges: 
+1. Integrating high content, high resolution spatial and omics information to comprehensively profile biomolecular distribution and morphology of tissues in a high throughput manner
+2. Arranging this information into 3D tissue maps amenable to modelling.
 
-Stay in touch by subscribing [to our mailing list](https://hubmapconsortium.org/hubmap-mailing-list) and our [YouTube channel](https://www.youtube.com/channel/UCbSvPJ9dXASL14KoDeutMFg).
+[HuBMAP](https://commonfund.nih.gov/hubmap), which made its first external awards in the Fall 2018, is funded through the NIH Common Fund as a short-term (8 years), goal-driven strategic investment, with deliverables intended to catalyze research across multiple biomedical research disciplines. The [NIH Common Fund](https://commonfund.nih.gov/about) supports cross-cutting programs that are expected to have exceptionally high impact. [All Common Fund](https://commonfund.nih.gov/programs) initiatives invite investigators to develop bold, innovative, and often risky approaches to address problems that may seem intractable in isolation or to seize new opportunities that offer the potential for rapid progress.
+
+For a more in depth understanding, read the [HuBMAP marker paper](https://www.nature.com/articles/s41586-019-1629-x), see the course on HuBMAP data acquisition, analysis, and visualization, the [Visible Human MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc), or see this video: [HuBMAP Overview](https://www.youtube.com/watch?v=yCh4XnD7rEE). Stay in touch by subscribing to our [mailing list](https://hubmapconsortium.org/hubmap-mailing-list) and our [YouTube channel](https://www.youtube.com/channel/UCbSvPJ9dXASL14KoDeutMFg).
 
 </details>
 
