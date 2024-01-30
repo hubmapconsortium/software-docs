@@ -25,6 +25,16 @@ Despite vastly improved imaging and omics technologies and many important founda
 1. Integrating high content, high resolution spatial and omics information to comprehensively profile biomolecular distribution and morphology of tissues in a high throughput manner.
 2. Arranging this information into 3D tissue maps amenable to modelling.
 
+Generating foundational 3D human tissue maps is one of the core goals of HuBMAP. HuBMAP projects will generate high resolution, high content, high-throughput biomolecular 3D tissue maps of non-diseased human organs and organ systems. 
+- For HuBMAP, a high-resolution assay is one that can reliably and reproducibly assign detected biomolecules to individual cells or extracellular compartments of a tissue.
+- A high content approach is one that maximizes identification of tissue features through a combination of biomolecular depth, spatial resolution and multiplexing of complementary, multi-parameter assays.
+- A high throughput pipeline is one that maximizes the bandwidth of data production to result in any or all of the following:
+    1. Accelerated speed of analysis, so that hundreds or thousands of samples can be analyzed simultaneously.
+    2. Greater depth of analysis, so that hundreds or thousands of molecules can be analyzed in a single sample.
+    3. Enhanced capacity for volume, so that a given set of molecules can be analyzed in all the cells within a larger tissue sample.
+
+Using a multi-dimensional approach, including imaging, sequencing, and mass spectrometry assays, HuBMAP provides robust molecular characterization of human cells in their natural tissue context. HuBMAP also generates and shares a number of other resources to support the use of these maps, including details of experimental protocols used, validation of affinity probes, biospecimen metadata, conventions used for annotation, as well as computational tools.
+
 [HuBMAP](https://commonfund.nih.gov/hubmap), which made its first external awards in Fall 2018, is funded through the NIH Common Fund as a short-term (8 years), goal-driven strategic investment, with deliverables intended to catalyze research across multiple biomedical research disciplines. The [NIH Common Fund](https://commonfund.nih.gov/about) supports cross-cutting programs that are expected to have exceptionally high impact. [All Common Fund](https://commonfund.nih.gov/programs) initiatives invite investigators to develop bold, innovative, and often risky approaches to address problems that may seem intractable in isolation or to seize new opportunities that offer the potential for rapid progress.
 
 For a more in depth understanding, read the [HuBMAP marker paper](https://www.nature.com/articles/s41586-019-1629-x), see the course on HuBMAP data acquisition, analysis, and visualization, the [Visible Human MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc), or see this video: [HuBMAP Overview](https://www.youtube.com/watch?v=yCh4XnD7rEE). Stay in touch by subscribing to our [mailing list](https://hubmapconsortium.org/hubmap-mailing-list) and [YouTube channel](https://www.youtube.com/channel/UCbSvPJ9dXASL14KoDeutMFg).
@@ -33,9 +43,6 @@ For a more in depth understanding, read the [HuBMAP marker paper](https://www.na
 
 <details><summary>Who are the intended users of HuBMAP resources?</summary>
 
-Generating foundational 3D human tissue maps is one of the core goals of HuBMAP. HuBMAP projects will generate high resolution, high content, high-throughput biomolecular 3D tissue maps of non-diseased human organs and organ systems. For HuBMAP, a high-resolution assay is one that can reliably and reproducibly assign detected biomolecules to individual cells or extracellular compartments of a tissue. A high content approach is one that maximizes identification of tissue features through a combination of biomolecular depth, spatial resolution and multiplexing of complementary, multi-parameter assays. A high throughput pipeline is one that maximizes the bandwidth of data production to result in any or all of the following: 1) accelerated speed of analysis, so that hundreds or thousands of samples can be analyzed simultaneously, 2) greater depth of analysis, so that hundreds or thousands of molecules can be analyzed in a single sample, or 3) enhanced capacity for volume, so that a given set of molecules can be analyzed in all the cells within a larger tissue sample.
-
-Using a multi-dimensional approach, including imaging, sequencing, and mass spectrometry assays, HuBMAP provides robust molecular characterization of human cells in their natural tissue context. HuBMAP also generates and shares a number of other resources to support the use of these maps, including details of experimental protocols used, validation of affinity probes, biospecimen metadata, conventions used for annotation, as well as computational tools.
 The HuBMAP rich datasets and associated resources are intended for broad use by the research community, including:
 
 - Computational researchers exploring organizing principles of human tissues, new structural-functional relationships, and biomolecular networks 
