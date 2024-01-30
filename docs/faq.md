@@ -43,7 +43,7 @@ For a more in depth understanding, read the [HuBMAP marker paper](https://www.na
 
 <details><summary>Who are the intended users of HuBMAP resources?</summary>
 
-The HuBMAP rich datasets and associated resources are intended for broad use by the research community, including:
+HuBMAP's rich datasets and associated resources are intended for broad use by the research community, including:
 
 - Computational researchers exploring organizing principles of human tissues, new structural-functional relationships, and biomolecular networks 
 - Biologists exploring hypotheses using publicly available HuBMAP datasets prior to or in parallel with work in their own labs
