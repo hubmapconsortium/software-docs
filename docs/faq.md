@@ -22,12 +22,12 @@ Better insights into the principles governing the tissue organization-function r
 - Inform about the emergence of disease at the biomolecular level before the appearance of clinical symptoms.
 
 Despite vastly improved imaging and omics technologies and many important foundational discoveries, our understanding of how tissues are organized is still restricted by main challenges: 
-1. Integrating high content, high resolution spatial and omics information to comprehensively profile biomolecular distribution and morphology of tissues in a high throughput manner
+1. Integrating high content, high resolution spatial and omics information to comprehensively profile biomolecular distribution and morphology of tissues in a high throughput manner.
 2. Arranging this information into 3D tissue maps amenable to modelling.
 
 [HuBMAP](https://commonfund.nih.gov/hubmap), which made its first external awards in Fall 2018, is funded through the NIH Common Fund as a short-term (8 years), goal-driven strategic investment, with deliverables intended to catalyze research across multiple biomedical research disciplines. The [NIH Common Fund](https://commonfund.nih.gov/about) supports cross-cutting programs that are expected to have exceptionally high impact. [All Common Fund](https://commonfund.nih.gov/programs) initiatives invite investigators to develop bold, innovative, and often risky approaches to address problems that may seem intractable in isolation or to seize new opportunities that offer the potential for rapid progress.
 
-For a more in depth understanding, read the [HuBMAP marker paper](https://www.nature.com/articles/s41586-019-1629-x), see the course on HuBMAP data acquisition, analysis, and visualization, the [Visible Human MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc), or see this video: [HuBMAP Overview](https://www.youtube.com/watch?v=yCh4XnD7rEE). Stay in touch by subscribing to our [mailing list](https://hubmapconsortium.org/hubmap-mailing-list) and our [YouTube channel](https://www.youtube.com/channel/UCbSvPJ9dXASL14KoDeutMFg).
+For a more in depth understanding, read the [HuBMAP marker paper](https://www.nature.com/articles/s41586-019-1629-x), see the course on HuBMAP data acquisition, analysis, and visualization, the [Visible Human MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc), or see this video: [HuBMAP Overview](https://www.youtube.com/watch?v=yCh4XnD7rEE). Stay in touch by subscribing to our [mailing list](https://hubmapconsortium.org/hubmap-mailing-list) and [YouTube channel](https://www.youtube.com/channel/UCbSvPJ9dXASL14KoDeutMFg).
 
 </details>
 
