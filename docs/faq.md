@@ -63,7 +63,7 @@ HuBMAP, as its name implies, was specifically initiated to resolve the challenge
 
 ## Introduction to HuBMAP resources
 
-We welcome all to explore the HuBMAP Portal and provide us with [feedback through the Contact form.](https://hubmapconsortium.org/contact-form/)
+We welcome all to explore the [HuBMAP Data Portal](https://portal.hubmapconsortium.org/) and provide us with feedback through the [Contact form.](https://hubmapconsortium.org/contact-form/)
 
 The [Visible Human MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc) provides an overview of HuBMAP and an introduction to data acquisition, analysis, and visualization.
 
