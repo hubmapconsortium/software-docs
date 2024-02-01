@@ -1,77 +1,114 @@
 ---
 layout: page
 ---
-# HuBMAP File Indices
+# HuBMAP Parameterized Search
 
 ### Last Updated: 2023-04-25
 
 ## Overview:
-This page describes File Info documents stored in the HuBMAP indices for Files associated with Datasets. These indices are accessible via the [HuBMAP Search API](https://smart-api.info/ui/7aaf02b838022d564da776b03f357158) using the index name `files`.  For example with the search endpoint like:
-```
- POST https://search.api.hubmapconsortium.org/files/search
-```
+This page describes ReSTful, parameterized search of OpenSearch indices as part of the [HuBMAP Search API](https://smart-api.info/ui/7aaf02b838022d564da776b03f357158).
 
 ## Description: 
-Per the standard [Search API](https://smart-api.info/ui/7aaf02b838022d564da776b03f357158) functionality the indices are stored as a pair of [OpenSearch](https://opensearch.org/docs/latest/) indicies consisting of a private/consortium only index and a public/open to all index.  The Search API will automatically direct to the index based on the user authorization.
+The [Search API](https://smart-api.info/ui/7aaf02b838022d564da776b03f357158) allows access to a pair of [OpenSearch](https://opensearch.org/docs/latest/) indices consisting of a private/consortium-only index and a public/open to all index.  The Search API will automatically direct to the index based on the user authorization.
 
-Each document in the files index contains information about one File entity in a Dataset.  The structure of these documents is described below.
+Each document in the `entities` indices contains information about one entity in a Dataset.  The structure of these documents is described below.
+
+## Examples: 
+For the `param-search/samples` endpoint with the argument `organ=HT`:
+```
+ POST https://search.api.hubmapconsortium.org/param-search/samples?organ=HT
+```
+A search for Sample entities from heart is performed.  An array of OpenSearch documents is returned, with elements as shown in the following elided Javascript
+```
+[
+    {
+        "ancestor_ids": [
+            "8124e9475115786c1fae3683a6714c32", ...
+        ],
+        "ancestors": [
+            {
+                "created_by_user_displayname": "daniel Cotter",
+                ...
+                "uuid": "8124e9475115786c1fae3683a6714c32"
+            },
+            {
+                "created_by_user_displayname": "amir Bahmani",
+                ...
+                "uuid": "8cdf44a106338aada6da04c71eeb767e"
+            },
+            ...
+        ],
+        "created_by_user_displayname": "Derek Furst",
+        "created_by_user_email": "DRF57@pitt.edu",
+        "created_timestamp": 1676920682769,
+        "data_access_level": "consortium",
+        "descendant_ids": [],
+        "descendants": [],
+        "description": "updated test sample",
+        "display_subtype": "Section",
+        "donor": {
+            "created_by_user_displayname": "Yiing Lin",
+            ...
+        },
+        "entity_type": "Sample",
+        "group_name": "IEC Testing Group",
+        "group_uuid": "5bd084c8-edc2-11e8-802f-0e368f3075e8",
+        "hubmap_id": "HBM369.VTXF.528",
+        "immediate_ancestors": [
+            {
+                "created_by_user_displayname": "daniel Cotter",
+                ...
+                "uuid": "8124e9475115786c1fae3683a6714c32"
+            }
+        ],
+        "immediate_descendants": [],
+        "index_version": "3.1.2",
+        "last_modified_timestamp": 1676920722518,
+        "origin_sample": {
+            "created_by_user_displayname": "Yiing Lin",
+            ...
+            "uuid": "068aef7b9a77c6c61b85ad69cc8cf0d5"
+        },
+        "origin_samples": [
+            {
+                "created_by_user_displayname": "Yiing Lin",
+                ...
+                "uuid": "068aef7b9a77c6c61b85ad69cc8cf0d5"
+            }
+        ],
+        "protocol_url": "11.1111/protocols.io/test",
+        "sample_category": "section",
+        "submission_id": "STAN0003-LI-2-6-1",
+        "uuid": "7d35602e0803164985296fef43dcd508"
+    },
+    ...
+]
+```
 
 ## Limitations:
 - The current index only includes documents for Files in primary Datasets which are published and do not contain genetic information.
-- The File Info document in the index contains accurate information from HuBMAP data stores at the time the Dataset was
-processed, and may not reflect subsequent changes until a re-index is complete.
+- The document from the OpenSearch index contains accurate information from the time the Dataset was processed, and may not reflect subsequent changes until a re-index is complete.
 
-## Document elements:
+## Common document elements:
 
-| Document Element | Description                                                                                                                |
-|------------------|----------------------------------------------------------------------------------------------------------------------------|
-| file_uuid        | The uuid of the file                                                                                                       |
-| checksum         | The hexadecimal representation of the MD5 checksum of the file                                                             |
-| size             | Integer size of the file in bytes                                                                                          |
-| rel_path         | The local file system path of the file relative to its Dataset directory, including the file name                          |
-| file_extension   | The part of rel_path after the final period in the file name, which is after the final directory separator                 |
-| samples          | An array of objects described below under `samples` Array Elements, with one for each non-organ Sample in the Dataset      |
-| organs           | An array of objects described below under `organs` Array Elements, with one for each organ Sample in the Dataset           |
-| donors           | An array of objects described below under `donors` Array Elements, with one for each donor of an entry in the organs array |
-| dataset_uuid     | The 32 character UUID of the Dataset which is the direct ancestor of this file                                             |
-| data_types       | An array of strings with codes for the assay types of the Dataset. See [Assay Type Codes](#assay-type-codes) below.        |
+Stored documents are enhanced with the following attributes for convenient use within the JSON response.
 
-### `samples` Array Elements:
-
-| samples Element | Description                                                                                        |
-|-----------------|----------------------------------------------------------------------------------------------------|
-| uuid            | The uuid of a Sample entity whose sample category is not 'organ', which is an ancestor of the file |
-| code            | A code for the sample category.                                                                    |
-| type            | A description for the sample category, specified as the "code"                                     |
-
-### `organs` Array Elements:
-
-| organs Element | Description                                                                                                        |
-|----------------|--------------------------------------------------------------------------------------------------------------------|
-| uuid           | The uuid of a Sample entity whose specimen type is 'organ', which is an ancestor of a Sample included in "samples" |
-| type_code      | A code for the organ type of the Dataset. See [Organ Type Codes](#organ-type-codes) below                          |
-| type           | A description for the organ type of the specimen, specified as the "type_code"                                     |
-
-### `donors` Array Elements:
-
-| donors Element | Description                                                                                                                                    |
-|----------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| uuid           | The uuid of a Donor entity which is an ancestor of a Sample included in "organs"                                                               |
-| age            | A float value created from the Donor entity metadata for the [UMLS age group CUI C0001779](https://uts.nlm.nih.gov/uts/umls/concept/C0001779)  |
-| units          | The unit of measure for the age concept of the Donor entity metadata                                                                           |
-| race           | A UMLS preferred term from the Donor entity metadata for the [UMLS race group CUI C0034510](https://uts.nlm.nih.gov/uts/umls/concept/C0034510) |
-
-
-```
-https://github.com/hubmapconsortium/software-docs/issues/79
-```
-Create full documentation on the software.docs site for the new parameterized search feature which:
-
-Explains how to use the new /param-search/<entity-type> endpoint
-Fully documents the schemata for the entities types supported as a way of documenting the available, searchable attributes. This should explain the construction of multilevel attributes, for example if searching in Sample space the attribute donor.protocol_url is constructed from the top level Sample attribute donor (which points to the Donor schema), then protocol_url attribute from Donor.
-
+| Document Element      | Description                                                                                           |
+|-----------------------|-------------------------------------------------------------------------------------------------------|
+| ancestor_ids          | A Javascript array with identifiers for all ancestors of the entity                                   |
+| ancestors             | A Javascript array with a JSON object for each ancestor of the entity                                 |
+| descendant_ids        | A Javascript array with identifiers for all descendants of the entity                                 |
+| descendants           | A Javascript array with a JSON object for each descendant of the entity                               |
+| display_subtype       | A string with the name of the entity's type                                                           |
+| donor                 | A JSON object with information for the Donor associated with the entity                               |
+| immediate_ancestors   | A Javascript array with a JSON object for the subset of ancestors which are "a parent to" the entity  |
+| immediate_descendants | A Javascript array with a JSON object for the subset of descendants which are "a child of" the entity |
+| index_version         | A string indicating the version of the indexing software used to create the document in the index     |
+| origin_sample         | A JSON object with information for the ancestor Sample associated with the entity                     |
+| origin_samples        | A Javascript array with a JSON object for the ancestor Sample associated with the entity              |
 
 ### OpenSearch document keyword attributes
+Elements of the list below may be used to compose "terms" of a query for value matching.
 Examples are enumerated as follows, but the current, authoritative list is returned from a call
 to the search-api endpoint [/attribute-values?attribute_name_list](/attribute-values?attribute_name_list).
 - visit
@@ -120,12 +157,6 @@ to the search-api endpoint [/attribute-values?attribute_name_list](/attribute-va
 - all_text
 - thumbnail_file.filename
 - thumbnail_file.file_uuid
-
-#### source_samples keyword attributes
-
-Examples are enumerated as follows, but the current, authoritative list is returned from a call
-to the search-api endpoint [/attribute-values?attribute_name_list](/attribute-values?attribute_name_list).
-
 - source_samples.visit
 - source_samples.uuid
 - source_samples.tissue_type
