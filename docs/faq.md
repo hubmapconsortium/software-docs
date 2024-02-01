@@ -25,10 +25,10 @@ Despite vastly improved imaging and omics technologies and many important founda
 1. Integrating high content, high resolution spatial and omics information to comprehensively profile biomolecular distribution and morphology of tissues in a high throughput manner.
 2. Arranging this information into 3D tissue maps amenable to modelling.
 
-Generating foundational 3D human tissue maps is one of the core goals of HuBMAP. HuBMAP projects will generate high resolution, high content, high-throughput biomolecular 3D tissue maps of non-diseased human organs and organ systems. 
-- For HuBMAP, a high-resolution assay is one that can reliably and reproducibly assign detected biomolecules to individual cells or extracellular compartments of a tissue.
-- A high content approach is one that maximizes identification of tissue features through a combination of biomolecular depth, spatial resolution and multiplexing of complementary, multi-parameter assays.
-- A high throughput pipeline is one that maximizes the bandwidth of data production to result in any or all of the following:
+Generating foundational 3D human tissue maps is one of the core goals of HuBMAP. HuBMAP projects will generate _high resolution, high content, high-throughput_ biomolecular 3D tissue maps of non-diseased human organs and organ systems. 
+- For HuBMAP, a _high-resolution_ assay is one that can reliably and reproducibly assign detected biomolecules to individual cells or extracellular compartments of a tissue.
+- A _high content_ approach is one that maximizes identification of tissue features through a combination of biomolecular depth, spatial resolution and multiplexing of complementary, multi-parameter assays.
+- A _high throughput_ pipeline is one that maximizes the bandwidth of data production to result in any or all of the following:
     1. Accelerated speed of analysis, so that hundreds or thousands of samples can be analyzed simultaneously.
     2. Greater depth of analysis, so that hundreds or thousands of molecules can be analyzed in a single sample.
     3. Enhanced capacity for volume, so that a given set of molecules can be analyzed in all the cells within a larger tissue sample.
