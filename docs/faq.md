@@ -6,7 +6,7 @@ layout: page
 ## General Questions
 
 <details>
-<summary>What is HuBMAP & what are its goals?</summary>
+<summary><b>What is HuBMAP & what are its goals?</b></summary>
 
 HuBMAP is the Human BioMolecular Atlas Program.
 The vision for HuBMAP is to catalyze the development of a framework for mapping of the human body at single-cell resolution to transform our understanding of normal tissue organization and function. This will be achieved by:
@@ -41,7 +41,7 @@ For a more in depth understanding, read the [HuBMAP marker paper](https://www.na
 
 </details>
 
-<details><summary>Who are the intended users of HuBMAP resources?</summary>
+<details><summary><b>Who are the intended users of HuBMAP resources?</b></summary>
 
 HuBMAP's rich datasets and associated resources are intended for broad use by the research community, including:
 
@@ -53,7 +53,7 @@ HuBMAP's rich datasets and associated resources are intended for broad use by th
 
 </details>
 
-<details><summary>How does HuBMAP fit into the ecosystem of other single cell efforts within and outside the NIH? </summary>
+<details><summary><b>How does HuBMAP fit into the ecosystem of other single cell efforts within and outside the NIH?</b> </summary>
 
 HuBMAP is part of a rich ecosystem of established and emerging atlasing programs supported by NIH and globally by other funding organizations, many of which are focused on specific organs or diseases. 
 - HuBMAP connects with these programs to ensure data interoperability, avoid duplication of work, and leverage and synergize gained knowledge.
@@ -77,7 +77,7 @@ The [Visible Human MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-vi
 
 ### Below are some Frequently Asked Questions (FAQ) to get you started:
 
-<details><summary>Can I use HuBMAP data for my own research? </summary>
+<details><summary><b>Can I use HuBMAP data for my own research?</b> </summary>
 
 - Yes, follow the guidelines outlined in the [HuBMAP External Data Sharing Policy](https://hubmapconsortium.org/policies/external-data-sharing-policy/). 
 - Access to NIH HuBMAP data is guided by the [NIH Genomic Data Sharing policy](https://sharing.nih.gov/faqs#/genomic-data-sharing-policy.htm).
@@ -88,7 +88,7 @@ If you use NIH HuBMAP data in publications or presentations we request that you 
 
 </details>
 
-<details><summary>Can I use your data for another project that I am working on?</summary>
+<details><summary><b>Can I use your data for another project that I am working on?</b></summary>
 
 Yes! The Consortium provides raw and processed data (at multiple levels) for the community to access through the [HuBMAP Data Portal](https://portal.hubmapconsortium.org/).
 
@@ -98,7 +98,7 @@ To acknowledge HuBMAP in your findings, the Consortium suggests language of the 
 
 </details>
 
-<details><summary>Can I submit my own data to HuBMAP? Why would I want to? </summary>
+<details><summary><b>Can I submit my own data to HuBMAP? Why would I want to?</b></summary>
 
 - Yes, HuBMAP allows investigators to submit their own data via the [HuBMAP Data Portal](https://portal.hubmapconsortium.org/).
 - Why share? Having your own data on HuBMAP will ...
