@@ -171,9 +171,9 @@ HuBMAP Investigators are provided with a Github link to an assay-specific metada
 
 </details>
 
-<details><summary>Can I sign up to be notified of data releases? </summary>
+<details><summary><b>Can I sign up to be notified of data releases?</b> </summary>
 
-You can sign up for our mailing list at https://hubmapconsortium.org/hubmap-mailing-list/.  Once you do, we’ll keep you informed on everything that is happening in HuBMAP, including future data releases.
+Yes, you can sign up for our mailing list here: https://hubmapconsortium.org/hubmap-mailing-list/. Signing up will keep you informed on everything that is happening in HuBMAP, including future data releases.
 
 </details>
 
