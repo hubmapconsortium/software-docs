@@ -144,15 +144,16 @@ Each donor metadata item uses Unified Medical Language System (UMLS) Concept Uni
 
 </details>
 
-<details><summary>How do I get started with using the portal? </summary>
+<details><summary><b>How can I start using the portal?</b> </summary>
 
-The Portal is available at [portal.hubmapconsortium.org](/) and also includes documentation and a FAQ. 
-
+Link to the [HuBMAP Data Portal](https://portal.hubmapconsortium.org/). HuBMAP Data Portal (and related) documentation can be found on the [HuBMAP Documentation](https://software.docs.hubmapconsortium.org/technical) page and also the [HuBMAP Data Release FAQ](https://software.docs.hubmapconsortium.org/faq) - this page.
+For a more in depth understanding, read the [HuBMAP marker paper](https://www.nature.com/articles/s41586-019-1629-x) or see this video: [HuBMAP Overview](https://www.youtube.com/watch?v=yCh4XnD7rEE).
+ 
 </details>
 
-<details><summary>How can I learn more about HuBMAP data acquisition, analysis and visualization tools? </summary>
+<details><summary><b>How can I learn more about HuBMAP data acquisition, analysis, and visualization tools?</b> </summary>
 
-The [Visible Human MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc) provides an overview of HuBMAP and first introduction to data acquisition, analysis, and visualization. 
+The [Visible Human MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc) provides an overview of HuBMAP and introduction to data acquisition, analysis, and visualization. 
 
 </details>
 
