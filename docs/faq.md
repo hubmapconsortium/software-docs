@@ -146,8 +146,7 @@ Each donor metadata item uses Unified Medical Language System (UMLS) Concept Uni
 
 <details><summary><b>How can I start using the portal?</b> </summary>
 
-Link to the [HuBMAP Data Portal](https://portal.hubmapconsortium.org/). HuBMAP Data Portal (and related) documentation can be found on the [HuBMAP Documentation](https://software.docs.hubmapconsortium.org/technical) page and also the [HuBMAP Data Release FAQ](https://software.docs.hubmapconsortium.org/faq) - this page.
-For a more in depth understanding, read the [HuBMAP marker paper](https://www.nature.com/articles/s41586-019-1629-x) or see this video: [HuBMAP Overview](https://www.youtube.com/watch?v=yCh4XnD7rEE).
+Here's a link to the [HuBMAP Data Portal](https://portal.hubmapconsortium.org/). HuBMAP Data Portal (and related) documentation can be found on the [HuBMAP Documentation](https://software.docs.hubmapconsortium.org/technical) page and also the [HuBMAP Data Release FAQ](https://software.docs.hubmapconsortium.org/faq) - _this_ page.
  
 </details>
 
