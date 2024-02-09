@@ -158,15 +158,15 @@ The [Visible Human MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-vi
 
 <details><summary><b>What do I need to do to gain access to HuBMAP data? How can I download HuBMAP data?</b> </summary>
 
-Access to the [HuBMAP's Data Portal](https://portal.hubmapconsortium.org/) is open to all interested viewers, without additional barriers (account creation, login, etc.).
+Access to data on [HuBMAP's Data Portal](https://portal.hubmapconsortium.org/) is open to all interested viewers, without additional barriers (account creation, login, etc.).
 
 <b>How can I download HuBMAP data?</b> <br>
 To download HuBMAP data from the Data Portal you will need to register as a member of HuBMAP. Note that downloads of specific datasets (e.g., raw genetic data) require NIH approval. Contact the [HuBMAP Helpdesk](mailto:help@hubmapconsortium.org) for assitance with accessing this type of data.
 
 <b>How can I register as a member of HuBMAP?</b> <br>
-    1. Go to the [HuBMAP Consortium website](https://hubmapconsortium.org/). <br>
+    1. Go to the [HuBMAP Consortium website](https://hubmapconsortium.org/) <br>
     2. Under <em>Member Services</em> select <b>Member Register</b> <br>
-    3. Complete the registration form (you will need an institutional or eRA Commons ID)
+    3. Complete the registration form (you will need a valid <em>institutional</em> or eRA Commons ID)
     
 </details>
 
