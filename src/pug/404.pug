@@ -1,0 +1,11 @@
+include ./components/mixins/container
+include ./components/mixins/head
+doctype html
+html(lang="{{ site.lang | default: 'en-US' }}")
+    +head(false)
+    body
+        include ./components/layout/header
+        +container
+            h1=_t('Not Found', _m)
+            p=_t('The requested page could not be found.', _m)
+        include ./components/layout/footer

@@ -1,0 +1,80 @@
+.c-sidebar
+  pos-rel()
+
+  &.is-active
+    .c-sidebar__main
+      position fixed
+
+  &__wrap
+    pos-abs()
+    width 20%
+    @media (max-width:$xxxlg-min)
+      width 25%
+    +md-max()
+      pos-rel()
+    +bp(max, $lg-min)
+      width 100%
+
+  &__main
+    pos-rel()
+    top 30px
+    padding-left 30px
+    padding-right 30px
+    height 25vh
+    +md-max()
+      height inherit
+
+    > h2
+      margin-bottom .8em
+
+  &__list
+    background white
+    overflow-y auto
+    border-bottom solid 1px $col-lgt-grey
+    > ul
+      border solid 1px $col-lgt-grey
+      padding 1em
+      > li:first-child
+        border-top none
+    li
+      list-style none
+      padding .5em 0
+      border-top solid 1px $col-lgt-grey
+      &.has-children
+        p4()
+
+      &.c-sidebar
+        &__level
+          &--2
+            a
+              font-weight bold
+          &--3
+            a
+              padding-left .8em
+              font-weight normal
+
+    ul
+      li > ul
+        a
+          p5()
+          color $col-dk-grey
+          padding-left .4em
+          &:before
+            fa()
+            content '-'
+            display inline-block
+            margin-right .5em
+
+      &.c-sidebar
+        &__level
+          &--1
+            li
+              padding-bottom .2em
+
+      &.has-parent
+        margin-top .5em
+
+
+
+
+

@@ -1,0 +1,41 @@
+{
+  "name": "hubmapdocs",
+  "version": "0.1.0",
+  "homepage": "https://software.docs.hubmapconsortium.org/",
+  "private": true,
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-polyfill": "^6.26.0",
+    "concurrently": "^7.6.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^5.0.0",
+    "loglevel": "^1.8.1",
+    "prettier": "^2.8.1",
+    "pug": "^3.0.2",
+    "serve": "^14.1.2",
+    "stylus": "^0.59.0"
+  },
+  "scripts": {
+    "js": "gulp js && cp docs/js/main.js docs/_site/js/main.js",
+    "html": "concurrently \"gulp html-layouts\" \"gulp html-pages\" ",
+    "css": "gulp css && cp docs/css/main.css docs/_site/css/main.css",
+    "start": "concurrently \"serve -l 3005 ./docs\" \"gulp\"",
+    "build": "concurrently \"npm:js\" \"npm:css\" \"npm:html\""
+  },
+  "prettier": {
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "semi": false,
+    "tabWidth": 4,
+    "trailingComma": "none"
+  },
+  "dependencies": {
+    "gulp-header": "^2.0.9",
+    "gulp-stylus": "^3.0.0"
+  }
+}
