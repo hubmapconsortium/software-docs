@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 ---
 # HuBMAP Data Consent
 The table below summarizes Genomic Data Sharing by HuBMAP components and associated Data Use Limitations.

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 ---
 # HuBMAP Nano-DESI (Desorption Electrospray Ionization) & nanoPOTS (Processing in One Pot for Trace Samples )
 

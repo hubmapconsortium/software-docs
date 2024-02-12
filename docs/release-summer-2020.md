@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 ---
 # HuBMAP Portal Release - Summer 2020
 

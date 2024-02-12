@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 ---
 # HuBMAP Cell DIVE Data (GE Research)
 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 ---
 ### Installing and Getting Started with the HuBMAP Command Line Transfer
 
