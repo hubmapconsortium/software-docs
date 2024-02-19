@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 ### Viewing The Current Globus Download Directory

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 # HuBMAP Product Offerings: Project Management, Communication, Tracking, & Reporting
 

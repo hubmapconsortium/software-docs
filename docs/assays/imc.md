@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 # Image Mass Cytometry (IMC)
 

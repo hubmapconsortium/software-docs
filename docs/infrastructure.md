@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 # HuBMAP Infrastructure
 The HuBMAP Portal is built on interoperating microservices to support collaborative development, ﬂexibility, extensibility, FAIR data, and hybrid execution using on-prem and cloud resources. The Infrastructure and Engagement Component (IEC) leads the development and implementation of HuBMAP’s core software infrastructure including data representation, management, and ingest. A microservices architecture with expressive, extensible application programming interfaces facilitates collaboration across the HIVE (HuBMAP Integration, Visualization and Engagement) and, over time, with complementary consortia such as others in the Common Fund Data Ecosystem and the Human Cell Atlas (HCA).

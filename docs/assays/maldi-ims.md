@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 # HuBMAP Matrix Assisted Laser Desorption/Ionization (MALDI) Imaging Mass Spectrometry (IMS)
 

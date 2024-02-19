@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 # HuBMAP Antibody Validation Report Repository: Uploading new reports
 

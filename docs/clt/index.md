@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 ### Using the HuBMAP CLT
 

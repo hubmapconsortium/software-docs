@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 # HuBMAP Antibody Validation Report CSV Structure
 With each submission of AVR documents associated header/metadata information must be include for each AVR document. This information is provided as a .csv file.  It is recommended to start with the blank (header only) [template csv file](/avr/avr-template.csv), use Excel or other spreadsheet to enter the data, then export as a comma separated value (csv) file.  An example [example AVR csv file](/avr/example-avrs.csv) is also available. All columns in the csv file are required, with the definitons of the columns here:
