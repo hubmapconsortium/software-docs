@@ -1,0 +1,4 @@
+[submodule "data-submission-guide"]
+	path = docs/data-submission
+	url = https://github.com/x-atlas-consortia/data-submission-guide
+	branch = main

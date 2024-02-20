@@ -1,0 +1,45 @@
+.clear
+  clear both
+*
+  margin 0
+  padding 0
+  box-sizing border-box
+
+html 
+  font-size 16px
+  line-height 24px
+  font-weight 340
+  background $col-xlgt-grey
+  
+html, body
+  height 100%
+
+body
+  p4()
+  pos-rel()
+  line-height 1.5
+  text-size-adjust none
+  font-family $font-family
+
+li  
+  list-style-position inside
+
+a, a:visited
+  color $col-primary-blue
+  text-decoration none
+  font-weight bolder
+
+a:hover
+  text-decoration underline
+
+.hide 
+  hide()
+
+details
+  margin-top $mgn
+
+ul ~ h1, ul ~ h2, ul ~ h3, ul ~ h4, ul ~ h5, ul ~ h6, table ~ h2, table ~ h3
+  margin-top 1rem
+
+[tabindex="0"]:active, [tabindex="0"]:focus, [tabindex="1"]:active, [tabindex="1"]:focus, a:active, a:focus, button:active, button:focus, input:active, input:focus, select:active, select:focus, textarea:active, textarea:focus
+  outline: 1px dotted $col-primary-blue

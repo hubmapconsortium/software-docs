@@ -6,13 +6,22 @@ body {
 }
 
 .info-bar {
-    background-color: rgb(68, 74, 101);
-    border: none;
-    padding-top: 6px;
+    padding: 17px;
+    border-top: solid 1px #ccc;
+    background-color: #444a65;
+    color: #fff;
 }
 
-header {
-    height: 80px;    
+#header_wrap {
+    height: 90px;
+}
+
+#header_wrap h1 {
+    margin: 0;
+}
+
+#header_wrap .menu-bar {
+    padding-top: 6px;
 }
 
 header .wrapper {
@@ -117,6 +126,11 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     color: rgb(255, 255, 255)
+}
+
+.menu-item:not(.logo){
+    position: relative;
+    bottom: 10px;
 }
 
 .menu-item:hover{

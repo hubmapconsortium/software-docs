@@ -6,6 +6,8 @@
     <script src="/js/main.js"></script>
     <link rel="stylesheet" href="/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="/css/main.css"/>
+    
+    {% seo %}
   </head>
   <body>
     <header class="c-header js-app--header" role="navigation">
@@ -20,10 +22,20 @@
         </div>
       </div>
     </header>
-    <div class="c-container" role="main">
-      <h1>Not Found</h1>
-      <p>The requested page could not be found.</p>
+    <div class="c-sidebar js-app--sidebar" role="navigation" aria-label="Table of Contents">
+      <div class="c-sidebar__wrap js-sidebar__wrap">
+        <div class="c-sidebar__main js-sidebar__main">
+          <h2>Table of Contents</h2>
+          <div class="c-sidebar__list js-sidebar__list"></div>
+        </div>
+      </div>
     </div>
+        <div class="c-container" role="main">
+          <div class="c-breadcrumbs js-app--breadcrumbs" role="navigation" aria-label="Breadcrumbs">
+            <div class="c-breadcrumbs__main js-breadcrumbs__main"></div>
+          </div>
+          <div class="c-documentation">{{ content }}</div>
+        </div>
     <footer class="c-footer js-app--footer">
       <div class="c-footer__meta">
         <div class="c-fileMeta js-app--fileMeta"><span class="c-fileMeta__label js-fileMeta__label">Last Modified: </span>&nbsp;<span class="js-fileMeta__date"></span></div>

@@ -1,0 +1,10 @@
+mixin head(seo)
+    head
+        script(src='/js/jquery-3.6.2.min.js')
+        script(src='/js/markdown.min.js')
+        script(src='/js/main.js')
+        link(rel='stylesheet', href='/css/font-awesome.min.css')
+        link(rel='stylesheet', href='/css/main.css')
+        if seo
+            |
+            | {% seo %}

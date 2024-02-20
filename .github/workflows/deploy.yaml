@@ -1,0 +1,43 @@
+name: data-submission-guide-update
+ 
+on:
+  repository_dispatch:
+    types: [data-submission-guide-update]
+ 
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  pull-requests: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+        # Uses the private access token from above link
+        with:
+          token: ${{ secrets.GH_SUBMODULE_SECRET }}
+
+      # Initialize or update each one recursively
+      - name: Pull & update submodules recursively
+        run: |
+          git submodule update --init --recursive
+          git submodule update --recursive --remote
+
+      # Commit to the repo under the GitHub actions user to ensure we have
+      # reasonable logging to trace back
+      - name: Commit & push changes
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions - update submodules"
+          git commit -am "Update submodules" || echo "No changes to commit"
+          git push

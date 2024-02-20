@@ -1,0 +1,21 @@
+.c-container
+  container()
+  color $col-dk-grey
+  margin 40px auto
+  min-height calc(100vh - 100px)
+  +md-max()
+    padding 0 $mgn * 2
+
+  @media (min-width:$lg-min) and (max-width:$xxxlg-min)
+    max-width 60%
+    margin-left 30%
+
+  section
+    margin $mgn 0
+
+  p
+    margin $mgn 0
+
+  .c-documentation--dsg
+    img
+      width inherit
