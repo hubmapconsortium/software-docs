@@ -170,15 +170,32 @@ To download HuBMAP data from the Data Portal you will need to register as a memb
     
 </details>
 
-<details><summary>How does HuBMAP curate and validate metadata? </summary>
+<details><summary><b>How does HuBMAP curate and validate metadata?</b> </summary>
 
-HuBMAP Investigators are provided with a Github link to an assay-specific metadata template they can download, complete, and save as a TSV file. The completed metadata form is then sent to a HuBMAP Curator who runs a validation script to confirm all required fields are populated with the appropriate information in the syntactically correct format.  Corrections are made if necessary and the HuBMAP team uploads the metadata.tsv and aligns it with the corresponding data. In the future, semantic validation through the use of ontological annotations will be supported where possible.
+HuBMAP data submitters can access lists of metadata schemas (and related information) and download metadata templates from HuBMAP’s <a href="https://hubmapconsortium.github.io/ingest-validation-tools/">Data Upload Guidelines</a> page. Data submitters can validate their own metadata using a Validator tool.
+<ul>
+    <li> Click on any assay or sample type on the lists to jump to a page for that type. </li> 
+    <li> Select the <b>Excel template</b> on that page.</li>
+    <li> Download and complete the Excel template. </li>
+    <li> Validate your metadata spreadsheet (template) using the <a href="https://metadatavalidator.metadatacenter.org/"> Metadata Spreadsheet Validator</a>.</li> 
+    <ul>
+       <li> The Validator tool compares entries in your metadata template against specifications stored in the CEDAR repository.</li>
+       <li> It categorizes any errors found and provides hints on how to fix those errors. </li>
+       <li> If errors are detected, use the Validator tools to correct any errors. </li>
+       <li> When no errors are found, you may safely upload your spreadsheet.</li>
+       <li> Once all errors are corrected, download the <em>corrected</em> metadata spreadsheet (TSV format). </li>
+       <li> Send validated (organ or sample) metadata TSV files to the <a href="mailto:help@hubmapconsortium.org">HuBMAP Helpdesk</a> </li>
+       <li> A Data Curator at the HuBMAP Helpdesk will manually validate and upload the files.</li>
+    </ul>
+    <li>Access <a href="https://metadatacenter.github.io/spreadsheet-validator-docs/">Help documentation</a> for the Validator. </li>
+    <li> TMCs are required to validate their metadata BEFORE uploading it to the HuBMAP Helpdesk.</li>
+</ul>
 
 </details>
 
-<details><summary><b>Can I sign up to be notified of data releases?</b> </summary>
+<details><summary><b>Can I sign up to be notified of HuBMAP news and events?</b> </summary>
 
-Yes, you can sign up for our mailing list here: https://hubmapconsortium.org/hubmap-mailing-list/. Signing up will keep you informed on everything that is happening in HuBMAP, including future data releases.
+Yes, you can sign up for our mailing list here: https://hubmapconsortium.org/hubmap-mailing-list/. Signing up will keep you informed on everything that is happening in HuBMAP.
 
 </details>
 
