@@ -237,9 +237,11 @@ The HuBMAP map is three-dimensional (3D) to capture the 3D context of single-cel
 
 </details>
 
-<details><summary>Where should  I report any errors / make suggestions for new portal features or functionality / ask more questions about using the portal? </summary>
+<details><summary><b>Where should  I report errors, make suggestions for new features or functionality, or ask questions about using the portal?</b> </summary>
 
-We welcome your comments and your help to identify errors and define priorities for future portal releases. You can provide error reports, make suggestions, or ask questions through the form at https://hubmapconsortium.org/contact-form/.
+The HuBMAP Consortium welcomes your comments, feedback, and help in identifing errors on the HuBMAP Data Portal. 
+- You can provide error reports, make suggestions, or ask questions through the form at https://hubmapconsortium.org/contact-form/.
+- For help with specific issues related to the portal, please contact the <a href="mailto:help@hubmapconsortium.org">HuBMAP Helpdesk</a> and submit a support ticket.
 
 </details>
 
