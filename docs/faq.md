@@ -227,11 +227,13 @@ The HuBMAP map is three-dimensional (3D) to capture the 3D context of single-cel
 
 </details>
 
-<details><summary>Can I make HuBMAP data available through my resource? </summary>
+<details><summary><b>Can I make HuBMAP data available through my resource?</b> </summary>
 
-You can use HuBMAP data for any purposes permitted by the Data Sharing Policy: https://hubmapconsortium.org/policies/external-data-sharing-policy/.
- 
-The CCF 3D Reference Object Library provides anatomically correct reference organs. The organs are developed by a specialist in 3D medical illustration and approved by organ experts, see details [here.](https://hubmapconsortium.github.io/ccf/pages/ccf-3d-reference-library.html) Included in the 1st release are 10 organ objects that can be freely used in teaching, research, or commercial applications.
+<ul>
+   <li>You may use HuBMAP data for any purposes permitted by the <a href="https://hubmapconsortium.org/policies/external-data-sharing-policy/">Data Sharing Policy</a>.</li>
+   <li>The <a href="https://hubmapconsortium.github.io/ccf/pages/ccf-3d-reference-library.html">CCF 3D Reference Object Library</a> provides anatomically correct reference organs. The organs are developed by a specialist in 3D medical illustration and approved by organ experts.</li> 
+   <li>As of December 2023, the 6th HRA release included 30 organ objects that can be freely used in teaching, research, or commercial applications.</li>
+</ul>
 
 </details>
 
