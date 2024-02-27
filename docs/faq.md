@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-# HuBMAP Data Release Frequently Asked Questions
+# HuBMAP Data Portal Frequently Asked Questions (FAQ)
 
 ## General Questions
 
@@ -75,7 +75,7 @@ We welcome all to explore the [HuBMAP Data Portal](https://portal.hubmapconsorti
 
 The [Visible Human MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc) provides an overview of HuBMAP and an introduction to data acquisition, analysis, and visualization.
 
-### Below are some Frequently Asked Questions (FAQ) to get you started:
+### Additional FAQ to get you started:
 
 <details><summary><b>Can I use HuBMAP data for my own research?</b> </summary>
 
@@ -288,39 +288,35 @@ We are always happy to hear suggestions for additions and improvements. Please m
 
 </details>
 
-<details><summary>Do you support an API for programmatic access? </summary>
+## API (Application Programming Interface) Questions
 
-The HuBMAP portal is built using an extensible API structure that supports all component interactions. APIs are being registered in [SmartAPI](https://smart-api.info/registry?q=hubmap).  For external access to APIs, please submit a request to help@hubmapconsortium.org.
+<details><summary><b>Do you support an API for programmatic access?</b> </summary>
+
+The HuBMAP portal is built using an extensible API structure that supports all component interactions. 
+- APIs are being registered in [SmartAPI](https://smart-api.info/registry?q=hubmap).
+- For external access to APIs, please submit a request to the <a href="mailto:help@hubmapconsortium.org">HuBMAP Helpdesk</a>.
 
 </details>
 
-<details><summary>What are the current features of the API? </summary>
+<details><summary><b>What are the current features of the API?</b> </summary>
 
-The HuBMAP APIs underpin all provenance, data access, processing, translation, search and access controls. The APIs also report the versions and uptime statuses of all the Docker containers that constitute HuBMAP’s microservices orchestration architecture.
+The HuBMAP APIs underpin all provenance, data access, processing, translation, search, and access controls. 
+- APIs also report the versions and uptime statuses of all Docker containers that comprise HuBMAP’s microservices orchestration architecture.
 
 </details>
 
 <details><summary>What are the expectations about future API features? </summary>
 
-APIs are extensible and are expected to be expanded to progressively. The next major set of APIs will deliver the underpinning transactions needed for semantic search.
+APIs are extensible and are expected to be expanded progressively. The next major set of APIs will deliver the underpinning transactions needed for semantic search.
 
 </details>
 
-<details><summary>What are the licensing requirements to use this data? </summary>
+<details><summary><b>What are the licensing requirements to use HuBMAP APIs, software, and data?</b> </summary>
 
-The CCF 3D Reference Object Library was released under [Attribution 4.0 International (CC BY 4.0).](https://creativecommons.org/licenses/by/4.0/)
-
-</details>
-
-<details><summary>What are the licensing requirements to use any of the software? Where is the software? </summary>
-
-Most of the software implemented for HuBMAP is licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License) or [GPL v3 License.](https://www.gnu.org/licenses/gpl-3.0.en.html) All source code is on GitHub at https://github.com/hubmapconsortium/. A few source code repositories have different open source licensing, which you can verify by viewing the LICENSE file in the respective repository.
-
-</details>
-
-<details><summary>What are the licensing requirements to use any of the APIs?</summary>
-
-The HuBMAP APIs are released under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) as is SmartAPI.
+- The HuBMAP APIs, SmartAPI, and CCF 3D Reference Object Library (data) are released under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+- Most of HuBMAP's software is licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License) or [GPL v3 License.](https://www.gnu.org/licenses/gpl-3.0.en.html)
+- Most of HuBMAP's source code can be found in GitHub at https://github.com/hubmapconsortium/.
+- A few source code repositories use different open source licensing. You can verify this by viewing the LICENSE file in the respective repository.
 
 </details>
 
