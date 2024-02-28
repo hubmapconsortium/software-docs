@@ -1,1 +1,425 @@
-<mxfile host="Electron" modified="2022-01-06T16:35:10.152Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/15.8.7 Chrome/91.0.4472.164 Electron/13.6.2 Safari/537.36" etag="y82kbELzDT04qyLomk55" version="15.8.7" type="device"><diagram id="j9Qyy4nKqlWBJmMirgIs" name="Page-1">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</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2024-02-28T16:19:22.640Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0" etag="YR1k4Jn1-NmD-8wialWa" version="23.1.7" type="google">
+  <diagram id="j9Qyy4nKqlWBJmMirgIs" name="Page-1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" tooltip="Systems, data download, tools, containers and APIs operate via Globus Tokens passed through the API Gateway on every call." link="https://github.com/hubmapconsortium/gateway" id="gPMXnLtjhfEc-A2dQX71-5">
+          <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;top=1;left=1;fillColor=#FAD7AC;rounded=0;fontSize=12;strokeColor=#b46504;gradientColor=#FFF2CC;opacity=60;align=right;verticalAlign=top;" vertex="1" parent="1">
+            <mxGeometry x="10" y="149" width="550" height="62" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Globus Auth (Authentication and Authorization)" link="https://docs.globus.org/api/auth/" tooltip="Globus Auth is the OAuth2 authentication and authorization service published by Globus (not hosted by HuBMAP) used for login utilizing user’s home institution identity provider for authentication to retrieve user tokens and then used to tie users to HuBMAP-maintained groups for authorization. In future integration with NIH Research Authorization Service (RAS) users will also, via single sign-on, be associated with their dbGaP authorizations." id="ca2vOitG2DdZw0FZi5Ay-20">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;rotation=-90;opacity=70;" vertex="1" parent="1">
+            <mxGeometry x="-94.05" y="152.45" width="312.09" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ca2vOitG2DdZw0FZi5Ay-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#737373;" vertex="1" parent="1">
+          <mxGeometry x="9.5" y="24" width="800.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ca2vOitG2DdZw0FZi5Ay-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#737373;" vertex="1" parent="1">
+          <mxGeometry x="10" y="328" width="800" height="90" as="geometry" />
+        </mxCell>
+        <UserObject label="On-Prem File Store and Compute Resources" tooltip="The File Store and Compute Resources are hosted in dedicated hardware at the Pittsburgh Supercomputing Center including raw and processed data managed in Globus endpoints with distinct security for public, consortium, and protected data. Databases are in AWS or at PSC as optimal for the use case." link="https://psc.edu" id="ca2vOitG2DdZw0FZi5Ay-37">
+          <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;fillColor=#b1ddf0;rounded=0;strokeColor=#10739E;" vertex="1" parent="1">
+            <mxGeometry x="490" y="357" width="305" height="34" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ca2vOitG2DdZw0FZi5Ay-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#737373;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="224" width="800" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="R-GQj7APGcau6322Vip6-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.638;exitY=0.993;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="ca2vOitG2DdZw0FZi5Ay-24" target="ca2vOitG2DdZw0FZi5Ay-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="748" y="180" />
+              <mxPoint x="748" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Globus Transfer UI" tooltip="Globus Transfer Application a web application hosted by Globus that allows users to initiate and track file transfers." link="https://app.globus.org" id="ca2vOitG2DdZw0FZi5Ay-24">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;opacity=70;" vertex="1" parent="1">
+            <mxGeometry x="691" y="87" width="90" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="MySQL" tooltip="MySQL is used for relational data including UUID API." link="https://www.mysql.com" id="ca2vOitG2DdZw0FZi5Ay-31">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+            <mxGeometry x="86" y="358" width="78" height="33" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="OpenSearch" tooltip="OpenSearch Search Engine" link="https://opensearch.org/" id="ca2vOitG2DdZw0FZi5Ay-39">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+            <mxGeometry x="267" y="358" width="75" height="33" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Neo4j" tooltip="Neo4j graph database open and free versions deployed on AWS are used for Provenance (Entity API) and Knowledge (Ontology API) backends." link="https://neo4j.com" id="ca2vOitG2DdZw0FZi5Ay-40">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+            <mxGeometry x="179" y="358" width="75" height="33" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="R-GQj7APGcau6322Vip6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.844;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ca2vOitG2DdZw0FZi5Ay-44" target="ca2vOitG2DdZw0FZi5Ay-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="747" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Globus Transfer API" link="https://docs.globus.org/api/transfer/" linkTarget="_blank" tooltip="Globus Transfer Application and API is used by HuBMAP to enable authorized users to securely upload and download data." id="ca2vOitG2DdZw0FZi5Ay-44">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B1DDF0;strokeColor=#ae4132;" vertex="1" parent="1">
+            <mxGeometry x="700" y="260" width="95" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ca2vOitG2DdZw0FZi5Ay-45" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Resource&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=24;rotation=270;" vertex="1" parent="1">
+          <mxGeometry x="-18" y="353" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ca2vOitG2DdZw0FZi5Ay-46" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;API&lt;br&gt;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=24;rotation=270;" vertex="1" parent="1">
+          <mxGeometry x="-3" y="247" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ca2vOitG2DdZw0FZi5Ay-47" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Application&lt;br&gt;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=24;rotation=270;" vertex="1" parent="1">
+          <mxGeometry x="-23" y="65" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ca2vOitG2DdZw0FZi5Ay-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="ca2vOitG2DdZw0FZi5Ay-58" target="ca2vOitG2DdZw0FZi5Ay-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1czwzXAxJX-QsbYgAEoH-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ca2vOitG2DdZw0FZi5Ay-58" target="ca2vOitG2DdZw0FZi5Ay-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Entity" tooltip="Entity API is the main interface to the HuBMAP Provenance store/database. This is a standard HTTP RESTful web service providing POST/PUT/GET services for the metadata associated with Donors, Organs, Tissue Samples and Datasets." link="https://github.com/hubmapconsortium/entity-api" id="ca2vOitG2DdZw0FZi5Ay-58">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+            <mxGeometry x="157" y="260" width="55" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="1czwzXAxJX-QsbYgAEoH-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.359;entryY=0.024;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ca2vOitG2DdZw0FZi5Ay-60" target="ca2vOitG2DdZw0FZi5Ay-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="UUID" tooltip="UUID API is used to create and translate HuBMAP specific ids (UUIDs, HuBMAP IDs and Submission IDs). These are used to codify Donors, Tissue Samples (including organs), Datasets and other miscellaneous entities used by the provenance graph data store." link="https://github.com/hubmapconsortium/uuid-api" id="ca2vOitG2DdZw0FZi5Ay-60">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+            <mxGeometry x="87" y="260" width="55" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ca2vOitG2DdZw0FZi5Ay-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="ca2vOitG2DdZw0FZi5Ay-61" target="ca2vOitG2DdZw0FZi5Ay-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1czwzXAxJX-QsbYgAEoH-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ca2vOitG2DdZw0FZi5Ay-61" target="ca2vOitG2DdZw0FZi5Ay-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Search" tooltip="Search API is a search-oriented service backed by Elasticsearch holding configurable views (configured via modular transform plugin) of HuBMAP provenance data." link="https://github.com/hubmapconsortium/search-api" id="ca2vOitG2DdZw0FZi5Ay-61">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+            <mxGeometry x="226" y="260" width="64" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="1czwzXAxJX-QsbYgAEoH-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.281;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ca2vOitG2DdZw0FZi5Ay-62" target="ca2vOitG2DdZw0FZi5Ay-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="586" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="575" y="357" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Workspaces" tooltip="Assets API serves files from HuBMAP datasets via a standard HTTP(s) interface, with access control allowing public access or Consortium only access depending on the access level of the Dataset containing the file being accessed and the user&#39;s Globus authorization." link="https://github.com/hubmapconsortium/gateway/blob/master/hubmap-auth/README.md#file-assets-service" id="ca2vOitG2DdZw0FZi5Ay-62">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+            <mxGeometry x="539" y="260" width="72" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="R-GQj7APGcau6322Vip6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.565;entryY=-0.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ca2vOitG2DdZw0FZi5Ay-64" target="ca2vOitG2DdZw0FZi5Ay-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Ingest" tooltip="Ingest API is used mainly by the Ingest UI to provide application specific functionality for the data ingest/provenance. A main function is to interact with the local PSC HIVE file system and is therefore installed at the PSC instead of AWS." link="https://github.com/hubmapconsortium/ingest-api" id="ca2vOitG2DdZw0FZi5Ay-64">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+            <mxGeometry x="635" y="260" width="55" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="1czwzXAxJX-QsbYgAEoH-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.409;exitY=1.01;exitDx=0;exitDy=0;entryX=0.379;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="ca2vOitG2DdZw0FZi5Ay-65" target="1czwzXAxJX-QsbYgAEoH-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Cells" tooltip="Cells API provides the capability to search for data from indexed cell molecular information." link="https://github.com/hubmapconsortium/cross_modality_query" id="ca2vOitG2DdZw0FZi5Ay-65">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+            <mxGeometry x="361.5" y="260" width="55" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="1czwzXAxJX-QsbYgAEoH-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;jumpStyle=arc;" edge="1" parent="1" source="ca2vOitG2DdZw0FZi5Ay-66" target="ca2vOitG2DdZw0FZi5Ay-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="321" y="304" />
+              <mxPoint x="235" y="304" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Ontology" tooltip="Ontology API provides concept, code and term traversal within a unified knowledge graph derived from standard ontologies and application specific terminologies with its model schema enabling efficient intra ontology navigation and cross ontology translation." link="https://github.com/hubmapconsortium/ontology-api" id="ca2vOitG2DdZw0FZi5Ay-66">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+            <mxGeometry x="298" y="260" width="55" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="R-GQj7APGcau6322Vip6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ca2vOitG2DdZw0FZi5Ay-96" target="ca2vOitG2DdZw0FZi5Ay-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1czwzXAxJX-QsbYgAEoH-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.544;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ca2vOitG2DdZw0FZi5Ay-96" target="ca2vOitG2DdZw0FZi5Ay-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="117" />
+              <mxPoint x="430" y="197" />
+              <mxPoint x="261" y="197" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1czwzXAxJX-QsbYgAEoH-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.345;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ca2vOitG2DdZw0FZi5Ay-96" target="ca2vOitG2DdZw0FZi5Ay-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="112" as="sourcePoint" />
+            <mxPoint x="185.02857142857147" y="255" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="175" />
+              <mxPoint x="185" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1czwzXAxJX-QsbYgAEoH-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="118" as="sourcePoint" />
+            <mxPoint x="490" y="366" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="118" />
+              <mxPoint x="440" y="366" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1czwzXAxJX-QsbYgAEoH-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;" edge="1" parent="1" target="ca2vOitG2DdZw0FZi5Ay-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="120" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="410" y="118" />
+              <mxPoint x="410" y="167" />
+              <mxPoint x="326" y="167" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1czwzXAxJX-QsbYgAEoH-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;jumpStyle=arc;" edge="1" parent="1" source="ca2vOitG2DdZw0FZi5Ay-96" target="ca2vOitG2DdZw0FZi5Ay-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="456" y="170" />
+              <mxPoint x="649" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Ingest UI" tooltip="Ingest UI is a web application where Donors, Organs, Tissue Samples and Datasets are submitted. Information registered via ingest UI is stored in the provenance database (Entity API). To upload/ingest data users are directed to the Globus Transfer application." link="https://ingest.hubmapconsortium.org" id="ca2vOitG2DdZw0FZi5Ay-96">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+            <mxGeometry x="401" y="87" width="55" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="RUI" tooltip="RUI (Registration User Interface) is used to spatially register tissue samples within their organ of origin." link="https://hubmapconsortium.github.io/ccf-ui/rui/" id="ca2vOitG2DdZw0FZi5Ay-98">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+            <mxGeometry x="324" y="87" width="55" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="1czwzXAxJX-QsbYgAEoH-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.7;entryY=-0.02;entryDx=0;entryDy=0;jumpStyle=arc;entryPerimeter=0;" edge="1" parent="1" source="ca2vOitG2DdZw0FZi5Ay-99" target="ca2vOitG2DdZw0FZi5Ay-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="117" />
+              <mxPoint x="270" y="242" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="EUI" tooltip="EUI (Exploration User Interface) is used to search and view tissue samples in the location as registered via the RUI." link="https://portal.hubmapconsortium.org/ccf-eui" id="ca2vOitG2DdZw0FZi5Ay-99">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+            <mxGeometry x="254" y="87" width="52" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="1czwzXAxJX-QsbYgAEoH-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ca2vOitG2DdZw0FZi5Ay-102" target="ca2vOitG2DdZw0FZi5Ay-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="117" />
+              <mxPoint x="530" y="160" />
+              <mxPoint x="663" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1czwzXAxJX-QsbYgAEoH-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.417;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ca2vOitG2DdZw0FZi5Ay-102" target="ca2vOitG2DdZw0FZi5Ay-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="539" y="130" />
+              <mxPoint x="570" y="130" />
+              <mxPoint x="570" y="237" />
+              <mxPoint x="617" y="237" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Ingest Pipeline" tooltip="Ingest Pipeline is the main pipeline wrapper called within AirFlow to execute validation and analysis pipelines based on information drawn from the Entity and Ingest APIs. Ingest Pipeline also coordinates dataset status updates and the creation of new datasets with Ingest API." link="https://github.com/hubmapconsortium/ingest-pipeline" id="ca2vOitG2DdZw0FZi5Ay-102">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+            <mxGeometry x="479" y="87" width="60" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="R-GQj7APGcau6322Vip6-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.85;exitY=1.048;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="gPMXnLtjhfEc-A2dQX71-15" target="gPMXnLtjhfEc-A2dQX71-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1czwzXAxJX-QsbYgAEoH-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.454;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;jumpStyle=arc;" edge="1" parent="1" source="ca2vOitG2DdZw0FZi5Ay-103" target="ca2vOitG2DdZw0FZi5Ay-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="579" y="140" />
+              <mxPoint x="629" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Analysis Pipeline" tooltip="Analysis Pipelines analyze data from the assays supported. Each pipeline has its own GitHub repository and associated Common Workflow Language (CWL) and Docker container(s)." link="http://hubmap.scs.cmu.edu/documentation/" id="ca2vOitG2DdZw0FZi5Ay-103">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+            <mxGeometry x="549" y="87" width="60" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="1czwzXAxJX-QsbYgAEoH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.864;exitY=1.024;exitDx=0;exitDy=0;entryX=0.67;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="gPMXnLtjhfEc-A2dQX71-8" target="ca2vOitG2DdZw0FZi5Ay-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Azimuth" tooltip="Azimuth is an analysis tool that uses an annotated reference dataset to automate the processing, analysis, and interpretation of a new single-cell RNA-seq or ATAC-seq experiment." link="https://azimuth.hubmapconsortium.org" id="gPMXnLtjhfEc-A2dQX71-8">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+            <mxGeometry x="619" y="87" width="60" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="R-GQj7APGcau6322Vip6-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gPMXnLtjhfEc-A2dQX71-15" target="ca2vOitG2DdZw0FZi5Ay-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="AirFlow Pipeline Manager" tooltip="AirFlow is a workflow management application deployed at the PSC used for running, monitoring and returning responses from analysis and validation pipelines." link="https://airflow.apache.org" id="gPMXnLtjhfEc-A2dQX71-15">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+            <mxGeometry x="479" y="39" width="200" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="R-GQj7APGcau6322Vip6-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="259" />
+            </Array>
+            <mxPoint x="170" y="118" as="sourcePoint" />
+            <mxPoint x="170" y="259" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-GQj7APGcau6322Vip6-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.369;entryY=-0.02;entryDx=0;entryDy=0;jumpStyle=arc;entryPerimeter=0;" edge="1" parent="1" target="ca2vOitG2DdZw0FZi5Ay-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="117" />
+              <mxPoint x="180" y="167" />
+              <mxPoint x="250" y="167" />
+            </Array>
+            <mxPoint x="180" y="117" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1czwzXAxJX-QsbYgAEoH-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.167;entryY=-0.007;entryDx=0;entryDy=0;jumpStyle=arc;entryPerimeter=0;" edge="1" parent="1" target="ca2vOitG2DdZw0FZi5Ay-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="117" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="190" y="117" />
+              <mxPoint x="190" y="157" />
+              <mxPoint x="307" y="157" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1czwzXAxJX-QsbYgAEoH-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;" edge="1" parent="1" target="ca2vOitG2DdZw0FZi5Ay-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="117" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="200" y="117" />
+              <mxPoint x="200" y="147" />
+              <mxPoint x="390" y="147" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1czwzXAxJX-QsbYgAEoH-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.692;exitY=0.986;exitDx=0;exitDy=0;entryX=0.183;entryY=-0.038;entryDx=0;entryDy=0;jumpStyle=arc;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="ca2vOitG2DdZw0FZi5Ay-101" target="R-GQj7APGcau6322Vip6-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="211" y="140" />
+              <mxPoint x="490" y="140" />
+              <mxPoint x="490" y="259" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1czwzXAxJX-QsbYgAEoH-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;jumpStyle=arc;" edge="1" parent="1" source="ca2vOitG2DdZw0FZi5Ay-101">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="229" y="130" />
+              <mxPoint x="520" y="130" />
+              <mxPoint x="520" y="190" />
+              <mxPoint x="550" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yZBEygTrjGpa3o5v-fds-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ca2vOitG2DdZw0FZi5Ay-101" target="ca2vOitG2DdZw0FZi5Ay-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yZBEygTrjGpa3o5v-fds-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ca2vOitG2DdZw0FZi5Ay-101" target="ca2vOitG2DdZw0FZi5Ay-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Portal" tooltip="Data Portal is where both public and Consortium users search for data and associated provenance information. Dataset information pages include provenance, metadata and Vitesse visualizations for the data. Public users (no login) only see published data and associated provenance information while Consortium users (with login) can view for validation yet-to-be-published data." link="https://portal.hubmapconsortium.org" id="ca2vOitG2DdZw0FZi5Ay-101">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+            <mxGeometry x="170" y="87" width="59" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="1czwzXAxJX-QsbYgAEoH-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;jumpStyle=arc;" edge="1" parent="1" source="ca2vOitG2DdZw0FZi5Ay-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="112" y="197" />
+              <mxPoint x="240" y="197" />
+              <mxPoint x="240" y="259" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1czwzXAxJX-QsbYgAEoH-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;jumpStyle=arc;entryX=0.594;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="R-GQj7APGcau6322Vip6-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="139.75" y="118" as="sourcePoint" />
+            <mxPoint x="510" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="188" />
+              <mxPoint x="510" y="188" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Vitessce" tooltip="Vitessce is a visual integration tool for exploration of spatial single cell experiments deployed in HuBMAP as an embedded web tool." link="http://vitessce.io" id="ca2vOitG2DdZw0FZi5Ay-100">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+            <mxGeometry x="98.5" y="87" width="55" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="1czwzXAxJX-QsbYgAEoH-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="R-GQj7APGcau6322Vip6-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="358" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="505" y="358" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Assets" tooltip="Search API is a search-oriented service backed by Elasticsearch holding configurable views (configured via modular transform plugin) of HuBMAP provenance data." link="https://github.com/hubmapconsortium/search-api" id="R-GQj7APGcau6322Vip6-8">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B1DDF0;strokeColor=#b46504;" vertex="1" parent="1">
+            <mxGeometry x="480" y="260" width="50" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="R-GQj7APGcau6322Vip6-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.147;exitY=1.029;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gPMXnLtjhfEc-A2dQX71-15" target="ca2vOitG2DdZw0FZi5Ay-102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="589" y="79" as="sourcePoint" />
+            <mxPoint x="589" y="97" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1czwzXAxJX-QsbYgAEoH-7" value="&lt;b&gt;HuBMAP Flexible Hybrid Cloud Microservices Architecture:&lt;/b&gt; " style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="9.5" y="418" width="360" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="AWS" tooltip="RUI (Registration User Interface) is used to spatially register tissue samples within their organ of origin." link="https://hubmapconsortium.github.io/ccf-ui/rui/" id="1czwzXAxJX-QsbYgAEoH-8">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+            <mxGeometry x="360" y="425.5" width="50" height="15" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="PSC" tooltip="RUI (Registration User Interface) is used to spatially register tissue samples within their organ of origin." link="https://hubmapconsortium.github.io/ccf-ui/rui/" id="1czwzXAxJX-QsbYgAEoH-9">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B1DDF0;strokeColor=#b46504;" vertex="1" parent="1">
+            <mxGeometry x="420" y="425.5" width="50" height="15" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Globus" tooltip="RUI (Registration User Interface) is used to spatially register tissue samples within their organ of origin." link="https://hubmapconsortium.github.io/ccf-ui/rui/" id="1czwzXAxJX-QsbYgAEoH-10">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAD9D5;strokeColor=#b46504;" vertex="1" parent="1">
+            <mxGeometry x="480" y="425.5" width="50" height="15" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Postgres" tooltip="OpenSearch Search Engine" link="https://opensearch.org/" id="1czwzXAxJX-QsbYgAEoH-12">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+            <mxGeometry x="357" y="358" width="70" height="33" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="1czwzXAxJX-QsbYgAEoH-40" value="&lt;div style=&quot;line-height: 50%;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;HuBMAP&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 50%;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Gateway&lt;/font&gt;&lt;/div&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=24;rotation=270;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="161" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
