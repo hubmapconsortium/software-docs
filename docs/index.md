@@ -1,6 +1,9 @@
 ---
 layout: home
 ---
+# HuBMAP Data Submission
+
+To submit data to HuBMAP please review the [HuBMAP Data Submission Guide](/data-submission/)
 
 # HuBMAP Software Documentation
 
