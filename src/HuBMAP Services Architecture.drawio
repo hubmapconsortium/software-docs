@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-28T16:19:22.640Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0" etag="YR1k4Jn1-NmD-8wialWa" version="23.1.7" type="google">
+<mxfile host="app.diagrams.net" modified="2024-02-28T18:17:52.373Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0" etag="-uRifrNLKJlEO6ZKHRI7" version="23.1.7" type="google">
   <diagram id="j9Qyy4nKqlWBJmMirgIs" name="Page-1">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -113,7 +113,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <UserObject label="Workspaces" tooltip="Assets API serves files from HuBMAP datasets via a standard HTTP(s) interface, with access control allowing public access or Consortium only access depending on the access level of the Dataset containing the file being accessed and the user&#39;s Globus authorization." link="https://github.com/hubmapconsortium/gateway/blob/master/hubmap-auth/README.md#file-assets-service" id="ca2vOitG2DdZw0FZi5Ay-62">
+        <UserObject label="Workspaces" tooltip="The Workspaces API enables the creation of user workspaces used to run analysis against HuBMAP data using on-prem compute resources." link="https://github.com/hubmapconsortium/user_workspaces_server" id="ca2vOitG2DdZw0FZi5Ay-62">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
             <mxGeometry x="539" y="260" width="72" height="30" as="geometry" />
           </mxCell>
@@ -396,22 +396,22 @@
         <mxCell id="1czwzXAxJX-QsbYgAEoH-7" value="&lt;b&gt;HuBMAP Flexible Hybrid Cloud Microservices Architecture:&lt;/b&gt; " style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="9.5" y="418" width="360" height="30" as="geometry" />
         </mxCell>
-        <UserObject label="AWS" tooltip="RUI (Registration User Interface) is used to spatially register tissue samples within their organ of origin." link="https://hubmapconsortium.github.io/ccf-ui/rui/" id="1czwzXAxJX-QsbYgAEoH-8">
+        <UserObject label="AWS" tooltip="Resources that run on AWS are in yellow." link="" id="1czwzXAxJX-QsbYgAEoH-8">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
             <mxGeometry x="360" y="425.5" width="50" height="15" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="PSC" tooltip="RUI (Registration User Interface) is used to spatially register tissue samples within their organ of origin." link="https://hubmapconsortium.github.io/ccf-ui/rui/" id="1czwzXAxJX-QsbYgAEoH-9">
+        <UserObject label="PSC" tooltip="Resources that run on-prem at the PSC are in blue." link="" id="1czwzXAxJX-QsbYgAEoH-9">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B1DDF0;strokeColor=#b46504;" vertex="1" parent="1">
             <mxGeometry x="420" y="425.5" width="50" height="15" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Globus" tooltip="RUI (Registration User Interface) is used to spatially register tissue samples within their organ of origin." link="https://hubmapconsortium.github.io/ccf-ui/rui/" id="1czwzXAxJX-QsbYgAEoH-10">
+        <UserObject label="Globus" tooltip="Resources that are run by Globus are in red." link="" id="1czwzXAxJX-QsbYgAEoH-10">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAD9D5;strokeColor=#b46504;" vertex="1" parent="1">
             <mxGeometry x="480" y="425.5" width="50" height="15" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Postgres" tooltip="OpenSearch Search Engine" link="https://opensearch.org/" id="1czwzXAxJX-QsbYgAEoH-12">
+        <UserObject label="Postgres" tooltip="PostgreSQL relational database" link="https://www.postgresql.org/" id="1czwzXAxJX-QsbYgAEoH-12">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
             <mxGeometry x="357" y="358" width="70" height="33" as="geometry" />
           </mxCell>
