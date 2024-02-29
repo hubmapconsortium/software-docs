@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-28T18:17:52.373Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0" etag="-uRifrNLKJlEO6ZKHRI7" version="23.1.7" type="google">
+<mxfile host="app.diagrams.net" modified="2024-02-29T00:21:07.175Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="GNxPmoXhJGFfDUjmastR" version="23.1.7" type="google">
   <diagram id="j9Qyy4nKqlWBJmMirgIs" name="Page-1">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -273,7 +273,7 @@
         <mxCell id="R-GQj7APGcau6322Vip6-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gPMXnLtjhfEc-A2dQX71-15" target="ca2vOitG2DdZw0FZi5Ay-103">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <UserObject label="AirFlow Pipeline Manager" tooltip="AirFlow is a workflow management application deployed at the PSC used for running, monitoring and returning responses from analysis and validation pipelines." link="https://airflow.apache.org" id="gPMXnLtjhfEc-A2dQX71-15">
+        <UserObject label="Apache Airflow Pipeline Manager" tooltip="Apache Airflow is a workflow management application deployed at the PSC used for running, monitoring and returning responses from analysis and validation pipelines." link="https://airflow.apache.org" id="gPMXnLtjhfEc-A2dQX71-15">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
             <mxGeometry x="479" y="39" width="200" height="30" as="geometry" />
           </mxCell>
@@ -396,18 +396,18 @@
         <mxCell id="1czwzXAxJX-QsbYgAEoH-7" value="&lt;b&gt;HuBMAP Flexible Hybrid Cloud Microservices Architecture:&lt;/b&gt; " style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="9.5" y="418" width="360" height="30" as="geometry" />
         </mxCell>
-        <UserObject label="AWS" tooltip="Resources that run on AWS are in yellow." link="" id="1czwzXAxJX-QsbYgAEoH-8">
+        <UserObject label="AWS" tooltip="Resources that run on Amazon Web Services (AWS) are in yellow." link="" id="1czwzXAxJX-QsbYgAEoH-8">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
             <mxGeometry x="360" y="425.5" width="50" height="15" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="PSC" tooltip="Resources that run on-prem at the PSC are in blue." link="" id="1czwzXAxJX-QsbYgAEoH-9">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B1DDF0;strokeColor=#b46504;" vertex="1" parent="1">
+        <UserObject label="PSC" tooltip="Resources that run on prem at the Pittsburgh Supercomputing Center (PSC) are in blue." link="https://psc.edu" id="1czwzXAxJX-QsbYgAEoH-9">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B1DDF0;strokeColor=#38729b;" vertex="1" parent="1">
             <mxGeometry x="420" y="425.5" width="50" height="15" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Globus" tooltip="Resources that are run by Globus are in red." link="" id="1czwzXAxJX-QsbYgAEoH-10">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAD9D5;strokeColor=#b46504;" vertex="1" parent="1">
+        <UserObject label="Globus" tooltip="Resources that are run by Globus are in red." link="https://www.globus.org" id="1czwzXAxJX-QsbYgAEoH-10">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAD9D5;strokeColor=#AE4132;" vertex="1" parent="1">
             <mxGeometry x="480" y="425.5" width="50" height="15" as="geometry" />
           </mxCell>
         </UserObject>
