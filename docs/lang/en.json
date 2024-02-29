@@ -4,6 +4,10 @@
   "breadcrumbRoot": "Home",
   "menu": [
     {
+      "name": "Data Submission",
+      "href": "/data-submission"
+    },
+    {
       "name": "Assays",
       "href": "/assays"
     },
