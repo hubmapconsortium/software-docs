@@ -75,7 +75,47 @@ We welcome all to explore the [HuBMAP Data Portal](https://portal.hubmapconsorti
 
 The [Visible Human MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc) provides an overview of HuBMAP and an introduction to data acquisition, analysis, and visualization.
 
-### Additional FAQ to get you started:
+### Getting Started with the HuBMAP Data Portal FAQ:
+
+<details><summary><b>How can I start using the portal?</b> </summary>
+
+Here's a link to the [HuBMAP Data Portal](https://portal.hubmapconsortium.org/). HuBMAP Data Portal (and related) documentation can be found on the [HuBMAP Documentation](https://software.docs.hubmapconsortium.org/technical) page and also the [HuBMAP Data Release FAQ](https://software.docs.hubmapconsortium.org/faq) - _this_ page.
+ 
+</details>
+
+<details><summary><b>How can I learn more about HuBMAP data acquisition, analysis, and visualization tools?</b> </summary>
+
+The [Visible Human MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc) provides an overview of HuBMAP and introduction to data acquisition, analysis, and visualization. 
+
+</details>
+
+<details><summary><b>Can I sign up to be notified of HuBMAP news and events?</b> </summary>
+
+Yes, you can sign up for our mailing list here: https://hubmapconsortium.org/hubmap-mailing-list/. Signing up will keep you informed on everything that is happening in HuBMAP.
+
+</details>
+
+<details><summary><b>Do you track my activities on your portal?</b> </summary>
+
+Yes, interactions with the site are recorded in server logs and on Google Analytics and are mapped to your IP address. In that regard the HuBMAP portal is no different from the rest of the internet.
+
+</details>
+
+<details><summary><b>What web-browsers are supported in the portal?</b> </summary>
+
+All modern, mainstream browsers are supported (i.e. Chrome, Edge, Firefox, Safari, etc.).
+
+</details>
+
+<details><summary><b>Where should  I report errors, make suggestions for new features or functionality, or ask questions about using the portal?</b> </summary>
+
+The HuBMAP Consortium welcomes your comments, feedback, and help in identifing errors on the HuBMAP Data Portal. 
+- You can provide error reports, make suggestions, or ask questions through the form at https://hubmapconsortium.org/contact-form/.
+- For help with specific issues related to the portal, please contact the <a href="mailto:help@hubmapconsortium.org">HuBMAP Helpdesk</a> and submit a support ticket.
+
+</details>
+
+### HuBMAP Data and Metadata FAQ:
 
 <details><summary><b>Can I use HuBMAP data for my own research?</b> </summary>
 
@@ -108,6 +148,72 @@ To acknowledge HuBMAP in your findings, the Consortium suggests language of the 
 The HuBMAP consortium encourages the scientific community to provide feedback about HuBMAP dataset metadata. This feedback helps improve the quality and usability of community data submissions.
 
 One of the first tools released was [Azimuth](https://azimuth.hubmapconsortium.org/), an app for reference-based single-cell analysis, that lets users annotate cell-types in their own data based on HuBMAP approaches. 
+
+</details>
+
+<details><summary><b>What do I need to do to gain access to HuBMAP data? How can I download HuBMAP data?</b> </summary>
+
+Access to data on [HuBMAP's Data Portal](https://portal.hubmapconsortium.org/) is open to all interested viewers, without additional barriers (account creation, login, etc.).
+
+<b>How can I download HuBMAP data?</b> <br>
+To download HuBMAP data from the Data Portal you will need to register as a member of HuBMAP. Note that downloads of specific datasets (e.g., raw genetic data) require NIH approval. Contact the [HuBMAP Helpdesk](mailto:help@hubmapconsortium.org) for assitance with accessing this type of data.
+
+<b>How can I register as a member of HuBMAP?</b> <br>
+    1. Go to the [HuBMAP Consortium website](https://hubmapconsortium.org/) <br>
+    2. Under <em>Member Services</em> select <b>Member Register</b> <br>
+    3. Complete the registration form (you will need a valid <em>institutional</em> or eRA Commons ID)
+    
+</details>
+
+<details><summary><b>Can I make HuBMAP data available through my resource?</b> </summary>
+
+<ul>
+   <li>You may use HuBMAP data for any purposes permitted by the <a href="https://hubmapconsortium.org/policies/external-data-sharing-policy/">Data Sharing Policy</a>.</li>
+   <li>The <a href="https://hubmapconsortium.github.io/ccf/pages/ccf-3d-reference-library.html">CCF 3D Reference Object Library</a> provides anatomically correct reference organs. The organs are developed by a specialist in 3D medical illustration and approved by organ experts.</li> 
+   <li>As of December 2023, the 6th HRA release included 30 organ objects that can be freely used in teaching, research, or commercial applications.</li>
+</ul>
+
+</details>
+
+<details><summary><b>How would I cite and reference HuBMAP and related data?</b> </summary>
+
+To acknowledge HuBMAP data in publications or presentations, we suggest: 
+- “The results \<published or shown\> here are in whole or part based upon data generated by the HuBMAP Program: https://hubmapconsortium.org."
+  
+The HuBMAP marker paper should be cited as:
+- Snyder, M.P., Lin, S., Posgai, A. et al. The human body at cellular resolution: the NIH Human Biomolecular Atlas Program. Nature 574, 187–192 (2019). https://doi.org/10.1038/s41586-019-1629-x.
+
+The Visible Human reference organs are freely available via the CCF 3D Reference Object Library. Please cite as:
+- Browne K, Cross LE, Herr, II BW, Record EG, Quardokus EM, Bueckle A, Börner K. 2020. [HuBMAP CCF 3D Reference Object Library.](https://hubmapconsortium.github.io/ccf/pages/ccf-3d-reference-library.html) 
+
+</details>
+
+<details><summary><b>Can I use figures from HuBMAP in my publications?</b> </summary>
+
+Yes, as long as you cite the source of the figure. See the preceeding question for more details.
+
+</details>
+
+<details><summary><b>How does HuBMAP curate and validate metadata?</b> </summary>
+
+HuBMAP data submitters can access lists of metadata schemas (and related information) and download metadata templates from HuBMAP’s <a href="https://hubmapconsortium.github.io/ingest-validation-tools/">Data Upload Guidelines</a> page. Data submitters can validate their own metadata using a Validator tool.
+<ul>
+    <li> Click on any assay or sample type on the lists to jump to a page for that type. </li> 
+    <li> Select the <b>Excel template</b> on that page.</li>
+    <li> Download and complete the Excel template. </li>
+    <li> Validate your metadata spreadsheet (template) using the <a href="https://metadatavalidator.metadatacenter.org/"> Metadata Spreadsheet Validator</a>.</li> 
+    <ul>
+       <li> The Validator tool compares entries in your metadata template against specifications stored in the CEDAR repository.</li>
+       <li> It categorizes any errors found and provides hints on how to fix those errors. </li>
+       <li> If errors are detected, use the Validator tools to correct any errors. </li>
+       <li> When no errors are found, you may safely upload your spreadsheet.</li>
+       <li> Once all errors are corrected, download the <em>corrected</em> metadata spreadsheet (TSV format). </li>
+       <li> Send validated (organ or sample) metadata TSV files to the <a href="mailto:help@hubmapconsortium.org">HuBMAP Helpdesk</a> </li>
+       <li> A Data Curator at the HuBMAP Helpdesk will manually validate and upload the files.</li>
+    </ul>
+    <li>Access <a href="https://metadatacenter.github.io/spreadsheet-validator-docs/">Help documentation</a> for the Validator. </li>
+    <li> TMCs are required to validate their metadata BEFORE uploading it to the HuBMAP Helpdesk.</li>
+</ul>
 
 </details>
 
@@ -144,61 +250,6 @@ Each donor metadata item uses Unified Medical Language System (UMLS) Concept Uni
 
 </details>
 
-<details><summary><b>How can I start using the portal?</b> </summary>
-
-Here's a link to the [HuBMAP Data Portal](https://portal.hubmapconsortium.org/). HuBMAP Data Portal (and related) documentation can be found on the [HuBMAP Documentation](https://software.docs.hubmapconsortium.org/technical) page and also the [HuBMAP Data Release FAQ](https://software.docs.hubmapconsortium.org/faq) - _this_ page.
- 
-</details>
-
-<details><summary><b>How can I learn more about HuBMAP data acquisition, analysis, and visualization tools?</b> </summary>
-
-The [Visible Human MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc) provides an overview of HuBMAP and introduction to data acquisition, analysis, and visualization. 
-
-</details>
-
-<details><summary><b>What do I need to do to gain access to HuBMAP data? How can I download HuBMAP data?</b> </summary>
-
-Access to data on [HuBMAP's Data Portal](https://portal.hubmapconsortium.org/) is open to all interested viewers, without additional barriers (account creation, login, etc.).
-
-<b>How can I download HuBMAP data?</b> <br>
-To download HuBMAP data from the Data Portal you will need to register as a member of HuBMAP. Note that downloads of specific datasets (e.g., raw genetic data) require NIH approval. Contact the [HuBMAP Helpdesk](mailto:help@hubmapconsortium.org) for assitance with accessing this type of data.
-
-<b>How can I register as a member of HuBMAP?</b> <br>
-    1. Go to the [HuBMAP Consortium website](https://hubmapconsortium.org/) <br>
-    2. Under <em>Member Services</em> select <b>Member Register</b> <br>
-    3. Complete the registration form (you will need a valid <em>institutional</em> or eRA Commons ID)
-    
-</details>
-
-<details><summary><b>How does HuBMAP curate and validate metadata?</b> </summary>
-
-HuBMAP data submitters can access lists of metadata schemas (and related information) and download metadata templates from HuBMAP’s <a href="https://hubmapconsortium.github.io/ingest-validation-tools/">Data Upload Guidelines</a> page. Data submitters can validate their own metadata using a Validator tool.
-<ul>
-    <li> Click on any assay or sample type on the lists to jump to a page for that type. </li> 
-    <li> Select the <b>Excel template</b> on that page.</li>
-    <li> Download and complete the Excel template. </li>
-    <li> Validate your metadata spreadsheet (template) using the <a href="https://metadatavalidator.metadatacenter.org/"> Metadata Spreadsheet Validator</a>.</li> 
-    <ul>
-       <li> The Validator tool compares entries in your metadata template against specifications stored in the CEDAR repository.</li>
-       <li> It categorizes any errors found and provides hints on how to fix those errors. </li>
-       <li> If errors are detected, use the Validator tools to correct any errors. </li>
-       <li> When no errors are found, you may safely upload your spreadsheet.</li>
-       <li> Once all errors are corrected, download the <em>corrected</em> metadata spreadsheet (TSV format). </li>
-       <li> Send validated (organ or sample) metadata TSV files to the <a href="mailto:help@hubmapconsortium.org">HuBMAP Helpdesk</a> </li>
-       <li> A Data Curator at the HuBMAP Helpdesk will manually validate and upload the files.</li>
-    </ul>
-    <li>Access <a href="https://metadatacenter.github.io/spreadsheet-validator-docs/">Help documentation</a> for the Validator. </li>
-    <li> TMCs are required to validate their metadata BEFORE uploading it to the HuBMAP Helpdesk.</li>
-</ul>
-
-</details>
-
-<details><summary><b>Can I sign up to be notified of HuBMAP news and events?</b> </summary>
-
-Yes, you can sign up for our mailing list here: https://hubmapconsortium.org/hubmap-mailing-list/. Signing up will keep you informed on everything that is happening in HuBMAP.
-
-</details>
-
 <details><summary>What will HubMAP include in future releases? Will HuBMAP include additional tissues in future releases? </summary>
 
 Future data releases will include items such as:
@@ -227,54 +278,6 @@ The HuBMAP map is three-dimensional (3D) to capture the 3D context of single-cel
 
 </details>
 
-<details><summary><b>Can I make HuBMAP data available through my resource?</b> </summary>
-
-<ul>
-   <li>You may use HuBMAP data for any purposes permitted by the <a href="https://hubmapconsortium.org/policies/external-data-sharing-policy/">Data Sharing Policy</a>.</li>
-   <li>The <a href="https://hubmapconsortium.github.io/ccf/pages/ccf-3d-reference-library.html">CCF 3D Reference Object Library</a> provides anatomically correct reference organs. The organs are developed by a specialist in 3D medical illustration and approved by organ experts.</li> 
-   <li>As of December 2023, the 6th HRA release included 30 organ objects that can be freely used in teaching, research, or commercial applications.</li>
-</ul>
-
-</details>
-
-<details><summary><b>Where should  I report errors, make suggestions for new features or functionality, or ask questions about using the portal?</b> </summary>
-
-The HuBMAP Consortium welcomes your comments, feedback, and help in identifing errors on the HuBMAP Data Portal. 
-- You can provide error reports, make suggestions, or ask questions through the form at https://hubmapconsortium.org/contact-form/.
-- For help with specific issues related to the portal, please contact the <a href="mailto:help@hubmapconsortium.org">HuBMAP Helpdesk</a> and submit a support ticket.
-
-</details>
-
-<details><summary><b>How would I cite and reference HuBMAP and related data?</b> </summary>
-
-To acknowledge HuBMAP data in publications or presentations, we suggest: 
-- “The results \<published or shown\> here are in whole or part based upon data generated by the HuBMAP Program: https://hubmapconsortium.org."
-  
-The HuBMAP marker paper should be cited as:
-- Snyder, M.P., Lin, S., Posgai, A. et al. The human body at cellular resolution: the NIH Human Biomolecular Atlas Program. Nature 574, 187–192 (2019). https://doi.org/10.1038/s41586-019-1629-x.
-
-The Visible Human reference organs are freely available via the CCF 3D Reference Object Library. Please cite as:
-- Browne K, Cross LE, Herr, II BW, Record EG, Quardokus EM, Bueckle A, Börner K. 2020. [HuBMAP CCF 3D Reference Object Library.](https://hubmapconsortium.github.io/ccf/pages/ccf-3d-reference-library.html) 
-
-</details>
-
-<details><summary><b>Can I use figures from HuBMAP in my publications?</b> </summary>
-
-Yes, as long as you cite the source of the figure. See the preceeding question for more details.
-
-</details>
-
-<details><summary><b>Do you track my activities on your portal?</b> </summary>
-
-Yes, interactions with the site are recorded in server logs and on Google Analytics and are mapped to your IP address. In that regard the HuBMAP portal is no different from the rest of the internet.
-
-</details>
-
-<details><summary><b>What web-browsers are supported in the portal?</b> </summary>
-
-All modern, mainstream browsers are supported (i.e. Chrome, Edge, Firefox, Safari, etc.).
-
-</details>
 
 <details><summary>How can I run queries? What type queries are currently supported? Do you support saving my prior queries? Can you show me examples of queries run by others? </summary>
 
