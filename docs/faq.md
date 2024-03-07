@@ -75,11 +75,11 @@ We welcome all to explore the [HuBMAP Data Portal](https://portal.hubmapconsorti
 
 The [Visible Human MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc) provides an overview of HuBMAP and an introduction to data acquisition, analysis, and visualization.
 
-### Getting Started with the HuBMAP Data Portal FAQ:
+## Getting Started with the HuBMAP Data Portal
 
 <details><summary><b>How can I start using the portal?</b> </summary>
 
-Here's a link to the [HuBMAP Data Portal](https://portal.hubmapconsortium.org/). HuBMAP Data Portal (and related) documentation can be found on the [HuBMAP Documentation](https://software.docs.hubmapconsortium.org/technical) page and also the [HuBMAP Data Release FAQ](https://software.docs.hubmapconsortium.org/faq) - _this_ page.
+Here's a link to the [HuBMAP Data Portal](https://portal.hubmapconsortium.org/). HuBMAP Data Portal (and related) documentation can be found on the [HuBMAP Documentation](https://software.docs.hubmapconsortium.org/technical) page and also the [HuBMAP Data Portal FAQ](https://software.docs.hubmapconsortium.org/faq) - _this_ page.
  
 </details>
 
@@ -115,7 +115,7 @@ The HuBMAP Consortium welcomes your comments, feedback, and help in identifing e
 
 </details>
 
-### HuBMAP Data and Metadata FAQ:
+## HuBMAP Data and Metadata Questions
 
 <details><summary><b>Can I use HuBMAP data for my own research?</b> </summary>
 
@@ -216,6 +216,8 @@ HuBMAP data submitters can access lists of metadata schemas (and related informa
 </ul>
 
 </details>
+
+
 
 <details><summary>Can I add my own tools to HuBMAP portal? Why would I want to submit my tools to HuBMAP? How do I point users to the new tool I built and added to HuBMAP?</summary>
 
