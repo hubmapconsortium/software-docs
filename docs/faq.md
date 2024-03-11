@@ -107,7 +107,7 @@ All modern, mainstream browsers are supported (i.e. Chrome, Edge, Firefox, Safar
 
 </details>
 
-<details><summary><b>Where should  I report errors, make suggestions for new features or functionality, or ask questions about using the portal?</b> </summary>
+<details><summary><b>Where should I report errors, make suggestions for new features or functionality, or ask questions about using the portal?</b> </summary>
 
 The HuBMAP Consortium welcomes your comments, feedback, and help in identifing errors on the HuBMAP Data Portal. 
 - You can provide error reports, make suggestions, or ask questions through the form at https://hubmapconsortium.org/contact-form/.
@@ -246,12 +246,6 @@ HuBMAP contains [donor metadata, sample metadata, and assay metadata.](/metadata
 
 </details>
 
-<details><summary>What controlled vocabularies or ontologies are being used by HuBMAP? </summary>
-
-Each donor metadata item uses Unified Medical Language System (UMLS) Concept Unique Identifiers (CUIs) and related SNOMEDCT_US codes with [complete list here.](/donor#more) This list will be expanded as clinical data transactions, not just metadata, are added for donors for which data is available. Similarly the other metadata will be encoded with applicable ontologies. The HuBMAP Knowledge Graph underpins all ontologies used in HuBMAP but is not yet deployed. The current CCF ontology uses Uberon, Kidney Tissue Atlas Ontology (KTAO) and Cell Ontology (CL), see details in https://arxiv.org/abs/2007.14474 
-
-</details>
-
 <details><summary>What will HubMAP include in future releases? Will HuBMAP include additional tissues in future releases? </summary>
 
 Future data releases will include items such as:
@@ -293,6 +287,12 @@ We are always happy to hear suggestions for additions and improvements. Please m
 
 </details>
 
+<details><summary>What controlled vocabularies or ontologies are being used by HuBMAP? </summary>
+
+Each donor metadata item uses Unified Medical Language System (UMLS) Concept Unique Identifiers (CUIs) and related SNOMEDCT_US codes with [complete list here.](/donor#more) This list will be expanded as clinical data transactions, not just metadata, are added for donors for which data is available. Similarly the other metadata will be encoded with applicable ontologies. The HuBMAP Knowledge Graph underpins all ontologies used in HuBMAP but is not yet deployed. The current CCF ontology uses Uberon, Kidney Tissue Atlas Ontology (KTAO) and Cell Ontology (CL), see details in https://arxiv.org/abs/2007.14474 
+
+</details>
+
 ## API (Application Programming Interface) Questions
 
 <details><summary><b>Do you support an API for programmatic access?</b> </summary>
@@ -325,9 +325,11 @@ APIs are extensible and are expected to be expanded progressively. The next majo
 
 </details>
 
-<details><summary>How do you plan to handle error fixes and updates? Will I be notified of these? </summary>
+<details><summary><b>How do you plan to handle error fixes and updates? Will I be notified of these? </b></summary>
 
-You can submit a bug or request a new feature in the Data Portal through the form at https://hubmapconsortium.org/contact-form/. To be sure you are up-to-date on all HuBMAP news, including updates to the Data Portal, sign up for the mailing list at https://hubmapconsortium.org/hubmap-mailing-list.
+- You can submit a bug or request a new Data Portal feature through the form at https://hubmapconsortium.org/contact-form/.
+- For help with specific issues related to the portal, please contact the <a href="mailto:help@hubmapconsortium.org">HuBMAP Helpdesk</a> and submit a support ticket.
+- To be sure you are up-to-date on all HuBMAP news, sign up for the mailing list at https://hubmapconsortium.org/hubmap-mailing-list.
 
 </details>
 
