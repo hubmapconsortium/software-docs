@@ -3,7 +3,7 @@ layout: page
 ---
 # HuBMAP File Indices
 
-### Last Updated: 2022-12-20
+### Last Updated: 2024-03-20
 
 ## Overview:
 This page describes File Info documents stored in the HuBMAP indices for Files associated with Datasets. These indices are accessible via the [HuBMAP Search API](https://smart-api.info/ui/7aaf02b838022d564da776b03f357158) using the index name `files`.  For example with the search endpoint like:
