@@ -111,8 +111,7 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
     - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/rnaseq/current/)
   - With Probes
     - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/rnaseq-with-probes/current/)
-  - Contacts: For 10X RNAseq and snRNAseq, contact [Stephanie Nevins](mailto:snevins@stanford.edu). 
-    For SNARE-RNAseq, contact [Blue Lake](mailto:b1lake@eng.ucsd.edu).
+  - Contacts: For 10X RNAseq and snRNAseq, contact [Stephanie Nevins](mailto:snevins@stanford.edu).
     For sciRNAseq, contact [Dana Jackson](mailto:danaj77@uw.edu). 
 - [SeqFISH](/assays/seqfish)
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/seqfish/)
@@ -123,6 +122,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/sims/current/)
 - Slide-seq
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/slideseq/)
+- SnareSeq2
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/snareseq2/current/)
 - Thick Section Multiphoton MxIF
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/thick-section-multiphoton-mxif/current/)
 - Ultrasound
