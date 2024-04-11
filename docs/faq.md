@@ -49,7 +49,7 @@ HuBMAP's rich datasets and associated resources are intended for broad use by th
 - Biologists exploring hypotheses using publicly available HuBMAP datasets prior to or in parallel with work in their own labs
 - Experimentalists interested in using the same protocols or computational tools in their labs 
 - Educators developing new teaching materials
-- Technology developers interested in developing new assys with enhanced performance 
+- Technology developers interested in developing new assays with enhanced performance 
 
 </details>
 
