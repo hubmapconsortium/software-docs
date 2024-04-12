@@ -194,6 +194,13 @@ Yes, as long as you cite the source of the figure. See the preceeding question f
 
 </details>
 
+<details><summary>What metadata is included in HuBMAP? Will HuBMAP include additional metadata in future releases?</summary>
+
+- HuBMAP contains [donor metadata, sample metadata, and assay metadata.](/metadata)
+- In future releases, metadata will be linked to various ontologies to make integration more efficient.
+
+</details>
+
 <details><summary><b>How does HuBMAP curate and validate metadata?</b> </summary>
 
 HuBMAP data submitters can access lists of metadata schemas (and related information) and download metadata templates from HuBMAP’s <a href="https://hubmapconsortium.github.io/ingest-validation-tools/">Data Upload Guidelines</a> page. Data submitters can validate their own metadata using a Validator tool.
@@ -237,12 +244,6 @@ The first release contains donor, tissue sample, and assay data & metadata for t
 
 Microscopy, Mass Spectrometry, and Sequencing data are available in the initial HuBMAP data release.  Several assay types are available for each modality. 
 More information can be found on the [list of available HuBMAP Assays.](/assays)
-
-</details>
-
-<details><summary>What metadata is included in HuBMAP? Will HuBMAP include additional metadata in future releases?</summary>
-
-HuBMAP contains [donor metadata, sample metadata, and assay metadata.](/metadata) In the future, metadata will be linked to various ontologies to make integration more efficient.
 
 </details>
 
