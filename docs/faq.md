@@ -225,8 +225,7 @@ HuBMAP data submitters can access lists of metadata schemas (and related informa
 </details>
 
 
-
-<details><summary>Can I add my own tools to HuBMAP portal? Why would I want to submit my tools to HuBMAP? How do I point users to the new tool I built and added to HuBMAP?</summary>
+<details><summary>Can I add my own tools to HuBMAP portal? Why would I want to submit my tools to HuBMAP? How do I point users to the new tool I built and added to HuBMAP? </summary>
 
 HuBMAP seeks to host relevant tools and we welcome community input to help with feature prioritization and development for the HuBMAP Portal. Adding your Tools to the HuBMAP Portal will help you get others to use your tools and provide feedback to improve the scientific impact of your work.
 
@@ -234,40 +233,6 @@ For instance, very efficient software/statistical environments that would enable
 
 </details>
 
-<details><summary>What kind of information is included in HuBMAP’s first data release? </summary>
-
-The first release contains donor, tissue sample, and assay data & metadata for the following organs: heart, kidney, large intestine, lymph node, small intestine, spleen, and thymus. For additional information, please see [donor, tissue sample, and assay metadata](/metadata) as well as [assay details.](/assays)
-
-</details>
-
-<details><summary>What data modalities are covered in this first release? </summary>
-
-Microscopy, Mass Spectrometry, and Sequencing data are available in the initial HuBMAP data release.  Several assay types are available for each modality. 
-More information can be found on the [list of available HuBMAP Assays.](/assays)
-
-</details>
-
-<details><summary>What will HubMAP include in future releases? Will HuBMAP include additional tissues in future releases? </summary>
-
-Future data releases will include items such as:
-- New Assay Data
-- Additional Existing Assay Data
-- Updated Metadata specifications
-- Updated CCF Ontology
-- Additional 3D Reference Organs
-- Updated Anatomical Structures, Cell Types, and Biomarkers (ASCT+B) tables
-- Standards & recommendations
-- QA/QC & curation recommendations
-- Search & navigation features
-- Visualization features
-- Cell annotations based on ASCT+B tables and Uberon Cell Ontology (link to preview)
-- Integrated analyses of multiple datasets from the same organ
-- Ability to map user-generated data onto HuBMAP references 
-- Quality of Life enhancements
-
-For the next release, we currently have integrative analyses, additional spatial information for select organs (CCF), and submission of investigator data.
-
-</details>
 
 <details><summary>Is there a “MAP” in HuBMAP data release? </summary>
 
@@ -452,5 +417,42 @@ For the first data release, all antibodies were validated by individual groups. 
 
 [The Antibody Society’s antibody validation webinar series](https://pubmed.ncbi.nlm.nih.gov/32748696/)
 - Voskuil, J., Bandrowski, A., Begley, C. G., Bradbury, A., Chalmers, A. D., Gomes, A. V., Hardcastle, T., Lund-Johansen, F., Plückthun, A., Roncador, G., Solache, A., Taussig, M. J., Trimmer, J. S., Williams, C., & Goodman, S. L. MAbs. 2020;12(1):1794421. doi:10.1080/19420862.2020.1794421. PMID: 32748696
+
+</details>
+
+## No Longer Relevant Questions - DROP ?
+
+<details><summary>What kind of information is included in HuBMAP’s first data release? </summary>
+
+The first release contains donor, tissue sample, and assay data & metadata for the following organs: heart, kidney, large intestine, lymph node, small intestine, spleen, and thymus. For additional information, please see [donor, tissue sample, and assay metadata](/metadata) as well as [assay details.](/assays)
+
+</details>
+
+<details><summary>What data modalities are covered in this first release? </summary>
+
+Microscopy, Mass Spectrometry, and Sequencing data are available in the initial HuBMAP data release.  Several assay types are available for each modality. 
+More information can be found on the [list of available HuBMAP Assays.](/assays)
+
+</details>
+
+<details><summary>What will HubMAP include in future releases? Will HuBMAP include additional tissues in future releases? </summary>
+
+Future data releases will include items such as:
+- New Assay Data
+- Additional Existing Assay Data
+- Updated Metadata specifications
+- Updated CCF Ontology
+- Additional 3D Reference Organs
+- Updated Anatomical Structures, Cell Types, and Biomarkers (ASCT+B) tables
+- Standards & recommendations
+- QA/QC & curation recommendations
+- Search & navigation features
+- Visualization features
+- Cell annotations based on ASCT+B tables and Uberon Cell Ontology (link to preview)
+- Integrated analyses of multiple datasets from the same organ
+- Ability to map user-generated data onto HuBMAP references 
+- Quality of Life enhancements
+
+For the next release, we currently have integrative analyses, additional spatial information for select organs (CCF), and submission of investigator data.
 
 </details>
