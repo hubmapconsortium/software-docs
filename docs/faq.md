@@ -147,7 +147,13 @@ To acknowledge HuBMAP in your findings, the Consortium suggests language of the 
     
 The HuBMAP consortium encourages the scientific community to provide feedback about HuBMAP dataset metadata. This feedback helps improve the quality and usability of community data submissions.
 
-One of the first tools released was [Azimuth](https://azimuth.hubmapconsortium.org/), an app for reference-based single-cell analysis, that lets users annotate cell-types in their own data based on HuBMAP approaches. 
+</details>
+
+<details><summary><b>Can I add my own tools to HuBMAP portal? Why would I want to submit my tools to HuBMAP?</b></summary>
+
+- Yes, HuBMAP seeks to host relevant tools and welcomes community input to help with feature prioritization and development for the HuBMAP Portal. 
+- Adding your Tools to the HuBMAP Portal will help you get others to use your tools and provide feedback to improve the scientific impact of your work.
+- One of the first tools released was [Azimuth](https://azimuth.hubmapconsortium.org/), an app for reference-based single-cell analysis, that lets users annotate cell-types in their own data based on HuBMAP approaches. 
 
 </details>
 
@@ -225,13 +231,6 @@ HuBMAP data submitters can access lists of metadata schemas (and related informa
 </details>
 
 
-<details><summary>Can I add my own tools to HuBMAP portal? Why would I want to submit my tools to HuBMAP? How do I point users to the new tool I built and added to HuBMAP? </summary>
-
-HuBMAP seeks to host relevant tools and we welcome community input to help with feature prioritization and development for the HuBMAP Portal. Adding your Tools to the HuBMAP Portal will help you get others to use your tools and provide feedback to improve the scientific impact of your work.
-
-For instance, very efficient software/statistical environments that would enable the community to deploy their own visualization tools especially for secondary analysis may exist already and could be added. We would invite you to comment whether it would be desirable for HuBMAP to provide facile access to data through API and/or downloads in enabling formats.
-
-</details>
 
 
 <details><summary>Is there a “MAP” in HuBMAP data release? </summary>
