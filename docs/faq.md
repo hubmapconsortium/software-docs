@@ -276,9 +276,10 @@ The HuBMAP APIs underpin all provenance, data access, processing, translation, s
 
 </details>
 
-<details><summary>What are the expectations about future API features? </summary>
+<details><summary><b>What are the expectations about future API features?</b> </summary>
 
-APIs are extensible and are expected to be expanded progressively. The next major set of APIs will deliver the underpinning transactions needed for semantic search.
+- APIs are extensible and are expected to be expanded progressively.
+- The next major set of APIs will deliver the underpinning transactions needed for semantic search.
 
 </details>
 
