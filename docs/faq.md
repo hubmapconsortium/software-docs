@@ -231,14 +231,28 @@ HuBMAP data submitters can access lists of metadata schemas (and related informa
 
 </details>
 
+<details><summary><b>Is there a “map” in HuBMAP?</b> </summary>
 
+The [Human Reference Atlas (HRA)](https://humanatlas.io) is a comprehensive, high-resolution, three-dimensional atlas of all the cells in a healthy human body. 
+- The HRA provides standard terminologies and data structures for describing: 
+   - specimens 
+   - biological structures
+   - spatial positions 
 
+All linked to existing ontologies. Watch a short [video introduction](https://www.youtube.com/watch?v=DDmP_7vDy-o) to the HRA.
 
-<details><summary>Is there a “MAP” in HuBMAP data release? </summary>
-
-The HuBMAP map is three-dimensional (3D) to capture the 3D context of single-cells and anatomical structures. The first portal release features a 3D Visible Human common coordinate system (CCF) with two organs: kidney and spleen.  A total of 116 samples from 27 donors provided by two Tissue Mapping Centers (TMCs) have been registered (or mapped) into this spatially and semantically explicit reference system. Use the [CCF Exploration User Interface](/ccf-eui) to explore data spatially and semantically. Watch a short video introduction [here.](https://www.youtube.com/watch?v=DDmP_7vDy-o) 
+- Tools in the HRA include: 
+   - Anatomical Structures, Cell Types and Biomarkers [(ASCT+B) Reporter](https://humanatlas.io/asctb-reporter)
+   - [Cell Population Graphs](https://humanatlas.io/cell-population-graphs) 
+   - [Registration User Interface (RUI)](https://humanatlas.io/registration-user-interface): Register and annotate organs
+   - [Exploration User Interface (EUI)](https://humanatlas.io/exploration-user-interface): Interact with registered organs
+   - [VR Organ Gallery](https://humanatlas.io/organ-gallery-in-vr): Immersive experience for exploring organs
+   - [Millitome](https://humanatlas.io/millitome): 3D-printed tool for organ sectioning
+   - [APIs](https://humanatlas.io/api) for querying and interacting with the HRA
 
 </details>
+
+
 
 
 <details><summary>How can I run queries? What type queries are currently supported? Do you support saving my prior queries? Can you show me examples of queries run by others? </summary>
