@@ -252,18 +252,16 @@ All linked to existing ontologies. Watch a short [video introduction](https://ww
 
 </details>
 
+<details><summary><b>How can I run queries? What type queries are currently supported? Can you show me example queries?</b> </summary>
 
-
-
-<details><summary>How can I run queries? What type queries are currently supported? Do you support saving my prior queries? Can you show me examples of queries run by others? </summary>
-
-At this time, data is accessed solely through the HuBMAP portal and its visualization tools. The consortium is working on indexing genomics data to support queries in a future release.
+You can query and interact with HuBMAP (and other) data registered in the Human Reference Atlas (HRA) using APIs. 
+- [Learn more about HuBMAP HRA APIs](https://humanatlas.io/api)
 
 </details>
 
-<details><summary>Can I suggest types of queries I am interested in? </summary>
+<details><summary><b>Can I suggest types of queries I am interested in?</b> </summary>
 
-We are always happy to hear suggestions for additions and improvements. Please make any suggestions you have via the form at https://hubmapconsortium.org/contact-form.
+Contact the [HRA Team](mailto:infoccf@indiana.edu) with feedback or suggestions regarding APIs and queries for HuBMAP HRA data.
 
 </details>
 
