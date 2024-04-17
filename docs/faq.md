@@ -200,9 +200,10 @@ Yes, as long as you cite the source of the figure. See the preceeding question f
 
 </details>
 
-<details><summary>What metadata is included in HuBMAP? Will HuBMAP include additional metadata in future releases?</summary>
+<details><summary><b>What metadata is included in HuBMAP? Will HuBMAP include additional metadata in future releases?</b></summary>
 
-- HuBMAP contains [donor metadata, sample metadata, and assay metadata.](/metadata)
+- HuBMAP accepts donor, sample (block, section, or suspension), and assay metadata.
+   - See this HuBMAP [metadata resource](https://software.docs.hubmapconsortium.org/metadata) for more information.
 - In future releases, metadata will be linked to various ontologies to make integration more efficient.
 
 </details>
