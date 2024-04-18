@@ -332,7 +332,7 @@ Overview protocols:
 - Overview: https://www.protocols.io/view/vu-biomolecular-multimodal-imaging-center-biomic-k-bfskjncw
 
 #### UCSD:
-- https://www.protocols.io/view/human-kidney-urinary-tract-and-lung-cell-type-mapp-bj9wkr7e
+- https://www.protocols.io/view/human-kidney-urinary-tract-and-lung-cell-type-mapp-6qpvro1d2vmk/v2
 
 </details>
 
