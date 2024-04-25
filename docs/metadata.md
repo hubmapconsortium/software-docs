@@ -29,9 +29,6 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
 - [AF (Autofluorescence)](/assays/af)
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/af/current/)
   - Contact: [Jeffrey Spraggins](mailto:jeff.spraggins@vanderbilt.edu)
-- [Antibody-based MxIF (Multiplexed Immunofluorescence)](/assays/mxif)
-  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/mxif)
-  - Contact: [Jeffrey Spraggins](mailto:jeff.spraggins@vanderbilt.edu)
 - [ATACseq](/assays/atacseq)
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/atacseq/current/)
   - scATACseq
