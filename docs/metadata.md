@@ -95,9 +95,6 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/nano-splits/current/)
 - OCT
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/oct/current/)
-- [PAS (histological stain)](/assays/pas)
-  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/stained/)
-  - Contact: [Jeffrey Spraggins](mailto:jeff.spraggins@vanderbilt.edu)
 - PhenoCycler
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/phenocycler/current/)
 - [RNAseq](/assays/rnaseq)
