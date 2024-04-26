@@ -89,6 +89,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/microct/current/)
 - MRI
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/mri/current/)
+- MUSIC
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/music/current/)
 - NanoDESI
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/desi/current/)
 - nanoSPLITS
