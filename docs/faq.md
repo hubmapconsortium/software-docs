@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-# HuBMAP Data Portal Frequently Asked Questions (FAQ)
+# HuBMAP Frequently Asked Questions (FAQ)
 
 ## General Questions
 
@@ -71,7 +71,8 @@ To further increase interoperability, HuBMAP has adopted a number of standards a
 
 ## Introduction to HuBMAP resources
 
-We welcome all to explore the [HuBMAP Data Portal](https://portal.hubmapconsortium.org/) and provide us with feedback through the [Contact form.](https://hubmapconsortium.org/contact-form/)
+We welcome all to explore the [HuBMAP Consortium website](https://hubmapconsortium.org/) and [HuBMAP Data Portal](https://portal.hubmapconsortium.org/). 
+Visitors can provide feedback through the [Contact form.](https://hubmapconsortium.org/contact-form/)
 
 The [Visible Human MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc) provides an overview of HuBMAP and an introduction to data acquisition, analysis, and visualization.
 
