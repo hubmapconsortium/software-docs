@@ -314,7 +314,7 @@ The HuBMAP APIs underpin all provenance, data access, processing, translation, s
 
 ## Experimental Design & Data Analysis Questions
 
-<details><summary>Where can I find information about experimental design associated with HuBMAP data? </summary>
+<details><summary><b>Where can I find information about experimental design associated with HuBMAP data? </b></summary>
 
 An overview of the Information on the experimental design and choice of modalities can be found within this reference:
 - Snyder, M.P., Lin, S., Posgai, A. et al. The human body at cellular resolution: the NIH Human Biomolecular Atlas Program. Nature 574, 187–192 (2019). https://doi.org/10.1038/s41586-019-1629-x ([PMC6800388](http://www.ncbi.nlm.nih.gov/pmc/articles/pmc6800388/))
@@ -336,15 +336,15 @@ Overview protocols:
 
 </details>
 
-<details><summary>Where can I find information about HuBMAP experimental protocols? </summary>
+<details><summary><b>Where can I find information about HuBMAP experimental protocols?</b> </summary>
 
 All published protocols that are used in HuBMAP are available on protocols.io here: https://www.protocols.io/groups/human-biomolecular-atlas-program-hubmap-method-development.
 
 </details>
 
-<details><summary>How do you define raw and processed data? </summary>
+<details><summary><b>How do you define raw and processed data? </b></summary>
 
-We define raw data as the data that comes directly off of the instrument (e.g. mass spectrometer, microscopy, etc.), while processed data has been transformed in some manner (e.g. normalization, background subtracted, aligned, etc.) and the level of processing is defined by the data state as detailed below. Data states are dependent upon the modality. In general, data state 0 (raw data) and state 1 (processed data) are available on the portal for downloading. 
+We define <em>raw</em> data as the data that comes directly off of the instrument (e.g. mass spectrometer, microscopy, etc.), while <em>processed </em>data has been transformed in some manner (e.g. normalization, background subtracted, aligned, etc.) and the level of processing is defined by the data state as detailed below. Data states are dependent upon the modality. In general, data state 0 (raw data) and state 1 (processed data) are available on the portal for downloading. 
 
 Microscopy:
 
@@ -371,35 +371,30 @@ Sequencing:
 
 </details>
 
-<details><summary>In what formats is your data available? </summary>
+<details><summary><b>In what formats is your data available? </b></summary>
 
-Imaging based raw or processed data is available as TIFF or OME.TIFF formats. Segmented imaging data is generated as csv and TIFF formats. Annotated imaging data is TIFF, PNG and PDF.
-
-Raw sequence data is provided as fastq and metadata via tsv.
-
-Imaging mass spectrometry raw data is provided as is a .d and processed data is imzml, or a csv and a series of ome-tiffs.
+- Imaging based raw or processed data is available as TIFF or OME.TIFF formats
+- Segmented imaging data is generated as csv and TIFF formats
+- Annotated imaging data is TIFF, PNG, and PDF
+- Raw sequence data is provided as fastq and metadata via tsv
+- Imaging mass spectrometry raw data is provided as a .d and processed data is imzml, or a csv and a series of ome-tiffs.
 
 </details>
 
-<details><summary>Can I get the code that you used to process data? </summary>
+<details><summary><b>Can I get the code that you used to process data?</b> </summary>
 
 All available code can be found on the HuBMAP github page (https://github.com/hubmapconsortium).
 
 </details>
 
-<details><summary>Are there recommended tools for handling large amounts of data from HuBMAP? </summary>
+<details><summary><b>Can I find an explanation for the choice of HuBMAP pipelines and algorithms?</b></summary>
 
-Answer coming soon.
-
-</details>
-
-<details><summary>Can I find an explanation for the choice of HuBMAP pipelines and algorithms? </summary>
-
-Brief descriptions of the HuBMAP data analysis pipelines are available through the portal at  https://portal.hubmapconsortium.org/docs/pipelines. All code made available to users can be found on the HuBMAP github page (https://github.com/hubmapconsortium).
+- Brief descriptions of the HuBMAP data analysis pipelines are available through the portal at https://portal.hubmapconsortium.org/docs/pipelines.
+- All code made available to users can be found on the HuBMAP github page (https://github.com/hubmapconsortium).
 
 </details>
 
-<details><summary>Which samples should I consider to be technical replicates? </summary>
+<details><summary><b>Which samples should I consider to be technical replicates?</b> </summary>
 
 Technical replicates are repeated measurements of the same existing sample. As even serial tissue sections represent distinct samples, we do not consider any images of tissues to be technical replicates. 
 
@@ -407,13 +402,13 @@ Technical replicates for sequencing assays would be any sequencing libraries gen
 
 </details>
 
-<details><summary>Which samples should I consider to be biological replicates? </summary>
+<details><summary><b>Which samples should I consider to be biological replicates?</b> </summary>
 
 Biological replicates are datasets from samples that originate from the same organ and organ donor. As such, each dataset within the HuBMAP database that is provided for a given donor organ for a comparable anatomical region/structure would be a biological replicate. 
 
 </details>
 
-<details><summary>How are each organ/tissue handled to maintain high reproducibility and validity for the assay? </summary>
+<details><summary><b>How are each organ/tissue handled to maintain high reproducibility and validity for the assay? </b></summary>
 
 Protocols.io detailed processing with QA/QC
 
@@ -421,9 +416,9 @@ Protocols.io detailed processing with QA/QC
 
 </details>
 
-<details><summary>How have antibodies been verified? </summary>
+<details><summary><b>How have antibodies been verified? </b></summary>
 
-For the first data release, all antibodies were validated by individual groups. With the upcoming second data release in 2021, complete antibody information will be available, including antibody clone, vendor, RRID, conjugation information, etc. Additional antibody validation standards will be implemented in subsequent data releases. For the development of our antibody validation levels, we followed the antibody verification guidelines established in the following manuscripts:
+Initially, all antibodies were validated by individual groups. With later data releases, complete antibody information, including antibody clone, vendor, RRID, conjugation information, etc. became available. Additional antibody validation standards were also implemented. For the development of our antibody validation levels, we followed the antibody verification guidelines established in the following manuscripts:
 
 [A proposal for validation of antibodies.](https://pubmed.ncbi.nlm.nih.gov/27595404/)
 - Uhlen M, Bandrowski A, Carr S, Edwards A, Ellenberg J, Lundberg E, Rimm DL, Rodriguez H, Hiltke T, Snyder M, Yamamoto T. Nat Methods. 2016 Oct;13(10):823-7. doi: 10.1038/nmeth.3995. Epub 2016 Sep 5.PMID: 27595404
@@ -467,5 +462,11 @@ Future data releases will include items such as:
 - Quality of Life enhancements
 
 For the next release, we currently have integrative analyses, additional spatial information for select organs (CCF), and submission of investigator data.
+
+</details>
+
+<details><summary>Are there recommended tools for handling large amounts of data from HuBMAP? </summary>
+
+Answer coming soon.
 
 </details>
