@@ -265,9 +265,13 @@ Contact the [HRA Team](mailto:infoccf@indiana.edu) with feedback or suggestions 
 
 </details>
 
-<details><summary>What controlled vocabularies or ontologies are being used by HuBMAP? </summary>
+<details><summary><b>What controlled vocabularies or ontologies are being used by HuBMAP?</b> </summary>
 
-Each donor metadata item uses Unified Medical Language System (UMLS) Concept Unique Identifiers (CUIs) and related SNOMEDCT_US codes with [complete list here.](/donor#more) This list will be expanded as clinical data transactions, not just metadata, are added for donors for which data is available. Similarly the other metadata will be encoded with applicable ontologies. The HuBMAP Knowledge Graph underpins all ontologies used in HuBMAP but is not yet deployed. The current CCF ontology uses Uberon, Kidney Tissue Atlas Ontology (KTAO) and Cell Ontology (CL), see details in https://arxiv.org/abs/2007.14474 
+Each donor metadata item uses [Unified Medical Language System (UMLS)](https://www.nlm.nih.gov/research/umls/index.html) Concept Unique Identifiers (CUIs) and related [SNOMEDCT_US](https://www.nlm.nih.gov/healthit/snomedct/us_edition.html) codes. 
+- This list will be expanded as clinical data transactions, not just metadata, are added for donors for which data is available.
+- Similarly, other metadata will be encoded with applicable ontologies.
+- The HuBMAP Knowledge Graph underpins all ontologies used in HuBMAP but is not yet deployed.
+- The current CCF ontology uses Uberon, Kidney Tissue Atlas Ontology (KTAO) and Cell Ontology (CL), see details in https://arxiv.org/abs/2007.14474 
 
 </details>
 
