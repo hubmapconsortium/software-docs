@@ -80,7 +80,7 @@ The [Visible Human MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-vi
 
 <details><summary><b>How can I start using the portal?</b> </summary>
 
-Here's a link to the [HuBMAP Data Portal](https://portal.hubmapconsortium.org/). HuBMAP Data Portal (and related) documentation can be found on the [HuBMAP Documentation](https://software.docs.hubmapconsortium.org/technical) page and also the [HuBMAP Data Portal FAQ](https://software.docs.hubmapconsortium.org/faq) - _this_ page.
+Here's a link to the [HuBMAP Data Portal](https://portal.hubmapconsortium.org/). HuBMAP Data Portal (and related) documentation can be found on the [HuBMAP Documentation](https://software.docs.hubmapconsortium.org/technical) page and also the [HuBMAP FAQ](https://software.docs.hubmapconsortium.org/faq) - _this_ page.
  
 </details>
 
