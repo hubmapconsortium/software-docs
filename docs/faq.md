@@ -56,14 +56,18 @@ HuBMAP's rich datasets and associated resources are intended for broad use by th
 <details><summary><b>How does HuBMAP fit into the ecosystem of other single cell efforts within and outside the NIH?</b> </summary>
 
 HuBMAP is part of a rich ecosystem of established and emerging atlasing programs supported by NIH and globally by other funding organizations, many of which are focused on specific organs or diseases. 
-- HuBMAP connects with these programs to ensure data interoperability, avoid duplication of work, and leverage and synergize gained knowledge.
-- The consortium has organized a number of events to bring together these communities to discuss topics of shared interest (e.g. [CCF meeting, NIH-HCA meeting](https://hubmapconsortium.org/nihhca2020/)) and is committed to improving coordination and collaboration among different programs.
-- In addition, many HuBMAP PIs actively participate in these efforts, helping with cross-pollination and advancing our global understanding. 
+<ul>
+    <li>HuBMAP connects with these programs to ensure data interoperability, avoid duplication of work, and leverage and synergize gained knowledge.</li>
+    <li>The consortium has organized a number of events to bring together these communities to discuss topics of shared interest (e.g. <a href="https://hubmapconsortium.org/nihhca2020/">CCF meeting, NIH-HCA meeting</a>) and is committed to improving coordination and collaboration among different programs.</li>
+    <li>In addition, many HuBMAP PIs actively participate in these efforts, helping with cross-pollination and advancing our global understanding. </li>
+</ul>
 
 HuBMAP, as its name implies, was specifically initiated to resolve the challenge of building integrated, comprehensive, high-resolution spatial maps of human tissues and organs. HuBMAP provides leadership in the ecosystem around:
-- Techniques for integrating disparate, multi-dimensional and multi-scale datasets
-- The development of a Common Coordinate Framework (CCF) for integrating data across many individuals
-- The development and validation of these assays
+<ul>
+    <li>Techniques for integrating disparate, multi-dimensional and multi-scale datasets</li>
+    <li>The development of a Common Coordinate Framework (CCF) for integrating data across many individuals</li>
+    <li>The development and validation of these assays</li>
+</ul>
 
 To further increase interoperability, HuBMAP has adopted a number of standards and processes developed by other consortia, and is working and actively involved in knowledge exchange. The consortium sees itself as an integral part of the ecosystem, sharing its strengths and actively contributing to the community.
 
