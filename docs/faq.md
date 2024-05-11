@@ -118,9 +118,10 @@ All modern, mainstream browsers are supported (i.e. Chrome, Edge, Firefox, Safar
 
 The HuBMAP Consortium welcomes your comments, feedback, and help in identifing errors on the HuBMAP Data Portal. 
 <ul>
-    <li>You can provide error reports, make suggestions, or ask questions through our <a href="https://hubmapconsortium.org/contact-form/">contact-form</a>.
-    <li>For help with specific issues related to the portal, please contact the <a href="mailto:help@hubmapconsortium.org">HuBMAP Helpdesk</a> and submit a support ticket.
+    <li>You can provide error reports, make suggestions, or ask questions through our <a href="https://hubmapconsortium.org/contact-form/">contact-form</a>.</li>
+    <li>For help with specific issues related to the portal, please contact the <a href="mailto:help@hubmapconsortium.org">HuBMAP Helpdesk</a> and submit a support ticket.</li>
 </ul>
+
 </details>
 
 ## HuBMAP Data and Metadata Questions
