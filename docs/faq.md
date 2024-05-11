@@ -76,6 +76,7 @@ To further increase interoperability, HuBMAP has adopted a number of standards a
 ## Introduction to HuBMAP resources
 
 We welcome all to explore the <a href="https://hubmapconsortium.org/">HuBMAP Consortium website</a> and <a href="https://portal.hubmapconsortium.org/">HuBMAP Data Portal</a>. 
+
 Visitors can provide feedback through the <a href="https://hubmapconsortium.org/contact-form/">Contact form</a>.
 
 The <a href="https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc">Visible Human MOOC</a> provides an overview of HuBMAP and an introduction to data acquisition, analysis, and visualization.
@@ -90,19 +91,20 @@ Here's a link to the <a href="https://portal.hubmapconsortium.org/">HuBMAP Data 
 
 <details><summary><b>How can I learn more about HuBMAP data acquisition, analysis, and visualization tools?</b> </summary>
 
-The [Visible Human MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc) provides an overview of HuBMAP and introduction to data acquisition, analysis, and visualization. 
+The <a href="https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc">Visible Human MOOC</a> provides an overview of HuBMAP and introduction to data acquisition, analysis, and visualization. 
 
 </details>
 
 <details><summary><b>Can I sign up to be notified of HuBMAP news and events?</b> </summary>
 
-Yes, you can sign up for our mailing list here: https://hubmapconsortium.org/hubmap-mailing-list/. Signing up will keep you informed on everything that is happening in HuBMAP.
+Yes, you can <a href="https://hubmapconsortium.org/hubmap-mailing-list/">sign up for our mailing list</a> to keep informed on everything that is happening in HuBMAP.
 
 </details>
 
 <details><summary><b>Do you track my activities on your portal?</b> </summary>
 
-Yes, interactions with the site are recorded in server logs and on Google Analytics and are mapped to your IP address. In that regard the HuBMAP portal is no different from the rest of the internet.
+Yes, interactions with the site are recorded in server logs and on Google Analytics and are mapped to your IP address. 
+<br />In that regard the HuBMAP portal is no different from the rest of the internet.
 
 </details>
 
@@ -115,9 +117,10 @@ All modern, mainstream browsers are supported (i.e. Chrome, Edge, Firefox, Safar
 <details><summary><b>Where should I report errors, make suggestions for new features or functionality, or ask questions about using the portal?</b> </summary>
 
 The HuBMAP Consortium welcomes your comments, feedback, and help in identifing errors on the HuBMAP Data Portal. 
-- You can provide error reports, make suggestions, or ask questions through the form at https://hubmapconsortium.org/contact-form/.
-- For help with specific issues related to the portal, please contact the <a href="mailto:help@hubmapconsortium.org">HuBMAP Helpdesk</a> and submit a support ticket.
-
+<ul>
+    <li>You can provide error reports, make suggestions, or ask questions through our <a href="https://hubmapconsortium.org/contact-form/">contact-form</a>.
+    <li>For help with specific issues related to the portal, please contact the <a href="mailto:help@hubmapconsortium.org">HuBMAP Helpdesk</a> and submit a support ticket.
+</ul>
 </details>
 
 ## HuBMAP Data and Metadata Questions
