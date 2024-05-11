@@ -44,13 +44,13 @@ For a more in depth understanding, read the [HuBMAP marker paper](https://www.na
 <details><summary><b>Who are the intended users of HuBMAP resources?</b></summary>
 
 HuBMAP's rich datasets and associated resources are intended for broad use by the research community, including:
-
-- Computational researchers exploring organizing principles of human tissues, new structural-functional relationships, and biomolecular networks 
-- Biologists exploring hypotheses using publicly available HuBMAP datasets prior to or in parallel with work in their own labs
-- Experimentalists interested in using the same protocols or computational tools in their labs 
-- Educators developing new teaching materials
-- Technology developers interested in developing new assays with enhanced performance 
-
+<ul>
+    <li>Computational researchers exploring organizing principles of human tissues, new structural-functional relationships, and biomolecular networks </li>
+    <li>Biologists exploring hypotheses using publicly available HuBMAP datasets prior to or in parallel with work in their own labs</li>
+    <li>Experimentalists interested in using the same protocols or computational tools in their labs </li>
+    <li>Educators developing new teaching materials</li>
+    <li>Technology developers interested in developing new assays with enhanced performance </li>
+</ul>
 </details>
 
 <details><summary><b>How does HuBMAP fit into the ecosystem of other single cell efforts within and outside the NIH?</b> </summary>
