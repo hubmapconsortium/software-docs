@@ -75,16 +75,16 @@ To further increase interoperability, HuBMAP has adopted a number of standards a
 
 ## Introduction to HuBMAP resources
 
-We welcome all to explore the [HuBMAP Consortium website](https://hubmapconsortium.org/) and [HuBMAP Data Portal](https://portal.hubmapconsortium.org/). 
-Visitors can provide feedback through the [Contact form.](https://hubmapconsortium.org/contact-form/)
+We welcome all to explore the <a href="https://hubmapconsortium.org/">HuBMAP Consortium website</a> and <a href="https://portal.hubmapconsortium.org/">HuBMAP Data Portal</a>. 
+Visitors can provide feedback through the <a href="https://hubmapconsortium.org/contact-form/">Contact form</a>.
 
-The [Visible Human MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc) provides an overview of HuBMAP and an introduction to data acquisition, analysis, and visualization.
+The <a href="https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc">Visible Human MOOC</a> provides an overview of HuBMAP and an introduction to data acquisition, analysis, and visualization.
 
 ## Getting Started with the HuBMAP Data Portal
 
 <details><summary><b>How can I start using the portal?</b> </summary>
 
-Here's a link to the [HuBMAP Data Portal](https://portal.hubmapconsortium.org/). HuBMAP Data Portal (and related) documentation can be found on the [HuBMAP Documentation](https://software.docs.hubmapconsortium.org/technical) page and also the [HuBMAP FAQ](https://software.docs.hubmapconsortium.org/faq) - _this_ page.
+Here's a link to the <a href="https://portal.hubmapconsortium.org/">HuBMAP Data Portal</a>. HuBMAP Data Portal (and related) documentation can be found on the <a href="https://software.docs.hubmapconsortium.org/technical">HuBMAP Documentation</a> page and also the <a href="https://software.docs.hubmapconsortium.org/faq">HuBMAP FAQ</a> - <em>this</em> page.
  
 </details>
 
