@@ -273,18 +273,16 @@ HuBMAP data submitters can access lists of metadata schemas (and related informa
 The <a href="https://humanatlas.io">Human Reference Atlas (HRA)</a> is a comprehensive, high-resolution, three-dimensional atlas of all the cells in a healthy human body. 
 <ul>
     <li>The HRA provides standard terminologies and data structures for describing: </li>
-</ul>
     <ul>
         <li>specimens</li>
         <li>biological structures</li>
         <li>spatial positions</li>
     </ul>
-
+</ul>
 All linked to existing ontologies. Watch a short <a href="https://www.youtube.com/watch?v=DDmP_7vDy-o">video introduction</a> to the HRA.
 
 <ul>
     <li>Tools in the HRA include:</li>
-</ul>
     <ul>
        <li>Anatomical Structures, Cell Types and Biomarkers <a href="https://humanatlas.io/asctb-reporter">(ASCT+B) Reporter</a></li>
        <li><a href="https://humanatlas.io/cell-population-graphs">Cell Population Graphs</a></li>
@@ -294,7 +292,7 @@ All linked to existing ontologies. Watch a short <a href="https://www.youtube.co
        <li><a href="https://humanatlas.io/millitome">Millitome</a>: 3D-printed tool for organ sectioning</li>
        <li><a href="https://humanatlas.io/api">APIs</a> for querying and interacting with the HRA</li>
    </ul>
-
+</ul>
 </details>
 
 <details><summary><b>How can I run queries? What type queries are currently supported? Can you show me example queries?</b> </summary>
