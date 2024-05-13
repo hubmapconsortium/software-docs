@@ -365,7 +365,7 @@ The HuBMAP APIs underpin all provenance, data access, processing, translation, s
 <details><summary><b>How do you plan to handle error fixes and updates? Will I be notified of these? </b></summary>
 
 <ul>
-   <li>You can submit a bug or request a new Data Portal feature through <a href="https://hubmapconsortium.org/contact-form/">this form</a>.
+   <li>You can submit a bug or request a new Data Portal feature through <a href="https://hubmapconsortium.org/contact-form/">this form</a>.</li>
    <li>For help with specific issues related to the portal, please contact the <a href="mailto:help@hubmapconsortium.org">HuBMAP Helpdesk</a> and submit a support ticket.</li>
    <li>Be sure you are up-to-date on all HuBMAP news, <a href="https://hubmapconsortium.org/hubmap-mailing-list">sign up for our mailing list</a>.</li>
 </ul>
