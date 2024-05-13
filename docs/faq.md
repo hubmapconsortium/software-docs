@@ -326,39 +326,50 @@ Each donor metadata item uses <a href="https://www.nlm.nih.gov/research/umls/ind
 <details><summary><b>Do you support an API for programmatic access?</b> </summary>
 
 The HuBMAP portal is built using an extensible API structure that supports all component interactions. 
-- APIs are being registered in [SmartAPI](https://smart-api.info/registry?q=hubmap).
-- For external access to APIs, please submit a request to the <a href="mailto:help@hubmapconsortium.org">HuBMAP Helpdesk</a>.
-
+<ul>
+    <li>APIs are being registered in <a href="https://smart-api.info/registry?q=hubmap">SmartAPI</a>.</li>
+    <li>For external access to APIs, please submit a request to the <a href="mailto:help@hubmapconsortium.org">HuBMAP Helpdesk</a>.</li>
+</ul>
 </details>
 
 <details><summary><b>What are the current features of the API?</b> </summary>
 
 The HuBMAP APIs underpin all provenance, data access, processing, translation, search, and access controls. 
-- APIs also report the versions and uptime statuses of all Docker containers that comprise HuBMAP’s microservices orchestration architecture.
-
+<ul>
+   <li>APIs also report the versions and uptime statuses of all Docker containers that comprise HuBMAP’s microservices orchestration architecture.
+   </li>
+</ul>
 </details>
 
 <details><summary><b>What are the expectations about future API features?</b> </summary>
 
-- APIs are extensible and are expected to be expanded progressively.
-- The next major set of APIs will deliver the underpinning transactions needed for semantic search.
+<ul>
+   <li>APIs are extensible and are expected to be expanded progressively.</li>
+   <li>The next major set of APIs will deliver the underpinning transactions needed for semantic search.</li>
+</ul>
 
 </details>
 
 <details><summary><b>What are the licensing requirements to use HuBMAP APIs, software, and data?</b> </summary>
 
-- The HuBMAP APIs, SmartAPI, and CCF 3D Reference Object Library (data) are released under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
-- Most of HuBMAP's software is licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License) or [GPL v3 License.](https://www.gnu.org/licenses/gpl-3.0.en.html)
-- Most of HuBMAP's source code can be found in GitHub at https://github.com/hubmapconsortium/.
-- A few source code repositories use different open source licensing. You can verify this by viewing the LICENSE file in the respective repository.
+<ul>
+   <li>The HuBMAP APIs, SmartAPI, and CCF 3D Reference Object Library (data) are released under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</a>.</li>
+   <li>Most of HuBMAP's software is licensed under the <a href="https://en.wikipedia.org/wiki/MIT_License">MIT License</a> or <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL v3 License</a>.</li>
+   <li>Most of HuBMAP's source code can be found in <a href="https://github.com/hubmapconsortium/">GitHub</a>.</li>
+   <li>A few source code repositories use different open source licensing. You can verify this by viewing the LICENSE file in the respective repository.
+   </li>
+</ul>
 
 </details>
 
 <details><summary><b>How do you plan to handle error fixes and updates? Will I be notified of these? </b></summary>
 
-- You can submit a bug or request a new Data Portal feature through the form at https://hubmapconsortium.org/contact-form/.
-- For help with specific issues related to the portal, please contact the <a href="mailto:help@hubmapconsortium.org">HuBMAP Helpdesk</a> and submit a support ticket.
-- To be sure you are up-to-date on all HuBMAP news, sign up for the mailing list at https://hubmapconsortium.org/hubmap-mailing-list.
+<ul>
+   <li>You can submit a bug or request a new Data Portal feature through <a href="https://hubmapconsortium.org/contact-form/">this form</a>.
+   <li>For help with specific issues related to the portal, please contact the <a href="mailto:help@hubmapconsortium.org">HuBMAP Helpdesk</a> and submit a support ticket.</li>
+   <li>Be sure you are up-to-date on all HuBMAP news, <a href="https://hubmapconsortium.org/hubmap-mailing-list">sign up for our mailing list.
+   </a></li>
+</ul>
 
 </details>
 
