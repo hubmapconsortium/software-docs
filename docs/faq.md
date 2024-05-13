@@ -270,46 +270,56 @@ HuBMAP data submitters can access lists of metadata schemas (and related informa
 
 <details><summary><b>Is there a “map” in HuBMAP?</b> </summary>
 
-The [Human Reference Atlas (HRA)](https://humanatlas.io) is a comprehensive, high-resolution, three-dimensional atlas of all the cells in a healthy human body. 
-- The HRA provides standard terminologies and data structures for describing: 
-   - specimens 
-   - biological structures
-   - spatial positions 
+The <a href="https://humanatlas.io">Human Reference Atlas (HRA)</a> is a comprehensive, high-resolution, three-dimensional atlas of all the cells in a healthy human body. 
+<ul>
+    <li>The HRA provides standard terminologies and data structures for describing: </li>
+</ul>
+    <ul>
+        <li>specimens</li>
+        <li>biological structures</li>
+        <li>spatial positions</li>
+    </ul>
 
-All linked to existing ontologies. Watch a short [video introduction](https://www.youtube.com/watch?v=DDmP_7vDy-o) to the HRA.
+All linked to existing ontologies. Watch a short <a href="https://www.youtube.com/watch?v=DDmP_7vDy-o">video introduction</a> to the HRA.
 
-- Tools in the HRA include: 
-   - Anatomical Structures, Cell Types and Biomarkers [(ASCT+B) Reporter](https://humanatlas.io/asctb-reporter)
-   - [Cell Population Graphs](https://humanatlas.io/cell-population-graphs) 
-   - [Registration User Interface (RUI)](https://humanatlas.io/registration-user-interface): Register and annotate organs
-   - [Exploration User Interface (EUI)](https://humanatlas.io/exploration-user-interface): Interact with registered organs
-   - [VR Organ Gallery](https://humanatlas.io/organ-gallery-in-vr): Immersive experience for exploring organs
-   - [Millitome](https://humanatlas.io/millitome): 3D-printed tool for organ sectioning
-   - [APIs](https://humanatlas.io/api) for querying and interacting with the HRA
+<ul>
+    <li>Tools in the HRA include:</li>
+</ul>
+    <ul>
+       <li>Anatomical Structures, Cell Types and Biomarkers <a href="https://humanatlas.io/asctb-reporter">(ASCT+B) Reporter</a></li>
+       <li><a href="https://humanatlas.io/cell-population-graphs">Cell Population Graphs</a></li>
+       <li><a href="https://humanatlas.io/registration-user-interface">Registration User Interface (RUI)</a>: Register and annotate organs</li>
+       <li><a href="https://humanatlas.io/exploration-user-interface">Exploration User Interface (EUI)</a>: Interact with registered organs</li>
+       <li><a href="https://humanatlas.io/organ-gallery-in-vr">VR Organ Gallery</a>: Immersive experience for exploring organs</li>
+       <li><a href="https://humanatlas.io/millitome">Millitome</a>: 3D-printed tool for organ sectioning</li>
+       <li><a href="https://humanatlas.io/api">APIs</a> for querying and interacting with the HRA</li>
+   </ul>
 
 </details>
 
 <details><summary><b>How can I run queries? What type queries are currently supported? Can you show me example queries?</b> </summary>
 
 You can query and interact with HuBMAP (and other) data registered in the Human Reference Atlas (HRA) using APIs. 
-- [Learn more about HuBMAP HRA APIs](https://humanatlas.io/api)
-
-</details>
+<ul>
+   <li><a href="https://humanatlas.io/api">Learn more about HuBMAP HRA APIs</a></li>
+</ul>
+</details
 
 <details><summary><b>Can I suggest types of queries I am interested in?</b> </summary>
 
-Contact the [HRA Team](mailto:infoccf@indiana.edu) with feedback or suggestions regarding APIs and queries for HuBMAP HRA data.
+Contact the <a href="mailto:infoccf@indiana.edu">HRA Team</a> with feedback or suggestions regarding APIs and queries for HuBMAP HRA data.
 
 </details>
 
 <details><summary><b>What controlled vocabularies or ontologies are being used by HuBMAP?</b> </summary>
 
-Each donor metadata item uses [Unified Medical Language System (UMLS)](https://www.nlm.nih.gov/research/umls/index.html) Concept Unique Identifiers (CUIs) and related [SNOMEDCT_US](https://www.nlm.nih.gov/healthit/snomedct/us_edition.html) codes. 
-- This list will be expanded as clinical data transactions, not just metadata, are added for donors for which data is available.
-- Similarly, other metadata will be encoded with applicable ontologies.
-- The HuBMAP Knowledge Graph underpins all ontologies used in HuBMAP but is not yet deployed.
-- The current CCF ontology uses Uberon, Kidney Tissue Atlas Ontology (KTAO) and Cell Ontology (CL), see details in https://arxiv.org/abs/2007.14474 
-
+Each donor metadata item uses <a href="https://www.nlm.nih.gov/research/umls/index.html">Unified Medical Language System (UMLS)</a> Concept Unique Identifiers (CUIs) and related <a href="https://www.nlm.nih.gov/healthit/snomedct/us_edition.html">SNOMEDCT_US</a> codes. 
+<ul>
+   <li>This list will be expanded as clinical data transactions, not just metadata, are added for donors for which data is available.</li>
+   <li>Similarly, other metadata will be encoded with applicable ontologies.</li>
+   <li>The HuBMAP Knowledge Graph underpins all ontologies used in HuBMAP but is not yet deployed.</li>
+   <li>The current CCF ontology uses Uberon, Kidney Tissue Atlas Ontology (KTAO) and Cell Ontology (CL), <a href="https://arxiv.org/abs/2007.14474">see details</a></li>
+   
 </details>
 
 ## API (Application Programming Interface) Questions
