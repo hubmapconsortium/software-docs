@@ -367,8 +367,7 @@ The HuBMAP APIs underpin all provenance, data access, processing, translation, s
 <ul>
    <li>You can submit a bug or request a new Data Portal feature through <a href="https://hubmapconsortium.org/contact-form/">this form</a>.
    <li>For help with specific issues related to the portal, please contact the <a href="mailto:help@hubmapconsortium.org">HuBMAP Helpdesk</a> and submit a support ticket.</li>
-   <li>Be sure you are up-to-date on all HuBMAP news, <a href="https://hubmapconsortium.org/hubmap-mailing-list">sign up for our mailing list.
-   </a></li>
+   <li>Be sure you are up-to-date on all HuBMAP news, <a href="https://hubmapconsortium.org/hubmap-mailing-list">sign up for our mailing list</a>.</li>
 </ul>
 
 </details>
@@ -378,34 +377,52 @@ The HuBMAP APIs underpin all provenance, data access, processing, translation, s
 <details><summary><b>Where can I find information about experimental design associated with HuBMAP data? </b></summary>
 
 An overview of the Information on the experimental design and choice of modalities can be found within this reference:
-- Snyder, M.P., Lin, S., Posgai, A. et al. The human body at cellular resolution: the NIH Human Biomolecular Atlas Program. Nature 574, 187–192 (2019). https://doi.org/10.1038/s41586-019-1629-x ([PMC6800388](http://www.ncbi.nlm.nih.gov/pmc/articles/pmc6800388/))
+<ul>
+   <li>Snyder, M.P., Lin, S., Posgai, A. et al. The human body at cellular resolution: the NIH Human Biomolecular Atlas Program. Nature 574, 187–192 (2019). https://doi.org/10.1038/s41586-019-1629-x (<a href="http://www.ncbi.nlm.nih.gov/pmc/articles/pmc6800388/">PMC6800388</a>)</li>
+</ul>
 
-Additional information on experimental design for each modality featured in the portal can be obtained on protocols.io as listed below. Further questions can be directed to the dataset contacts detailed within the portal.
+Additional information on experimental design for each modality featured in the portal can be obtained on protocols.io as listed below. 
+
+Further questions can be directed to the dataset contacts detailed within the portal.
 
 Overview protocols:
 
 #### University of Florida:
-- CODEX: https://www.protocols.io/view/hubmap-tmc-florida-zurich-codex-modality-overview-be9pjh5n
-- 10x: https://www.protocols.io/view/hubmap-uf-tmc-10x-genomics-scrnaseq-modality-overv-be79jhr6
-- Imaging Mass Cytometry: https://www.protocols.io/view/imaging-mass-cytometry-modality-overview-bgatjsen
+<ul>
+    <li><a href="https://www.protocols.io/view/hubmap-tmc-florida-zurich-codex-modality-overview-be9pjh5n">CODEX</a></li>
+    <li><a href="https://www.protocols.io/view/hubmap-uf-tmc-10x-genomics-scrnaseq-modality-overv-be79jhr6">10x</a></li>
+    <li><a href="https://www.protocols.io/view/imaging-mass-cytometry-modality-overview-bgatjsen">Imaging Mass Cytometry</a></li>
+</ul>
 
 #### Vanderbilt University:
-- Overview: https://www.protocols.io/view/vu-biomolecular-multimodal-imaging-center-biomic-k-bfskjncw
+<ul>
+   <li><a href="https://www.protocols.io/view/vu-biomolecular-multimodal-imaging-center-biomic-k-bfskjncw">Overview</a></li>
+</ul>
 
 #### UCSD:
-- https://www.protocols.io/view/human-kidney-urinary-tract-and-lung-cell-type-mapp-6qpvro1d2vmk/v2
+<ul>
+   <li><a href="https://www.protocols.io/view/human-kidney-urinary-tract-and-lung-cell-type-mapp-6qpvro1d2vmk/v2">Urinary tract and lung</a></li>
+</ul>
 
 </details>
 
 <details><summary><b>Where can I find information about HuBMAP experimental protocols?</b> </summary>
 
-All published protocols that are used in HuBMAP are available on protocols.io here: https://www.protocols.io/groups/human-biomolecular-atlas-program-hubmap-method-development.
+All published protocols that are used in HuBMAP are available on <a href="https://www.protocols.io/groups/human-biomolecular-atlas-program-hubmap-method-development">protocols.io</a>
 
 </details>
 
 <details><summary><b>How do you define raw and processed data? </b></summary>
 
-We define <em>raw</em> data as the data that comes directly off of the instrument (e.g. mass spectrometer, microscopy, etc.), while <em>processed </em>data has been transformed in some manner (e.g. normalization, background subtracted, aligned, etc.) and the level of processing is defined by the data state as detailed below. Data states are dependent upon the modality. In general, data state 0 (raw data) and state 1 (processed data) are available on the portal for downloading. 
+<ul>
+    <li>We define <em>raw</em> data as the data that comes directly off of the instrument (e.g. mass spectrometer, microscopy, etc.)</li> 
+    <li><em>Processed</em> data has been transformed in some manner (e.g. normalization, background subtracted, aligned, etc.).</li> 
+        <ul>
+            <li>The level of processing is defined by the data state as detailed below.</li> 
+            <li>Data states are dependent upon the modality.</li> 
+            <li>In general, data state 0 (raw data) and state 1 (processed data) are available on the portal for downloading.</li>
+        </ul>
+</ul>
 
 Microscopy:
 
@@ -434,38 +451,47 @@ Sequencing:
 
 <details><summary><b>In what formats is your data available? </b></summary>
 
-- Imaging based raw or processed data is available as TIFF or OME.TIFF formats
-- Segmented imaging data is generated as csv and TIFF formats
-- Annotated imaging data is TIFF, PNG, and PDF
-- Raw sequence data is provided as fastq and metadata via tsv
-- Imaging mass spectrometry raw data is provided as a .d and processed data is imzml, or a csv and a series of ome-tiffs.
+<ul>
+    <li>Imaging based raw or processed data is available as <b>TIFF</b> or <b>OME.TIFF</b> formats</li>
+    <li>Segmented imaging data is generated as <b>csv</b> and <b>TIFF</b> formats</li>
+    <li>Annotated imaging data is <b>TIFF, PNG,</b> and <b>PDF</b></li> 
+    <li>Raw sequence data is provided as <b>fastq</b> and metadata via <b>tsv</b></li>
+    <li>Imaging mass spectrometry raw data is provided as a <b>.d</b> and processed data is <b>imzml</b>, or a <b>csv</b> and a series of <b>ome-tiffs</b>.</li>
+</ul>
 
 </details>
 
 <details><summary><b>Can I get the code that you used to process data?</b> </summary>
 
-All available code can be found on the HuBMAP github page (https://github.com/hubmapconsortium).
+All available code can be found on the <a href="https://github.com/hubmapconsortium"> HuBMAP github page</a>.
 
 </details>
 
 <details><summary><b>Can I find an explanation for the choice of HuBMAP pipelines and algorithms?</b></summary>
 
-- Brief descriptions of the HuBMAP data analysis pipelines are available through the portal at https://portal.hubmapconsortium.org/docs/pipelines.
-- All code made available to users can be found on the HuBMAP github page (https://github.com/hubmapconsortium).
+<ul>
+    <li>See brief descriptions of the <a href="https://portal.hubmapconsortium.org/docs/pipelines">HuBMAP data analysis pipelines</a>.</li>
+    <li>All code made available to users can be found on the <a href="https://github.com/hubmapconsortium"> HuBMAP github page</a>.</li>
+</ul>
 
 </details>
 
 <details><summary><b>Which samples should I consider to be technical replicates?</b> </summary>
 
-Technical replicates are repeated measurements of the same existing sample. As even serial tissue sections represent distinct samples, we do not consider any images of tissues to be technical replicates. 
-
-Technical replicates for sequencing assays would be any sequencing libraries generated from the same sample or aliquot of cells or nuclei.
+<ul>
+    <li>Technical replicates are repeated measurements of the same existing sample.</li>
+    <li>As even serial tissue sections represent distinct samples, we do not consider any images of tissues to be technical replicates.</li>
+    <li>Technical replicates for sequencing assays would be any sequencing libraries generated from the same sample or aliquot of cells or nuclei.</li>
+</ul>
 
 </details>
 
 <details><summary><b>Which samples should I consider to be biological replicates?</b> </summary>
 
-Biological replicates are datasets from samples that originate from the same organ and organ donor. As such, each dataset within the HuBMAP database that is provided for a given donor organ for a comparable anatomical region/structure would be a biological replicate. 
+<ul>
+    <li>Biological replicates are datasets from samples that originate from the same organ and organ donor.</li>
+    <li>As such, each dataset within the HuBMAP database that is provided for a given donor organ for a comparable anatomical region/structure would be a biological replicate.</li>
+</ul>
 
 </details>
 
@@ -473,7 +499,7 @@ Biological replicates are datasets from samples that originate from the same org
 
 Protocols.io detailed processing with QA/QC
 
-[Human BioMolecular Atlas Program (HuBMAP) Method Development Community timeline](https://www.protocols.io/workspaces/human-biomolecular-atlas-program-hubmap-method-development)
+<a href="https://www.protocols.io/workspaces/human-biomolecular-atlas-program-hubmap-method-development">HuBMAP Method Development Community timeline</a>
 
 </details>
 
@@ -481,10 +507,14 @@ Protocols.io detailed processing with QA/QC
 
 Initially, all antibodies were validated by individual groups. With later data releases, complete antibody information, including antibody clone, vendor, RRID, conjugation information, etc. became available. Additional antibody validation standards were also implemented. For the development of our antibody validation levels, we followed the antibody verification guidelines established in the following manuscripts:
 
-[A proposal for validation of antibodies.](https://pubmed.ncbi.nlm.nih.gov/27595404/)
-- Uhlen M, Bandrowski A, Carr S, Edwards A, Ellenberg J, Lundberg E, Rimm DL, Rodriguez H, Hiltke T, Snyder M, Yamamoto T. Nat Methods. 2016 Oct;13(10):823-7. doi: 10.1038/nmeth.3995. Epub 2016 Sep 5.PMID: 27595404
+<a href="https://pubmed.ncbi.nlm.nih.gov/27595404/">A proposal for validation of antibodies</a>
+<ul>
+    <li>Uhlen M, Bandrowski A, Carr S, Edwards A, Ellenberg J, Lundberg E, Rimm DL, Rodriguez H, Hiltke T, Snyder M, Yamamoto T. Nat Methods. 2016 Oct;13(10):823-7. doi: 10.1038/nmeth.3995. Epub 2016 Sep 5.PMID: 27595404</li>
+</ul>
 
-[The Antibody Society’s antibody validation webinar series](https://pubmed.ncbi.nlm.nih.gov/32748696/)
-- Voskuil, J., Bandrowski, A., Begley, C. G., Bradbury, A., Chalmers, A. D., Gomes, A. V., Hardcastle, T., Lund-Johansen, F., Plückthun, A., Roncador, G., Solache, A., Taussig, M. J., Trimmer, J. S., Williams, C., & Goodman, S. L. MAbs. 2020;12(1):1794421. doi:10.1080/19420862.2020.1794421. PMID: 32748696
+<a href="https://pubmed.ncbi.nlm.nih.gov/32748696/">The Antibody Society’s antibody validation webinar series</a>
+<ul>
+    <li>Voskuil, J., Bandrowski, A., Begley, C. G., Bradbury, A., Chalmers, A. D., Gomes, A. V., Hardcastle, T., Lund-Johansen, F., Plückthun, A., Roncador, G., Solache, A., Taussig, M. J., Trimmer, J. S., Williams, C., & Goodman, S. L. MAbs. 2020;12(1):1794421. doi:10.1080/19420862.2020.1794421. PMID: 32748696</li>
+</ul>
 
 </details>
