@@ -303,7 +303,7 @@ You can query and interact with HuBMAP (and other) data registered in the Human 
 <ul>
    <li><a href="https://humanatlas.io/api">Learn more about HuBMAP HRA APIs</a></li>
 </ul>
-</details
+</details>
 
 <details><summary><b>Can I suggest types of queries I am interested in?</b> </summary>
 
@@ -319,6 +319,7 @@ Each donor metadata item uses <a href="https://www.nlm.nih.gov/research/umls/ind
    <li>Similarly, other metadata will be encoded with applicable ontologies.</li>
    <li>The HuBMAP Knowledge Graph underpins all ontologies used in HuBMAP but is not yet deployed.</li>
    <li>The current CCF ontology uses Uberon, Kidney Tissue Atlas Ontology (KTAO) and Cell Ontology (CL), <a href="https://arxiv.org/abs/2007.14474">see details</a></li>
+</ul>
    
 </details>
 
