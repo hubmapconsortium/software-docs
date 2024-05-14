@@ -387,19 +387,19 @@ Further questions can be directed to the dataset contacts detailed within the po
 
 Overview protocols:
 
-#### University of Florida:
+<h4>University of Florida:</h4>
 <ul>
     <li><a href="https://www.protocols.io/view/hubmap-tmc-florida-zurich-codex-modality-overview-be9pjh5n">CODEX</a></li>
     <li><a href="https://www.protocols.io/view/hubmap-uf-tmc-10x-genomics-scrnaseq-modality-overv-be79jhr6">10x</a></li>
     <li><a href="https://www.protocols.io/view/imaging-mass-cytometry-modality-overview-bgatjsen">Imaging Mass Cytometry</a></li>
 </ul>
 
-#### Vanderbilt University:
+<h4>Vanderbilt University:</h4>
 <ul>
    <li><a href="https://www.protocols.io/view/vu-biomolecular-multimodal-imaging-center-biomic-k-bfskjncw">Overview</a></li>
 </ul>
 
-#### UCSD:
+<h4>UCSD:</h4>
 <ul>
    <li><a href="https://www.protocols.io/view/human-kidney-urinary-tract-and-lung-cell-type-mapp-6qpvro1d2vmk/v2">Urinary tract and lung</a></li>
 </ul>
