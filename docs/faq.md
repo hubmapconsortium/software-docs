@@ -426,26 +426,75 @@ All published protocols that are used in HuBMAP are available on <a href="https:
 
 Microscopy:
 
-| Data State | Description | Example file type |
-| --- | --- |  --- |
-| 0 | Raw image data: This is the data that comes directly off the instrument without preprocessing. (may not always be included). | CZI, TIFF |
-| 1 | Processed data: Can include stitching, thresholding, background subtraction, z-stack alignment, deconvolution | CZI, TIFF, OME-TIFF|
-| 2 | Segmentation: Computationally predicted cell (nucleus, cytoplasm) and/or structural boundaries (tubules, ventricles, etc.)   | CSV, TIFF |
-| 3 | Annotation (Cells and Structures): Interpretation of microscopy image and/or segmentation in terms of biology (e.g. unhealthy vs healthy, cell-type, function, functional region). | TIFF, PNG |
+<table>
+  <tr>
+    <th>Data State</th>
+    <th>Description</th>
+    <th>Example File Type</th>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>Raw image data: This is the data that comes directly off the instrument without preprocessing. (may not always be included).</td>
+    <td>CZI, TIFF</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Processed data: Can include stitching, thresholding, background subtraction, z-stack alignment, deconvolution</td>
+    <td>CZI, TIFF, OME-TIFF</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Segmentation: Computationally predicted cell (nucleus, cytoplasm) and/or structural boundaries (tubules, ventricles, etc.)</td>
+    <td>CSV, TIFF</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Annotation (Cells and Structures): Interpretation of microscopy image and/or segmentation in terms of biology (e.g. unhealthy vs healthy, cell-type, function, functional region).</td>
+    <td>TIFF, PNG</td>
+  </tr>
+</table>
+
 
 Mass Spectrometry:
 
-| Data State | Description | Example file type |
-| --- | --- |  --- |
-| 0 | Raw image data: This is the data that comes directly off the mass spectrometer without preprocessing; sometimes referred to as raw spectral data.| imzML |
-| 1 | Processed imaging MS data: Can include peak alignment, intensity normalization, m/z recalibration | CSV, OME-TIFF|
+<table>
+  <tr>
+    <th>Data State</th>
+    <th>Description</th>
+    <th>Example File Type</th>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>Raw image data: This is the data that comes directly off the mass spectrometer without preprocessing; sometimes referred to as raw spectral data.</td>
+    <td>imzML</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Processed imaging MS data: Can include peak alignment, intensity normalization, m/z recalibration.</td>
+    <td>CSV, OME-TIFF</td>
+  </tr>
+</table>
 
 Sequencing:
 
-| Data State | Description | Example file type |
-| --- | --- |  --- |
-| 0 | Raw data: This is the raw sequence data (unprocessed) generated directly by the sequence instrument in files either with Phred quality scores (fastq). | FASTQ |
-| 1 | Aligned data: SAM files contain sequence data that has been aligned to a reference genome and includes chromosome coordinates. BAM files are compressed binary versions of SAM files. The reference genome used is hg38.| SAM, BAM|
+<table>
+  <tr>
+    <th>Data State</th>
+    <th>Description</th>
+    <th>Example File Type</th>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>Raw data: This is the raw sequence data (unprocessed) generated directly by the sequence instrument in files either with Phred quality scores (fastq).</td>
+    <td>FASTQ</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Aligned data: SAM files contain sequence data that has been aligned to a reference genome and includes chromosome coordinates. BAM files are compressed binary versions of SAM files. The reference genome used is hg38.</td>
+    <td>SAM, BAM</td>
+  </tr>
+</table>
+
 
 </details>
 
