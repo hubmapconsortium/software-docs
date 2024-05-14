@@ -409,7 +409,7 @@ Overview protocols:
 
 <details><summary><b>Where can I find information about HuBMAP experimental protocols?</b> </summary>
 
-All published protocols that are used in HuBMAP are available on <a href="https://www.protocols.io/groups/human-biomolecular-atlas-program-hubmap-method-development">protocols.io</a>
+<p>All published protocols that are used in HuBMAP are available on <a href="https://www.protocols.io/groups/human-biomolecular-atlas-program-hubmap-method-development">protocols.io</a></p>
 
 </details>
 
@@ -513,7 +513,7 @@ Sequencing:
 
 <details><summary><b>Can I get the code that you used to process data?</b> </summary>
 
-All available code can be found on the <a href="https://github.com/hubmapconsortium"> HuBMAP github page</a>.
+<p>All available code can be found on the <a href="https://github.com/hubmapconsortium"> HuBMAP github page</a>.</p>
 
 </details>
 
@@ -547,9 +547,8 @@ All available code can be found on the <a href="https://github.com/hubmapconsort
 
 <details><summary><b>How are each organ/tissue handled to maintain high reproducibility and validity for the assay? </b></summary>
 
-Protocols.io detailed processing with QA/QC
-
-<a href="https://www.protocols.io/workspaces/human-biomolecular-atlas-program-hubmap-method-development">HuBMAP Method Development Community timeline</a>
+<p>Protocols.io detailed processing with QA/QC 
+<a href="https://www.protocols.io/workspaces/human-biomolecular-atlas-program-hubmap-method-development">HuBMAP Method Development Community timeline</a></p>
 
 </details>
 
