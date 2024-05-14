@@ -197,6 +197,7 @@ Access to data on <a href="https://portal.hubmapconsortium.org/">HuBMAP's Data P
     1. Go to the <a href="https://hubmapconsortium.org/">HuBMAP Consortium website</a> <br>
     2. Under <em>Member Services</em> select <b>Member Register</b> <br>
     3. Complete the registration form (you will need a valid <em>institutional</em> or eRA Commons ID)
+    <p></p>
     
 </details>
 
@@ -231,7 +232,7 @@ Access to data on <a href="https://portal.hubmapconsortium.org/">HuBMAP's Data P
 
 <details><summary><b>Can I use figures from HuBMAP in my publications?</b> </summary>
 
-Yes, as long as you cite the source of the figure. See the preceeding question for more details.
+<p>Yes, as long as you cite the source of the figure. See the preceeding question for more details.</p>
 
 </details>
 
@@ -305,7 +306,7 @@ You can query and interact with HuBMAP (and other) data registered in the Human 
 
 <details><summary><b>Can I suggest types of queries I am interested in?</b> </summary>
 
-Contact the <a href="mailto:infoccf@indiana.edu">HRA Team</a> with feedback or suggestions regarding APIs and queries for HuBMAP HRA data.
+<p>Contact the <a href="mailto:infoccf@indiana.edu">HRA Team</a> with feedback or suggestions regarding APIs and queries for HuBMAP HRA data.</p>
 
 </details>
 
