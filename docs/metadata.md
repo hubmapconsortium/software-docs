@@ -39,32 +39,32 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
       For sciATACseq, contact [Dana Jackson](mailto:danaj77@uw.edu)
 - Body CT
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/bodyct/current/)
-- Cell DIVE
-  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/celldive/current/)
+<!--- - Cell DIVE
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/celldive/current/) --->
 - [CODEX](/assays/codex) (Not PhenoCycler)
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/codex/current/)
   - Contact: [Vishal Venkataraaman](mailto:vgautham@stanford.edu)
 - Confocal
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/confocal/current/)
-- CosMX
+<!--- - CosMX
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/cosmx/current/)
 - CyCIF
-  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/cycif/current/)
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/cycif/current/) --->
 - DESI
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/desi/current/)
 - Enhanced SRS
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/enhanced-srs/current/)
-- GeoMX
+<!--- - GeoMX
   - NGS
     - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/geomx-ngs/current/)
   - nCounter
-    - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/geomx-ncounter/current/)
+    - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/geomx-ncounter/current/) --->
 - HiFi
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/hifi-slide/current/)
 - Histology
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/histology/current/)
-- hrsTP-seq (DBiTSeq)
-  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/dbit/current/)
+<!--- - hrsTP-seq (DBiTSeq)
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/dbit/current/) --->
 - [IMC (Imaging Mass Cytometry) ](/assays/imc)
   - 2D IMC
     - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/imc-2d/current/)
@@ -81,8 +81,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - Contact: [Jeffrey Spraggins](mailto:jeff.spraggins@vanderbilt.edu)
 - Molecular Cartography
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/mc/current/)
-- MERFISH
-  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/merfish/current/)
+<!--- - MERFISH
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/merfish/current/) --->
 - MIBI
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/mibi/current/)
 - Micro CT
@@ -93,8 +93,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/music/current/)
 - NanoDESI
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/desi/current/)
-- nanoSPLITS
-  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/nano-splits/current/)
+<!--- - nanoSPLITS
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/nano-splits/current/) --->
 - OCT
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/oct/current/)
 - PhenoCycler
@@ -129,8 +129,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
     - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/visium-with-probes/current/)
   - No Probes
     - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/visium-no-probes/current/)
-- Xenium
-  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/xenium/current/)
+<!--- - Xenium
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/xenium/current/) --->
 
 ## Other
 - Antibodies
