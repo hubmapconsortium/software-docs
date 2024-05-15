@@ -11,10 +11,12 @@ class Sidebar extends App {
         this.sizeSideBar()
         this.pathBase = '/'
         this.classNames.root = 'is-root'
+        this.classNames.static = 'is-static'
         this.headerHeight = 90
         this.events()
         this.determineContentBuilder()
         this.sizeSideBarHeight()
+        this.togglePositioning()
     }
 
     determineContentBuilder() {
@@ -52,7 +54,16 @@ class Sidebar extends App {
 
         $(window).on('resize', ((e)=>{
             this.sizeSideBar()
+            this.togglePositioning()
         }).bind(this))
+    }
+
+    togglePositioning() {
+        if (window.innerHeight <= 750) {
+            this.el.addClass(this.classNames.static)
+        } else {
+            this.el.removeClass(this.classNames.static)
+        }
     }
 
     sizeSideBar() {
