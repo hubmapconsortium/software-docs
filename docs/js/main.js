@@ -2,7 +2,7 @@
  * hubmapdocs - 
  * @version v0.1.0
  * @link https://software.docs.hubmapconsortium.org/
- * @date Mon Feb 12 2024 14:31:44 GMT-0500 (Eastern Standard Time)
+ * @date Wed May 15 2024 15:17:09 GMT-0400 (Eastern Daylight Time)
  */
 var _this10 = this;
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
@@ -9803,10 +9803,12 @@ var Sidebar = /*#__PURE__*/function (_App5) {
     _this7.sizeSideBar();
     _this7.pathBase = '/';
     _this7.classNames.root = 'is-root';
+    _this7.classNames["static"] = 'is-static';
     _this7.headerHeight = 90;
     _this7.events();
     _this7.determineContentBuilder();
     _this7.sizeSideBarHeight();
+    _this7.togglePositioning();
     return _this7;
   }
   _createClass(Sidebar, [{
@@ -9846,7 +9848,17 @@ var Sidebar = /*#__PURE__*/function (_App5) {
       }.bind(this));
       $(window).on('resize', function (e) {
         _this8.sizeSideBar();
+        _this8.togglePositioning();
       }.bind(this));
+    }
+  }, {
+    key: "togglePositioning",
+    value: function togglePositioning() {
+      if (window.innerHeight <= 750) {
+        this.el.addClass(this.classNames["static"]);
+      } else {
+        this.el.removeClass(this.classNames["static"]);
+      }
     }
   }, {
     key: "sizeSideBar",
