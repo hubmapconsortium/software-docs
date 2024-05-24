@@ -170,8 +170,10 @@ If you use NIH HuBMAP data in publications or presentations we request that you 
     <li>When referencing a specific HuBMAP data set, include the following information: </li>
         <ul>
             <li>Creator(s) (Year published). Data set name. HuBMAP Consortium. DOI or HuBMAP ID (with link) For example...</li>
-            <li>Smith, J., Jones S., et al. (2024). Auto-fluorescence Microscopy Left Kidney. HuBMAP Consortium. <u><font color="blue">https://doi10.99999/HBM999.XYZQ.111</font></u></li>
+            <li>Smith, J., Jones S., et al. (2024). Auto-fluorescence Microscopy Left Kidney. HuBMAP Consortium. <font color="blue">https://doi10.99999/HBM999.XYZQ.111</font></li>
         </ul>    
+</ul> 
+
 </details>
 
 <details><summary><b>Can I submit my own data to HuBMAP? Why would I want to?</b></summary>
@@ -230,9 +232,9 @@ Access to data on <a href="https://portal.hubmapconsortium.org/">HuBMAP's Data P
     <li>When referencing a specific HuBMAP data set, include the following information: </li>
         <ul>
             <li>Creator(s) (Year published). Data set name. HuBMAP Consortium. DOI or HuBMAP ID (with link) For example...</li>
-            <li>Smith, J., Jones S., et al. (2024). Auto-fluorescence Microscopy Left Kidney. HuBMAP Consortium. <u><font color="blue">https://doi10.99999/HBM999.XYZQ.111</font></u></li>
+            <li>Smith, J., Jones S., et al. (2024). Auto-fluorescence Microscopy Left Kidney. HuBMAP Consortium.<font color="blue"> https://doi10.99999/HBM999.XYZQ.111</font></li>
         </ul>
-</ul>
+ </ul>
   
 <p>The HuBMAP marker paper should be cited as:</p>
 <ul>
