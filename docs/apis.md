@@ -12,7 +12,7 @@ The Ingest API supports writing data and metadata to HuBMAP. It is used when Tis
 - [Smart API](https://smart-api.info/ui/5a6bea1158d2652743c7a201fdb1c44d)
 
 ### UUID API
-The Ingest API supports all donor and tissue sample registration and submission of data and collection of provenance information via the Ingest UI. The Ingest UI is a web user interface used by the Tissue Mapping Centers (TMCs) when contributing raw and derived data which result from the execution of pipelines.
+The UUID API supports all donor and tissue sample registration and submission of data and collection of provenance information via the Ingest UI. The Ingest UI is a web user interface used by the Tissue Mapping Centers (TMCs) when contributing raw and derived data which result from the execution of pipelines.
 - [GitHub](https://github.com/hubmapconsortium/uuid-api)
 
 
@@ -38,7 +38,9 @@ Examples of Entity endpoints are as follows:
    data for entity
 
 **Figure 3.**
-![An example HuBMAP entity graph consisting of a donor, organ, blocks, tissue slices, data and derived data from a pipeline. In general, a donor and organ are required in the provenance hierarchy where tissue samples (such as blocks and samples) can be organized based on several different tissue sample types.](https://drive.google.com/file/d/14aAyTItvm3teFB5jUX5TVGRpW4oit99b/view?usp=sharing)
+<img src="https://drive.google.com/file/d/14aAyTItvm3teFB5jUX5TVGRpW4oit99b/view?usp=sharing" alt="An example HuBMAP entity graph">
+
+In general, a donor and organ are required in the provenance hierarchy where tissue samples (such as blocks and samples) can be organized based on several different tissue sample types.
 
 - [GitHub](https://github.com/hubmapconsortium/entity-api) 
 - [Smart API](https://smart-api.info/ui/0065e419668f3336a40d1f5ab89c6ba3)
