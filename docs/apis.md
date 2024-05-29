@@ -3,7 +3,7 @@ layout: page
 ---
 # HuBMAP APIs
 
-The following five APIs, available as RESTful web services, are availble which support data ingest, querying and delivery of metadata. Data delivery is available via the [Globus Transfer Service](https://www.globus.org/data-transfer) and [Globus Transfer API](https://docs.globus.org/api/transfer/).  See the [HuBMAP IDs](#HUBMAPIDS) section below for information about the ids used by the HuBMAP APIs.
+The following five APIs, available as RESTful web services, are available which support data ingest, querying and delivery of metadata. Data delivery is available via the [Globus Transfer Service](https://www.globus.org/data-transfer) and [Globus Transfer API](https://docs.globus.org/api/transfer/).  See the [HuBMAP IDs](#HUBMAPIDS) section below for information about the ids used by the HuBMAP APIs.
 
 
 ### Ingest API
@@ -12,12 +12,12 @@ The Ingest API supports writing data and metadata to HuBMAP. It is used when Tis
 - [Smart API](https://smart-api.info/ui/5a6bea1158d2652743c7a201fdb1c44d)
 
 ### UUID API
-The Ingest API supports all donor and tissue sample registration and submission of data and collection of provenance information via the Ingest UI. The Ingest UI is a web user interface used by the Tissue Mapping Centers (TMCs) when contributing raw and derived data which result from the execution of pipelines.
+The UUID API supports all donor and tissue sample registration and submission of data and collection of provenance information via the Ingest UI. The Ingest UI is a web user interface used by the Tissue Mapping Centers (TMCs) when contributing raw and derived data which result from the execution of pipelines.
 - [GitHub](https://github.com/hubmapconsortium/uuid-api)
 
 
 ### Search & Index API
-The Search & Index API supports searching and reindexing of HuBMAP metadata and data. The /search endpoint returns sets of data entities matching specifi ed queries for Donors, Tissue Samples and Datasets. The /reindex endpoint is used internally to index new and changed entities, this endpoint is not accessible externally, but only from other APIs that create, update or delete entities.
+The Search & Index API supports searching and reindexing of HuBMAP metadata and data. The /search endpoint returns sets of data entities matching specified queries for Donors, Tissue Samples and Datasets. The /reindex endpoint is used internally to index new and changed entities, this endpoint is not accessible externally, but only from other APIs that create, update or delete entities.
 - [GitHub](https://github.com/hubmapconsortium/search-api)
 - [Smart API](https://smart-api.info/ui/7aaf02b838022d564da776b03f357158)
 
@@ -28,7 +28,7 @@ The Ontology API accesses an instance of a **Unified Biomedical Knowledge Graph*
 - [Smart API](https://smart-api.info/ui/96e5b5c0b0efeef5b93ea98ac2794837)
 
 ### Entity API
-The Entity API returns information about HuBMAP data entities (Figure 3). 
+The Entity API returns information about HuBMAP data entities (See Figure 1, below). 
 
 Examples of Entity endpoints are as follows:
  - /entities/types: return valid entity types
@@ -37,8 +37,10 @@ Examples of Entity endpoints are as follows:
  - /entities/{identifier}/provenance: return provenance
    data for entity
 
-**Figure 3.**
-![An example HuBMAP entity graph consisting of a donor, organ, blocks, tissue slices, data and derived data from a pipeline. In general, a donor and organ are required in the provenance hierarchy where tissue samples (such as blocks and samples) can be organized based on several different tissue sample types.](https://drive.google.com/file/d/14aAyTItvm3teFB5jUX5TVGRpW4oit99b/view?usp=sharing)
+**Figure 1.**
+![An example HuBMAP entity diagram including data and derived data from a pipeline.](https://github.com/hubmapconsortium/software-docs/blob/main/src/API1-2024.png)
+
+In general, a donor and organ are required in the provenance hierarchy where tissue samples (such as blocks and samples) can be organized based on several different tissue sample types.
 
 - [GitHub](https://github.com/hubmapconsortium/entity-api) 
 - [Smart API](https://smart-api.info/ui/0065e419668f3336a40d1f5ab89c6ba3)
@@ -84,7 +86,7 @@ HuBMAP UUIDs are intended for use internally in software and data storage.  They
 - These identifiers can be used to query the APIs and data portal.
 
 ### DOI
-Digital Object Identifiers (DOIs) are generated for published hubmap data and allow for permanent references outside of HuBMAP.
+Digital Object Identifiers (DOIs) are generated for published HuBMAP data and allow for permanent references outside of HuBMAP.
 
 - Example: `10.1234/HBM123.ABCD.456` 
 - Used for referencing outside HuBMAP context, in particular for use as references in publications.
