@@ -3,7 +3,7 @@ layout: page
 ---
 # HuBMAP APIs
 
-The following five APIs, available as RESTful web services, are availble which support data ingest, querying and delivery of metadata. Data delivery is available via the [Globus Transfer Service](https://www.globus.org/data-transfer) and [Globus Transfer API](https://docs.globus.org/api/transfer/).  See the [HuBMAP IDs](#HUBMAPIDS) section below for information about the ids used by the HuBMAP APIs.
+The following five APIs, available as RESTful web services, are available which support data ingest, querying and delivery of metadata. Data delivery is available via the [Globus Transfer Service](https://www.globus.org/data-transfer) and [Globus Transfer API](https://docs.globus.org/api/transfer/).  See the [HuBMAP IDs](#HUBMAPIDS) section below for information about the ids used by the HuBMAP APIs.
 
 
 ### Ingest API
@@ -17,7 +17,7 @@ The UUID API supports all donor and tissue sample registration and submission of
 
 
 ### Search & Index API
-The Search & Index API supports searching and reindexing of HuBMAP metadata and data. The /search endpoint returns sets of data entities matching specifi ed queries for Donors, Tissue Samples and Datasets. The /reindex endpoint is used internally to index new and changed entities, this endpoint is not accessible externally, but only from other APIs that create, update or delete entities.
+The Search & Index API supports searching and reindexing of HuBMAP metadata and data. The /search endpoint returns sets of data entities matching specified queries for Donors, Tissue Samples and Datasets. The /reindex endpoint is used internally to index new and changed entities, this endpoint is not accessible externally, but only from other APIs that create, update or delete entities.
 - [GitHub](https://github.com/hubmapconsortium/search-api)
 - [Smart API](https://smart-api.info/ui/7aaf02b838022d564da776b03f357158)
 
