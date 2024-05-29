@@ -373,7 +373,7 @@ The HuBMAP-produced <a href="https://humanatlas.io/">HRA</a> provides a comprehe
 </ul>
 
 For more information about HuBMAP and HRA APIs see this <a href="https://software.docs.hubmapconsortium.org/apis">HuBMAP APIs documentation</a>.
-<p /p>
+<p> </p>
     
 </details>
 
