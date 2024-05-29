@@ -351,21 +351,28 @@ The HuBMAP portal is built using an extensible API structure that supports all c
 </ul>
 </details>
 
-<details><summary><b>What are the current features of the API?</b> </summary>
+<details><summary><b>What APIs are currently supported by HuBMAP?</b></summary>
 
-The HuBMAP APIs underpin all provenance, data access, processing, translation, search, and access controls. 
-<ul>
-   <li>APIs also report the versions and uptime statuses of all Docker containers that comprise HuBMAP’s microservices orchestration architecture.
-   </li>
-</ul>
-</details>
-
-<details><summary><b>What are the expectations about future API features?</b> </summary>
+The following APIs are currently supported by HuBMAP:
 
 <ul>
-   <li>APIs are extensible and are expected to be expanded progressively.</li>
-   <li>The next major set of APIs will deliver the underpinning transactions needed for semantic search.</li>
+    <li><b>Ingest API</b> supports writing data and metadata to HuBMAP. TMCs use it to contribute data and the HIVE uses it to deposit data derived via pipelines.</li>
+    <li><b>UUID API</b> supports all donor and tissue sample registration, submission of data, and collection of provenance information via the Ingest UI.</li>
+    <li><b>Search & Index API</b> supports searching and reindexing of HuBMAP metadata and data.</li>
+    <li><b>Ontology API</b> accesses an instance of a UBKG, a neo4j knowledge graph that links information from a variety of biomedical vocabulary systems.</li>
+    <li><b>Entity API</b> returns information about HuBMAP data entities.</li>
 </ul>
+
+<h4>Human Reference Atlas (HRA) APIs</h4>
+
+The HuBMAP-produced <a href="https://humanatlas.io/">HRA</a> provides a comprehensive, high-resolution, three-dimensional atlas of cells in the healthy human body. The HRA provides standard terminologies and data structures for describing specimens, biological structures, and spatial positions linked to existing ontologies. In addition to user interfaces, you can also query the HRA via APIs.
+
+<ul>
+    <li><b>CCF API</b> returns reference information about the HRA and related experimental data registered with the HRA.</li>
+    <li><b>HRA via SPARQL:</b> The HRA is published as an RDF knowledge graph and may be queried using a multitude of available libraries. It is published at biomedical ontology websites including OLS and BioPortal.</li>
+</ul>
+
+For more information about HuBMAP and HRA APIs see this <a href="https://software.docs.hubmapconsortium.org/apis">HuBMAP APIs documentation</a>.
 
 </details>
 
