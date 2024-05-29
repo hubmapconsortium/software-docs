@@ -1,29 +1,26 @@
 ---
 layout: page
 ---
+
 # HuBMAP APIs
-
-The following five APIs, available as RESTful web services, are available which support data ingest, querying and delivery of metadata. Data delivery is available via the [Globus Transfer Service](https://www.globus.org/data-transfer) and [Globus Transfer API](https://docs.globus.org/api/transfer/).  See the [HuBMAP IDs](#HUBMAPIDS) section below for information about the ids used by the HuBMAP APIs.
-
+The following five APIs, available as RESTful web services, support data ingest, querying, and delivery of metadata. Data delivery is available via the [Globus Transfer Service](https://www.globus.org/data-transfer) and [Globus Transfer API](https://docs.globus.org/api/transfer/). See the [HuBMAP IDs](#HUBMAPIDS) section below for information about the ids used by the HuBMAP APIs.
 
 ### Ingest API
-The Ingest API supports writing data and metadata to HuBMAP. It is used when Tissue Mapping Centers (TMCs) contribute data and also to deposit derived data resulting from the execution of pipelines.
+The Ingest API supports writing data and metadata to HuBMAP. Tissue Mapping Centers (TMCs) use it to contribute data to HuBMAP and the HIVE uses it to deposit derived data resulting from the execution of pipelines.
 - [GitHub](https://github.com/hubmapconsortium/ingest-ui) 
 - [Smart API](https://smart-api.info/ui/5a6bea1158d2652743c7a201fdb1c44d)
 
 ### UUID API
-The UUID API supports all donor and tissue sample registration and submission of data and collection of provenance information via the Ingest UI. The Ingest UI is a web user interface used by the Tissue Mapping Centers (TMCs) when contributing raw and derived data which result from the execution of pipelines.
+The UUID API supports donor and tissue sample registration, submission of data, and collection of provenance information via the Ingest UI. The Ingest UI is a web user interface used by the Tissue Mapping Centers (TMCs) when contributing raw and derived data which result from the execution of pipelines.
 - [GitHub](https://github.com/hubmapconsortium/uuid-api)
 
-
 ### Search & Index API
-The Search & Index API supports searching and reindexing of HuBMAP metadata and data. The /search endpoint returns sets of data entities matching specified queries for Donors, Tissue Samples and Datasets. The /reindex endpoint is used internally to index new and changed entities, this endpoint is not accessible externally, but only from other APIs that create, update or delete entities.
+The Search & Index API supports searching and reindexing of HuBMAP metadata and data. The /search endpoint returns sets of data entities matching specified queries for Donors, Tissue Samples, and Datasets. The /reindex endpoint is used internally to index new and changed entities, this endpoint is not accessible externally, but only from other APIs that create, update, or delete entities.
 - [GitHub](https://github.com/hubmapconsortium/search-api)
 - [Smart API](https://smart-api.info/ui/7aaf02b838022d564da776b03f357158)
 
 ### Ontology/UBKG API
 The Ontology API accesses an instance of a **Unified Biomedical Knowledge Graph** (UBKG), a neo4j knowledge graph that links infomation from a variety of biomedical vocabulary systems. The HuBMAP instance of UBKG includes HuBMAP's **application ontology** that represents the HuBMAP operational model. 
-
 - [UBKG](https://ubkg.docs.xconsortia.org/), including links to relevant GitHub repositories
 - [Smart API](https://smart-api.info/ui/96e5b5c0b0efeef5b93ea98ac2794837)
 
@@ -71,7 +68,7 @@ HuBMAP uses three different kinds of identifiers:
 
 ### HuBMAP ID
 
-HuBMAP IDs are "human readable" identifiers that are used when displaying information about HuBMAP entities such as Donors, Tissue Samples, Datasets, Collections.
+HuBMAP IDs are "human readable" identifiers that are used when displaying information about HuBMAP entities such as Donors, Tissue Samples, Datasets, and Collections.
 
 - Example: `HBM123.ABCD.456` 
 - Used for identification of HuBMAP entities and referencing in HuBMAP context, e.g. in the portal UI, slides, human-human communication, etc.
