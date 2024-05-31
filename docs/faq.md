@@ -346,18 +346,18 @@ Each donor metadata item uses <a href="https://www.nlm.nih.gov/research/umls/ind
 
 The HuBMAP portal is built using an extensible API structure that supports all component interactions. 
 <ul>
-    <li>APIs are being registered in <a href="https://smart-api.info/registry?q=hubmap">SmartAPI</a>.</li>
+    <li>APIs are registered at <a href="https://smart-api.info/registry?q=hubmap">SmartAPI</a>.</li>
     <li>For external access to APIs, please submit a request to the <a href="mailto:help@hubmapconsortium.org">HuBMAP Helpdesk</a>.</li>
 </ul>
 </details>
 
 <details><summary><b>What APIs are currently supported by HuBMAP?</b></summary>
 
+<p> </p>
 The following APIs are currently supported by HuBMAP:
-
 <ul>
-    <li><b>Ingest API</b> supports writing data and metadata to HuBMAP. TMCs use it to contribute data and the HIVE uses it to deposit data derived via pipelines.</li>
-    <li><b>UUID API</b> supports all donor and tissue sample registration, submission of data, and collection of provenance information via the Ingest UI.</li>
+    <li><b>Ingest API</b> supports writing data and metadata to HuBMAP. TMCs use Ingest API to contribute (ingest) data and the HIVE uses it to deposit (processed) data derived via pipelines.</li>
+    <li><b>UUID API</b> supports donor and tissue sample registration, submission of data, and collection of provenance information via the Ingest UI.</li>
     <li><b>Search & Index API</b> supports searching and reindexing of HuBMAP metadata and data.</li>
     <li><b>Ontology API</b> accesses an instance of a UBKG, a neo4j knowledge graph that links information from a variety of biomedical vocabulary systems.</li>
     <li><b>Entity API</b> returns information about HuBMAP data entities.</li>
@@ -372,7 +372,7 @@ The HuBMAP-produced <a href="https://humanatlas.io/">HRA</a> provides a comprehe
     <li><b>HRA via SPARQL:</b> The HRA is published as an RDF knowledge graph and may be queried using a multitude of available libraries. It is published at biomedical ontology websites including OLS and BioPortal.</li>
 </ul>
 
-For more information about HuBMAP and HRA APIs see this <a href="https://software.docs.hubmapconsortium.org/apis">HuBMAP APIs documentation</a>.
+For more information about HuBMAP and HRA  APIs see this <a href="https://software.docs.hubmapconsortium.org/apis">HuBMAP APIs resource</a>.
 <p> </p>
     
 </details>
